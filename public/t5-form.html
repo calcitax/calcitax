@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>T5 Slips (Dividends &amp; Interest) Client Form | Calcitax Advisors</title>
+<meta name="description" content="Did your corporation pay dividends or interest? Tell Calcitax Advisors who was paid and how much, and we'll prepare and file your T5 slips and T5 Summary.">
+<link rel="canonical" href="https://calcitax.com/t5-form.html">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:title" content="T5 Slips Client Form | Calcitax Advisors">
+<meta property="og:description" content="Tell us about dividends or interest paid so we can prepare your T5 slips.">
+<meta property="og:url" content="https://calcitax.com/t5-form.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap header-row">
+    <a class="brand" href="/" aria-label="Calcitax Advisors home">
+      <span class="brand-mark" aria-hidden="true">C</span>
+      <span class="brand-name">Calcitax <span>Advisors</span></span>
+    </a>
+    <nav class="nav" aria-label="Main">
+      <a href="/">Home</a>
+      <a href="/services.html">Services</a>
+      <a href="/about.html">About</a>
+      <a href="/tax-dates.html">Tax Dates</a>
+      <a href="/forms.html" aria-current="page">Client Forms</a>
+      <a class="btn btn-primary" href="/contact.html">Free consultation</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="page-hero">
+  <div class="wrap">
+    <p class="eyebrow">T5 slips (investment income)</p>
+    <h1>Dividends &amp; interest paid: T5 client form</h1>
+    <p class="lead">If your corporation paid dividends to shareholders, or paid interest to anyone, it must give each person a T5 slip and file a T5 Summary with the CRA. For 2026 payments, that's due by <b>March 1, 2027</b>. Tell us who was paid and how much, and we'll prepare and file everything.</p>
+    <p class="notice">For your security, this form asks for only the <b>last 3 digits</b> of each recipient's Social Insurance Number. We'll collect full SINs by phone or in person before filing.</p>
+  </div>
+</section>
+
+<section class="section intake-wrap">
+  <div class="wrap">
+    <form id="t5-form" class="intake" data-endpoint="/api/t5-intake" data-done="t5-done" novalidate>
+
+      <!-- 1. Payer -->
+      <section class="intake-section" data-section="Payer" aria-labelledby="h-payer">
+        <h2 id="h-payer"><span class="step-no">1</span> Who paid the income</h2>
+        <div class="form-grid">
+          <label class="field q full"><span>Payer's legal name *</span><input name="company" type="text" autocomplete="organization" placeholder="Usually your corporation" required></label>
+          <label class="field q"><span>Business Number (9 digits)</span><input type="text" inputmode="numeric" placeholder="123456789"></label>
+          <label class="field q"><span>T5 account number (if you have one)</span><input type="text" placeholder="123456789RZ0001"></label>
+          <label class="field q"><span>Calendar year of the payments</span>
+            <select><option>2026</option><option>2025</option><option>Earlier year</option></select></label>
+          <label class="field q"><span>Filed T5 slips before?</span>
+            <select><option value=""></option><option>Yes</option><option>No, first time</option><option>Not sure</option></select></label>
+          <label class="field q full"><span>Payer's address</span><input type="text" placeholder="Street, city, province, postal code"></label>
+        </div>
+
+        <h3>Your contact details</h3>
+        <div class="form-grid">
+          <label class="field q"><span>First name *</span><input name="first_name" type="text" autocomplete="given-name" required></label>
+          <label class="field q"><span>Last name *</span><input name="last_name" type="text" autocomplete="family-name" required></label>
+          <label class="field q"><span>Your role</span>
+            <select><option value=""></option><option>Owner / director</option><option>Office manager or bookkeeper</option><option>Other</option></select></label>
+          <label class="field q"><span>Email *</span><input name="email" type="email" autocomplete="email" required></label>
+          <label class="field q"><span>Phone</span><input name="phone" type="tel" autocomplete="tel"></label>
+        </div>
+      </section>
+
+      <!-- 2. Recipients -->
+      <section class="intake-section" data-section="Recipients" aria-labelledby="h-recip">
+        <h2 id="h-recip"><span class="step-no">2</span> Who received it</h2>
+        <p class="help">Add one entry for each person or company that received dividends or interest. Use the actual amounts paid.</p>
+        <div class="repeat" data-repeat="Recipient" data-start="1">
+          <div class="repeat-items"></div>
+          <template>
+            <div class="repeat-item">
+              <div class="repeat-head"><b class="repeat-label"></b><button type="button" class="link-btn remove">Remove</button></div>
+              <div class="form-grid">
+                <label class="field q"><span>Recipient type</span>
+                  <select><option value=""></option><option>Individual</option><option>Joint (two people)</option><option>Corporation</option><option>Trust</option></select></label>
+                <label class="field q"><span>Full name</span><input type="text" placeholder="Person or company name"></label>
+                <label class="field q"><span>SIN: last 3 digits (individuals)</span><input type="text" inputmode="numeric" maxlength="3" pattern="[0-9]{3}" placeholder="e.g. 123"></label>
+                <label class="field q"><span>Business Number (if a company or trust)</span><input type="text"></label>
+                <label class="field q full"><span>Mailing address</span><input type="text" placeholder="Street, city, province, postal code"></label>
+                <label class="field q"><span>Eligible dividends paid (box 24)</span><input type="text" inputmode="decimal" placeholder="$"></label>
+                <label class="field q"><span>Other (non-eligible) dividends paid (box 10)</span><input type="text" inputmode="decimal" placeholder="$"></label>
+                <label class="field q"><span>Interest paid (box 13)</span><input type="text" inputmode="decimal" placeholder="$"></label>
+                <label class="field q"><span>Date(s) paid</span><input type="text" placeholder="e.g. Jun 30 and Dec 15, 2026"></label>
+              </div>
+            </div>
+          </template>
+          <button type="button" class="btn btn-secondary btn-sm add">+ Add another recipient</button>
+        </div>
+      </section>
+
+      <!-- 3. Dividend details -->
+      <section class="intake-section" data-section="Dividend details" aria-labelledby="h-div">
+        <h2 id="h-div"><span class="step-no">3</span> Dividend details</h2>
+        <p class="help">Skip this section if only interest was paid.</p>
+        <div class="form-grid">
+          <label class="field q"><span>Were dividends declared by a directors' resolution?</span>
+            <select><option value=""></option><option>Yes</option><option>No</option><option>Not sure</option></select></label>
+          <label class="field q"><span>Date of the resolution</span><input type="date"></label>
+          <label class="field q"><span>How were they paid?</span>
+            <select><option value=""></option><option>Cash or bank transfer</option><option>Credited to the shareholder loan</option><option>Both</option><option>Not sure</option></select></label>
+          <label class="field q"><span>Do you know which dividends are eligible?</span>
+            <select><option value=""></option><option>Yes</option><option>No, please work it out</option></select></label>
+          <label class="field q"><span>Does Calcitax also prepare the corporation's T2?</span>
+            <select><option value=""></option><option>Yes</option><option>No</option><option>Would like you to</option></select></label>
+          <label class="field q"><span>Corporation's fiscal year-end</span><input type="date"></label>
+        </div>
+      </section>
+
+      <!-- Final -->
+      <section class="intake-section" data-section="Anything else" aria-labelledby="h-final">
+        <h2 id="h-final"><span class="step-no">4</span> Anything else</h2>
+        <div class="form-grid">
+          <label class="field q"><span>Any tax withheld from the payments?</span>
+            <select><option value=""></option><option>No</option><option>Yes</option><option>Not sure</option></select></label>
+          <label class="field q"><span>Any recipient living outside Canada?</span>
+            <select><option value=""></option><option>No</option><option>Yes</option></select></label>
+          <label class="field q full"><span>Anything else we should know?</span><textarea rows="3"></textarea></label>
+          <label class="field q"><span>How did you hear about us?</span><input type="text"></label>
+          <label class="field q"><span>Preferred way to contact you</span>
+            <select><option value=""></option><option>Email</option><option>Phone call</option><option>Text message</option></select></label>
+        </div>
+        <label class="check consent"><input type="checkbox" id="consent" required> I'm authorized to provide this information for the payer, it's accurate to the best of my knowledge, and Calcitax Advisors may contact me about preparing its T5 slips and summary.</label>
+
+        <div class="hp" aria-hidden="true">
+          <label>Leave this field empty <input type="text" tabindex="-1" autocomplete="off"></label>
+        </div>
+
+        <div class="submit-row">
+          <button class="btn btn-primary" type="submit">Submit T5 information</button>
+          <p class="form-note" role="status" aria-live="polite"></p>
+        </div>
+      </section>
+
+    </form>
+
+    <div class="intake-done" id="t5-done" hidden tabindex="-1">
+      <h2>Thank you, we've received your T5 information</h2>
+      <p>We'll review it and email you within one business day with a quote and next steps, including a secure way to give us the recipients' full SINs.</p>
+      <p>Questions in the meantime? Email <a href="mailto:info@calcitax.com">info@calcitax.com</a>.</p>
+      <a class="btn btn-secondary" href="/">Back to home</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">Calcitax Advisors</div>
+        <div class="footer-tag">We calculate. You save.</div>
+        <p>Tax returns, bookkeeping and payroll for individuals and small businesses in Surrey, BC and across Canada.</p>
+      </div>
+      <div>
+        <h2>Pages</h2>
+        <ul>
+          <li><a href="/services.html">Services</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/tax-dates.html">Tax dates</a></li>
+          <li><a href="/forms.html">Client forms</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Contact</h2>
+        <ul>
+          <li><a href="mailto:info@calcitax.com">info@calcitax.com</a></li>
+          <li>Surrey, British Columbia</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>Information on this site is general in nature and is not professional advice. Contact us about your own situation.</p>
+      <p>© 2026 Calcitax Advisors</p>
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/intake-form.js"></script>
+</body>
+</html>

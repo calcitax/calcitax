@@ -12,6 +12,8 @@ const SERVICES = new Set([
   "Personal tax return (T1)",
   "Self-employed or rental income",
   "Corporate tax return (T2)",
+  "Trust or estate return (T3)",
+  "T5 slips (dividends or interest)",
   "Bookkeeping",
   "Payroll",
   "GST/HST or PST",
@@ -31,11 +33,12 @@ export default {
       return handleContact(request, env);
     }
 
-    if (url.pathname === "/api/t1-intake" || url.pathname === "/api/t2-intake") {
+    const intakeMatch = url.pathname.match(/^\/api\/(t1|t2|t3|t5)-intake$/);
+    if (intakeMatch) {
       if (request.method !== "POST") {
         return json({ ok: false, error: "Method not allowed" }, 405);
       }
-      return handleIntake(request, env, url.pathname === "/api/t2-intake" ? "t2" : "t1");
+      return handleIntake(request, env, intakeMatch[1]);
     }
 
     // Anything else that isn't a static file: serve the 404 page.
@@ -114,6 +117,21 @@ async function handleContact(request, env) {
 
 const MAX_BODY_BYTES = 200_000;
 
+// Per-form wording. `org` forms require an organization name (sent as `company`).
+const INTAKE_KINDS = {
+  t1: { org: null, title: (n) => `T1 for ${n.name}`, subtitle: "2026 personal tax return",
+        subject: (n) => `T1 client form: ${n.name} (2026 tax year)`, heading: "NEW T1 CLIENT FORM (2026 tax year)" },
+  t2: { org: "Corporation", missing: "the corporation's legal name", title: (n) => `T2 for ${n.company}`,
+        subtitle: "Corporate tax return and year-end",
+        subject: (n) => `T2 client form: ${n.company} (contact: ${n.name})`, heading: "NEW T2 CORPORATE CLIENT FORM" },
+  t3: { org: "Trust", missing: "the trust or estate name", title: (n) => `T3 for ${n.company}`,
+        subtitle: "Trust or estate income tax return",
+        subject: (n) => `T3 client form: ${n.company} (contact: ${n.name})`, heading: "NEW T3 TRUST CLIENT FORM" },
+  t5: { org: "Payer", missing: "the payer's legal name", title: (n) => `T5 slips for ${n.company}`,
+        subtitle: "T5 information return (investment income)",
+        subject: (n) => `T5 client form: ${n.company} (contact: ${n.name})`, heading: "NEW T5 SLIPS CLIENT FORM" },
+};
+
 async function handleIntake(request, env, kind) {
   let data;
   try {
@@ -134,8 +152,9 @@ async function handleIntake(request, env, kind) {
   const email = oneLine(data.email).slice(0, 200);
   const phone = oneLine(data.phone).slice(0, 40);
   const company = oneLine(data.company).slice(0, 150);
-  if (kind === "t2" && !company) {
-    return json({ ok: false, error: "Please fill in the corporation's legal name." }, 400);
+  const cfg = INTAKE_KINDS[kind];
+  if (cfg.org && !company) {
+    return json({ ok: false, error: `Please fill in ${cfg.missing}.` }, 400);
   }
   if (!firstName || !lastName || !isEmail(email)) {
     return json({ ok: false, error: "Please fill in your first name, last name and a valid email address." }, 400);
@@ -145,13 +164,23 @@ async function handleIntake(request, env, kind) {
     .slice(0, 20).map((a) => oneLine(a).slice(0, 80)).filter(Boolean);
   const sections = sanitizeSections(data.sections);
 
+  // Never accept a full SIN through email: fields labelled "SIN" may hold at most 3 digits.
+  const fullSin = sections.some((sec) => sec.items.some((it) => (it.rows || []).some((r) =>
+    /\bSIN\b/i.test(r.label) && r.value.replace(/\D/g, "").length > 3)));
+  if (fullSin) {
+    return json({ ok: false, error: "For your security, please enter only the last 3 digits of a SIN." }, 400);
+  }
+
   const name = `${firstName} ${lastName}`;
+  const names = { name, company };
   const intake = {
     kind,
     name,
-    company,
-    title: kind === "t2" ? `T2 for ${company}` : `T1 for ${name}`,
-    subtitle: kind === "t2" ? "Corporate tax return and year-end" : "2026 personal tax return",
+    company: cfg.org ? company : "",
+    orgLabel: cfg.org || "",
+    heading: cfg.heading,
+    title: cfg.title(names),
+    subtitle: cfg.subtitle,
     email,
     phone,
     applies,
@@ -161,9 +190,7 @@ async function handleIntake(request, env, kind) {
     }) + " (Pacific)",
   };
 
-  const subject = kind === "t2"
-    ? `T2 client form: ${company} (contact: ${name})`
-    : `T1 client form: ${name} (2026 tax year)`;
+  const subject = cfg.subject(names);
   const raw = buildMultipartEmail({
     replyTo: email,
     subject,
@@ -210,17 +237,17 @@ function sanitizeSections(input) {
 }
 
 function renderIntakeText(d) {
-  const heading = d.kind === "t2" ? "NEW T2 CORPORATE CLIENT FORM" : "NEW T1 CLIENT FORM (2026 tax year)";
+  const heading = d.heading;
   const lines = [
     heading,
     "=".repeat(heading.length),
     "",
-    ...(d.company ? [`Company:   ${d.company}`] : []),
+    ...(d.company ? [`${(d.orgLabel + ":").padEnd(10)} ${d.company}`] : []),
     `${d.company ? "Contact:  " : "Client:   "} ${d.name}`,
     `Email:     ${d.email}`,
     `Phone:     ${d.phone || "-"}`,
     `Submitted: ${d.submitted}`,
-    `Applies:   ${d.applies.length ? d.applies.join(", ") : "-"}`,
+    ...(d.applies.length ? [`Applies:   ${d.applies.join(", ")}`] : []),
   ];
   for (const s of d.sections) {
     lines.push("", "", s.title.toUpperCase(), "-".repeat(s.title.length));
@@ -261,12 +288,12 @@ function renderIntakeHtml(d) {
   }
 
   const summary = [
-    ...(d.company ? [{ label: "Corporation", value: d.company }] : []),
+    ...(d.company ? [{ label: d.orgLabel, value: d.company }] : []),
     { label: d.company ? "Contact" : "Client", value: d.name },
     { label: "Email", value: d.email },
     { label: "Phone", value: d.phone || "-" },
     { label: "Submitted", value: d.submitted },
-    { label: "Applies to", value: d.applies.length ? d.applies.join(", ") : "-" },
+    ...(d.applies.length ? [{ label: "Applies to", value: d.applies.join(", ") }] : []),
   ].map(rowHtml).join("");
 
   return `<!doctype html><html><body style="margin:0;padding:0;background:#F4F7F6">
@@ -282,7 +309,7 @@ function renderIntakeHtml(d) {
 <tr><td style="padding:20px 0 8px"><div style="${font}font-size:18px;font-weight:bold;color:#0B6E5F">Summary</div></td></tr>
 <tr><td><table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="border:1px solid #E3E8EE;border-radius:8px;border-collapse:separate;overflow:hidden">${summary}</table></td></tr>
 ${body}
-<tr><td style="${font}padding:28px 0 0;font-size:13px;color:#4A5568">Reply to this email to contact ${esc(d.name)} directly. Ask the client to send documents${d.kind === "t2" ? "" : " and their SIN"} through a secure method, not by regular email.</td></tr>
+<tr><td style="${font}padding:28px 0 0;font-size:13px;color:#4A5568">Reply to this email to contact ${esc(d.name)} directly. Ask the client to send documents${d.kind === "t1" ? " and their SIN" : " and any full SINs"} through a secure method, not by regular email.</td></tr>
 </table>
 </td></tr>
 </table>

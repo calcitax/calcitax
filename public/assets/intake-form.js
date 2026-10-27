@@ -129,10 +129,19 @@
 
     var missing = [company, first, last, email].filter(function (el) { return el && !el.value.trim(); });
     if (missing.length || !email.checkValidity()) {
+      var companyLabel = company ? company.closest('label').querySelector('span').textContent.replace(/\s*\*$/, '').trim().toLowerCase() : '';
       note.textContent = company
-        ? 'Please fill in the corporation name, your first and last name, and a valid email address.'
+        ? 'Please fill in the ' + companyLabel + ', your first and last name, and a valid email address.'
         : 'Please fill in your first name, last name and a valid email address.';
       (missing[0] || email).focus();
+      return;
+    }
+    var badPattern = Array.prototype.find.call(form.querySelectorAll('input[pattern]'), function (el) {
+      return !el.closest('[hidden]') && el.value.trim() && !el.checkValidity();
+    });
+    if (badPattern) {
+      note.textContent = 'For your security, please enter only the last 3 digits of a SIN.';
+      badPattern.focus();
       return;
     }
     if (!consent.checked) {
