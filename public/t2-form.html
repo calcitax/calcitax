@@ -1,0 +1,413 @@
+<!doctype html>
+<html lang="en-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Corporate Tax Return (T2) Client Form | Calcitax Advisors</title>
+<meta name="description" content="Getting your corporation's year-end and T2 return done with Calcitax Advisors? Tell us about the company, its shareholders and its year so we can give you a quote and get started.">
+<link rel="canonical" href="https://calcitax.com/t2-form.html">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:title" content="T2 Corporate Tax Return Form | Calcitax Advisors">
+<meta property="og:description" content="Tell us about your corporation to get your year-end financial statements and T2 return started.">
+<meta property="og:url" content="https://calcitax.com/t2-form.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap header-row">
+    <a class="brand" href="/" aria-label="Calcitax Advisors home">
+      <span class="brand-mark" aria-hidden="true">C</span>
+      <span class="brand-name">Calcitax <span>Advisors</span></span>
+    </a>
+    <nav class="nav" aria-label="Main">
+      <a href="/">Home</a>
+      <a href="/services.html">Services</a>
+      <a href="/about.html">About</a>
+      <a href="/tax-dates.html">Tax Dates</a>
+      <a href="/t1-form.html">T1 Form</a>
+      <a href="/t2-form.html" aria-current="page">T2 Form</a>
+      <a class="btn btn-primary" href="/contact.html">Free consultation</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="page-hero">
+  <div class="wrap">
+    <p class="eyebrow">Corporate tax return (T2)</p>
+    <h1>Corporation year-end: client information form</h1>
+    <p class="lead">Tell us about your corporation and its year so we can prepare your financial statements and T2 return. It takes about 15 minutes. Approximate amounts are fine. We'll ask for statements and documents after we confirm.</p>
+    <p class="notice">For your security, this form doesn't ask for bank account numbers, passwords or personal SINs. We'll collect anything sensitive through a secure method.</p>
+  </div>
+</section>
+
+<section class="section intake-wrap">
+  <div class="wrap">
+    <form id="t2-form" class="intake" data-endpoint="/api/t2-intake" data-done="t2-done" novalidate>
+
+      <!-- 1. Corporation -->
+      <section class="intake-section" data-section="Corporation" aria-labelledby="h-corp">
+        <h2 id="h-corp"><span class="step-no">1</span> The corporation</h2>
+        <div class="form-grid">
+          <label class="field q full"><span>Legal name of the corporation *</span><input name="company" type="text" autocomplete="organization" required></label>
+          <label class="field q"><span>Operating name (if different)</span><input type="text"></label>
+          <label class="field q"><span>Business Number (9 digits)</span><input type="text" inputmode="numeric" placeholder="123456789"></label>
+          <label class="field q"><span>Incorporation date</span><input type="date"></label>
+          <label class="field q"><span>Incorporated under</span>
+            <select><option value=""></option><option>British Columbia</option><option>Federal (Canada)</option><option>Another province</option><option>Outside Canada</option></select></label>
+          <label class="field q"><span>Fiscal year-end we're preparing</span><input type="date"></label>
+          <label class="field q"><span>Is this the corporation's first tax year?</span>
+            <select><option value=""></option><option>No</option><option>Yes</option></select></label>
+          <label class="field q full"><span>What does the corporation do?</span><input type="text" placeholder="e.g. trucking, construction, restaurant, consulting"></label>
+          <label class="field q full"><span>Head office address</span><input type="text" placeholder="Street, city, province, postal code"></label>
+          <label class="field q"><span>Website</span><input type="text" inputmode="url"></label>
+          <label class="field q"><span>Canadian-controlled private corporation (CCPC)?</span>
+            <select><option value=""></option><option>Yes</option><option>No</option><option>Not sure</option></select></label>
+          <label class="field q full"><span>Associated or related to other corporations? (same owners or family)</span>
+            <select><option value=""></option><option>No</option><option>Yes</option><option>Not sure</option></select></label>
+          <label class="field q full"><span>If yes, names of the other corporations</span><textarea rows="2"></textarea></label>
+        </div>
+
+        <h3>Your contact details</h3>
+        <div class="form-grid">
+          <label class="field q"><span>First name *</span><input name="first_name" type="text" autocomplete="given-name" required></label>
+          <label class="field q"><span>Last name *</span><input name="last_name" type="text" autocomplete="family-name" required></label>
+          <label class="field q"><span>Your role</span>
+            <select><option value=""></option><option>Owner / shareholder</option><option>Director</option><option>Office manager or bookkeeper</option><option>Other</option></select></label>
+          <label class="field q"><span>Email *</span><input name="email" type="email" autocomplete="email" required></label>
+          <label class="field q"><span>Phone</span><input name="phone" type="tel" autocomplete="tel"></label>
+        </div>
+
+        <h3>Previous years</h3>
+        <div class="form-grid">
+          <label class="field q"><span>Who prepared last year's T2?</span>
+            <select><option value=""></option><option>Another accountant</option><option>We did it ourselves</option><option>Not filed yet</option><option>First year, nothing filed</option></select></label>
+          <label class="field q"><span>Can you share last year's financial statements and T2?</span>
+            <select><option value=""></option><option>Yes</option><option>No</option><option>Not sure</option></select></label>
+          <label class="field q"><span>Are any earlier T2 returns unfiled?</span>
+            <select><option value=""></option><option>No</option><option>Yes</option><option>Not sure</option></select></label>
+          <label class="field q"><span>Do you use CRA My Business Account?</span>
+            <select><option value=""></option><option>Yes</option><option>No</option><option>Not sure</option></select></label>
+        </div>
+      </section>
+
+      <!-- 2. Shareholders -->
+      <section class="intake-section" data-section="Shareholders & directors" aria-labelledby="h-share">
+        <h2 id="h-share"><span class="step-no">2</span> Shareholders &amp; directors</h2>
+        <p class="help">Add each person or company that owns shares.</p>
+        <div class="repeat" data-repeat="Shareholder" data-start="1">
+          <div class="repeat-items"></div>
+          <template>
+            <div class="repeat-item">
+              <div class="repeat-head"><b class="repeat-label"></b><button type="button" class="link-btn remove">Remove</button></div>
+              <div class="form-grid">
+                <label class="field q"><span>Name</span><input type="text"></label>
+                <label class="field q"><span>% of shares owned</span><input type="text" inputmode="decimal" placeholder="e.g. 50%"></label>
+                <label class="field q"><span>Share class</span><input type="text" placeholder="e.g. Class A common"></label>
+                <label class="field q"><span>Also a director?</span>
+                  <select><option value=""></option><option>Yes</option><option>No</option></select></label>
+                <label class="field q"><span>Resident of Canada?</span>
+                  <select><option value=""></option><option>Yes</option><option>No</option></select></label>
+                <label class="field q"><span>Relationship to other shareholders</span><input type="text" placeholder="e.g. spouse"></label>
+              </div>
+            </div>
+          </template>
+          <button type="button" class="btn btn-secondary btn-sm add">+ Add another shareholder</button>
+        </div>
+        <div class="form-grid">
+          <label class="field q full"><span>Directors or officers who aren't shareholders</span><textarea rows="2"></textarea></label>
+          <label class="field q full"><span>Any change in shareholders or shares issued this year?</span>
+            <select><option value=""></option><option>No</option><option>Yes</option></select></label>
+        </div>
+      </section>
+
+      <!-- 3. Financials -->
+      <section class="intake-section" data-section="Financial information & bookkeeping" aria-labelledby="h-fin">
+        <h2 id="h-fin"><span class="step-no">3</span> Financial information &amp; bookkeeping</h2>
+        <div class="form-grid">
+          <label class="field q"><span>How are the books kept?</span>
+            <select><option value=""></option><option>QuickBooks Online</option><option>QuickBooks Desktop</option><option>Xero</option><option>Sage 50</option><option>Wave</option><option>Excel or spreadsheet</option><option>Paper receipts only</option><option>Not kept yet</option></select></label>
+          <label class="field q"><span>Are the books complete for the year?</span>
+            <select><option value=""></option><option>Yes, fully reconciled</option><option>Mostly</option><option>No, we need bookkeeping</option></select></label>
+          <label class="field q"><span>Can you give us access to your accounting software?</span>
+            <select><option value=""></option><option>Yes</option><option>No</option><option>Not applicable</option></select></label>
+          <label class="field q"><span>Number of bank accounts</span><input type="number" min="0"></label>
+          <label class="field q"><span>Number of business credit cards</span><input type="number" min="0"></label>
+          <label class="field q"><span>Approx. transactions per month</span>
+            <select><option value=""></option><option>Under 50</option><option>50 to 200</option><option>200 to 500</option><option>Over 500</option></select></label>
+        </div>
+        <h3>The year in numbers (approximate)</h3>
+        <div class="form-grid money-grid">
+          <label class="field q"><span>Total revenue / sales</span><input type="text" inputmode="decimal" placeholder="$"></label>
+          <label class="field q"><span>Net income or loss before tax</span><input type="text" inputmode="decimal" placeholder="$"></label>
+          <label class="field q"><span>Inventory at year-end</span><input type="text" inputmode="decimal" placeholder="$"></label>
+          <label class="field q"><span>Customers owe you (receivables)</span><input type="text" inputmode="decimal" placeholder="$"></label>
+          <label class="field q"><span>You owe suppliers (payables)</span><input type="text" inputmode="decimal" placeholder="$"></label>
+          <label class="field q"><span>Cash in bank at year-end</span><input type="text" inputmode="decimal" placeholder="$"></label>
+        </div>
+        <h3>Shareholder loan</h3>
+        <div class="form-grid">
+          <label class="field q"><span>At year-end, who owes whom?</span>
+            <select><option value=""></option><option>Company owes the shareholder(s)</option><option>Shareholder(s) owe the company</option><option>No balance</option><option>Not sure</option></select></label>
+          <label class="field q"><span>Approximate balance</span><input type="text" inputmode="decimal" placeholder="$"></label>
+          <label class="field q full"><span>Personal expenses paid by the company, or business expenses paid personally?</span><textarea rows="2"></textarea></label>
+        </div>
+      </section>
+
+      <!-- 4. What applies -->
+      <section class="intake-section" aria-labelledby="h-applies">
+        <h2 id="h-applies"><span class="step-no">4</span> What applies to the corporation this year?</h2>
+        <p class="help">Tick everything that applies. A section opens for each one you tick.</p>
+        <div class="toggle-grid">
+          <label class="toggle"><input type="checkbox" data-target="sec-payroll"><span><b>Employees &amp; payroll</b><small>Wages, T4s, source deductions</small></span></label>
+          <label class="toggle"><input type="checkbox" data-target="sec-ownerpay"><span><b>Paying the owners</b><small>Salary, dividends, T5s</small></span></label>
+          <label class="toggle"><input type="checkbox" data-target="sec-gst"><span><b>GST/HST &amp; PST</b><small>Registered for sales taxes</small></span></label>
+          <label class="toggle"><input type="checkbox" data-target="sec-assets"><span><b>Assets bought or sold</b><small>Vehicles, equipment, computers, property</small></span></label>
+          <label class="toggle"><input type="checkbox" data-target="sec-loans"><span><b>Loans &amp; financing</b><small>Bank loans, lines of credit, vehicle loans</small></span></label>
+          <label class="toggle"><input type="checkbox" data-target="sec-invest"><span><b>Investment or rental income</b><small>Interest, dividends, rental property</small></span></label>
+          <label class="toggle"><input type="checkbox" data-target="sec-related"><span><b>Related companies</b><small>Management fees, intercompany loans</small></span></label>
+          <label class="toggle"><input type="checkbox" data-target="sec-foreign"><span><b>Foreign activity</b><small>Foreign sales, accounts, property, payments</small></span></label>
+          <label class="toggle"><input type="checkbox" data-target="sec-grants"><span><b>Grants &amp; tax credits</b><small>Government grants, SR&amp;ED, subsidies</small></span></label>
+        </div>
+      </section>
+
+      <!-- Payroll -->
+      <section class="intake-section" id="sec-payroll" data-section="Employees & payroll" hidden>
+        <h2>Employees &amp; payroll</h2>
+        <div class="form-grid">
+          <label class="field q"><span>Number of employees (including owners on payroll)</span><input type="number" min="0"></label>
+          <label class="field q"><span>Total wages paid in the year</span><input type="text" inputmode="decimal" placeholder="$"></label>
+          <label class="field q"><span>Who runs payroll?</span>
+            <select><option value=""></option><option>We do it ourselves</option><option>Payroll service (e.g. Wagepoint, ADP)</option><option>Our accountant</option><option>We'd like you to</option></select></label>
+          <label class="field q"><span>Source deductions remitted to the CRA on time?</span>
+            <select><option value=""></option><option>Yes</option><option>No</option><option>Not sure</option></select></label>
+          <label class="field q"><span>T4 slips and summary filed?</span>
+            <select><option value=""></option><option>Yes</option><option>No</option><option>Not yet due</option></select></label>
+          <label class="field q"><span>Registered with WorkSafeBC?</span>
+            <select><option value=""></option><option>Yes</option><option>No</option><option>Not sure</option></select></label>
+          <label class="field q full"><span>Subcontractors paid (and whether T4A or T5018 slips are needed)</span><textarea rows="2"></textarea></label>
+        </div>
+      </section>
+
+      <!-- Owner pay -->
+      <section class="intake-section" id="sec-ownerpay" data-section="Paying the owners" hidden>
+        <h2>Paying the owners</h2>
+        <div class="form-grid money-grid">
+          <label class="field q"><span>Salary paid to owners (on T4)</span><input type="text" inputmode="decimal" placeholder="$"></label>
+          <label class="field q"><span>Dividends paid</span><input type="text" inputmode="decimal" placeholder="$"></label>
+          <label class="field q"><span>Bonus declared but not yet paid</span><input type="text" inputmode="decimal" placeholder="$"></label>
+        </div>
+        <div class="form-grid">
+          <label class="field q"><span>T5 slips filed for dividends?</span>
+            <select><option value=""></option><option>Yes</option><option>No</option><option>No dividends paid</option></select></label>
+          <label class="field q"><span>Want advice on salary vs. dividends?</span>
+            <select><option value=""></option><option>Yes</option><option>No</option></select></label>
+          <label class="field q full"><span>Notes (e.g. how much each owner received)</span><textarea rows="2"></textarea></label>
+        </div>
+      </section>
+
+      <!-- GST -->
+      <section class="intake-section" id="sec-gst" data-section="GST/HST & PST" hidden>
+        <h2>GST/HST &amp; PST</h2>
+        <div class="form-grid">
+          <label class="field q"><span>GST/HST filing frequency</span>
+            <select><option value=""></option><option>Monthly</option><option>Quarterly</option><option>Annually</option><option>Not registered</option></select></label>
+          <label class="field q"><span>GST/HST returns filed for the whole year?</span>
+            <select><option value=""></option><option>Yes</option><option>No</option><option>Not sure</option></select></label>
+          <label class="field q"><span>Registered for BC PST?</span>
+            <select><option value=""></option><option>No</option><option>Yes</option><option>Not sure</option></select></label>
+          <label class="field q"><span>Would you like us to file sales tax returns?</span>
+            <select><option value=""></option><option>Yes</option><option>No</option></select></label>
+        </div>
+      </section>
+
+      <!-- Assets -->
+      <section class="intake-section" id="sec-assets" data-section="Assets bought or sold" hidden>
+        <h2>Assets bought or sold</h2>
+        <p class="help">Add each vehicle, piece of equipment, computer, furniture or property bought or sold during the year.</p>
+        <div class="repeat" data-repeat="Asset" data-start="1">
+          <div class="repeat-items"></div>
+          <template>
+            <div class="repeat-item">
+              <div class="repeat-head"><b class="repeat-label"></b><button type="button" class="link-btn remove">Remove</button></div>
+              <div class="form-grid">
+                <label class="field q"><span>Bought or sold?</span>
+                  <select><option value=""></option><option>Bought</option><option>Sold</option><option>Traded in</option></select></label>
+                <label class="field q"><span>Description</span><input type="text" placeholder="e.g. 2025 Ford F-150, laptop"></label>
+                <label class="field q"><span>Date</span><input type="date"></label>
+                <label class="field q"><span>Cost or sale price (before tax)</span><input type="text" inputmode="decimal" placeholder="$"></label>
+              </div>
+            </div>
+          </template>
+          <button type="button" class="btn btn-secondary btn-sm add">+ Add another asset</button>
+        </div>
+        <div class="form-grid">
+          <label class="field q full"><span>Are company vehicles also used personally by the owners?</span>
+            <select><option value=""></option><option>No</option><option>Yes</option><option>No company vehicles</option></select></label>
+        </div>
+      </section>
+
+      <!-- Loans -->
+      <section class="intake-section" id="sec-loans" data-section="Loans & financing" hidden>
+        <h2>Loans &amp; financing</h2>
+        <div class="repeat" data-repeat="Loan" data-start="1">
+          <div class="repeat-items"></div>
+          <template>
+            <div class="repeat-item">
+              <div class="repeat-head"><b class="repeat-label"></b><button type="button" class="link-btn remove">Remove</button></div>
+              <div class="form-grid">
+                <label class="field q"><span>Type</span>
+                  <select><option value=""></option><option>Bank term loan</option><option>Line of credit</option><option>Vehicle or equipment loan or lease</option><option>Mortgage</option><option>Loan from a related company</option><option>Other</option></select></label>
+                <label class="field q"><span>Lender</span><input type="text"></label>
+                <label class="field q"><span>Balance at year-end</span><input type="text" inputmode="decimal" placeholder="$"></label>
+                <label class="field q"><span>Interest paid in the year</span><input type="text" inputmode="decimal" placeholder="$"></label>
+              </div>
+            </div>
+          </template>
+          <button type="button" class="btn btn-secondary btn-sm add">+ Add another loan</button>
+        </div>
+      </section>
+
+      <!-- Investments -->
+      <section class="intake-section" id="sec-invest" data-section="Investment or rental income" hidden>
+        <h2>Investment or rental income</h2>
+        <div class="form-grid money-grid">
+          <label class="field q"><span>Interest income</span><input type="text" inputmode="decimal" placeholder="$"></label>
+          <label class="field q"><span>Dividends received</span><input type="text" inputmode="decimal" placeholder="$"></label>
+          <label class="field q"><span>Rental income</span><input type="text" inputmode="decimal" placeholder="$"></label>
+          <label class="field q"><span>Gains or losses on investments sold</span><input type="text" inputmode="decimal" placeholder="$"></label>
+          <label class="field q"><span>Investments held at year-end</span><input type="text" inputmode="decimal" placeholder="$"></label>
+        </div>
+        <div class="form-grid">
+          <label class="field q full"><span>Details (e.g. property address, brokerage, GICs)</span><textarea rows="2"></textarea></label>
+        </div>
+      </section>
+
+      <!-- Related -->
+      <section class="intake-section" id="sec-related" data-section="Related companies" hidden>
+        <h2>Related companies</h2>
+        <div class="form-grid">
+          <label class="field q"><span>Management fees paid or received</span><input type="text" inputmode="decimal" placeholder="$"></label>
+          <label class="field q"><span>Loans to or from related companies at year-end</span><input type="text" inputmode="decimal" placeholder="$"></label>
+          <label class="field q"><span>Dividends paid to or received from related companies</span><input type="text" inputmode="decimal" placeholder="$"></label>
+          <label class="field q full"><span>Describe the related-company transactions</span><textarea rows="2"></textarea></label>
+        </div>
+      </section>
+
+      <!-- Foreign -->
+      <section class="intake-section" id="sec-foreign" data-section="Foreign activity" hidden>
+        <h2>Foreign activity</h2>
+        <fieldset class="checks-group q">
+          <legend>Which of these apply?</legend>
+          <label class="check"><input type="checkbox" value="Sales to customers outside Canada"> Sales to customers outside Canada</label>
+          <label class="check"><input type="checkbox" value="Purchases from suppliers outside Canada"> Purchases from suppliers outside Canada</label>
+          <label class="check"><input type="checkbox" value="Foreign bank or investment accounts"> Foreign bank or investment accounts</label>
+          <label class="check"><input type="checkbox" value="Foreign property costing over $100,000"> Foreign property costing over $100,000 (CAD)</label>
+          <label class="check"><input type="checkbox" value="Payments to non-residents (fees, rent, interest, dividends)"> Payments to non-residents (fees, rent, interest, dividends)</label>
+          <label class="check"><input type="checkbox" value="Owns shares of a foreign company"> Owns shares of a foreign company</label>
+        </fieldset>
+        <div class="form-grid">
+          <label class="field q full"><span>Details</span><textarea rows="2"></textarea></label>
+        </div>
+      </section>
+
+      <!-- Grants -->
+      <section class="intake-section" id="sec-grants" data-section="Grants & tax credits" hidden>
+        <h2>Grants &amp; tax credits</h2>
+        <div class="form-grid">
+          <label class="field q"><span>Government grants or subsidies received</span><input type="text" inputmode="decimal" placeholder="$"></label>
+          <label class="field q"><span>Research and development (SR&amp;ED) work?</span>
+            <select><option value=""></option><option>No</option><option>Yes</option><option>Not sure</option></select></label>
+          <label class="field q full"><span>Details (program names, amounts, dates)</span><textarea rows="2"></textarea></label>
+        </div>
+      </section>
+
+      <!-- Final -->
+      <section class="intake-section" data-section="Anything else" aria-labelledby="h-final">
+        <h2 id="h-final"><span class="step-no">5</span> Anything else</h2>
+        <fieldset class="checks-group q">
+          <legend>Did any of these happen this year?</legend>
+          <label class="check"><input type="checkbox" value="Changed name, address or year-end"> Changed name, address or year-end</label>
+          <label class="check"><input type="checkbox" value="Amalgamated, bought or sold a business"> Amalgamated, bought or sold a business</label>
+          <label class="check"><input type="checkbox" value="Stopped operating or plans to close"> Stopped operating or plans to close</label>
+          <label class="check"><input type="checkbox" value="Received a letter or review from the CRA"> Received a letter or review from the CRA</label>
+          <label class="check"><input type="checkbox" value="Paid corporate tax instalments"> Paid corporate tax instalments</label>
+          <label class="check"><input type="checkbox" value="Owes tax from a previous year"> Owes tax from a previous year</label>
+        </fieldset>
+        <div class="form-grid">
+          <label class="field q"><span>Corporate tax instalments paid this year</span><input type="text" inputmode="decimal" placeholder="$"></label>
+          <label class="field q"><span>When do you need the return done?</span><input type="text" placeholder="e.g. by March 31"></label>
+          <label class="field q full"><span>Anything else we should know?</span><textarea rows="3"></textarea></label>
+          <label class="field q"><span>How did you hear about us?</span><input type="text"></label>
+          <label class="field q"><span>Preferred way to contact you</span>
+            <select><option value=""></option><option>Email</option><option>Phone call</option><option>Text message</option></select></label>
+        </div>
+        <label class="check consent"><input type="checkbox" id="consent" required> I'm authorized to provide this information on behalf of the corporation, it's accurate to the best of my knowledge, and Calcitax Advisors may contact me about preparing the corporation's financial statements and T2 return.</label>
+
+        <div class="hp" aria-hidden="true">
+          <label>Leave this field empty <input type="text" tabindex="-1" autocomplete="off"></label>
+        </div>
+
+        <div class="submit-row">
+          <button class="btn btn-primary" type="submit">Submit corporation information</button>
+          <p class="form-note" role="status" aria-live="polite"></p>
+        </div>
+      </section>
+
+    </form>
+
+    <div class="intake-done" id="t2-done" hidden tabindex="-1">
+      <h2>Thank you, we've received your corporation's information</h2>
+      <p>We'll review it and email you within one business day with a quote and next steps, including a secure way to share your statements and documents.</p>
+      <p>Questions in the meantime? Email <a href="mailto:info@calcitax.com">info@calcitax.com</a>.</p>
+      <a class="btn btn-secondary" href="/">Back to home</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">Calcitax Advisors</div>
+        <div class="footer-tag">We calculate. You save.</div>
+        <p>Tax returns, bookkeeping and payroll for individuals and small businesses in Surrey, BC and across Canada.</p>
+      </div>
+      <div>
+        <h2>Pages</h2>
+        <ul>
+          <li><a href="/services.html">Services</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/tax-dates.html">Tax dates</a></li>
+          <li><a href="/t1-form.html">T1 client form</a></li>
+          <li><a href="/t2-form.html">T2 client form</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Contact</h2>
+        <ul>
+          <li><a href="mailto:info@calcitax.com">info@calcitax.com</a></li>
+          <li>Surrey, British Columbia</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>Information on this site is general in nature and is not professional advice. Contact us about your own situation.</p>
+      <p>© 2026 Calcitax Advisors</p>
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/intake-form.js"></script>
+</body>
+</html>

@@ -1,10 +1,12 @@
-// T1 client information form: section toggles, repeatable entries, and submission.
+// Client information forms (T1, T2): section toggles, repeatable entries, and submission.
+// The form element carries data-endpoint (where to POST) and data-done (id of the thank-you panel).
 (function () {
-  var form = document.getElementById('t1-form');
+  var form = document.querySelector('form.intake[data-endpoint]');
   if (!form) return;
-  var note = document.getElementById('t1-note');
-  var btn = document.getElementById('t1-submit');
-  var done = document.getElementById('t1-done');
+  var note = form.querySelector('.form-note');
+  var btn = form.querySelector('button[type=submit]');
+  var btnText = btn.textContent;
+  var done = document.getElementById(form.getAttribute('data-done'));
 
   // ---- Repeatable entries (T4 slips, schools, loans, properties, dependants) ----
   function renumber(repeat) {
@@ -122,11 +124,14 @@
     var first = form.querySelector('[name=first_name]');
     var last = form.querySelector('[name=last_name]');
     var email = form.querySelector('[name=email]');
-    var consent = document.getElementById('consent');
+    var consent = form.querySelector('.consent input');
+    var company = form.querySelector('[name=company]');
 
-    var missing = [first, last, email].filter(function (el) { return !el.value.trim(); });
+    var missing = [company, first, last, email].filter(function (el) { return el && !el.value.trim(); });
     if (missing.length || !email.checkValidity()) {
-      note.textContent = 'Please fill in your first name, last name and a valid email address.';
+      note.textContent = company
+        ? 'Please fill in the corporation name, your first and last name, and a valid email address.'
+        : 'Please fill in your first name, last name and a valid email address.';
       (missing[0] || email).focus();
       return;
     }
@@ -145,16 +150,17 @@
       lastName: last.value.trim(),
       email: email.value.trim(),
       phone: (form.querySelector('[name=phone]').value || '').trim(),
+      company: company ? company.value.trim() : '',
       applies: applies,
       sections: collect(),
-      website: document.getElementById('website').value
+      website: (form.querySelector('.hp input') || {}).value || ''
     };
 
     btn.disabled = true;
     btn.textContent = 'Submitting…';
     note.textContent = '';
 
-    fetch('/api/t1-intake', {
+    fetch(form.getAttribute('data-endpoint'), {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(payload)
@@ -169,7 +175,7 @@
       })
       .catch(function (err) {
         btn.disabled = false;
-        btn.textContent = 'Submit my information';
+        btn.textContent = btnText;
         var generic = 'Sorry, something went wrong. Please try again, or email us at info@calcitax.com.';
         note.textContent = (err && err.message && !(err instanceof TypeError)) ? err.message : generic;
       });

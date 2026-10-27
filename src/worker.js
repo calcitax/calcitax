@@ -31,11 +31,11 @@ export default {
       return handleContact(request, env);
     }
 
-    if (url.pathname === "/api/t1-intake") {
+    if (url.pathname === "/api/t1-intake" || url.pathname === "/api/t2-intake") {
       if (request.method !== "POST") {
         return json({ ok: false, error: "Method not allowed" }, 405);
       }
-      return handleT1Intake(request, env);
+      return handleIntake(request, env, url.pathname === "/api/t2-intake" ? "t2" : "t1");
     }
 
     // Anything else that isn't a static file: serve the 404 page.
@@ -109,12 +109,12 @@ async function handleContact(request, env) {
 }
 
 // ---------------------------------------------------------------------------
-// T1 client information form
+// Client information forms (T1 personal, T2 corporate)
 // ---------------------------------------------------------------------------
 
-const MAX_BODY_BYTES = 150_000;
+const MAX_BODY_BYTES = 200_000;
 
-async function handleT1Intake(request, env) {
+async function handleIntake(request, env, kind) {
   let data;
   try {
     const text = await request.text();
@@ -133,6 +133,10 @@ async function handleT1Intake(request, env) {
   const lastName = oneLine(data.lastName).slice(0, 80);
   const email = oneLine(data.email).slice(0, 200);
   const phone = oneLine(data.phone).slice(0, 40);
+  const company = oneLine(data.company).slice(0, 150);
+  if (kind === "t2" && !company) {
+    return json({ ok: false, error: "Please fill in the corporation's legal name." }, 400);
+  }
   if (!firstName || !lastName || !isEmail(email)) {
     return json({ ok: false, error: "Please fill in your first name, last name and a valid email address." }, 400);
   }
@@ -141,8 +145,13 @@ async function handleT1Intake(request, env) {
     .slice(0, 20).map((a) => oneLine(a).slice(0, 80)).filter(Boolean);
   const sections = sanitizeSections(data.sections);
 
+  const name = `${firstName} ${lastName}`;
   const intake = {
-    name: `${firstName} ${lastName}`,
+    kind,
+    name,
+    company,
+    title: kind === "t2" ? `T2 for ${company}` : `T1 for ${name}`,
+    subtitle: kind === "t2" ? "Corporate tax return and year-end" : "2026 personal tax return",
     email,
     phone,
     applies,
@@ -152,7 +161,9 @@ async function handleT1Intake(request, env) {
     }) + " (Pacific)",
   };
 
-  const subject = `T1 client form: ${intake.name} (2026 tax year)`;
+  const subject = kind === "t2"
+    ? `T2 client form: ${company} (contact: ${name})`
+    : `T1 client form: ${name} (2026 tax year)`;
   const raw = buildMultipartEmail({
     replyTo: email,
     subject,
@@ -163,7 +174,7 @@ async function handleT1Intake(request, env) {
   try {
     await env.CONTACT_EMAIL.send(new EmailMessage(FROM_ADDRESS, TO_ADDRESS, raw));
   } catch (err) {
-    console.error("T1 intake email failed:", err && err.message);
+    console.error(`${kind.toUpperCase()} intake email failed:`, err && err.message);
     return json({ ok: false, error: "Sorry, your form couldn't be sent. Please try again, or email info@calcitax.com." }, 502);
   }
   return json({ ok: true });
@@ -172,7 +183,7 @@ async function handleT1Intake(request, env) {
 function sanitizeSections(input) {
   const out = [];
   if (!Array.isArray(input)) return out;
-  for (const s of input.slice(0, 15)) {
+  for (const s of input.slice(0, 25)) {
     if (!s || typeof s !== "object") continue;
     const title = oneLine(s.title).slice(0, 100);
     const items = [];
@@ -199,11 +210,13 @@ function sanitizeSections(input) {
 }
 
 function renderIntakeText(d) {
+  const heading = d.kind === "t2" ? "NEW T2 CORPORATE CLIENT FORM" : "NEW T1 CLIENT FORM (2026 tax year)";
   const lines = [
-    "NEW T1 CLIENT FORM (2026 tax year)",
-    "==================================",
+    heading,
+    "=".repeat(heading.length),
     "",
-    `Client:    ${d.name}`,
+    ...(d.company ? [`Company:   ${d.company}`] : []),
+    `${d.company ? "Contact:  " : "Client:   "} ${d.name}`,
     `Email:     ${d.email}`,
     `Phone:     ${d.phone || "-"}`,
     `Submitted: ${d.submitted}`,
@@ -248,7 +261,8 @@ function renderIntakeHtml(d) {
   }
 
   const summary = [
-    { label: "Client", value: d.name },
+    ...(d.company ? [{ label: "Corporation", value: d.company }] : []),
+    { label: d.company ? "Contact" : "Client", value: d.name },
     { label: "Email", value: d.email },
     { label: "Phone", value: d.phone || "-" },
     { label: "Submitted", value: d.submitted },
@@ -260,15 +274,15 @@ function renderIntakeHtml(d) {
 <table role="presentation" width="640" cellpadding="0" cellspacing="0" style="max-width:640px;width:100%;background:#FFFFFF;border-radius:10px">
 <tr><td style="background:#0B6E5F;padding:22px 28px;border-radius:10px 10px 0 0">
 <div style="${font}color:#CFEDE6;font-size:12px;letter-spacing:.08em;text-transform:uppercase">Calcitax Advisors · New client form</div>
-<div style="${font}color:#FFFFFF;font-size:24px;font-weight:bold;margin-top:6px">T1 for ${esc(d.name)}</div>
-<div style="${font}color:#CFEDE6;font-size:14px;margin-top:4px">2026 personal tax return</div>
+<div style="${font}color:#FFFFFF;font-size:24px;font-weight:bold;margin-top:6px">${esc(d.title)}</div>
+<div style="${font}color:#CFEDE6;font-size:14px;margin-top:4px">${esc(d.subtitle)}</div>
 </td></tr>
 <tr><td style="padding:8px 28px 28px">
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
 <tr><td style="padding:20px 0 8px"><div style="${font}font-size:18px;font-weight:bold;color:#0B6E5F">Summary</div></td></tr>
 <tr><td><table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="border:1px solid #E3E8EE;border-radius:8px;border-collapse:separate;overflow:hidden">${summary}</table></td></tr>
 ${body}
-<tr><td style="${font}padding:28px 0 0;font-size:13px;color:#4A5568">Reply to this email to contact ${esc(d.name)} directly. Ask the client to send slips, receipts and their SIN through a secure method, not by regular email.</td></tr>
+<tr><td style="${font}padding:28px 0 0;font-size:13px;color:#4A5568">Reply to this email to contact ${esc(d.name)} directly. Ask the client to send documents${d.kind === "t2" ? "" : " and their SIN"} through a secure method, not by regular email.</td></tr>
 </table>
 </td></tr>
 </table>
