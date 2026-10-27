@@ -1,0 +1,20 @@
+{
+  // Cloudflare Worker that serves the Calcitax website and handles the contact form.
+  "name": "calcitax",
+  "main": "src/worker.js",
+  "compatibility_date": "2026-10-23",
+  "workers_dev": true,
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    "not_found_handling": "404-page"
+  },
+  "routes": [
+    { "pattern": "calcitax.com", "custom_domain": true },
+    { "pattern": "www.calcitax.com", "custom_domain": true }
+  ],
+  // Contact form messages are sent to this verified Email Routing destination.
+  "send_email": [
+    { "name": "CONTACT_EMAIL", "destination_address": "calcitax@gmail.com" }
+  ]
+}

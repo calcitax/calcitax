@@ -186,7 +186,9 @@ td:first-child { font-weight: 600; white-space: nowrap; }
   border-radius: 8px; background: #FFFFFF; color: var(--ink); width: 100%;
 }
 .field textarea { resize: vertical; min-height: 130px; }
-.form-note { grid-column: 1 / -1; font-size: 14px; color: var(--ink-3); }
+.form-note { grid-column: 1 / -1; font-size: 15px; color: var(--ink-2); }
+.form .btn:disabled { opacity: 0.75; cursor: default; }
+.hp { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
 .contact-list { list-style: none; padding: 0; margin: 28px 0 0; display: flex; flex-direction: column; gap: 14px; font-size: 16px; }
 .contact-list span { color: var(--ink-3); display: block; font-size: 14px; }
 .contact-list b, .contact-list a { font-weight: 600; font-size: 17px; }

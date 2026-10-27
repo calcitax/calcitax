@@ -78,10 +78,14 @@
           <label for="message">Message</label>
           <textarea id="message" name="message" rows="5" placeholder="A few lines about your situation"></textarea>
         </div>
-        <div class="field full">
-          <button class="btn btn-primary" type="submit">Send message</button>
+        <div class="hp" aria-hidden="true">
+          <label for="website">Leave this field empty</label>
+          <input id="website" name="website" type="text" tabindex="-1" autocomplete="off">
         </div>
-        <p class="form-note" id="form-note" role="status">This opens your email app with your message ready to send to info@calcitax.com.</p>
+        <div class="field full">
+          <button class="btn btn-primary" type="submit" id="send-btn">Send message</button>
+        </div>
+        <p class="form-note" id="form-note" role="status" aria-live="polite">We use your details only to reply to you.</p>
       </form>
     </div>
   </div>
@@ -125,21 +129,47 @@
   (function () {
     var form = document.getElementById('contact-form');
     var note = document.getElementById('form-note');
+    var btn = document.getElementById('send-btn');
     form.addEventListener('submit', function (e) {
       e.preventDefault();
       var f = form.elements;
       var name = f['name'].value.trim();
       var email = f['email'].value.trim();
-      if (!name || !email) {
-        note.textContent = 'Please enter your name and email so we can reply.';
+      if (!name || !email || !f['email'].checkValidity()) {
+        note.textContent = 'Please enter your name and a valid email address so we can reply.';
         (name ? f['email'] : f['name']).focus();
         return;
       }
-      var service = f['service'].value;
-      var subject = 'Consultation request: ' + service;
-      var body = 'Name: ' + name + '\nEmail: ' + email + '\nService: ' + service + '\n\n' + f['message'].value.trim();
-      window.location.href = 'mailto:info@calcitax.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
-      note.textContent = 'Your email app should open now. If it doesn’t, email us directly at info@calcitax.com.';
+      btn.disabled = true;
+      btn.textContent = 'Sending…';
+      note.textContent = '';
+      fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name: name,
+          email: email,
+          service: f['service'].value,
+          message: f['message'].value,
+          website: f['website'].value
+        })
+      })
+        .then(function (res) { return res.json().catch(function () { return { ok: false }; }); })
+        .then(function (data) {
+          if (data.ok) {
+            form.reset();
+            btn.textContent = 'Message sent';
+            note.textContent = 'Thank you! Your message has been sent. We’ll reply to ' + email + ' soon.';
+          } else {
+            throw new Error(data.error || '');
+          }
+        })
+        .catch(function (err) {
+          btn.disabled = false;
+          btn.textContent = 'Send message';
+          var generic = 'Sorry, something went wrong. Please try again or email us at info@calcitax.com.';
+          note.textContent = (err && err.message && !(err instanceof TypeError)) ? err.message : generic;
+        });
     });
   })();
 </script>
