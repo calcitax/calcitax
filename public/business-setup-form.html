@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Start a Business: Incorporation &amp; Registration Form | Calcitax Advisors</title>
-<meta name="description" content="Starting a business in BC? Tell Calcitax Advisors about your plans and we'll help you choose between a corporation (CCPC), sole proprietorship or partnership, and set up your registrations and CRA accounts.">
+<title>Incorporation, Registration &amp; Annual Report Form | Calcitax Advisors</title>
+<meta name="description" content="Starting a business in BC, or need your company's annual report filed? Calcitax Advisors gathers your incorporation details, works with your lawyer, sets up your CRA accounts and files your BC annual report every year.">
 <link rel="canonical" href="https://calcitax.com/business-setup-form.html">
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
 <meta property="og:type" content="website">
@@ -41,8 +41,8 @@
 <section class="page-hero">
   <div class="wrap">
     <p class="eyebrow">Start a business</p>
-    <h1>Incorporation &amp; business registration form</h1>
-    <p class="lead">Planning to incorporate, or to register a sole proprietorship or partnership? Tell us about your plans. We'll explain the options, prepare the registrations, and set up your CRA accounts. Not sure which structure is right? Tick "Help me choose" and we'll advise.</p>
+    <h1>Incorporation, registration &amp; annual report form</h1>
+    <p class="lead">Planning to incorporate, or to register a sole proprietorship or partnership? Tell us about your plans. We gather everything that's needed, work with your lawyer to complete the incorporation, set up your CRA accounts, and keep your company in good standing by filing its annual report every year. Already incorporated? Tick "Annual report" below.</p>
     <p class="notice">This form doesn't ask for SINs, bank details or ID documents. We'll collect what the registrations need securely once we've spoken. Government filing fees are separate from our fees.</p>
   </div>
 </section>
@@ -95,12 +95,13 @@
       <!-- 3. Structure -->
       <section class="intake-section" aria-labelledby="h-structure">
         <h2 id="h-structure"><span class="step-no">3</span> Business structure</h2>
-        <p class="help">Tick the structure you have in mind. You can tick more than one if you're comparing, or tick "Help me choose".</p>
+        <p class="help">Tick the structure you have in mind. You can tick more than one if you're comparing, or tick "Help me choose". If your company already exists and you need its yearly filing, tick "Annual report".</p>
         <div class="toggle-grid">
           <label class="toggle"><input type="checkbox" data-target="sec-corp"><span><b>Corporation</b><small>Incorporate a company (CCPC), BC or federal</small></span></label>
           <label class="toggle"><input type="checkbox" data-target="sec-sole"><span><b>Sole proprietorship</b><small>Just you, unincorporated</small></span></label>
           <label class="toggle"><input type="checkbox" data-target="sec-partner"><span><b>Partnership</b><small>Two or more owners, unincorporated</small></span></label>
           <label class="toggle"><input type="checkbox" data-target="sec-unsure"><span><b>Help me choose</b><small>Compare the options for my situation</small></span></label>
+          <label class="toggle"><input type="checkbox" data-target="sec-annual"><span><b>Annual report (already incorporated)</b><small>Yearly renewal with BC Registries</small></span></label>
         </div>
       </section>
 
@@ -166,7 +167,10 @@
             <select><option value=""></option><option>No</option><option>Yes</option><option>Not sure</option></select></label>
           <label class="field q full"><span>Moving an existing business or assets into the corporation?</span>
             <select><option value=""></option><option>No</option><option>Yes, an existing sole proprietorship</option><option>Yes, vehicles or equipment</option><option>Yes, real estate</option><option>Not sure</option></select></label>
-          <label class="field q"><span>Want a shareholders' agreement?</span>
+          <label class="field q"><span>Do you have a lawyer for the incorporation?</span>
+            <select><option value=""></option><option>Yes</option><option>No, please refer one</option><option>Not sure</option></select></label>
+          <label class="field q"><span>Lawyer's name and firm (if you have one)</span><input type="text"></label>
+          <label class="field q"><span>Want a shareholders' agreement? (prepared by a lawyer)</span>
             <select><option value=""></option><option>Yes</option><option>No</option><option>Not sure</option></select></label>
           <label class="field q full"><span>Anything else about the corporation</span><textarea rows="2"></textarea></label>
         </div>
@@ -240,13 +244,48 @@
         </div>
       </section>
 
+      <!-- Annual report -->
+      <section class="intake-section" id="sec-annual" data-section="Annual report (existing company)" hidden>
+        <h2>Annual report (existing company)</h2>
+        <p class="help">BC companies must file an annual report with BC Registries each year, within two months after the anniversary of incorporation. Missing it can lead to the company being dissolved.</p>
+        <div class="form-grid">
+          <label class="field q full"><span>Company's legal name</span><input type="text"></label>
+          <label class="field q"><span>Incorporation number</span><input type="text" placeholder="e.g. BC1234567"></label>
+          <label class="field q"><span>Date of incorporation</span><input type="date"></label>
+          <label class="field q"><span>Who filed last year's annual report?</span>
+            <select><option value=""></option><option>We did it ourselves</option><option>Our lawyer</option><option>Another accountant</option><option>Not sure</option><option>It hasn't been filed</option></select></label>
+          <label class="field q"><span>Any annual reports overdue?</span>
+            <select><option value=""></option><option>No</option><option>Yes</option><option>Not sure</option></select></label>
+          <label class="field q"><span>Do you have the company's BC Registries access (passcode or account)?</span>
+            <select><option value=""></option><option>Yes</option><option>No</option><option>Not sure</option></select></label>
+          <label class="field q"><span>Where are the minute book and records kept?</span>
+            <select><option value=""></option><option>With our lawyer</option><option>With us</option><option>With our accountant</option><option>Not sure</option></select></label>
+        </div>
+        <fieldset class="checks-group q">
+          <legend>Changes since the last annual report</legend>
+          <label class="check"><input type="checkbox" value="Directors added or removed"> Directors added or removed</label>
+          <label class="check"><input type="checkbox" value="Director's address changed"> A director's address changed</label>
+          <label class="check"><input type="checkbox" value="Registered or records office moved"> Registered or records office moved</label>
+          <label class="check"><input type="checkbox" value="Shares issued or transferred"> Shares issued or transferred</label>
+          <label class="check"><input type="checkbox" value="Company name changed"> Company name changed</label>
+          <label class="check"><input type="checkbox" value="No changes"> No changes</label>
+        </fieldset>
+        <div class="form-grid">
+          <label class="field q full"><span>Details of any changes</span><textarea rows="2"></textarea></label>
+          <label class="field q full"><span>File the annual report for you every year from now on?</span>
+            <select><option value=""></option><option>Yes, please</option><option>Just this year</option><option>Not sure</option></select></label>
+        </div>
+      </section>
+
       <!-- 4. Registrations & services -->
       <section class="intake-section" data-section="Registrations & services needed" aria-labelledby="h-reg">
         <h2 id="h-reg"><span class="step-no">4</span> Registrations &amp; services you need</h2>
         <fieldset class="checks-group q">
           <legend>Registrations and accounts</legend>
           <label class="check"><input type="checkbox" value="Name approval (BC Name Request)"> Name approval (BC Name Request)</label>
-          <label class="check"><input type="checkbox" value="Incorporation or business registration filing"> Incorporation or business registration filing</label>
+          <label class="check"><input type="checkbox" value="Incorporation (coordinated with a lawyer)"> Incorporation (coordinated with a lawyer)</label>
+          <label class="check"><input type="checkbox" value="Sole proprietorship or partnership registration"> Sole proprietorship or partnership registration</label>
+          <label class="check"><input type="checkbox" value="Annual report filing every year"> Annual report filing every year</label>
           <label class="check"><input type="checkbox" value="CRA Business Number"> CRA Business Number</label>
           <label class="check"><input type="checkbox" value="GST/HST account"> GST/HST account</label>
           <label class="check"><input type="checkbox" value="BC PST registration"> BC PST registration</label>
@@ -294,7 +333,7 @@
 
     <div class="intake-done" id="biz-done" hidden tabindex="-1">
       <h2>Thank you, we've received your business details</h2>
-      <p>We'll review your plans and email you within one business day to set up a call, explain your options and give you a written quote.</p>
+      <p>We'll review your details and email you within one business day to set up a call, explain the next steps and give you a written quote.</p>
       <p>Questions in the meantime? Email <a href="mailto:info@calcitax.com">info@calcitax.com</a>.</p>
       <a class="btn btn-secondary" href="/">Back to home</a>
     </div>

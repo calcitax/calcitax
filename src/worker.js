@@ -131,10 +131,10 @@ const INTAKE_KINDS = {
   t5: { org: "Payer", missing: "the payer's legal name", title: (n) => `T5 slips for ${n.company}`,
         subtitle: "T5 information return (investment income)",
         subject: (n) => `T5 client form: ${n.company} (contact: ${n.name})`, heading: "NEW T5 SLIPS CLIENT FORM" },
-  biz: { org: "Proposed name", optionalOrg: true, title: (n) => `New business: ${n.company || n.name}`,
-         subtitle: "Incorporation and business registration",
-         subject: (n) => `Business setup form: ${n.company || "name not chosen"} (contact: ${n.name})`,
-         heading: "NEW BUSINESS SETUP FORM" },
+  biz: { org: "Proposed name", optionalOrg: true, title: (n) => `Business form: ${n.company || n.name}`,
+         subtitle: "Incorporation, registration and annual report",
+         subject: (n) => n.company ? `Business form: ${n.company} (contact: ${n.name})` : `Business form: ${n.name}`,
+         heading: "NEW BUSINESS / INCORPORATION / ANNUAL REPORT FORM" },
 };
 
 async function handleIntake(request, env, kind) {
