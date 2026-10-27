@@ -127,10 +127,11 @@
     var consent = form.querySelector('.consent input');
     var company = form.querySelector('[name=company]');
 
-    var missing = [company, first, last, email].filter(function (el) { return el && !el.value.trim(); });
+    var requiredCompany = company && company.required ? company : null;
+    var missing = [requiredCompany, first, last, email].filter(function (el) { return el && !el.value.trim(); });
     if (missing.length || !email.checkValidity()) {
       var companyLabel = company ? company.closest('label').querySelector('span').textContent.replace(/\s*\*$/, '').trim().toLowerCase() : '';
-      note.textContent = company
+      note.textContent = requiredCompany
         ? 'Please fill in the ' + companyLabel + ', your first and last name, and a valid email address.'
         : 'Please fill in your first name, last name and a valid email address.';
       (missing[0] || email).focus();

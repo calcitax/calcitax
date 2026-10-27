@@ -279,3 +279,5 @@ td:first-child { font-weight: 600; white-space: nowrap; }
 .form-card h2 { font-size: 22px; font-weight: 800; margin: 14px 0 8px; }
 .form-card p { font-size: 15px; color: var(--ink-2); }
 .form-card .more { color: var(--accent); }
+
+.form-card-wide { grid-column: 1 / -1; }

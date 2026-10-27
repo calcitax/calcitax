@@ -14,6 +14,7 @@ const SERVICES = new Set([
   "Corporate tax return (T2)",
   "Trust or estate return (T3)",
   "T5 slips (dividends or interest)",
+  "Starting a business or incorporating",
   "Bookkeeping",
   "Payroll",
   "GST/HST or PST",
@@ -33,7 +34,7 @@ export default {
       return handleContact(request, env);
     }
 
-    const intakeMatch = url.pathname.match(/^\/api\/(t1|t2|t3|t5)-intake$/);
+    const intakeMatch = url.pathname.match(/^\/api\/(t1|t2|t3|t5|biz)-intake$/);
     if (intakeMatch) {
       if (request.method !== "POST") {
         return json({ ok: false, error: "Method not allowed" }, 405);
@@ -130,6 +131,10 @@ const INTAKE_KINDS = {
   t5: { org: "Payer", missing: "the payer's legal name", title: (n) => `T5 slips for ${n.company}`,
         subtitle: "T5 information return (investment income)",
         subject: (n) => `T5 client form: ${n.company} (contact: ${n.name})`, heading: "NEW T5 SLIPS CLIENT FORM" },
+  biz: { org: "Proposed name", optionalOrg: true, title: (n) => `New business: ${n.company || n.name}`,
+         subtitle: "Incorporation and business registration",
+         subject: (n) => `Business setup form: ${n.company || "name not chosen"} (contact: ${n.name})`,
+         heading: "NEW BUSINESS SETUP FORM" },
 };
 
 async function handleIntake(request, env, kind) {
@@ -153,7 +158,7 @@ async function handleIntake(request, env, kind) {
   const phone = oneLine(data.phone).slice(0, 40);
   const company = oneLine(data.company).slice(0, 150);
   const cfg = INTAKE_KINDS[kind];
-  if (cfg.org && !company) {
+  if (cfg.org && !cfg.optionalOrg && !company) {
     return json({ ok: false, error: `Please fill in ${cfg.missing}.` }, 400);
   }
   if (!firstName || !lastName || !isEmail(email)) {
