@@ -1,0 +1,451 @@
+<!doctype html>
+<html lang="en-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Personal Tax Return (T1) Client Form | Calcitax Advisors</title>
+<meta name="description" content="Getting your 2026 personal tax return done with Calcitax Advisors? Fill in this form about your income, deductions and credits and we'll take it from there.">
+<link rel="canonical" href="https://calcitax.com/t1-form.html">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:title" content="T1 Personal Tax Return Form | Calcitax Advisors">
+<meta property="og:description" content="Tell us about your 2026 income and deductions to get your personal tax return started.">
+<meta property="og:url" content="https://calcitax.com/t1-form.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap header-row">
+    <a class="brand" href="/" aria-label="Calcitax Advisors home">
+      <span class="brand-mark" aria-hidden="true">C</span>
+      <span class="brand-name">Calcitax <span>Advisors</span></span>
+    </a>
+    <nav class="nav" aria-label="Main">
+      <a href="/">Home</a>
+      <a href="/services.html">Services</a>
+      <a href="/about.html">About</a>
+      <a href="/tax-dates.html">Tax Dates</a>
+      <a href="/t1-form.html" aria-current="page">T1 Form</a>
+      <a class="btn btn-primary" href="/contact.html">Free consultation</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="page-hero">
+  <div class="wrap">
+    <p class="eyebrow">Personal tax return (T1)</p>
+    <h1>2026 tax return: client information form</h1>
+    <p class="lead">Tell us about your 2026 income, deductions and credits. It takes about 10 minutes. Approximate amounts are fine. You'll send us the actual slips and receipts after we confirm.</p>
+    <p class="notice">For your security, this form doesn't ask for your Social Insurance Number or bank details. We'll collect those securely when we prepare your return.</p>
+  </div>
+</section>
+
+<section class="section intake-wrap">
+  <div class="wrap">
+    <form id="t1-form" class="intake" novalidate>
+
+      <!-- 1. About you -->
+      <section class="intake-section" data-section="About you" aria-labelledby="h-about">
+        <h2 id="h-about"><span class="step-no">1</span> About you</h2>
+        <div class="form-grid">
+          <label class="field q"><span>First name *</span><input name="first_name" type="text" autocomplete="given-name" required></label>
+          <label class="field q"><span>Last name *</span><input name="last_name" type="text" autocomplete="family-name" required></label>
+          <label class="field q"><span>Email *</span><input name="email" type="email" autocomplete="email" required></label>
+          <label class="field q"><span>Phone</span><input name="phone" type="tel" autocomplete="tel"></label>
+          <label class="field q"><span>Date of birth</span><input name="dob" type="date"></label>
+          <label class="field q"><span>First time filing a Canadian tax return?</span>
+            <select><option value=""></option><option>No</option><option>Yes</option></select></label>
+          <label class="field q full"><span>Home address</span><input type="text" autocomplete="street-address" placeholder="Street, unit"></label>
+          <label class="field q"><span>City</span><input type="text" autocomplete="address-level2"></label>
+          <label class="field q"><span>Province on Dec 31, 2026</span>
+            <select autocomplete="address-level1"><option>British Columbia</option><option>Alberta</option><option>Saskatchewan</option><option>Manitoba</option><option>Ontario</option><option>Quebec</option><option>New Brunswick</option><option>Nova Scotia</option><option>Prince Edward Island</option><option>Newfoundland and Labrador</option><option>Yukon</option><option>Northwest Territories</option><option>Nunavut</option></select></label>
+          <label class="field q"><span>Postal code</span><input type="text" autocomplete="postal-code"></label>
+          <label class="field q"><span>Did your address change in 2026?</span>
+            <select><option value=""></option><option>No</option><option>Yes</option></select></label>
+          <label class="field q"><span>Arrived in Canada in 2026? (date)</span><input type="date"></label>
+        </div>
+
+        <h3>Family</h3>
+        <div class="form-grid">
+          <label class="field q"><span>Marital status on Dec 31, 2026</span>
+            <select><option value=""></option><option>Single</option><option>Married</option><option>Common-law</option><option>Separated</option><option>Divorced</option><option>Widowed</option></select></label>
+          <label class="field q"><span>Date status changed (if in 2026)</span><input type="date"></label>
+          <label class="field q"><span>Spouse or partner's name</span><input type="text"></label>
+          <label class="field q"><span>Spouse's approx. net income for 2026</span><input type="text" inputmode="decimal" placeholder="$"></label>
+          <label class="field q full"><span>Should we prepare your spouse's return too?</span>
+            <select><option value=""></option><option>Yes</option><option>No</option><option>Not sure</option></select></label>
+        </div>
+        <div class="repeat" data-repeat="Dependant" data-start="0">
+          <p class="repeat-title">Children or other dependants</p>
+          <div class="repeat-items"></div>
+          <template>
+            <div class="repeat-item">
+              <div class="repeat-head"><b class="repeat-label"></b><button type="button" class="link-btn remove">Remove</button></div>
+              <div class="form-grid">
+                <label class="field q"><span>Name</span><input type="text"></label>
+                <label class="field q"><span>Date of birth</span><input type="date"></label>
+                <label class="field q"><span>Relationship</span><input type="text" placeholder="e.g. son, daughter, parent"></label>
+              </div>
+            </div>
+          </template>
+          <button type="button" class="btn btn-secondary btn-sm add">+ Add a dependant</button>
+        </div>
+      </section>
+
+      <!-- 2. What applies -->
+      <section class="intake-section" aria-labelledby="h-applies">
+        <h2 id="h-applies"><span class="step-no">2</span> What applies to you in 2026?</h2>
+        <p class="help">Tick everything that applies. A section opens for each one you tick.</p>
+        <div class="toggle-grid">
+          <label class="toggle"><input type="checkbox" data-target="sec-employment"><span><b>Salary or wages</b><small>T4 slips from employers</small></span></label>
+          <label class="toggle"><input type="checkbox" data-target="sec-student"><span><b>Student</b><small>Tuition (T2202), scholarships, student loans</small></span></label>
+          <label class="toggle"><input type="checkbox" data-target="sec-interest"><span><b>Interest &amp; investments</b><small>Bank interest, T5, T3, stocks, crypto</small></span></label>
+          <label class="toggle"><input type="checkbox" data-target="sec-loans"><span><b>Loans &amp; interest paid</b><small>Student, investment, business or rental loans</small></span></label>
+          <label class="toggle"><input type="checkbox" data-target="sec-benefits"><span><b>Pension, EI &amp; benefits</b><small>T4A, T4E, CPP, OAS, RRSP withdrawals</small></span></label>
+          <label class="toggle"><input type="checkbox" data-target="sec-business"><span><b>Business income</b><small>You own a business (sole proprietor)</small></span></label>
+          <label class="toggle"><input type="checkbox" data-target="sec-self"><span><b>Self-employed or gig work</b><small>Contractor, Uber, delivery, trucking</small></span></label>
+          <label class="toggle"><input type="checkbox" data-target="sec-rental"><span><b>Rental income</b><small>A property, suite or room you rent out</small></span></label>
+          <label class="toggle"><input type="checkbox" data-target="sec-deductions"><span><b>Deductions &amp; credits</b><small>RRSP, FHSA, childcare, medical, donations, rent</small></span></label>
+        </div>
+      </section>
+
+      <!-- Employment -->
+      <section class="intake-section" id="sec-employment" data-section="Salary or wages (T4)" hidden>
+        <h2>Salary or wages (T4)</h2>
+        <p class="help">Add one entry for each T4 slip. The box numbers are printed on the slip.</p>
+        <div class="repeat" data-repeat="T4 slip" data-start="1">
+          <div class="repeat-items"></div>
+          <template>
+            <div class="repeat-item">
+              <div class="repeat-head"><b class="repeat-label"></b><button type="button" class="link-btn remove">Remove</button></div>
+              <div class="form-grid">
+                <label class="field q full"><span>Employer name</span><input type="text"></label>
+                <label class="field q"><span>Employment income (box 14)</span><input type="text" inputmode="decimal" placeholder="$"></label>
+                <label class="field q"><span>Income tax deducted (box 22)</span><input type="text" inputmode="decimal" placeholder="$"></label>
+              </div>
+            </div>
+          </template>
+          <button type="button" class="btn btn-secondary btn-sm add">+ Add another T4</button>
+        </div>
+        <div class="form-grid">
+          <label class="field q"><span>Tips or cash income not on a T4</span><input type="text" inputmode="decimal" placeholder="$"></label>
+          <label class="field q"><span>Union or professional dues not on your T4</span><input type="text" inputmode="decimal" placeholder="$"></label>
+          <label class="field q full"><span>Did your employer give you a T2200 form (required to pay your own work expenses)?</span>
+            <select><option value=""></option><option>No</option><option>Yes</option><option>Not sure</option></select></label>
+          <label class="field q full"><span>Anything else about your employment</span><textarea rows="2"></textarea></label>
+        </div>
+      </section>
+
+      <!-- Student -->
+      <section class="intake-section" id="sec-student" data-section="Student" hidden>
+        <h2>Student</h2>
+        <p class="help">Your school issues a T2202 tuition slip. Add one for each school.</p>
+        <div class="repeat" data-repeat="T2202 tuition slip" data-start="1">
+          <div class="repeat-items"></div>
+          <template>
+            <div class="repeat-item">
+              <div class="repeat-head"><b class="repeat-label"></b><button type="button" class="link-btn remove">Remove</button></div>
+              <div class="form-grid">
+                <label class="field q full"><span>School name</span><input type="text"></label>
+                <label class="field q"><span>Eligible tuition fees for 2026</span><input type="text" inputmode="decimal" placeholder="$"></label>
+                <label class="field q"><span>Months full-time</span><input type="number" min="0" max="12"></label>
+                <label class="field q"><span>Months part-time</span><input type="number" min="0" max="12"></label>
+              </div>
+            </div>
+          </template>
+          <button type="button" class="btn btn-secondary btn-sm add">+ Add another school</button>
+        </div>
+        <div class="form-grid">
+          <label class="field q"><span>Scholarships or bursaries (T4A box 105)</span><input type="text" inputmode="decimal" placeholder="$"></label>
+          <label class="field q"><span>Interest paid on government student loans in 2026</span><input type="text" inputmode="decimal" placeholder="$"></label>
+          <label class="field q"><span>Unused tuition from earlier years?</span>
+            <select><option value=""></option><option>Yes</option><option>No</option><option>Not sure</option></select></label>
+          <label class="field q"><span>Moved 40 km or more to study full-time?</span>
+            <select><option value=""></option><option>No</option><option>Yes</option></select></label>
+        </div>
+      </section>
+
+      <!-- Interest & investments -->
+      <section class="intake-section" id="sec-interest" data-section="Interest & investment income" hidden>
+        <h2>Interest &amp; investment income</h2>
+        <fieldset class="checks-group q">
+          <legend>Which slips do you have?</legend>
+          <label class="check"><input type="checkbox" value="T5 (interest/dividends)"> T5 (interest or dividends)</label>
+          <label class="check"><input type="checkbox" value="T3 (trust/mutual fund income)"> T3 (mutual fund or trust income)</label>
+          <label class="check"><input type="checkbox" value="T5008 (sale of securities)"> T5008 (sale of stocks or funds)</label>
+          <label class="check"><input type="checkbox" value="T5013 (partnership)"> T5013 (partnership)</label>
+          <label class="check"><input type="checkbox" value="Foreign investment statements"> Foreign investment statements</label>
+        </fieldset>
+        <div class="form-grid">
+          <label class="field q"><span>Bank or GIC interest with no slip</span><input type="text" inputmode="decimal" placeholder="$"></label>
+          <label class="field q"><span>Total interest and dividends (approx.)</span><input type="text" inputmode="decimal" placeholder="$"></label>
+          <label class="field q"><span>Sold stocks, funds or crypto in 2026?</span>
+            <select><option value=""></option><option>No</option><option>Yes</option></select></label>
+          <label class="field q"><span>Investment management or advisory fees paid</span><input type="text" inputmode="decimal" placeholder="$"></label>
+          <label class="field q full"><span>Owned foreign property costing over $100,000 (CAD) at any time in 2026?</span>
+            <select><option value=""></option><option>No</option><option>Yes</option><option>Not sure</option></select></label>
+          <label class="field q full"><span>Details (e.g. what you sold, foreign bank accounts)</span><textarea rows="2"></textarea></label>
+        </div>
+      </section>
+
+      <!-- Loans -->
+      <section class="intake-section" id="sec-loans" data-section="Loans & interest paid" hidden>
+        <h2>Loans &amp; interest paid</h2>
+        <p class="help">Interest on some loans can be claimed. Add each loan and we'll check what's deductible.</p>
+        <div class="repeat" data-repeat="Loan" data-start="1">
+          <div class="repeat-items"></div>
+          <template>
+            <div class="repeat-item">
+              <div class="repeat-head"><b class="repeat-label"></b><button type="button" class="link-btn remove">Remove</button></div>
+              <div class="form-grid">
+                <label class="field q"><span>Type of loan</span>
+                  <select><option value=""></option><option>Government student loan</option><option>Loan to invest (stocks, funds)</option><option>Business loan or line of credit</option><option>Mortgage on a rental property</option><option>Car loan used for work or business</option><option>Other</option></select></label>
+                <label class="field q"><span>Lender</span><input type="text" placeholder="e.g. RBC, NSLSC"></label>
+                <label class="field q"><span>Interest paid in 2026</span><input type="text" inputmode="decimal" placeholder="$"></label>
+                <label class="field q"><span>What was the money used for?</span><input type="text"></label>
+              </div>
+            </div>
+          </template>
+          <button type="button" class="btn btn-secondary btn-sm add">+ Add another loan</button>
+        </div>
+      </section>
+
+      <!-- Pension & benefits -->
+      <section class="intake-section" id="sec-benefits" data-section="Pension, EI & government benefits" hidden>
+        <h2>Pension, EI &amp; government benefits</h2>
+        <fieldset class="checks-group q">
+          <legend>Which slips do you have?</legend>
+          <label class="check"><input type="checkbox" value="T4E (Employment Insurance)"> T4E (Employment Insurance)</label>
+          <label class="check"><input type="checkbox" value="T4A (pension, other income)"> T4A (pension or other income)</label>
+          <label class="check"><input type="checkbox" value="T4A(P) (CPP/QPP)"> T4A(P) (CPP or QPP)</label>
+          <label class="check"><input type="checkbox" value="T4A(OAS) (Old Age Security)"> T4A(OAS) (Old Age Security)</label>
+          <label class="check"><input type="checkbox" value="T4RSP / T4RIF (RRSP or RRIF withdrawal)"> T4RSP or T4RIF (RRSP or RRIF withdrawal)</label>
+          <label class="check"><input type="checkbox" value="T5007 (WorkSafeBC or social assistance)"> T5007 (WorkSafeBC or social assistance)</label>
+          <label class="check"><input type="checkbox" value="Foreign pension"> Pension from outside Canada</label>
+        </fieldset>
+        <div class="form-grid">
+          <label class="field q"><span>Total from these slips (approx.)</span><input type="text" inputmode="decimal" placeholder="$"></label>
+          <label class="field q"><span>Want to split pension income with your spouse?</span>
+            <select><option value=""></option><option>Yes</option><option>No</option><option>Not sure</option></select></label>
+          <label class="field q full"><span>Notes</span><textarea rows="2"></textarea></label>
+        </div>
+      </section>
+
+      <!-- Business -->
+      <section class="intake-section" id="sec-business" data-section="Business income (sole proprietor)" hidden>
+        <h2>Business income (sole proprietor)</h2>
+        <p class="help">For a business you own personally (not a corporation). If you have more than one business, describe the others in the notes.</p>
+        <div class="form-grid">
+          <label class="field q"><span>Business name</span><input type="text"></label>
+          <label class="field q"><span>What does the business do?</span><input type="text"></label>
+          <label class="field q"><span>GST/HST number (if registered)</span><input type="text"></label>
+          <label class="field q"><span>Your ownership %</span><input type="text" inputmode="decimal" placeholder="100%"></label>
+          <label class="field q"><span>Gross sales / revenue</span><input type="text" inputmode="decimal" placeholder="$"></label>
+          <label class="field q"><span>GST/HST collected (if registered)</span><input type="text" inputmode="decimal" placeholder="$"></label>
+          <label class="field q"><span>Cost of goods sold / inventory purchases</span><input type="text" inputmode="decimal" placeholder="$"></label>
+          <label class="field q"><span>How do you keep your records?</span>
+            <select><option value=""></option><option>QuickBooks</option><option>Excel or spreadsheet</option><option>Other software</option><option>Paper receipts</option><option>Bank statements only</option></select></label>
+        </div>
+        <h3>Business expenses for 2026</h3>
+        <div class="form-grid money-grid">
+          <label class="field q"><span>Advertising</span><input type="text" inputmode="decimal" placeholder="$"></label>
+          <label class="field q"><span>Meals &amp; entertainment</span><input type="text" inputmode="decimal" placeholder="$"></label>
+          <label class="field q"><span>Insurance</span><input type="text" inputmode="decimal" placeholder="$"></label>
+          <label class="field q"><span>Interest &amp; bank charges</span><input type="text" inputmode="decimal" placeholder="$"></label>
+          <label class="field q"><span>Office expenses &amp; supplies</span><input type="text" inputmode="decimal" placeholder="$"></label>
+          <label class="field q"><span>Accounting &amp; legal fees</span><input type="text" inputmode="decimal" placeholder="$"></label>
+          <label class="field q"><span>Rent (business premises)</span><input type="text" inputmode="decimal" placeholder="$"></label>
+          <label class="field q"><span>Repairs &amp; maintenance</span><input type="text" inputmode="decimal" placeholder="$"></label>
+          <label class="field q"><span>Salaries &amp; wages paid</span><input type="text" inputmode="decimal" placeholder="$"></label>
+          <label class="field q"><span>Subcontractors</span><input type="text" inputmode="decimal" placeholder="$"></label>
+          <label class="field q"><span>Travel</span><input type="text" inputmode="decimal" placeholder="$"></label>
+          <label class="field q"><span>Phone &amp; internet</span><input type="text" inputmode="decimal" placeholder="$"></label>
+          <label class="field q"><span>Utilities</span><input type="text" inputmode="decimal" placeholder="$"></label>
+          <label class="field q"><span>Vehicle expenses</span><input type="text" inputmode="decimal" placeholder="$"></label>
+        </div>
+        <div class="form-grid">
+          <label class="field q"><span>Work from a home office?</span>
+            <select><option value=""></option><option>No</option><option>Yes</option></select></label>
+          <label class="field q"><span>Home office size vs. whole home</span><input type="text" placeholder="e.g. 150 of 1,500 sq ft"></label>
+          <label class="field q full"><span>Equipment or assets bought in 2026 (what and cost)</span><textarea rows="2"></textarea></label>
+          <label class="field q full"><span>Other expenses or notes</span><textarea rows="2"></textarea></label>
+        </div>
+      </section>
+
+      <!-- Self-employed -->
+      <section class="intake-section" id="sec-self" data-section="Self-employed or gig work" hidden>
+        <h2>Self-employed or gig work</h2>
+        <div class="form-grid">
+          <label class="field q"><span>Type of work</span>
+            <select><option value=""></option><option>Rideshare (Uber, Lyft)</option><option>Food or parcel delivery</option><option>Truck driver (owner-operator)</option><option>Contractor or trades</option><option>Consultant or freelancer</option><option>Real estate or insurance agent</option><option>Other</option></select></label>
+          <label class="field q"><span>Platforms or main clients</span><input type="text"></label>
+          <label class="field q"><span>Total income received in 2026</span><input type="text" inputmode="decimal" placeholder="$"></label>
+          <label class="field q"><span>Fees on T4A (box 48) or T5018, if any</span><input type="text" inputmode="decimal" placeholder="$"></label>
+          <label class="field q"><span>Registered for GST/HST?</span>
+            <select><option value=""></option><option>No</option><option>Yes</option><option>Not sure</option></select></label>
+          <label class="field q"><span>GST/HST number</span><input type="text"></label>
+        </div>
+        <h3>Vehicle</h3>
+        <div class="form-grid money-grid">
+          <label class="field q"><span>Total km driven in 2026</span><input type="text" inputmode="numeric"></label>
+          <label class="field q"><span>Km driven for work</span><input type="text" inputmode="numeric"></label>
+          <label class="field q"><span>Fuel</span><input type="text" inputmode="decimal" placeholder="$"></label>
+          <label class="field q"><span>Insurance</span><input type="text" inputmode="decimal" placeholder="$"></label>
+          <label class="field q"><span>Repairs &amp; maintenance</span><input type="text" inputmode="decimal" placeholder="$"></label>
+          <label class="field q"><span>Lease payments or loan interest</span><input type="text" inputmode="decimal" placeholder="$"></label>
+          <label class="field q"><span>Licence &amp; registration</span><input type="text" inputmode="decimal" placeholder="$"></label>
+          <label class="field q"><span>Parking &amp; tolls</span><input type="text" inputmode="decimal" placeholder="$"></label>
+        </div>
+        <h3>Other expenses</h3>
+        <div class="form-grid money-grid">
+          <label class="field q"><span>Phone &amp; data</span><input type="text" inputmode="decimal" placeholder="$"></label>
+          <label class="field q"><span>Platform fees or commissions</span><input type="text" inputmode="decimal" placeholder="$"></label>
+          <label class="field q"><span>Tools, supplies &amp; equipment</span><input type="text" inputmode="decimal" placeholder="$"></label>
+          <label class="field q"><span>Home office size vs. whole home</span><input type="text" placeholder="e.g. 100 of 900 sq ft"></label>
+          <label class="field q full"><span>Other expenses or notes</span><textarea rows="2"></textarea></label>
+        </div>
+      </section>
+
+      <!-- Rental -->
+      <section class="intake-section" id="sec-rental" data-section="Rental income" hidden>
+        <h2>Rental income</h2>
+        <p class="help">Add one entry for each property you rent out.</p>
+        <div class="repeat" data-repeat="Rental property" data-start="1">
+          <div class="repeat-items"></div>
+          <template>
+            <div class="repeat-item">
+              <div class="repeat-head"><b class="repeat-label"></b><button type="button" class="link-btn remove">Remove</button></div>
+              <div class="form-grid">
+                <label class="field q full"><span>Property address</span><input type="text"></label>
+                <label class="field q"><span>What do you rent out?</span>
+                  <select><option value=""></option><option>Whole house or condo</option><option>Basement or suite in my home</option><option>Room(s) in my home</option><option>Commercial property</option></select></label>
+                <label class="field q"><span>Your ownership %</span><input type="text" inputmode="decimal" placeholder="100%"></label>
+                <label class="field q"><span>Total rent received in 2026</span><input type="text" inputmode="decimal" placeholder="$"></label>
+                <label class="field q"><span>Months rented</span><input type="number" min="0" max="12"></label>
+                <label class="field q"><span>Mortgage interest</span><input type="text" inputmode="decimal" placeholder="$"></label>
+                <label class="field q"><span>Property tax</span><input type="text" inputmode="decimal" placeholder="$"></label>
+                <label class="field q"><span>Insurance</span><input type="text" inputmode="decimal" placeholder="$"></label>
+                <label class="field q"><span>Repairs &amp; maintenance</span><input type="text" inputmode="decimal" placeholder="$"></label>
+                <label class="field q"><span>Utilities you paid</span><input type="text" inputmode="decimal" placeholder="$"></label>
+                <label class="field q"><span>Strata fees</span><input type="text" inputmode="decimal" placeholder="$"></label>
+                <label class="field q"><span>Property management fees</span><input type="text" inputmode="decimal" placeholder="$"></label>
+                <label class="field q full"><span>Other expenses or notes</span><textarea rows="2"></textarea></label>
+              </div>
+            </div>
+          </template>
+          <button type="button" class="btn btn-secondary btn-sm add">+ Add another property</button>
+        </div>
+        <div class="form-grid">
+          <label class="field q full"><span>Did you buy or sell a rental property in 2026?</span>
+            <select><option value=""></option><option>No</option><option>Bought</option><option>Sold</option></select></label>
+        </div>
+      </section>
+
+      <!-- Deductions & credits -->
+      <section class="intake-section" id="sec-deductions" data-section="Deductions & credits" hidden>
+        <h2>Deductions &amp; credits</h2>
+        <div class="form-grid money-grid">
+          <label class="field q"><span>RRSP contributions</span><input type="text" inputmode="decimal" placeholder="$"></label>
+          <label class="field q"><span>FHSA contributions</span><input type="text" inputmode="decimal" placeholder="$"></label>
+          <label class="field q"><span>Childcare expenses</span><input type="text" inputmode="decimal" placeholder="$"></label>
+          <label class="field q"><span>Medical &amp; dental (not covered by insurance)</span><input type="text" inputmode="decimal" placeholder="$"></label>
+          <label class="field q"><span>Charitable donations</span><input type="text" inputmode="decimal" placeholder="$"></label>
+          <label class="field q"><span>Rent paid in 2026</span><input type="text" inputmode="decimal" placeholder="$"></label>
+          <label class="field q"><span>Moving expenses (moved 40 km+ for work)</span><input type="text" inputmode="decimal" placeholder="$"></label>
+          <label class="field q"><span>Support payments paid</span><input type="text" inputmode="decimal" placeholder="$"></label>
+        </div>
+        <div class="form-grid">
+          <label class="field q"><span>Bought your first home in 2026?</span>
+            <select><option value=""></option><option>No</option><option>Yes</option></select></label>
+          <label class="field q"><span>Disability tax credit approved for you or a dependant?</span>
+            <select><option value=""></option><option>No</option><option>Yes</option><option>Not sure</option></select></label>
+          <label class="field q full"><span>Other deductions or credits</span><textarea rows="2"></textarea></label>
+        </div>
+      </section>
+
+      <!-- Final -->
+      <section class="intake-section" data-section="Anything else" aria-labelledby="h-final">
+        <h2 id="h-final"><span class="step-no">3</span> Anything else</h2>
+        <fieldset class="checks-group q">
+          <legend>Did any of these happen in 2026?</legend>
+          <label class="check"><input type="checkbox" value="Sold my home"> Sold my home</label>
+          <label class="check"><input type="checkbox" value="Had income from outside Canada"> Had income from outside Canada</label>
+          <label class="check"><input type="checkbox" value="Moved to or left Canada"> Moved to or left Canada</label>
+          <label class="check"><input type="checkbox" value="Received a letter from the CRA"> Received a letter from the CRA</label>
+          <label class="check"><input type="checkbox" value="Haven't filed for some earlier years"> Haven't filed for some earlier years</label>
+          <label class="check"><input type="checkbox" value="Paid tax instalments"> Paid tax instalments</label>
+        </fieldset>
+        <div class="form-grid">
+          <label class="field q full"><span>Anything else we should know?</span><textarea rows="3"></textarea></label>
+          <label class="field q"><span>How did you hear about us?</span><input type="text"></label>
+          <label class="field q"><span>Preferred way to contact you</span>
+            <select><option value=""></option><option>Email</option><option>Phone call</option><option>Text message</option></select></label>
+        </div>
+        <label class="check consent"><input type="checkbox" id="consent" required> I confirm this information is accurate to the best of my knowledge, and I agree that Calcitax Advisors may contact me about preparing my 2026 tax return.</label>
+
+        <div class="hp" aria-hidden="true">
+          <label>Leave this field empty <input id="website" type="text" tabindex="-1" autocomplete="off"></label>
+        </div>
+
+        <div class="submit-row">
+          <button class="btn btn-primary" type="submit" id="t1-submit">Submit my information</button>
+          <p class="form-note" id="t1-note" role="status" aria-live="polite"></p>
+        </div>
+      </section>
+
+    </form>
+
+    <div class="intake-done" id="t1-done" hidden tabindex="-1">
+      <h2>Thank you, we've received your information</h2>
+      <p>We'll review it and email you within one business day with next steps, including a secure way to send us your slips and receipts.</p>
+      <p>Questions in the meantime? Email <a href="mailto:info@calcitax.com">info@calcitax.com</a>.</p>
+      <a class="btn btn-secondary" href="/">Back to home</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">Calcitax Advisors</div>
+        <div class="footer-tag">We calculate. You save.</div>
+        <p>Tax returns, bookkeeping and payroll for individuals and small businesses in Surrey, BC and across Canada.</p>
+      </div>
+      <div>
+        <h2>Pages</h2>
+        <ul>
+          <li><a href="/services.html">Services</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/tax-dates.html">Tax dates</a></li>
+          <li><a href="/t1-form.html">T1 client form</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Contact</h2>
+        <ul>
+          <li><a href="mailto:info@calcitax.com">info@calcitax.com</a></li>
+          <li>Surrey, British Columbia</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>Information on this site is general in nature and is not professional advice. Contact us about your own situation.</p>
+      <p>© 2026 Calcitax Advisors</p>
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/t1-form.js"></script>
+</body>
+</html>

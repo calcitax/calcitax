@@ -31,6 +31,13 @@ export default {
       return handleContact(request, env);
     }
 
+    if (url.pathname === "/api/t1-intake") {
+      if (request.method !== "POST") {
+        return json({ ok: false, error: "Method not allowed" }, 405);
+      }
+      return handleT1Intake(request, env);
+    }
+
     // Anything else that isn't a static file: serve the 404 page.
     const page = await env.ASSETS.fetch(new Request(new URL("/404.html", url)));
     return new Response(page.body, { status: 404, headers: page.headers });
@@ -99,6 +106,205 @@ async function handleContact(request, env) {
   }
 
   return json({ ok: true });
+}
+
+// ---------------------------------------------------------------------------
+// T1 client information form
+// ---------------------------------------------------------------------------
+
+const MAX_BODY_BYTES = 150_000;
+
+async function handleT1Intake(request, env) {
+  let data;
+  try {
+    const text = await request.text();
+    if (text.length > MAX_BODY_BYTES) {
+      return json({ ok: false, error: "Your form is too long to send. Please shorten the notes and try again." }, 413);
+    }
+    data = JSON.parse(text);
+  } catch {
+    return json({ ok: false, error: "Invalid request" }, 400);
+  }
+  if (!data || typeof data !== "object") return json({ ok: false, error: "Invalid request" }, 400);
+
+  if (clean(data.website)) return json({ ok: true }); // honeypot
+
+  const firstName = oneLine(data.firstName).slice(0, 80);
+  const lastName = oneLine(data.lastName).slice(0, 80);
+  const email = oneLine(data.email).slice(0, 200);
+  const phone = oneLine(data.phone).slice(0, 40);
+  if (!firstName || !lastName || !isEmail(email)) {
+    return json({ ok: false, error: "Please fill in your first name, last name and a valid email address." }, 400);
+  }
+
+  const applies = (Array.isArray(data.applies) ? data.applies : [])
+    .slice(0, 20).map((a) => oneLine(a).slice(0, 80)).filter(Boolean);
+  const sections = sanitizeSections(data.sections);
+
+  const intake = {
+    name: `${firstName} ${lastName}`,
+    email,
+    phone,
+    applies,
+    sections,
+    submitted: new Date().toLocaleString("en-CA", {
+      timeZone: "America/Vancouver", dateStyle: "medium", timeStyle: "short",
+    }) + " (Pacific)",
+  };
+
+  const subject = `T1 client form: ${intake.name} (2026 tax year)`;
+  const raw = buildMultipartEmail({
+    replyTo: email,
+    subject,
+    text: renderIntakeText(intake),
+    html: renderIntakeHtml(intake),
+  });
+
+  try {
+    await env.CONTACT_EMAIL.send(new EmailMessage(FROM_ADDRESS, TO_ADDRESS, raw));
+  } catch (err) {
+    console.error("T1 intake email failed:", err && err.message);
+    return json({ ok: false, error: "Sorry, your form couldn't be sent. Please try again, or email info@calcitax.com." }, 502);
+  }
+  return json({ ok: true });
+}
+
+function sanitizeSections(input) {
+  const out = [];
+  if (!Array.isArray(input)) return out;
+  for (const s of input.slice(0, 15)) {
+    if (!s || typeof s !== "object") continue;
+    const title = oneLine(s.title).slice(0, 100);
+    const items = [];
+    for (const it of (Array.isArray(s.items) ? s.items : []).slice(0, 150)) {
+      if (!it || typeof it !== "object") continue;
+      if (typeof it.heading === "string") {
+        const heading = oneLine(it.heading).slice(0, 100);
+        if (heading) items.push({ heading });
+        continue;
+      }
+      const rows = (Array.isArray(it.rows) ? it.rows : []).slice(0, 60)
+        .map((r) => ({
+          label: oneLine(r && r.label).slice(0, 200),
+          value: clean(r && r.value).slice(0, 3000),
+        }))
+        .filter((r) => r.label && r.value);
+      if (!rows.length) continue;
+      const group = typeof it.group === "string" ? oneLine(it.group).slice(0, 100) : "";
+      items.push(group ? { group, rows } : { rows });
+    }
+    if (title && items.some((i) => i.rows)) out.push({ title, items });
+  }
+  return out;
+}
+
+function renderIntakeText(d) {
+  const lines = [
+    "NEW T1 CLIENT FORM (2026 tax year)",
+    "==================================",
+    "",
+    `Client:    ${d.name}`,
+    `Email:     ${d.email}`,
+    `Phone:     ${d.phone || "-"}`,
+    `Submitted: ${d.submitted}`,
+    `Applies:   ${d.applies.length ? d.applies.join(", ") : "-"}`,
+  ];
+  for (const s of d.sections) {
+    lines.push("", "", s.title.toUpperCase(), "-".repeat(s.title.length));
+    for (const it of s.items) {
+      if (it.heading) { lines.push("", `[${it.heading}]`); continue; }
+      if (it.group) lines.push("", `${it.group}:`);
+      for (const r of it.rows) {
+        const value = r.value.replace(/\r?\n/g, "\n      ");
+        lines.push(`${it.group ? "  " : ""}- ${r.label}: ${value}`);
+      }
+    }
+  }
+  lines.push("", "", "Reply to this email to contact the client directly.");
+  return lines.join("\r\n");
+}
+
+function renderIntakeHtml(d) {
+  const font = "font-family:Arial,Helvetica,sans-serif;";
+  const rowHtml = (r) =>
+    `<tr><td style="${font}padding:9px 14px;border-bottom:1px solid #E3E8EE;color:#4A5568;font-size:14px;width:46%;vertical-align:top">${esc(r.label)}</td>` +
+    `<td style="${font}padding:9px 14px;border-bottom:1px solid #E3E8EE;color:#0F1B2D;font-size:14px;font-weight:bold;vertical-align:top">${esc(r.value).replace(/\r?\n/g, "<br>")}</td></tr>`;
+
+  let body = "";
+  for (const s of d.sections) {
+    body += `<tr><td style="padding:28px 0 8px"><div style="${font}font-size:18px;font-weight:bold;color:#0B6E5F">${esc(s.title)}</div></td></tr>`;
+    body += `<tr><td><table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="border:1px solid #E3E8EE;border-radius:8px;border-collapse:separate;overflow:hidden">`;
+    for (const it of s.items) {
+      if (it.heading) {
+        body += `<tr><td colspan="2" style="${font}padding:10px 14px;background:#F4F7F6;font-size:13px;font-weight:bold;color:#0F1B2D;text-transform:uppercase;letter-spacing:.04em;border-bottom:1px solid #E3E8EE">${esc(it.heading)}</td></tr>`;
+        continue;
+      }
+      if (it.group) {
+        body += `<tr><td colspan="2" style="${font}padding:10px 14px;background:#E7F2EF;font-size:14px;font-weight:bold;color:#08564A;border-bottom:1px solid #E3E8EE">${esc(it.group)}</td></tr>`;
+      }
+      body += it.rows.map(rowHtml).join("");
+    }
+    body += `</table></td></tr>`;
+  }
+
+  const summary = [
+    { label: "Client", value: d.name },
+    { label: "Email", value: d.email },
+    { label: "Phone", value: d.phone || "-" },
+    { label: "Submitted", value: d.submitted },
+    { label: "Applies to", value: d.applies.length ? d.applies.join(", ") : "-" },
+  ].map(rowHtml).join("");
+
+  return `<!doctype html><html><body style="margin:0;padding:0;background:#F4F7F6">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#F4F7F6"><tr><td align="center" style="padding:24px 12px">
+<table role="presentation" width="640" cellpadding="0" cellspacing="0" style="max-width:640px;width:100%;background:#FFFFFF;border-radius:10px">
+<tr><td style="background:#0B6E5F;padding:22px 28px;border-radius:10px 10px 0 0">
+<div style="${font}color:#CFEDE6;font-size:12px;letter-spacing:.08em;text-transform:uppercase">Calcitax Advisors · New client form</div>
+<div style="${font}color:#FFFFFF;font-size:24px;font-weight:bold;margin-top:6px">T1 for ${esc(d.name)}</div>
+<div style="${font}color:#CFEDE6;font-size:14px;margin-top:4px">2026 personal tax return</div>
+</td></tr>
+<tr><td style="padding:8px 28px 28px">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+<tr><td style="padding:20px 0 8px"><div style="${font}font-size:18px;font-weight:bold;color:#0B6E5F">Summary</div></td></tr>
+<tr><td><table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="border:1px solid #E3E8EE;border-radius:8px;border-collapse:separate;overflow:hidden">${summary}</table></td></tr>
+${body}
+<tr><td style="${font}padding:28px 0 0;font-size:13px;color:#4A5568">Reply to this email to contact ${esc(d.name)} directly. Ask the client to send slips, receipts and their SIN through a secure method, not by regular email.</td></tr>
+</table>
+</td></tr>
+</table>
+</td></tr></table>
+</body></html>`;
+}
+
+function buildMultipartEmail({ replyTo, subject, text, html }) {
+  const boundary = `calcitax-${crypto.randomUUID()}`;
+  return [
+    `From: Calcitax Website <${FROM_ADDRESS}>`,
+    `To: ${TO_ADDRESS}`,
+    `Reply-To: ${replyTo}`,
+    `Subject: ${encodeHeader(subject)}`,
+    `Date: ${new Date().toUTCString()}`,
+    `Message-ID: <${crypto.randomUUID()}@calcitax.com>`,
+    "MIME-Version: 1.0",
+    `Content-Type: multipart/alternative; boundary="${boundary}"`,
+    "",
+    `--${boundary}`,
+    "Content-Type: text/plain; charset=UTF-8",
+    "Content-Transfer-Encoding: base64",
+    "",
+    wrap(base64(text)),
+    `--${boundary}`,
+    "Content-Type: text/html; charset=UTF-8",
+    "Content-Transfer-Encoding: base64",
+    "",
+    wrap(base64(html)),
+    `--${boundary}--`,
+    "",
+  ].join("\r\n");
+}
+
+function esc(s) {
+  return String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 }
 
 function clean(value) {
