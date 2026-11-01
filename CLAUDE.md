@@ -44,7 +44,9 @@ there is a genuinely new development (then say what changed and link the earlier
 
 **Originality and copyright.** Write in your own words. No copying of sentences from sources;
 at most one short quotation (under 15 words) per article, in quotation marks with attribution.
-List every source used in `sources` with its real URL.
+List every source used in `sources` with its real URL. At least one source must be an official government
+page (canada.ca, bankofcanada.ca, statcan.gc.ca, gov.bc.ca and similar); the publishing tool
+rejects articles without one and labels official links on the page.
 
 **Shape.** 500-900 words. A headline that says what happened (max ~90 characters).
 `description` is one or two sentences (max 160 characters). Structure:

@@ -40,6 +40,21 @@ ALLOWED_TAGS = {"p", "h2", "h3", "ul", "ol", "li", "strong", "em", "b", "i", "a"
                 "tbody", "tr", "th", "td", "blockquote", "br"}
 
 
+OFFICIAL_DOMAINS = ("canada.ca", "gc.ca", "gov.bc.ca", "bankofcanada.ca", "statcan.gc.ca",
+                    "justice.gc.ca", "budget.canada.ca", "bcregistry.ca", "worksafebc.com",
+                    "cpa-canada.ca", "frascanada.ca", "ifrs.org")
+
+
+def is_official(url):
+    from urllib.parse import urlparse
+    host = (urlparse(url).hostname or "").lower()
+    return any(host == d or host.endswith("." + d) for d in OFFICIAL_DOMAINS)
+
+
+def sorted_sources(sources):
+    return sorted(sources, key=lambda s: not is_official(s["url"]))
+
+
 def fail(msg):
     sys.exit(f"ERROR: {msg}")
 
@@ -79,6 +94,9 @@ def validate(a):
     for s in a["sources"]:
         if not s.get("title") or not str(s.get("url", "")).startswith("https://"):
             fail("each source needs a title and an https:// url")
+    if not any(is_official(s["url"]) for s in a["sources"]):
+        fail("at least one source must be an official government or standard-setter page "
+             "(e.g. canada.ca, bankofcanada.ca, statcan.gc.ca, gov.bc.ca)")
 
 
 # ---------------------------------------------------------------------------
@@ -191,8 +209,9 @@ def article_page(a, related):
     extra_head = ('<script type="application/ld+json">\n'
                   + json.dumps(ld, indent=2).replace("</", "<\\/") + "\n</script>\n")
     sources = "\n".join(
-        f'          <li><a href="{esc(s["url"])}" rel="noopener" target="_blank">{esc(s["title"])}</a></li>'
-        for s in a["sources"])
+        f'          <li>{"<span class=\"src-badge\">Official</span> " if is_official(s["url"]) else ""}'
+        f'<a href="{esc(s["url"])}" rel="noopener" target="_blank">{esc(s["title"])}</a></li>'
+        for s in sorted_sources(a["sources"]))
     related_html = ""
     if related:
         related_html = ("\n<section class=\"section tint\" aria-labelledby=\"more-news\">\n  <div class=\"wrap\">\n"
@@ -230,6 +249,7 @@ def article_page(a, related):
 
       <div class="article-sources">
         <h2>Sources</h2>
+        <p class="src-note">Official government pages are listed first. Click any link to read the original.</p>
         <ul>
 {sources}
         </ul>
