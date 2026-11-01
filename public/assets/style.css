@@ -316,3 +316,6 @@ td:first-child { font-weight: 600; white-space: nowrap; }
 .article-sources h2 { font-size: 18px; font-weight: 700; margin-bottom: 10px; }
 .article-sources ul { padding-left: 20px; margin: 0; }
 .article-sources li { margin-bottom: 6px; font-size: 15px; }
+
+.copy-row { display: flex; flex-wrap: wrap; gap: 10px; margin: 4px 0 6px; }
+.copy-row input { flex: 1 1 280px; min-width: 0; font: inherit; font-size: 16px; padding: 12px 14px; border: 1px solid var(--line-2); border-radius: 8px; background: var(--bg-tint); color: var(--ink); }

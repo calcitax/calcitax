@@ -263,11 +263,61 @@ def news_index(articles):
     <div class="grid-3 news-grid">
 {cards}
     </div>
-    <p class="notice">Subscribe with any news reader using our <a href="/news/feed.xml">RSS feed</a>.</p>
+    <p class="notice">Want new articles as soon as they're published? <a href="/news/subscribe.html">See how to follow our news</a>.</p>
   </div>
 </section>
 
 </main>
+""" + FOOT.format(year=dt.date.today().year))
+
+
+def subscribe_page():
+    feed = f"{SITE}/news/feed.xml"
+    return (HEAD.format(title="Follow Our News | Calcitax Advisors",
+                        description="How to get Calcitax Advisors' tax and finance articles as soon as they're published.",
+                        url=f"{SITE}/news/subscribe.html", og_type="website", og_title="Follow our news | Calcitax Advisors",
+                        extra_head="")
+            + f"""
+<main id="main">
+
+<section class="page-hero">
+  <div class="wrap narrow">
+    <p class="eyebrow"><a href="/news/" style="color:inherit;text-decoration:none">News</a></p>
+    <h1>Follow our news</h1>
+    <p class="lead">We publish a new plain-language article on Canadian tax and finance most days. Here are the easiest ways to keep up.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap narrow prose">
+    <h2>1. Bookmark our news page</h2>
+    <p>Save <a href="/news/">calcitax.com/news</a> to your browser's bookmarks or your phone's home screen and check back any time.</p>
+
+    <h2>2. Use a news reader app (RSS)</h2>
+    <p>If you use a news reader such as Feedly, Inoreader or NetNewsWire, add our feed address and new articles will appear there automatically:</p>
+    <div class="copy-row">
+      <input id="feed-url" type="text" value="{feed}" readonly aria-label="News feed address">
+      <button class="btn btn-primary" type="button" id="copy-feed">Copy address</button>
+    </div>
+    <p class="muted" id="copy-note" role="status" aria-live="polite"></p>
+    <p>The feed is designed for news reader apps. Opening it in a browser shows a simple list of our latest articles.</p>
+
+    <h2>3. Have a question instead?</h2>
+    <p>If an article raises a question about your own taxes or business, <a href="/contact.html">send us a message</a> and we'll get back to you.</p>
+  </div>
+</section>
+
+</main>
+<script>
+  document.getElementById('copy-feed').addEventListener('click', function () {{
+    var input = document.getElementById('feed-url');
+    var note = document.getElementById('copy-note');
+    input.select();
+    (navigator.clipboard ? navigator.clipboard.writeText(input.value) : Promise.reject())
+      .then(function () {{ note.textContent = 'Copied! Paste it into your news reader.'; }})
+      .catch(function () {{ document.execCommand('copy'); note.textContent = 'Copied! Paste it into your news reader.'; }});
+  }});
+</script>
 """ + FOOT.format(year=dt.date.today().year))
 
 
@@ -284,6 +334,7 @@ def rss(articles):
     <description>{esc(a['description'])}</description>
   </item>""")
     return f"""<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/news/feed.xsl"?>
 <rss version="2.0">
 <channel>
   <title>Calcitax Advisors News</title>
@@ -311,6 +362,7 @@ def rebuild(articles):
         (news_dir / f"{a['slug']}.html").write_text(article_page(a, related))
     (news_dir / "index.html").write_text(news_index(articles))
     (news_dir / "feed.xml").write_text(rss(articles))
+    (news_dir / "subscribe.html").write_text(subscribe_page())
 
     home = PUBLIC / "index.html"
     latest = "\n".join(card(a, "h3") for a in articles[:3]) or '      <p class="lead">Articles are coming soon.</p>'
