@@ -1,5 +1,47 @@
 [
   {
+    "slug": "cpp-ei-2027-limits-rate-cut-november-2026",
+    "title": "2027 CPP and EI numbers: lower base CPP rate, higher earnings ceilings",
+    "description": "CPP's base rate drops to 4.75% each for workers and employers on January 1, 2027, while the CPP and EI earnings ceilings rise. Here's what changes.",
+    "date": "2026-11-01",
+    "category": "Payroll",
+    "body_html": "<p>The numbers that drive 2027 payroll are now mostly in place. The Canada Revenue Agency posted the 2027 Canada Pension Plan (CPP) earnings ceilings on October 28, 2026, and they arrive alongside a cut to the base CPP contribution rate, already passed into law, that takes effect on January 1, 2027. Employment Insurance (EI) figures for 2027 were confirmed in September.</p>\n\n<h2>What happened</h2>\n<p>Three separate announcements now fit together:</p>\n<ul>\n<li><strong>CPP earnings ceilings are going up.</strong> The year's maximum pensionable earnings (YMPE), the top of the first CPP earnings band, rises to <strong>$76,700</strong> in 2027, from $74,600 in 2026. The second ceiling (YAMPE), which caps the \"CPP2\" band, rises to <strong>$87,400</strong>, from $85,000.</li>\n<li><strong>The base CPP rate is going down.</strong> Bill C-30, which put the Spring Economic Update 2026 into law, received Royal Assent on June 19, 2026. It lowers the base CPP contribution rate from 9.9% to 9.5% combined, starting in 2027. That is 4.75% each for employees and employers, instead of 4.95%.</li>\n<li><strong>EI premiums are set.</strong> The Canada Employment Insurance Commission confirmed on September 14, 2026 that the 2027 employee rate (outside Quebec) is $1.64 per $100 of insurable earnings, with maximum insurable earnings of <strong>$70,800</strong>, up from $68,900.</li>\n</ul>\n\n<h2>How the new CPP rate works</h2>\n<p>CPP contributions are made of pieces, which is why the headlines can be confusing:</p>\n<ul>\n<li><strong>Base CPP</strong> is the original plan. This is the part being cut, by 0.2 percentage points for each side.</li>\n<li><strong>The first enhancement</strong> adds 1% on the same band of earnings. Together with the base, employees and employers each pay 5.95% today. The enhancement portion is not part of the cut, so the combined rate on this band falls to 5.75% each in 2027.</li>\n<li><strong>CPP2</strong> is a separate 4% contribution, each for employees and employers, on earnings between the first and second ceilings. In 2027 that band runs from $76,700 to $87,400.</li>\n</ul>\n<p>Before the change, the federal Chief Actuary looked at whether the plan could afford it. The actuarial report published by the Office of the Superintendent of Financial Institutions found the 9.5% rate is \"sufficient to finance the base CPP over the long term.\" It also noted that contributions will fall below the plan's expenditures starting in 2027, so the plan will lean more on investment income over time.</p>\n\n<h2>What it means for you</h2>\n<p>For employees, the cut means slightly more take-home pay. Finance Canada estimates a worker earning $70,000 will save about <strong>$133 a year</strong> in 2027. Higher earners will see some of that offset, because the higher ceilings mean CPP is deducted on a bit more of their pay, and CPP2 applies to a slightly wider band.</p>\n<p>Your future CPP pension is not reduced by this change. Benefits are based on your earnings history, not the base rate you paid. If you earn above the new ceilings, you will also build a little more pensionable earnings in 2027.</p>\n<p>On the EI side, the higher maximum insurable earnings means the most a worker can pay in 2027 is $1,161.12, up $38.05 from 2026.</p>\n\n<h2>What it means for small businesses</h2>\n<p>Employers match employee CPP contributions, so they get the same saving on base CPP for every employee. For EI, employers pay 1.4 times the employee premium: the 2027 maximum is $1,625.57 per employee, up $53.27.</p>\n<p>Self-employed people pay both the employee and employer halves of CPP, so they get the base-rate saving twice, but also pay both halves on the higher ceilings. Owner-managers who take a salary from their own corporation are in a similar position, since the company pays the employer share.</p>\n<p>Two practical points for 2027 payroll:</p>\n<ul>\n<li>Payroll software needs the new rates and ceilings for the first pay date in January 2027. Most providers update automatically, but it is worth checking your first January pay stubs.</li>\n<li>If you pay yourself through a corporation, the change slightly shifts the math between salary and dividends. It is a good topic for a year-end planning conversation, along with the 2027 RRSP limit, which the CRA lists as $35,390.</li>\n</ul>\n\n<h2>What to do now</h2>\n<ul>\n<li><strong>Employees:</strong> nothing to file. Expect a small change in your CPP deductions on your first pay in January 2027.</li>\n<li><strong>Employers:</strong> confirm with your payroll provider that the 2027 CPP, CPP2 and EI figures will be loaded before your first January payroll. The CRA had not yet posted its full 2027 CPP maximum contribution table when we checked its pages today.</li>\n<li><strong>Self-employed and owner-managers:</strong> factor the new CPP numbers into your 2027 instalment estimates and your salary-or-dividend decision.</li>\n</ul>",
+    "sources": [
+      {
+        "title": "CRA: What's new – Savings and pension plan administration (2027 YMPE and YAMPE)",
+        "url": "https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/whats-new.html"
+      },
+      {
+        "title": "Finance Canada: Legislation passes to implement measures from the Spring Economic Update 2026",
+        "url": "https://www.canada.ca/en/department-finance/news/2026/06/legislation-passes-to-implement-measures-from-the-spring-economic-update-2026.html"
+      },
+      {
+        "title": "OSFI: 33rd Actuarial Report on the Canada Pension Plan",
+        "url": "https://www.osfi-bsif.gc.ca/en/oca/actuarial-reports/33rd-actuarial-report-supplementing-revised-32nd-actuarial-report-canada-pension-plan"
+      },
+      {
+        "title": "ESDC: Canada Employment Insurance Commission confirms 2027 EI premium rate",
+        "url": "https://www.canada.ca/en/employment-social-development/news/2026/09/canada-employment-insurance-commission-confirms-2027-employment-insurance-premium-rate.html"
+      },
+      {
+        "title": "CRA: CPP contribution rates, maximums and exemptions",
+        "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/canada-pension-plan-cpp/cpp-contribution-rates-maximums-exemptions.html"
+      },
+      {
+        "title": "CRA: Canada Pension Plan enhancement (CPP2)",
+        "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/canada-pension-plan-cpp/cpp-enhancement.html"
+      },
+      {
+        "title": "Government of Canada: CPP enhancement explained",
+        "url": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/cpp-enhancement.html"
+      },
+      {
+        "title": "Wealth Professional: Chief actuary clears base CPP rate cut in Bill C-30",
+        "url": "https://www.wealthprofessional.ca/news/industry-news/chief-actuary-clears-base-cpp-rate-cut-in-bill-c-30/392689"
+      }
+    ]
+  },
+  {
     "slug": "cra-pre-filled-tax-return-october-31-deadline-2026",
     "title": "CRA's new pre-filled tax return: set up your account by October 31",
     "description": "About one million Canadians will be invited to file a pre-filled 2026 return in March 2027. To qualify, your CRA account must be set up by October 31, 2026.",
