@@ -143,6 +143,7 @@ FOOT = """
           <li><a href="/tax-dates.html">Tax dates</a></li>
           <li><a href="/forms.html">Client forms</a></li>
           <li><a href="/news/">News</a></li>
+          <li><a href="/guides/">Guides</a></li>
           <li><a href="/contact.html">Contact</a></li>
         </ul>
       </div>
@@ -260,6 +261,11 @@ def news_index(articles):
 
 <section class="section">
   <div class="wrap">
+    <a class="guide-banner" href="/guides/rrsp-tfsa-fhsa.html">
+      <span class="guide-banner-tag">Guide</span>
+      <span class="guide-banner-text"><b>RRSP vs TFSA vs FHSA: which account is right for you?</b> Limits, eligibility, pros and cons, and which to use first.</span>
+      <span class="more">Read the guide →</span>
+    </a>
     <div class="grid-3 news-grid">
 {cards}
     </div>
