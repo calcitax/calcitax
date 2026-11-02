@@ -1,5 +1,47 @@
 [
   {
+    "slug": "moving-from-canada-to-india-tax-filing-november-2026",
+    "title": "Moved from Canada to India this year? Your Canadian tax to-do list",
+    "description": "Leaving Canada for India in 2026? Here's what to file with the CRA: your final return, departure tax forms, and what happens to your accounts and benefits.",
+    "date": "2026-11-02",
+    "category": "Personal tax",
+    "body_html": "<p>If you moved from Canada to India for good in 2026, Canada still expects one more tax return from you: a \"final\" return for the part of the year you lived here.</p>\n\n<h2>Are you an \"emigrant\" for tax purposes?</h2>\n<p>Moving away is not enough on its own. The Canada Revenue Agency (CRA) treats you as an emigrant when you leave to live in another country <strong>and</strong> cut your residential ties here. Examples include giving up your Canadian home for a permanent home in India, your spouse or children leaving with you, and closing down your personal and social ties in Canada.</p>\n<p>Your date of departure usually falls on the <strong>latest</strong> of these dates:</p>\n<ul>\n<li>the day you left Canada,</li>\n<li>the day your spouse or common-law partner and dependants left, or</li>\n<li>the day you became a resident of India.</li>\n</ul>\n<p>If you kept strong ties (for example, your family stayed in Canada), you may still be a resident of Canada and the rules in this article may not apply. If you are unsure, the CRA's Form NR73, <em>Determination of Residency Status (leaving Canada)</em>, lets you ask the CRA for its view.</p>\n\n<h2>What to do now: your final Canadian return</h2>\n<p>For a 2026 move, your final return is the 2026 return. Non-residents file by April 30 of the following year (June 15 if you or your spouse carried on a business), and any balance owing is due by April 30. For a 2026 move, that means April 30, 2027.</p>\n<ul>\n<li><strong>Use the right package.</strong> File using the tax package for the province you lived in on your departure date, for example British Columbia.</li>\n<li><strong>Enter your departure date</strong> on page 1, in the \"Residence Information\" area.</li>\n<li><strong>Report world income for the resident part of the year.</strong> That means everything you earned anywhere, including in India, from January 1 to your departure date, converted to Canadian dollars.</li>\n<li><strong>After departure, report only certain Canadian income,</strong> such as Canadian employment income. Other Canadian income, such as dividends or pensions, is usually taxed through withholding instead (see below).</li>\n<li><strong>Credits may be limited</strong> for a part-year resident, and moving expenses to India are generally not deductible.</li>\n</ul>\n\n<h2>The \"departure tax\"</h2>\n<p>When you emigrate, Canada treats you as if you sold most of your property at its fair market value on the day you left, and bought it back right away. Any increase in value becomes a capital gain on your final return, even though you sold nothing. Common examples are shares and mutual funds held outside registered plans.</p>\n<p>Some property is <strong>not</strong> caught by this rule, including:</p>\n<ul>\n<li>Canadian real estate, such as a condo you keep and rent out,</li>\n<li>RRSPs, RRIFs, TFSAs, RESPs, RDSPs and pension plans, and</li>\n<li>for newer Canadians: property you already owned when you arrived (or inherited after), if you lived in Canada for 60 months or less in the 10 years before leaving.</li>\n</ul>\n<p>The forms to know:</p>\n<ul>\n<li><strong>Form T1243</strong> calculates the gains or losses from the deemed sale.</li>\n<li><strong>Form T1161</strong>, <em>List of Properties by an Emigrant of Canada</em>, is required if everything you owned when you left was worth more than <strong>$25,000</strong>. Cash, bank deposits, registered plans and personal items worth less than $10,000 each are left off the list. It is due by your filing due date, even if you don't otherwise need to file. Filing late can cost $25 a day, up to $2,500.</li>\n<li><strong>Form T1244</strong> lets you put off paying the departure tax, without interest, until you actually sell. It must be filed by April 30 of the year after you leave. If the federal tax being deferred is more than $16,500, the CRA will ask for security, so contact it before that date.</li>\n</ul>\n\n<h2>Your accounts and benefits after you leave</h2>\n<ul>\n<li><strong>Tell your Canadian bank and other payers</strong> you are now a non-resident living in India.</li>\n<li><strong>Withholding tax.</strong> Canadian pensions, CPP benefits, RRSP and RRIF withdrawals, dividends and rent paid to non-residents usually have 25% tax withheld, unless the Canada–India tax treaty lowers the rate. Interest from an arm's-length payer is generally exempt.</li>\n<li><strong>Renting out your Canadian home?</strong> You can choose to file a separate return under section 216 to pay tax on your net rental income, which may get you a refund of some withholding.</li>\n<li><strong>TFSA:</strong> you can keep it and it stays tax-free in Canada, but you cannot contribute while a non-resident and you won't get new room.</li>\n<li><strong>FHSA:</strong> you can keep it, but you cannot make a tax-free withdrawal to buy a home while you are a non-resident.</li>\n<li><strong>Home Buyers' Plan or Lifelong Learning Plan balances:</strong> special repayment rules apply when you leave, so check these before you file.</li>\n<li><strong>Benefits stop.</strong> Non-residents are generally not eligible for the Canada child benefit or the Canada Groceries and Essentials Benefit, which replaced the GST/HST credit in July 2026. Tell the CRA your departure date. If payments keep arriving, contact the CRA right away.</li>\n</ul>\n\n<h2>A checklist before April 30, 2027</h2>\n<ul>\n<li>Keep proof of your departure date (ticket, home sale or lease end, Indian address).</li>\n<li>Update your address and residency status with the CRA and your Canadian financial institutions.</li>\n<li>Get fair market values for your investments as of your departure date.</li>\n<li>File your 2026 final return, with Forms T1161, T1243 and T1244 if they apply.</li>\n<li>Remember that India has its own residency and filing rules for your income there.</li>\n</ul>",
+    "sources": [
+      {
+        "title": "CRA: Leaving Canada (emigrants)",
+        "url": "https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/individuals-leaving-entering-canada-non-residents/leaving-canada-emigrants.html"
+      },
+      {
+        "title": "CRA: Dispositions of property for emigrants of Canada",
+        "url": "https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/individuals-leaving-entering-canada-non-residents/dispositions-property.html"
+      },
+      {
+        "title": "CRA: Non-residents of Canada",
+        "url": "https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/individuals-leaving-entering-canada-non-residents/non-residents-canada.html"
+      },
+      {
+        "title": "CRA: Tax rates on RRSP withdrawals",
+        "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/making-withdrawals/tax-rates-on-withdrawals.html"
+      },
+      {
+        "title": "CRA: Non-residents and FHSAs",
+        "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/first-home-savings-account/non-residents-and-fhsas.html"
+      },
+      {
+        "title": "CRA: GST/HST credit – no longer available (replaced by the CGEB)",
+        "url": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/gst-hst-credit.html"
+      },
+      {
+        "title": "CRA: Form NR73, Determination of Residency Status (leaving Canada)",
+        "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/forms/nr73.html"
+      },
+      {
+        "title": "CRA: Due dates and payment dates – personal income tax",
+        "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/important-dates-individuals.html"
+      }
+    ]
+  },
+  {
     "slug": "cpp-ei-2027-limits-rate-cut-november-2026",
     "title": "2027 CPP and EI numbers: lower base CPP rate, higher earnings ceilings",
     "description": "CPP's base rate drops to 4.75% each for workers and employers on January 1, 2027, while the CPP and EI earnings ceilings rise. Here's what changes.",
