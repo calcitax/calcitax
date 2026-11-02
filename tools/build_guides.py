@@ -23,8 +23,8 @@ Each guide lives in content/guides/<slug>.json:
 Section html may use p, h3, ul, ol, li, strong, em, a, br, table parts and <div class="callout">.
 
 The script writes public/guides/<slug>.html for every JSON guide, regenerates public/guides/index.html
-(which also lists hand-written guides already in public/guides/) and the guide entries in
-public/sitemap.xml. Afterwards run `python3 tools/publish_article.py --rebuild` so News search
+(which also lists hand-written guides already in public/guides/), the six newest guides on the
+home page and the guide entries in public/sitemap.xml. Afterwards run `python3 tools/publish_article.py --rebuild` so News search
 picks up the guides.
 """
 import json
@@ -235,6 +235,11 @@ def main():
     entries += [f"  <url><loc>{SITE}{m['href']}</loc><lastmod>{m['updated']}</lastmod></url>" for m in metas]
     sitemap.write_text(replace_block(sitemap.read_text(), "<!-- GUIDES:START -->", "<!-- GUIDES:END -->",
                                      "\n" + "\n".join(entries) + "\n  ", sitemap))
+    # Home page: the six most recently published or updated guides.
+    home = PUBLIC / "index.html"
+    newest = sorted(metas, key=lambda m: (m["updated"], m["title"]), reverse=True)[:6]
+    home.write_text(replace_block(home.read_text(), "<!-- GUIDES:START -->", "<!-- GUIDES:END -->",
+                                  "\n" + "\n".join(index_card(m) for m in newest) + "\n      ", home))
     print(f"OK: built {len(built)} guide(s); index lists {len(metas)}.")
 
 

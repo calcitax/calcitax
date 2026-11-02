@@ -65,7 +65,7 @@ for example `bank-of-canada-raises-rate-october-2026`.
 ## Guides
 
 Evergreen guides live in `content/guides/<slug>.json` (format in the docstring of `tools/build_guides.py`).
-After adding or editing one, run `python3 tools/build_guides.py` and then
+After adding or editing one, run `python3 tools/build_guides.py` (it also refreshes the six newest guides on the home page) and then
 `python3 tools/publish_article.py --rebuild` (so News search includes it). The same accuracy and
 originality rules as news apply; set `updated` to the date the content was re-checked.
 
