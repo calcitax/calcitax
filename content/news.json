@@ -42,6 +42,44 @@
     ]
   },
   {
+    "slug": "newcomers-to-canada-first-tax-return-november-2026",
+    "title": "New to Canada in 2026? Your first-year tax and benefits checklist",
+    "description": "Moved to Canada this year? How to apply for benefits now, file your first return by April 30, 2027, and handle property and income from abroad.",
+    "date": "2026-11-02",
+    "category": "Newcomers",
+    "body_html": "<p>Welcome to Canada! If you became a resident in 2026, your first Canadian tax return is due by April 30, 2027. You don't have to wait until then to start: you can apply for family benefits as soon as you arrive. Here is what to do and what to watch for in your first year.</p>\n\n<h2>When you become a resident for tax purposes</h2>\n<p>For tax purposes, what matters is your ties to Canada, not your immigration status. The Canada Revenue Agency (CRA) looks mainly at whether you have a home, a spouse or common-law partner, and dependants here. For most newcomers, tax residency starts on the first day they live in Canada. The CRA calls that first year your \"newcomer year\".</p>\n<p>If your situation is unclear, for example you still keep a home abroad, Form NR74, <em>Determination of Residency Status (entering Canada)</em>, lets you ask the CRA for its view.</p>\n\n<h2>What to do now</h2>\n<ul>\n<li><strong>Get a Social Insurance Number (SIN)</strong> from Service Canada. It goes on your tax return. If you can't get one, the CRA can give you a temporary tax number.</li>\n<li><strong>Apply for benefits right away.</strong> You don't need to file a return first:\n<ul>\n<li><strong>No children:</strong> Form RC151, to apply for the Canada Groceries and Essentials Benefit, which replaced the GST/HST credit in July 2026.</li>\n<li><strong>Children under 18:</strong> Form RC66, <em>Canada Child Benefit Application</em>, with Form RC66SCH, <em>Status in Canada and Income Information</em>. The CCB application also covers the groceries benefit.</li>\n<li><strong>Spouse still abroad:</strong> Form CTB9 reports their income for the CCB.</li>\n</ul></li>\n<li><strong>Report your income from before you arrived.</strong> The CRA asks for your world income for up to two years before you became a resident, plus your spouse's. Canada doesn't tax this income, but it uses it to work out your benefits.</li>\n<li><strong>Write down what your assets were worth when you arrived</strong> (see below).</li>\n</ul>\n<p>Benefits can be meaningful. The CRA lists the CCB at up to $7,997 a year for each child under 6 and up to $6,748 for each child aged 6 to 17. The groceries benefit is up to $679 a year for a single person. Temporary residents may have to wait until their 19th month in Canada to receive the CCB.</p>\n\n<h2>Your first tax return</h2>\n<p>Your 2026 return is due <strong>April 30, 2027</strong>. If you or your spouse are self-employed, you have until June 15, 2027 to file, but any tax owing is still due April 30. File even if you earned little or nothing, because the CRA uses your return to calculate your benefits.</p>\n<ul>\n<li><strong>Enter your date of arrival</strong> on page 1, in the \"Residence information\" area.</li>\n<li><strong>Income after you arrive:</strong> report your world income, meaning money from inside and outside Canada (for example, rent or interest still coming from India), converted to Canadian dollars.</li>\n<li><strong>Income before you arrive:</strong> report only certain Canadian income, such as pay for work done in Canada.</li>\n<li><strong>Credits are pro-rated.</strong> Most credits, including the basic personal amount, are reduced by the share of the year you lived here. The CRA's example: someone resident for 240 days gets about 240/365 of the full amount.</li>\n<li><strong>Avoid double tax.</strong> If income from abroad is taxed in both countries, you may be able to claim a foreign tax credit on Form T2209. Canada has tax treaties with many countries to prevent double taxation.</li>\n</ul>\n\n<h2>Property you brought with you</h2>\n<p>When you become a resident, Canada treats most property you already own, such as shares, mutual funds or valuable collections, as if you bought it at its fair market value on your arrival date. That value becomes your cost for Canadian tax. If you sell later, you are taxed only on growth after you arrived. Keep a statement or valuation showing what each asset was worth on that date. Without it, proving your cost can be hard.</p>\n\n<h2>Foreign property reporting (Form T1135)</h2>\n<p>Canadian residents who own foreign assets costing more than <strong>$100,000</strong> in total at any time in a year must file Form T1135. That includes foreign bank accounts, shares of foreign companies and rental property abroad. Personal-use property, such as a holiday home you mainly use yourself, is not included.</p>\n<p>The good news: the CRA confirms you <strong>don't</strong> file Form T1135 for the year you first become a resident. From your second year onward, though, it is due with your return, and the penalties for missing it can be significant.</p>\n\n<h2>Savings accounts: RRSP and TFSA</h2>\n<ul>\n<li><strong>TFSA:</strong> you start earning room on the day you become a resident, if you are 18 or older. The 2026 limit is $7,000. You don't get room for years before you arrived.</li>\n<li><strong>RRSP:</strong> if 2026 is your first Canadian return, you generally can't deduct RRSP contributions for 2026. Your Canadian earned income in 2026 creates room for later years, and the CRA shows it on your notice of assessment.</li>\n</ul>\n\n<h2>Keep records and watch for scams</h2>\n<p>Keep your notice of assessment and supporting documents for at least six years. You will often need them for mortgages, loans and sponsorship or citizenship applications. The CRA warns that scammers target newcomers. The real CRA will never demand payment by gift card, cryptocurrency or e-transfer, and will never threaten arrest or deportation.</p>",
+    "sources": [
+      {
+        "title": "CRA: Newcomers to Canada and the CRA",
+        "url": "https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/individuals-leaving-entering-canada-non-residents/newcomers-canada-immigrants.html"
+      },
+      {
+        "title": "CRA: Completing your return for newcomers",
+        "url": "https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/individuals-leaving-entering-canada-non-residents/newcomers-canada-immigrants/completing-return-newcomers.html"
+      },
+      {
+        "title": "CRA tax tip: Taxes made simple for newcomers to Canada (March 2026)",
+        "url": "https://www.canada.ca/en/revenue-agency/news/newsroom/tax-tips/tax-tips-2026/tax-tip-taxes-made-simple-newcomers-canada.html"
+      },
+      {
+        "title": "CRA: Foreign Income Verification Statement (Form T1135)",
+        "url": "https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/information-been-moved/foreign-reporting/foreign-income-verification-statement.html"
+      },
+      {
+        "title": "CRA: Questions and answers about Form T1135",
+        "url": "https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/information-been-moved/foreign-reporting/questions-answers-about-form-t1135.html"
+      },
+      {
+        "title": "CRA: Before you contribute to a TFSA",
+        "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/contributing/before.html"
+      },
+      {
+        "title": "CRA: GST/HST credit – no longer available (replaced by the CGEB)",
+        "url": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/gst-hst-credit.html"
+      }
+    ]
+  },
+  {
     "slug": "cpp-ei-2027-limits-rate-cut-november-2026",
     "title": "2027 CPP and EI numbers: lower base CPP rate, higher earnings ceilings",
     "description": "CPP's base rate drops to 4.75% each for workers and employers on January 1, 2027, while the CPP and EI earnings ceilings rise. Here's what changes.",
