@@ -375,3 +375,9 @@ td:first-child { font-weight: 600; white-space: nowrap; }
 .news-count { font-size: 14px; margin-top: 12px; min-height: 1.4em; }
 .news-card[hidden] { display: none; }
 .news-empty { border: 1px dashed var(--line-2); border-radius: var(--radius); padding: 22px; color: var(--ink-2); }
+.guides-link { font-size: 15px; color: var(--ink-2); margin-top: 6px; }
+.guides-link a { font-weight: 600; text-decoration: none; }
+.guide-results { margin-top: 32px; }
+.guide-results-h { font-size: 22px; font-weight: 700; margin-bottom: 14px; }
+.guide-card { border-color: var(--accent); }
+.guide-tag { background: var(--accent); color: #FFFFFF !important; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; padding: 3px 8px; border-radius: 5px; }

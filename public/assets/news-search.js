@@ -5,6 +5,8 @@
   var list = document.getElementById('news-list');
   if (!input || !list) return;
   var cards = Array.prototype.slice.call(list.querySelectorAll('.news-card'));
+  var guideBox = document.getElementById('guide-results');
+  var guides = guideBox ? Array.prototype.slice.call(guideBox.querySelectorAll('.news-card')) : [];
   var chips = Array.prototype.slice.call(document.querySelectorAll('.chip'));
   var count = document.getElementById('news-count');
   var empty = document.getElementById('news-empty');
@@ -15,7 +17,7 @@
   }
   // Text available before search.json loads: what is on the card itself.
   var cardText = {};
-  cards.forEach(function (c) { cardText[c.dataset.slug] = norm(c.textContent); });
+  cards.concat(guides).forEach(function (c) { cardText[c.dataset.slug] = norm(c.textContent); });
 
   function loadIndex() {
     if (index || loading) return loading;
@@ -42,9 +44,19 @@
       c.hidden = !ok;
       if (ok) shown++;
     });
-    empty.hidden = shown !== 0;
+    // Guides have no topic; they appear only when someone types a search.
+    var guideShown = 0;
+    guides.forEach(function (g) {
+      var hay = (index && index[g.dataset.slug]) || cardText[g.dataset.slug] || '';
+      var ok = words.length > 0 && words.every(function (w) { return hay.indexOf(w) !== -1; });
+      g.hidden = !ok;
+      if (ok) guideShown++;
+    });
+    if (guideBox) guideBox.hidden = guideShown === 0;
+    empty.hidden = shown + guideShown !== 0;
     if (words.length || cat) {
       count.textContent = shown + (shown === 1 ? ' article' : ' articles') +
+        (guideShown ? ' and ' + guideShown + (guideShown === 1 ? ' guide' : ' guides') : '') +
         (cat ? ' in ' + cat : '') + (words.length ? ' matching “' + input.value.trim() + '”' : '');
     } else {
       count.textContent = '';

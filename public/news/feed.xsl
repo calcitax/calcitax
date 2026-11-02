@@ -20,6 +20,7 @@
             </a>
             <nav class="nav" aria-label="Main">
               <a href="/news/">News</a>
+              <a href="/guides/">Guides</a>
               <a class="btn btn-primary" href="/contact.html">Free consultation</a>
             </nav>
           </div>

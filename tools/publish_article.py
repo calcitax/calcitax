@@ -139,6 +139,7 @@ HEAD = """<!doctype html>
       <a href="/tax-dates.html">Tax Dates</a>
       <a href="/forms.html">Client Forms</a>
       <a href="/news/" aria-current="page">News</a>
+      <a href="/guides/">Guides</a>
       <a class="btn btn-primary" href="/contact.html">Free consultation</a>
     </nav>
   </div>
@@ -194,11 +195,42 @@ def plain_text(body_html):
     return re.sub(r"\s+", " ", html.unescape(text)).strip()
 
 
-def search_index(articles):
+def load_guides():
+    """Read the hand-written guides in public/guides/ so the News page can offer them in search."""
+    guides = []
+    for path in sorted((PUBLIC / "guides").glob("*.html")):
+        if path.name == "index.html":
+            continue
+        page = path.read_text()
+        h1 = re.search(r"<h1[^>]*>(.*?)</h1>", page, re.S)
+        desc = re.search(r'<meta name="description" content="([^"]*)"', page)
+        main = re.search(r"<main[^>]*>(.*?)</main>", page, re.S)
+        if not (h1 and main):
+            continue
+        guides.append({"slug": "guide-" + path.stem, "url": f"/guides/{path.name}",
+                       "title": plain_text(h1.group(1)),
+                       "description": html.unescape(desc.group(1)) if desc else "",
+                       "text": plain_text(re.sub(r"<(script|style)[^>]*>.*?</\1>", " ", main.group(1), flags=re.S))})
+    return guides
+
+
+def search_index(articles, guides=()):
     """Small JSON file the News page loads (only when someone starts typing) to search article text."""
-    return json.dumps([{"slug": a["slug"], "title": a["title"], "description": a["description"],
-                        "category": a["category"], "date": a["date"], "text": plain_text(a["body_html"])}
-                       for a in articles], ensure_ascii=False, separators=(",", ":"))
+    items = [{"slug": a["slug"], "title": a["title"], "description": a["description"],
+              "category": a["category"], "date": a["date"], "text": plain_text(a["body_html"])}
+             for a in articles]
+    items += [{"slug": g["slug"], "title": g["title"], "description": g["description"],
+               "category": "Guide", "text": g["text"]} for g in guides]
+    return json.dumps(items, ensure_ascii=False, separators=(",", ":"))
+
+
+def guide_card(g):
+    return f"""      <a class="card news-card guide-card" href="{g['url']}" data-slug="{esc(g['slug'])}" data-kind="guide">
+        <p class="news-meta"><span class="guide-tag">Guide</span></p>
+        <h3>{esc(g['title'])}</h3>
+        <p>{esc(g['description'])}</p>
+        <span class="more">Read the guide →</span>
+      </a>"""
 
 
 def related_articles(a, articles, n=3):
@@ -289,7 +321,7 @@ def article_page(a, related):
 """ + FOOT.format(year=a["date"][:4]))
 
 
-def news_index(articles):
+def news_index(articles, guides=()):
     cards = "\n".join(card(a) for a in articles) or '      <p class="lead">Articles are coming soon.</p>'
     present = {a["category"] for a in articles}
     cats = [c for c in CATEGORY_ORDER if c in present] + sorted(present - set(CATEGORY_ORDER))
@@ -307,8 +339,18 @@ def news_index(articles):
 {chips}
       </div>
       <p class="news-count muted" id="news-count" role="status" aria-live="polite"></p>
+      <p class="guides-link">Looking for in-depth explainers? <a href="/guides/">Browse our guides →</a></p>
     </div>
 """ if articles else ""
+    guide_block = ""
+    if guides:
+        guide_block = ("""    <div class="guide-results" id="guide-results" hidden>
+      <h2 class="guide-results-h">Guides</h2>
+      <div class="grid-3 news-grid">
+""" + "\n".join(guide_card(g) for g in guides) + """
+      </div>
+    </div>
+""")
     return (HEAD.format(title="Accounting, Tax &amp; Finance News | Calcitax Advisors",
                         description="Plain-language news on Canadian tax, CRA updates, interest rates and the economy, and what it means for individuals and small businesses in Metro Vancouver.",
                         url=f"{SITE}/news/", og_type="website", og_title="News | Calcitax Advisors", extra_head="")
@@ -325,14 +367,10 @@ def news_index(articles):
 
 <section class="section">
   <div class="wrap">
-    <a class="guide-banner" href="/guides/rrsp-tfsa-fhsa.html">
-      <span class="guide-banner-tag">Guide</span>
-      <span class="guide-banner-text"><b>RRSP vs TFSA vs FHSA: which account is right for you?</b> Limits, eligibility, pros and cons, and which to use first.</span>
-      <span class="more">Read the guide →</span>
-    </a>
 {finder}    <div class="grid-3 news-grid" id="news-list">
 {cards}
     </div>
+{guide_block}
     <div class="news-empty" id="news-empty" hidden>
       <p><b>No articles match your search.</b> Try a shorter word, pick another topic, or <a href="/contact.html">ask us your question directly</a>.</p>
     </div>
@@ -433,8 +471,9 @@ def rebuild(articles):
     news_dir.mkdir(exist_ok=True)
     for i, a in enumerate(articles):
         (news_dir / f"{a['slug']}.html").write_text(article_page(a, related_articles(a, articles)))
-    (news_dir / "index.html").write_text(news_index(articles))
-    (news_dir / "search.json").write_text(search_index(articles) + "\n")
+    guides = load_guides()
+    (news_dir / "index.html").write_text(news_index(articles, guides))
+    (news_dir / "search.json").write_text(search_index(articles, guides) + "\n")
     (news_dir / "feed.xml").write_text(rss(articles))
     (news_dir / "subscribe.html").write_text(subscribe_page())
 
