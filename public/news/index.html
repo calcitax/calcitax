@@ -55,49 +55,69 @@
       <span class="guide-banner-text"><b>RRSP vs TFSA vs FHSA: which account is right for you?</b> Limits, eligibility, pros and cons, and which to use first.</span>
       <span class="more">Read the guide →</span>
     </a>
-    <div class="grid-3 news-grid">
-      <a class="card news-card" href="/news/moving-from-canada-to-india-tax-filing-november-2026.html">
+    <div class="news-finder" role="search">
+      <label class="sr-only" for="news-q">Search news articles</label>
+      <div class="search-box">
+        <svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="M20 20l-4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <input id="news-q" type="search" placeholder="Search articles, e.g. RRSP, CPP, newcomers" autocomplete="off">
+      </div>
+      <div class="chips" aria-label="Filter by topic">
+        <button type="button" class="chip" data-cat="" aria-pressed="true">All topics</button>
+        <button type="button" class="chip" data-cat="Personal tax" aria-pressed="false">Personal tax</button>
+        <button type="button" class="chip" data-cat="Business tax" aria-pressed="false">Business tax</button>
+        <button type="button" class="chip" data-cat="Economy" aria-pressed="false">Economy</button>
+        <button type="button" class="chip" data-cat="Payroll" aria-pressed="false">Payroll</button>
+        <button type="button" class="chip" data-cat="Newcomers" aria-pressed="false">Newcomers</button>
+      </div>
+      <p class="news-count muted" id="news-count" role="status" aria-live="polite"></p>
+    </div>
+    <div class="grid-3 news-grid" id="news-list">
+      <a class="card news-card" href="/news/moving-from-canada-to-india-tax-filing-november-2026.html" data-slug="moving-from-canada-to-india-tax-filing-november-2026" data-category="Personal tax">
         <p class="news-meta"><span>Personal tax</span> · <time datetime="2026-11-02">November 2, 2026</time></p>
         <h2>Moved from Canada to India this year? Your Canadian tax to-do list</h2>
         <p>Leaving Canada for India in 2026? Here&#x27;s what to file with the CRA: your final return, departure tax forms, and what happens to your accounts and benefits.</p>
         <span class="more">Read more →</span>
       </a>
-      <a class="card news-card" href="/news/newcomers-to-canada-first-tax-return-november-2026.html">
+      <a class="card news-card" href="/news/newcomers-to-canada-first-tax-return-november-2026.html" data-slug="newcomers-to-canada-first-tax-return-november-2026" data-category="Newcomers">
         <p class="news-meta"><span>Newcomers</span> · <time datetime="2026-11-02">November 2, 2026</time></p>
         <h2>New to Canada in 2026? Your first-year tax and benefits checklist</h2>
         <p>Moved to Canada this year? How to apply for benefits now, file your first return by April 30, 2027, and handle property and income from abroad.</p>
         <span class="more">Read more →</span>
       </a>
-      <a class="card news-card" href="/news/cpp-ei-2027-limits-rate-cut-november-2026.html">
+      <a class="card news-card" href="/news/cpp-ei-2027-limits-rate-cut-november-2026.html" data-slug="cpp-ei-2027-limits-rate-cut-november-2026" data-category="Payroll">
         <p class="news-meta"><span>Payroll</span> · <time datetime="2026-11-01">November 1, 2026</time></p>
         <h2>2027 CPP and EI numbers: lower base CPP rate, higher earnings ceilings</h2>
         <p>CPP&#x27;s base rate drops to 4.75% each for workers and employers on January 1, 2027, while the CPP and EI earnings ceilings rise. Here&#x27;s what changes.</p>
         <span class="more">Read more →</span>
       </a>
-      <a class="card news-card" href="/news/cra-pre-filled-tax-return-october-31-deadline-2026.html">
+      <a class="card news-card" href="/news/cra-pre-filled-tax-return-october-31-deadline-2026.html" data-slug="cra-pre-filled-tax-return-october-31-deadline-2026" data-category="Personal tax">
         <p class="news-meta"><span>Personal tax</span> · <time datetime="2026-10-31">October 31, 2026</time></p>
         <h2>CRA&#x27;s new pre-filled tax return: set up your account by October 31</h2>
         <p>About one million Canadians will be invited to file a pre-filled 2026 return in March 2027. To qualify, your CRA account must be set up by October 31, 2026.</p>
         <span class="more">Read more →</span>
       </a>
-      <a class="card news-card" href="/news/bank-of-canada-raises-rate-october-2026.html">
+      <a class="card news-card" href="/news/bank-of-canada-raises-rate-october-2026.html" data-slug="bank-of-canada-raises-rate-october-2026" data-category="Economy">
         <p class="news-meta"><span>Economy</span> · <time datetime="2026-10-31">October 31, 2026</time></p>
         <h2>Bank of Canada raises its rate to 2.5%: what it means for you</h2>
         <p>The Bank of Canada raised its policy rate on October 28, 2026, its first increase since 2023, citing higher energy prices and stubborn inflation.</p>
         <span class="more">Read more →</span>
       </a>
-      <a class="card news-card" href="/news/cra-updates-for-small-businesses-october-2026.html">
+      <a class="card news-card" href="/news/cra-updates-for-small-businesses-october-2026.html" data-slug="cra-updates-for-small-businesses-october-2026" data-category="Business tax">
         <p class="news-meta"><span>Business tax</span> · <time datetime="2026-10-31">October 31, 2026</time></p>
         <h2>CRA updates for small businesses: online debt payments, Apple Pay and more</h2>
         <p>Business owners can now manage payroll, GST/HST and corporate tax debts online, and pay the CRA with Apple Pay or Google Pay. Here&#x27;s what&#x27;s new this fall.</p>
         <span class="more">Read more →</span>
       </a>
     </div>
+    <div class="news-empty" id="news-empty" hidden>
+      <p><b>No articles match your search.</b> Try a shorter word, pick another topic, or <a href="/contact.html">ask us your question directly</a>.</p>
+    </div>
     <p class="notice">Want new articles as soon as they're published? <a href="/news/subscribe.html">See how to follow our news</a>.</p>
   </div>
 </section>
 
 </main>
+<script src="/assets/news-search.js" defer></script>
 
 <footer class="site-footer">
   <div class="wrap">

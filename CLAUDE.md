@@ -12,7 +12,7 @@ Do not change the forms, the Worker or other pages unless the task asks for it.
 1. Write the article as JSON (see the docstring in `tools/publish_article.py` for the format)
    in a scratch location outside `public/`.
 2. Run `python3 tools/publish_article.py path/to/article.json`. It validates the article and
-   regenerates `public/news/`, the RSS feed, the home page "Latest news" block and the sitemap.
+   regenerates `public/news/` (including the `search.json` index used by the News page search), the RSS feed, the home page "Latest news" block and the sitemap.
    Never hand-edit those generated files; change `content/news.json` and run `--rebuild` instead.
 3. Commit with a clear message and push to `main`.
 4. After 2-3 minutes, confirm `https://calcitax.com/news/<slug>.html` returns the new article.

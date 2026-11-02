@@ -20,7 +20,8 @@ The script:
   * validates the article,
   * stores it in content/news.json (the registry, newest first),
   * writes public/news/<slug>.html,
-  * regenerates public/news/index.html, public/news/feed.xml,
+  * regenerates public/news/index.html (with search and topic filters), public/news/search.json,
+    public/news/feed.xml,
     the "Latest news" block on public/index.html and the news entries in public/sitemap.xml.
 """
 import datetime as dt
@@ -184,8 +185,32 @@ FOOT = """
 """
 
 
+CATEGORY_ORDER = ["Personal tax", "Business tax", "CRA updates", "Economy", "Deadlines", "Payroll",
+                  "GST/HST", "Newcomers", "Accounting"]
+
+
+def plain_text(body_html):
+    text = re.sub(r"<[^>]+>", " ", body_html)
+    return re.sub(r"\s+", " ", html.unescape(text)).strip()
+
+
+def search_index(articles):
+    """Small JSON file the News page loads (only when someone starts typing) to search article text."""
+    return json.dumps([{"slug": a["slug"], "title": a["title"], "description": a["description"],
+                        "category": a["category"], "date": a["date"], "text": plain_text(a["body_html"])}
+                       for a in articles], ensure_ascii=False, separators=(",", ":"))
+
+
+def related_articles(a, articles, n=3):
+    """Same-category articles first (newest first), then the latest articles to fill the row."""
+    others = [r for r in articles if r["slug"] != a["slug"]]
+    same = [r for r in others if r["category"] == a["category"]]
+    rest = [r for r in others if r["category"] != a["category"]]
+    return (same + rest)[:n]
+
+
 def card(a, heading="h2"):
-    return f"""      <a class="card news-card" href="/news/{a['slug']}.html">
+    return f"""      <a class="card news-card" href="/news/{a['slug']}.html" data-slug="{esc(a['slug'])}" data-category="{esc(a['category'])}">
         <p class="news-meta"><span>{esc(a['category'])}</span> · <time datetime="{a['date']}">{nice_date(a['date'])}</time></p>
         <{heading}>{esc(a['title'])}</{heading}>
         <p>{esc(a['description'])}</p>
@@ -214,8 +239,9 @@ def article_page(a, related):
         for s in sorted_sources(a["sources"]))
     related_html = ""
     if related:
+        heading = ("Related articles" if any(r["category"] == a["category"] for r in related) else "More news")
         related_html = ("\n<section class=\"section tint\" aria-labelledby=\"more-news\">\n  <div class=\"wrap\">\n"
-                        "    <h2 class=\"h2\" id=\"more-news\">More news</h2>\n    <div class=\"grid-3 news-grid\">\n"
+                        f"    <h2 class=\"h2\" id=\"more-news\">{heading}</h2>\n    <div class=\"grid-3 news-grid\">\n"
                         + "\n".join(card(r, "h3") for r in related)
                         + "\n    </div>\n  </div>\n</section>\n")
     updated = ""
@@ -265,6 +291,24 @@ def article_page(a, related):
 
 def news_index(articles):
     cards = "\n".join(card(a) for a in articles) or '      <p class="lead">Articles are coming soon.</p>'
+    present = {a["category"] for a in articles}
+    cats = [c for c in CATEGORY_ORDER if c in present] + sorted(present - set(CATEGORY_ORDER))
+    chips = "\n".join(
+        f'        <button type="button" class="chip" data-cat="{esc(c)}" aria-pressed="false">{esc(c)}</button>'
+        for c in cats)
+    finder = f"""    <div class="news-finder" role="search">
+      <label class="sr-only" for="news-q">Search news articles</label>
+      <div class="search-box">
+        <svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="M20 20l-4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <input id="news-q" type="search" placeholder="Search articles, e.g. RRSP, CPP, newcomers" autocomplete="off">
+      </div>
+      <div class="chips" aria-label="Filter by topic">
+        <button type="button" class="chip" data-cat="" aria-pressed="true">All topics</button>
+{chips}
+      </div>
+      <p class="news-count muted" id="news-count" role="status" aria-live="polite"></p>
+    </div>
+""" if articles else ""
     return (HEAD.format(title="Accounting, Tax &amp; Finance News | Calcitax Advisors",
                         description="Plain-language news on Canadian tax, CRA updates, interest rates and the economy, and what it means for individuals and small businesses in Metro Vancouver.",
                         url=f"{SITE}/news/", og_type="website", og_title="News | Calcitax Advisors", extra_head="")
@@ -286,14 +330,18 @@ def news_index(articles):
       <span class="guide-banner-text"><b>RRSP vs TFSA vs FHSA: which account is right for you?</b> Limits, eligibility, pros and cons, and which to use first.</span>
       <span class="more">Read the guide →</span>
     </a>
-    <div class="grid-3 news-grid">
+{finder}    <div class="grid-3 news-grid" id="news-list">
 {cards}
+    </div>
+    <div class="news-empty" id="news-empty" hidden>
+      <p><b>No articles match your search.</b> Try a shorter word, pick another topic, or <a href="/contact.html">ask us your question directly</a>.</p>
     </div>
     <p class="notice">Want new articles as soon as they're published? <a href="/news/subscribe.html">See how to follow our news</a>.</p>
   </div>
 </section>
 
 </main>
+<script src="/assets/news-search.js" defer></script>
 """ + FOOT.format(year=dt.date.today().year))
 
 
@@ -384,9 +432,9 @@ def rebuild(articles):
     news_dir = PUBLIC / "news"
     news_dir.mkdir(exist_ok=True)
     for i, a in enumerate(articles):
-        related = [r for r in articles if r["slug"] != a["slug"]][:3]
-        (news_dir / f"{a['slug']}.html").write_text(article_page(a, related))
+        (news_dir / f"{a['slug']}.html").write_text(article_page(a, related_articles(a, articles)))
     (news_dir / "index.html").write_text(news_index(articles))
+    (news_dir / "search.json").write_text(search_index(articles) + "\n")
     (news_dir / "feed.xml").write_text(rss(articles))
     (news_dir / "subscribe.html").write_text(subscribe_page())
 
