@@ -393,3 +393,11 @@ td:first-child { font-weight: 600; white-space: nowrap; }
 .guide-table table { min-width: 560px; font-size: 15px; }
 .guide-table td:first-child { white-space: normal; }
 .guide-table th, .guide-table td { padding: 12px 16px; }
+
+/* Team photos */
+.team-photo { display: block; width: 120px; height: 120px; border-radius: 50%; object-fit: cover; border: 3px solid var(--accent-soft); margin-bottom: 14px; background: var(--bg-tint); }
+.team-faces { display: flex; flex-wrap: wrap; gap: 20px 32px; margin: 4px 0 28px; }
+.team-faces figure { display: flex; align-items: center; gap: 14px; margin: 0; }
+.team-face { display: block; width: 72px; height: 72px; border-radius: 50%; object-fit: cover; border: 2px solid var(--mint); }
+.team-faces figcaption { font-weight: 600; color: #FFFFFF; line-height: 1.3; }
+.team-faces figcaption span { display: block; font-weight: 400; font-size: 14px; color: var(--navy-text); }
