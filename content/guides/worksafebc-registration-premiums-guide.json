@@ -1,0 +1,136 @@
+{
+ "slug": "worksafebc-registration-premiums-guide",
+ "title": "WorkSafeBC for small businesses: registering, reporting and paying",
+ "seo_title": "WorkSafeBC for Small Businesses: Registration & Premiums (2026)",
+ "description": "Who must register with WorkSafeBC, coverage for owners, how premiums work, payroll reporting due dates, clearance letters and penalties, explained simply.",
+ "topic": "Payroll",
+ "audience": "business",
+ "updated": "2026-11-02",
+ "published": "2026-11-02",
+ "lead": "If you hire even one worker in B.C., you need WorkSafeBC coverage. Here's who must register, what it costs, when to report and pay, and how to stay out of trouble with contractors and penalties.",
+ "figures_for": "2026",
+ "key_points": [
+  "If your business hires and pays workers in B.C., full-time, part-time, casual or contract, you must register with WorkSafeBC.",
+  "Sole proprietors and partners aren't automatically covered; they can buy optional Personal Coverage.",
+  "Premiums are a rate per $100 of payroll that depends on your industry; the 2026 average base rate is $1.55.",
+  "Each worker's earnings count only up to $127,500 for 2026 ($130,800 for 2027).",
+  "Small employers usually report and pay once a year in early March; larger ones report quarterly.",
+  "Get clearance letters before and after using contractors, and report injuries within three days."
+ ],
+ "sections": [
+  {
+   "id": "what-it-is",
+   "heading": "What WorkSafeBC is and why it matters",
+   "html": "<p>WorkSafeBC is British Columbia's workers' compensation board. Employers pay premiums into a shared insurance system. If a worker is hurt or becomes ill because of their job, WorkSafeBC pays benefits such as health care and wage-loss payments.</p>\n<p>For a business owner, this means two separate jobs:</p>\n<ul>\n<li><strong>Insurance:</strong> register, report your payroll and pay premiums on time.</li>\n<li><strong>Health and safety:</strong> keep your workplace safe and report injuries and certain incidents.</li>\n</ul>\n<p>WorkSafeBC is separate from the CRA. Opening a CRA payroll account and paying CPP and EI is a different job from registering with WorkSafeBC and paying its premiums.</p>"
+  },
+  {
+   "id": "who-must-register",
+   "heading": "Who must register",
+   "html": "<p>The basic rule is simple: if your business hires and pays one or more workers in B.C., you must register for WorkSafeBC coverage. It doesn't matter whether the work is full-time, part-time, casual or on contract. All employers need coverage unless they are exempt.</p>\n<p>An \"employer\" can be a self-employed sole proprietor, a partnership, a corporation, a society or another legal entity. Once you are registered, all your workers are covered, including:</p>\n<ul>\n<li>part-time and casual staff,</li>\n<li>some contractors who are really working as your workers (see \"Hiring contractors\" below), and</li>\n<li>your children, if they work for your business and are paid by it.</li>\n</ul>\n<p>Some situations people often miss:</p>\n<ul>\n<li><strong>Your spouse in a sole proprietorship.</strong> If your spouse is a paid worker in your proprietorship, WorkSafeBC says they are <em>not</em> covered automatically. You can apply for spousal coverage separately.</li>\n<li><strong>Owners of a corporation.</strong> Shareholders, directors and officers who actively work in their company are treated as workers of that company. The corporation generally needs to be registered so they are covered. If a company that should be registered isn't, and a shareholder is injured, the claim can be rejected.</li>\n<li><strong>Hiring help at home.</strong> Homeowners and renters who hire workers, for example a nanny or caregiver, may also need to register. WorkSafeBC's application covers this case.</li>\n</ul>\n<div class=\"callout\"><p><strong>Not sure?</strong> Apply anyway. WorkSafeBC reviews each application and tells you in writing whether you need coverage. If it decides you're not eligible, you'll get a letter explaining why.</p></div>"
+  },
+  {
+   "id": "owners",
+   "heading": "Coverage for you as the owner",
+   "html": "<p>Registering your business covers your workers. It may not cover <em>you</em>.</p>\n<ul>\n<li><strong>Sole proprietors and partners</strong> are usually not covered automatically. You can buy optional <strong>Personal Coverage</strong> (formerly called Personal Optional Protection), whether or not you have workers.</li>\n<li><strong>Owners of an incorporated company</strong> who work in the business can't buy Personal Coverage, because the company is the employer and the owner counts as its worker. Their protection comes through the company's registration.</li>\n</ul>\n<p>With Personal Coverage you choose a monthly coverage amount. Your monthly premium is that amount multiplied by the premium rate for your type of business. WorkSafeBC's own example: at a 3.87% rate, $3,100 of monthly coverage costs $119.97 a month. If you're injured at work, benefits can include health care, wage-loss payments (generally 90% of the coverage amount you chose, less deductions), rehabilitation and return-to-work help.</p>\n<p>Coverage starts the day WorkSafeBC receives your completed application, or on a later date you choose. It continues until you or WorkSafeBC cancel it, and it is cancelled if premiums aren't paid on time. WorkSafeBC doesn't mail payment reminders, so pre-authorized payments are a good idea.</p>\n<div class=\"callout\"><p><strong>Why clients may ask:</strong> WorkSafeBC warns that if someone hires a contractor who has declined Personal Coverage and that contractor is hurt on the job, the hirer could face a lawsuit. Expect some clients to ask you for proof of coverage.</p></div>"
+  },
+  {
+   "id": "register",
+   "heading": "How to register",
+   "html": "<p>Most businesses apply online through WorkSafeBC's website. You create an online services profile, and the application saves as you go. WorkSafeBC says it takes about 20 minutes, and you get a confirmation number by email. You can also use the paper Employer's Registration Application (Form 1800), but that can be slower.</p>\n<p>Have this ready:</p>\n<table>\n<thead><tr><th>If you are a...</th><th>You'll typically need</th></tr></thead>\n<tbody>\n<tr><td>Corporation</td><td>CRA business number, mailing and work site addresses, start date, what you sell with revenue estimates, shareholder details, and estimated payroll</td></tr>\n<tr><td>Sole proprietor or partnership</td><td>Owners' legal names, contact details and birthdates, CRA business number, mailing and B.C. work addresses, start date, number of workers, estimated pay, and business vehicles and equipment</td></tr>\n<tr><td>Homeowner or renter hiring help</td><td>Your legal name, contact details and birthdate, the start date of your first worker, the B.C. work location and estimated pay</td></tr>\n</tbody>\n</table>\n<p>WorkSafeBC says it can take about 10 business days to review an application. It recommends applying <strong>at least 30 days before</strong> you start your business or hire your first worker. Your confirmation letter shows the date your coverage starts and your premium rate.</p>"
+  },
+  {
+   "id": "premiums",
+   "heading": "How premiums are calculated",
+   "html": "<p>Your premium is a rate per $100 of <strong>assessable payroll</strong>, which is basically the wages you pay to your workers.</p>\n<ul>\n<li><strong>Your rate depends on your industry.</strong> WorkSafeBC sorts businesses into 512 \"classification units\" of similar businesses, grouped into 55 rate groups. Each group's rate reflects the cost of injuries in that kind of work, so rates differ by industry.</li>\n<li><strong>The 2026 average base rate is $1.55 per $100 of payroll</strong>, unchanged from 2025. Your own rate can be higher or lower.</li>\n<li><strong>Earnings are capped per worker.</strong> WorkSafeBC assesses each person's earnings only up to the maximum wage rate: <strong>$127,500 for 2026</strong> and <strong>$130,800 for 2027</strong>. Anything a worker earns above that isn't assessable.</li>\n</ul>\n<p>Assessable payroll includes wages and salaries paid to workers, including what you pay to working shareholders. It also includes payments to contractors who count as your workers and to unregistered subcontractors. Since January 1, 2026, the only tips that count are ones you can verify from your own records, such as tips paid through electronic payments or shown on a T4. You no longer need to track cash tips for WorkSafeBC.</p>\n<p><strong>A simple illustration:</strong> if your industry rate were the 2026 average of $1.55 and your payroll for the year were $100,000, your premium would be about $1,550 ($100,000 ÷ 100 × $1.55). Check your own rate in your WorkSafeBC account.</p>"
+  },
+  {
+   "id": "report-pay",
+   "heading": "Reporting payroll and paying premiums",
+   "html": "<p>How often you report depends on the size of your premiums:</p>\n<ul>\n<li><strong>Annual reporters:</strong> employers expecting premiums under $2,000 a year generally report and pay once a year.</li>\n<li><strong>Quarterly reporters:</strong> employers expecting $2,000 or more a year, or in certain industries where quarterly reporting is mandatory, report and pay every three months, then file a year-end reconciliation.</li>\n</ul>\n<table>\n<thead><tr><th>Report</th><th>Covers</th><th>Due</th></tr></thead>\n<tbody>\n<tr><td>Annual payroll report and payment</td><td>January–December</td><td>Early March: one of March 3, 5, 7, 9 or 11. WorkSafeBC emails your date in January.</td></tr>\n<tr><td>Quarter 1</td><td>January–March</td><td>April 20</td></tr>\n<tr><td>Quarter 2</td><td>April–June</td><td>July 20</td></tr>\n<tr><td>Quarter 3</td><td>July–September</td><td>October 20</td></tr>\n<tr><td>Quarter 4</td><td>October–December</td><td>January 20</td></tr>\n<tr><td>Annual reconciliation (quarterly reporters)</td><td>January–December</td><td>February 28</td></tr>\n</tbody>\n</table>\n<p>You report and pay through WorkSafeBC's employer online services. If you don't have an online account, \"Fast File &amp; Pay\" handles basic reporting for the current and previous year. You can pay by credit card (up to $10,000 per account every 30 days), direct debit, at your bank (allow five days) or by cheque.</p>\n<p>It helps to keep your T4 totals, WorkSafeBC payroll report and bookkeeping in step, so the numbers are easy to check.</p>"
+  },
+  {
+   "id": "penalties",
+   "heading": "Penalties and what happens if you don't register",
+   "html": "<ul>\n<li><strong>Late reports or payments</strong> can attract a penalty. The minimum penalty is $50.</li>\n<li><strong>Unpaid balances</strong> are charged a 1% overdue penalty each month.</li>\n<li><strong>Under-reporting payroll</strong> or under-paying premiums can mean an 8% penalty.</li>\n<li><strong>Not registering</strong> when you should is against the law. If an uncovered worker (including a shareholder) is injured or becomes ill from work, you could have to pay both the claim costs and the premiums you should have paid.</li>\n</ul>\n<p>WorkSafeBC reduces or cancels penalties only for extraordinary reasons, so it's far cheaper to register early and file on time.</p>"
+  },
+  {
+   "id": "contractors",
+   "heading": "Hiring contractors: workers, independent operators and clearance letters",
+   "html": "<p>Calling someone a \"contractor\" doesn't decide how WorkSafeBC sees them. A contractor is likely <strong>your worker</strong> if they don't run an independent business, for example if they supply only their labour, supply labour plus minor materials, or work regular hours for you on an ongoing basis. In that case you pay premiums for them.</p>\n<p>A contractor looks more like an <strong>independent operator</strong> if they have several clients, advertise to the public and bring their own major equipment.</p>\n<p>Even when you hire a properly registered contractor, you could be liable for premiums tied to their work for you if they fall behind on their WorkSafeBC payments. The protection is a <strong>clearance letter</strong>:</p>\n<ul>\n<li>It shows whether the contractor is registered and in good standing.</li>\n<li>WorkSafeBC recommends getting one <strong>before and after</strong> the contractor works for you.</li>\n<li>You can request letters online by the firm's WorkSafeBC account number or exact legal or trade name, for up to 150 firms at once. You can also sign up for email alerts when a contractor's status changes.</li>\n<li>Before buying another business's assets, contact WorkSafeBC first: if the seller owes premiums, WorkSafeBC may have a lien on those assets.</li>\n</ul>\n<p>Also remember that a contractor may be registered for their workers but not have Personal Coverage for themselves. WorkSafeBC can't tell you this for privacy reasons, so ask the contractor for proof.</p>"
+  },
+  {
+   "id": "injuries",
+   "heading": "When someone gets hurt, and your safety duties",
+   "html": "<ul>\n<li><strong>Report a workplace injury or illness to WorkSafeBC within three days</strong> of the incident.</li>\n<li><strong>Get the worker to medical care</strong> and pay for that transportation.</li>\n<li><strong>Certain incidents must be reported immediately</strong>, even if nobody was hurt, and you must send WorkSafeBC a full investigation report within 30 days.</li>\n<li><strong>Keep the workplace safe.</strong> Employers must follow the <em>Workers Compensation Act</em> and the Occupational Health and Safety Regulation.</li>\n<li><strong>Tell WorkSafeBC about changes right away</strong>, such as closing the business, changing from a proprietorship to a corporation, or new contact details.</li>\n</ul>\n<div class=\"callout\"><p><strong>Incorporating?</strong> A change in your legal entity, such as moving from a sole proprietorship to a corporation, is one of the changes WorkSafeBC wants to hear about right away.</p></div>"
+  },
+  {
+   "id": "checklist",
+   "heading": "Checklist and common mistakes",
+   "html": "<p><strong>Before your first hire</strong></p>\n<ul>\n<li>Apply to WorkSafeBC at least 30 days before your first worker starts.</li>\n<li>Decide whether you want Personal Coverage for yourself (sole proprietors and partners).</li>\n<li>Note your premium rate and whether you're an annual or quarterly reporter.</li>\n</ul>\n<p><strong>Every year</strong></p>\n<ul>\n<li>Report payroll and pay by your due date. Cap each worker at the maximum wage rate.</li>\n<li>Get clearance letters before and after using contractors, and keep copies.</li>\n<li>Tell WorkSafeBC about business changes.</li>\n</ul>\n<p><strong>Common mistakes</strong></p>\n<ul>\n<li>Assuming a CRA payroll account also registers you with WorkSafeBC.</li>\n<li>Forgetting working shareholders or family members in payroll.</li>\n<li>Treating workers as contractors to avoid premiums.</li>\n<li>Paying an unregistered subcontractor without a clearance letter.</li>\n<li>Reporting injuries late, or not at all.</li>\n</ul>"
+  }
+ ],
+ "cta_heading": "Want help with WorkSafeBC?",
+ "cta_text": "We can register your business, keep your WorkSafeBC payroll in step with your T4s and bookkeeping, and file your annual or quarterly reports on time.",
+ "sources": [
+  {
+   "title": "Who does and doesn't need coverage? (WorkSafeBC)",
+   "url": "https://www.worksafebc.com/en/insurance/need-coverage/who-needs-coverage"
+  },
+  {
+   "title": "I hire and pay workers (WorkSafeBC)",
+   "url": "https://www.worksafebc.com/en/insurance/need-coverage/who-needs-coverage/hire-pay-workers"
+  },
+  {
+   "title": "Owners of incorporated companies (WorkSafeBC)",
+   "url": "https://www.worksafebc.com/en/insurance/need-coverage/who-needs-coverage/owners-incorporated-companies"
+  },
+  {
+   "title": "Personal Coverage (WorkSafeBC)",
+   "url": "https://www.worksafebc.com/en/insurance/need-coverage/optional-coverage/personal-optional-protection"
+  },
+  {
+   "title": "Apply for coverage (WorkSafeBC)",
+   "url": "https://www.worksafebc.com/en/insurance/apply-for-coverage"
+  },
+  {
+   "title": "2026 premium rates (WorkSafeBC)",
+   "url": "https://www.worksafebc.com/en/insurance/know-coverage-costs/industry-premium-rates/2026-rates"
+  },
+  {
+   "title": "Compensation-related maximum wage rates (WorkSafeBC)",
+   "url": "https://www.worksafebc.com/en/law-policy/claims-rehabilitation/compensation-related-maximum-wage-rates"
+  },
+  {
+   "title": "Report payroll and pay premiums (WorkSafeBC)",
+   "url": "https://www.worksafebc.com/en/insurance/manage-account/report-payroll-pay-premiums"
+  },
+  {
+   "title": "Tips and assessable payroll, media backgrounder, May 2026 (WorkSafeBC)",
+   "url": "https://www.worksafebc.com/resources/about-us/news-and-events/backgrounders/tips-assessable-payroll?lang=en&direct="
+  },
+  {
+   "title": "Dates and deadlines (WorkSafeBC)",
+   "url": "https://www.worksafebc.com/en/insurance/manage-account/report-payroll-pay-premiums/date-deadlines"
+  },
+  {
+   "title": "Assessment penalties (WorkSafeBC)",
+   "url": "https://www.worksafebc.com/en/insurance/manage-account/report-payroll-pay-premiums/assessment-penalties"
+  },
+  {
+   "title": "Consequences of not registering (WorkSafeBC)",
+   "url": "https://www.worksafebc.com/en/insurance/need-coverage/consequences-not-registering"
+  },
+  {
+   "title": "Contractors and subcontractors (WorkSafeBC)",
+   "url": "https://www.worksafebc.com/en/insurance/need-coverage/who-needs-coverage/contractors-subcontractors"
+  },
+  {
+   "title": "Get a clearance letter (WorkSafeBC)",
+   "url": "https://www.worksafebc.com/en/insurance/why-clearance-letter/get-clearance-letter"
+  },
+  {
+   "title": "Learn about employers' responsibilities (WorkSafeBC)",
+   "url": "https://www.worksafebc.com/en/insurance/need-coverage/employers-responsibilities"
+  }
+ ]
+}
