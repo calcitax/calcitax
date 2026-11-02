@@ -61,3 +61,10 @@ Payroll, GST/HST, Newcomers, Accounting.
 
 **Slug.** Lowercase words joined by hyphens, describing the topic, ending with month and year,
 for example `bank-of-canada-raises-rate-october-2026`.
+
+## Guides
+
+Evergreen guides live in `content/guides/<slug>.json` (format in the docstring of `tools/build_guides.py`).
+After adding or editing one, run `python3 tools/build_guides.py` and then
+`python3 tools/publish_article.py --rebuild` (so News search includes it). The same accuracy and
+originality rules as news apply; set `updated` to the date the content was re-checked.

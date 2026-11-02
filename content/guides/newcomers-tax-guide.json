@@ -1,0 +1,127 @@
+{
+ "slug": "newcomers-tax-guide",
+ "title": "New to Canada? Your first-year tax guide",
+ "seo_title": "Newcomers to Canada: First-Year Tax Guide (2026)",
+ "description": "When tax residency starts, benefits to apply for, your first return, property you bring, T1135, and TFSA and RRSP room for newcomers to Canada.",
+ "topic": "Newcomers",
+ "audience": "individuals",
+ "lead": "Your first year in Canada brings a new tax system, new forms and new benefits. This guide walks you through what to do, from the day you arrive to your first tax return and beyond.",
+ "figures_for": "2026",
+ "key_points": [
+  "For most newcomers, tax residency starts the day you settle in Canada with ties such as a home or family here.",
+  "Apply for benefits like the Canada Groceries and Essentials Benefit and Canada child benefit right away, without waiting for a tax return.",
+  "On your first return, report world income only from your residency date, and expect some credits to be reduced for the part year.",
+  "Property you own on arrival gets a new cost equal to its value that day, so keep proof of that value.",
+  "You don't file Form T1135 in your first year, but from the second year you must if your foreign assets cost more than $100,000.",
+  "TFSA room starts from your residency date ($7,000 for 2026), and RRSP room builds once you report Canadian earned income."
+ ],
+ "sections": [
+  {
+   "id": "residency",
+   "heading": "When you become a Canadian resident for tax",
+   "html": "<p>For tax, what matters is your <strong>residency</strong>, not your immigration status. Your permit or PR card shows whether you can live, work or study here. Your tax residency decides what Canada can tax. For most newcomers, tax residency starts on the first day you live in Canada.</p> <p>The CRA looks at your <strong>residential ties</strong>, the links between your life and Canada:</p> <ul> <li><strong>Significant ties:</strong> a home in Canada, a spouse or common-law partner in Canada, and dependants (such as children) in Canada.</li> <li><strong>Secondary ties:</strong> personal property like a car or furniture, social ties, economic ties such as a Canadian bank account or credit card, a Canadian driver's licence, and provincial health insurance.</li> </ul> <p>This applies to permanent residents, work and study permit holders, and protected persons alike. A student or worker on a temporary permit can still be a full tax resident if they have set up their life here.</p> <p>Someone who has no significant ties but stays in Canada for 183 days or more in a year can be a <strong>deemed resident</strong>. If you are unsure of your status, you can ask the CRA for its opinion using <strong>Form NR74</strong>, <em>Determination of Residency Status (entering Canada)</em>. Most people with a home and family here won't need it.</p>"
+  },
+  {
+   "id": "sin",
+   "heading": "Your SIN, or a temporary tax number",
+   "html": "<p>A <strong>Social Insurance Number (SIN)</strong> is a nine-digit number you need to work, get benefits and credits, and open most bank accounts. You apply through Service Canada. Keep it private: only give it to employers, banks and government when they truly need it.</p> <p>If Service Canada can't give you a SIN, the CRA can issue a <strong>temporary tax number (TTN)</strong>. You send your benefit application or tax return without a SIN, attach a letter explaining why, and you can include certified copies of identity documents to speed things up. A TTN lets you apply for benefits, file returns and register for a CRA account.</p> <p>Once you have a SIN or TTN, <strong>register for a CRA account</strong> (My Account). It shows your benefits, notices and limits, and lets you send information online.</p>"
+  },
+  {
+   "id": "benefits",
+   "heading": "Apply for benefits before your first tax return",
+   "html": "<p>Many newcomers miss months of payments because they wait for their first tax return. You don't have to wait. You can apply as soon as you are a resident.</p> <h3>Which form to use</h3> <table> <thead><tr><th>Your situation</th><th>What to send</th></tr></thead> <tbody> <tr><td>No children</td><td><strong>RC151</strong> web form online, for the Canada Groceries and Essentials Benefit</td></tr> <tr><td>Children under 19, not applying for CCB</td><td>Paper <strong>RC151</strong> by mail to your tax centre, with proof of birth for each child</td></tr> <tr><td>Children under 18 and eligible for the Canada child benefit</td><td><strong>RC66</strong> plus <strong>RC66SCH</strong> (status in Canada and income). RC66 also covers the groceries benefit, so you don't need RC151</td></tr> <tr><td>Getting CCB with a spouse or partner who was a non-resident for part or all of the year</td><td>Their income through the online Statement of Income, or <strong>Form CTB9</strong></td></tr> </tbody> </table> <h3>The benefits</h3> <ul> <li><strong>Canada Groceries and Essentials Benefit (CGEB):</strong> a tax-free payment made four times a year to people with low and modest incomes. It replaced the GST/HST credit in July 2026. Only one application is needed per household.</li> <li><strong>Canada child benefit (CCB):</strong> a tax-free monthly payment for children under 18. You or your spouse must be a citizen, permanent resident, protected person (with a positive decision from the Immigration and Refugee Board) or temporary resident. Temporary residents can qualify from the <strong>19th month</strong> after living in Canada for the previous 18 months, with a valid permit in that 19th month. Refugee claimants who hold only a Refugee Protection Claimant Document aren't eligible.</li> <li><strong>B.C. family benefit:</strong> once your child is registered for the CCB and you file returns, BC automatically pays this benefit together with your CCB each month. No separate application is needed.</li> </ul> <h3>Reporting your income from before you arrived</h3> <p>Benefits are based on family income, so the CRA asks for your (and your spouse's) world income for up to <strong>two years before you became a resident</strong>. You report it on a <strong>Statement of Income (SOI)</strong>, even if the amount was zero. Convert amounts to Canadian dollars using the Bank of Canada exchange rate on the date you received the income. You can send it online through My Account (it updates right away), by mail or by phone.</p> <p>Reporting this income doesn't mean Canada taxes it. Income you earned abroad before becoming a resident isn't subject to Canadian tax.</p> <p>Have these ready: marital status, date of entry, immigration documents, proof of birth for children, and income details. Documents not in English or French need a copy of the original and an acceptable translation.</p> <div class=\"callout\"><strong>Keep your payments going.</strong> If you are on a temporary permit, send the CRA your new permit before the current one expires, or proof that you applied to extend it. Tell the CRA right away about changes, such as a child moving out.</div>"
+  },
+  {
+   "id": "first-return",
+   "heading": "Filing your first tax return",
+   "html": "<h3>When it's due</h3> <p>You file your first return for the year you arrive, by the usual deadline in the following spring. For example, someone who arrived in 2025 filed their 2025 return by April 30, 2026. The deadline is <strong>April 30</strong> of the next year, or <strong>June 15</strong> if you or your spouse is self-employed (any tax owing is still due April 30). File every year after that, even with no income: it keeps your benefits flowing.</p> <h3>Your date of entry</h3> <p>On page 1 of the return, you enter the date you became a resident for tax. Example: if you arrived and set up significant ties on June 8, you enter it as month and day, \"0608\".</p> <h3>What income to report</h3> <ul> <li><strong>After you became a resident:</strong> your <strong>world income</strong>, from Canada and every other country, in Canadian dollars. That includes rent from a flat back home, interest on a foreign bank deposit and foreign dividends.</li> <li><strong>Before you became a resident:</strong> only certain Canadian income, such as pay for work done in Canada, business income from a business carried on in Canada, and taxable gains on taxable Canadian property.</li> </ul> <p>Protected persons generally don't report money received from a charity or individual while they were non-residents, but wages from a charity are taxable.</p> <h3>Credits are reduced for a part year</h3> <p>Many non-refundable credits, such as the <strong>basic personal amount</strong> (the income you can earn before paying federal tax), are cut in proportion to the days you were a resident. The formula is days resident divided by 365. If you became a resident on July 1, you get roughly half the full amount.</p> <p>Some credits aren't reduced for the resident period. These include CPP and EI contributions, the Canada employment amount, tuition, medical expenses, donations, student loan interest and the home buyers' amount. For your months before arrival, extra credits apply only if your Canadian income was at least 90% of your net world income for that time.</p> <h3>Avoiding double tax</h3> <ul> <li><strong>Foreign tax credit:</strong> if another country also taxed income you report in Canada, you may claim a <strong>federal foreign tax credit</strong> on <strong>Form T2209</strong>. Provinces have similar credits.</li> <li><strong>Tax treaties:</strong> Canada has tax treaties with many countries that decide which country can tax which income. Some foreign income that a treaty exempts (certain pensions, for example) is still reported, then deducted on line 25600.</li> </ul> <h3>Other first-year points</h3> <ul> <li>You use the BC tax forms if you lived in BC on December 31.</li> <li>Moving expenses to Canada generally aren't deductible, except for certain full-time students with taxable Canadian scholarships.</li> <li>Spousal or child support you pay may be deductible even if the recipient lives abroad.</li> <li>Keep receipts and records for at least six years after you file.</li> </ul>"
+  },
+  {
+   "id": "property",
+   "heading": "Property you owned when you arrived",
+   "html": "<p>When you become a resident, the CRA treats most property you already own, such as shares, jewellery, paintings or collections, as if you <strong>sold it and bought it back</strong> at its <strong>fair market value (FMV)</strong> on the day your residency started. FMV is the price it would sell for between unrelated people.</p> <p>That value becomes your <strong>cost base</strong> for Canadian tax. When you later sell, give away or lose the property, Canada taxes only the gain after you arrived.</p> <p><strong>Example:</strong> you bought shares abroad for $10,000. They were worth $30,000 when you arrived, and you sell them years later for $40,000. For Canadian tax, your gain starts from $30,000, so it is $10,000, not $30,000.</p> <div class=\"callout\"><strong>Get proof of value now.</strong> Save broker statements, bank balances and, for property like real estate, a valuation as of your arrival date. Finding these years later is hard, and without them you may be taxed on gains made before you came.</div>"
+  },
+  {
+   "id": "foreign-property",
+   "heading": "Reporting foreign assets: Form T1135",
+   "html": "<p><strong>Form T1135</strong>, the foreign income verification statement, tells the CRA about money and investments you hold outside Canada.</p> <ul> <li><strong>Not in your first year.</strong> You don't file T1135 for the tax year you first became a resident.</li> <li><strong>From the second year,</strong> you must file it if the total <strong>cost</strong> of your specified foreign property was more than <strong>$100,000</strong> at any time in the year. For property you owned on arrival, the cost is its FMV on the day you became a resident.</li> <li><strong>What counts:</strong> foreign bank accounts and deposits, shares of foreign companies (even held through a Canadian broker), foreign rental property, and land held as an investment.</li> <li><strong>What doesn't count:</strong> property used mainly for personal use (such as a family home abroad you use yourself), personal items like jewellery and art, and investments inside your RRSP or TFSA.</li> </ul> <p><strong>Example:</strong> a $75,000 fixed deposit abroad plus $35,000 of foreign shares totals $110,000, so T1135 is required, even if you cashed some out before December 31.</p> <p>T1135 is due with your tax return. Penalties can apply for filing late or leaving things out, so don't skip it.</p>"
+  },
+  {
+   "id": "savings",
+   "heading": "TFSA and RRSP room for newcomers",
+   "html": "<h3>Tax-Free Savings Account (TFSA)</h3> <p>Your TFSA room starts building on the day you become a resident, if you are 18 or older. You get the full yearly limit for the year you arrive, even for a part year, but no room for years before you lived here. <strong>For 2026, the limit is $7,000.</strong> So an adult who became a resident in September 2026 has $7,000 of room for 2026, not the total since 2009.</p> <p>Over-contributing is costly, so check your room in My Account before you put in large amounts.</p> <h3>Registered Retirement Savings Plan (RRSP)</h3> <p>RRSP room comes from <strong>earned income</strong> (mainly salary and self-employment income) reported on a Canadian return: generally 18% of the previous year's earned income, up to a yearly maximum. Because you have no Canadian return yet, you generally can't deduct RRSP contributions in your first year of filing. Your room appears after your first return is assessed.</p>"
+  },
+  {
+   "id": "records-scams",
+   "heading": "Notices of assessment and CRA scams",
+   "html": "<h3>Keep every notice of assessment</h3> <p>After you file, the CRA sends a <strong>notice of assessment (NOA)</strong>, a summary of your return and any refund or balance. Banks, landlords and immigration programs often ask for it, and it shows your RRSP limit. Save a PDF copy each year from My Account.</p> <h3>Watch for scams</h3> <p>Newcomers are frequent targets of fake \"CRA\" calls and texts. The real CRA will never:</p> <ul> <li>threaten to arrest or deport you, or send you to prison;</li> <li>demand immediate payment by Interac e-transfer, gift cards, prepaid credit cards or cryptocurrency;</li> <li>send refunds or benefits by e-transfer or text message;</li> <li>contact you through WhatsApp, Facebook Messenger or other messaging apps;</li> <li>ask for personal or financial information by email or voicemail.</li> </ul> <div class=\"callout\"><strong>If in doubt, hang up.</strong> Sign in to My Account, or find the CRA's phone number on canada.ca and call yourself. Report scams to your local police and the Canadian Anti-Fraud Centre.</div>"
+  },
+  {
+   "id": "checklist",
+   "heading": "Your first-year checklist",
+   "html": "<ol> <li>Note your <strong>date of arrival</strong> and when you set up ties (home, family, bank account).</li> <li>Get your <strong>SIN</strong> (or a TTN) and register for <strong>My Account</strong>.</li> <li>Apply for benefits: <strong>RC151</strong>, or <strong>RC66</strong> and <strong>RC66SCH</strong> if you have children.</li> <li>Report your world income for the <strong>two years before arrival</strong> (Statement of Income or CTB9).</li> <li>Record the <strong>value of everything you owned</strong> on arrival, with proof.</li> <li>Keep records of foreign income and foreign tax paid after you arrived.</li> <li>File your first return by <strong>April 30</strong> of the next year, with your entry date.</li> <li>From the second year, check whether your foreign assets cost more than <strong>$100,000</strong> (T1135).</li> <li>Check TFSA and RRSP room in My Account before contributing.</li> <li>Save every notice of assessment, and ignore threatening \"CRA\" calls.</li> </ol> <p>A newcomer's first return is one of the trickier ones to get right. A tax professional can help, especially if you have income or property abroad.</p>"
+  }
+ ],
+ "cta_heading": "Just arrived in Canada?",
+ "cta_text": "We help newcomers apply for benefits, report pre-arrival income, value property brought to Canada and file a correct first return, including foreign tax credits and T1135 where needed.",
+ "sources": [
+  {
+   "title": "Newcomers to Canada and the CRA (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/individuals-leaving-entering-canada-non-residents/newcomers-canada-immigrants.html"
+  },
+  {
+   "title": "Completing your tax return as a newcomer (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/individuals-leaving-entering-canada-non-residents/newcomers-canada-immigrants/completing-return-newcomers.html"
+  },
+  {
+   "title": "Determining your residency status (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/information-been-moved/determining-your-residency-status.html"
+  },
+  {
+   "title": "Form NR74, Determination of Residency Status (entering Canada) (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/forms/nr74.html"
+  },
+  {
+   "title": "Canada Groceries and Essentials Benefit (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-groceries-essentials-benefit.html"
+  },
+  {
+   "title": "Canada child benefit: who can apply (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/who-apply.html"
+  },
+  {
+   "title": "British Columbia programs: B.C. family benefit (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/provincial-territorial-programs/province-british-columbia.html"
+  },
+  {
+   "title": "B.C. family benefit (Government of British Columbia)",
+   "url": "https://www2.gov.bc.ca/gov/content/family-social-supports/affordability/family-benefit"
+  },
+  {
+   "title": "Questions and answers about Form T1135 (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/information-been-moved/foreign-reporting/questions-answers-about-form-t1135.html"
+  },
+  {
+   "title": "TFSA: before you contribute (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/contributing/before.html"
+  },
+  {
+   "title": "TFSA: non-residents of Canada (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/non-resident.html"
+  },
+  {
+   "title": "How contributions affect your RRSP deduction limit (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/contributing-a-rrsp-prpp/contributions-affect-your-rrsp-prpp-deduction-limit.html"
+  },
+  {
+   "title": "Important dates for individuals (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/important-dates-individuals.html"
+  },
+  {
+   "title": "Recognize a scam (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/corporate/scams-fraud/recognize-scam.html"
+  }
+ ],
+ "updated": "2026-11-02",
+ "published": "2026-11-02"
+}

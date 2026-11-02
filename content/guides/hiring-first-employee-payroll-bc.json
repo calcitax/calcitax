@@ -1,0 +1,191 @@
+{
+ "slug": "hiring-first-employee-payroll-bc",
+ "title": "Hiring your first employee in BC: payroll made simple",
+ "seo_title": "Hiring Your First Employee in BC: Payroll Guide (2026)",
+ "description": "Set up payroll for your first BC employee: CRA payroll account, CPP and EI for 2026 and 2027, remittance deadlines, T4s, ROEs, WorkSafeBC and BC pay rules.",
+ "topic": "Payroll",
+ "audience": "business",
+ "lead": "Hiring your first employee is a big step, and it comes with new duties: deducting and sending CPP, EI and income tax, following BC's employment rules, and filing slips at year-end. Here's what to do, in order.",
+ "figures_for": "2026",
+ "key_points": [
+  "Check the worker is truly an employee; the CRA looks at control, tools, financial risk and chance of profit, not just the contract.",
+  "Open a CRA payroll (RP) account before your first remittance is due, and register with WorkSafeBC when you hire.",
+  "For 2026 you match the employee's CPP and pay 1.4 times their EI premium; the base CPP rate drops from 4.95% to 4.75% each on January 1, 2027.",
+  "Most new employers remit by the 15th of the following month; late remittances over $500 carry penalties of 3% to 10%.",
+  "BC requires at least $18.25 an hour (since June 1, 2026), pay at least twice a month, and 4% vacation pay after 5 days.",
+  "File T4 slips by the end of February and issue a Record of Employment when someone leaves or stops being paid."
+ ],
+ "sections": [
+  {
+   "id": "employee-or-contractor",
+   "heading": "Employee or contractor? Get this right first",
+   "html": "<p>Before you set up payroll, make sure the person really is an employee. Calling someone a contractor does not make them one. The CRA looks at the whole working relationship in two steps.</p> <ol> <li><strong>What did you both intend?</strong> A written contract helps show this, but it is not the final word.</li> <li><strong>Do the facts match?</strong> The CRA looks at who controls the work and the hours, who supplies the tools and equipment, whether the worker can hire helpers, whether the worker takes on financial risk and has invested in their own business, and whether they can make a profit or loss.</li> </ol> <p><em>Example:</em> A shop assistant who works the hours you set, uses your till and is paid by the hour is almost certainly an employee. A bookkeeper who serves several clients, sets their own schedule, uses their own software and sends you invoices is more likely self-employed.</p> <p>If you get it wrong, you may face penalties for not deducting CPP, EI and income tax. If you are unsure, you or the worker can ask the CRA for a ruling through your CRA account or with Form CPT1. The request must be made by June 29 of the year after the year in question.</p>"
+  },
+  {
+   "id": "set-up",
+   "heading": "Set up your accounts before the first payday",
+   "html": "<h3>1. A CRA payroll account</h3> <p>You need a <strong>payroll program account</strong> with the CRA. It is attached to your business number (BN) and ends in \"RP\". If you already have a BN (for example, for GST), add the payroll account to it rather than getting a new BN. You can register online through the CRA's Business Registration Online service or by mailing Form RC1.</p> <p>You must open the payroll account before your first remittance is due. That is normally the 15th of the month after the month you first take deductions off a pay cheque.</p> <h3>2. WorkSafeBC</h3> <p>In BC, if your business hires one or more workers, whether full-time, part-time, casual or on contract, you must register with <strong>WorkSafeBC</strong> for workers' compensation coverage. If you are a sole proprietor and your spouse works for you, note that they are not automatically covered.</p> <h3>3. BC Employer Health Tax (usually not yet)</h3> <p>BC's Employer Health Tax only applies once your total BC payroll for the year is over <strong>$1,000,000</strong>. A business hiring its first employee will almost always be below that, so you don't need to register. Keep it in mind as you grow.</p>"
+  },
+  {
+   "id": "new-hire",
+   "heading": "Paperwork for a new employee",
+   "html": "<ul> <li><strong>Social Insurance Number (SIN):</strong> the employee must give you their SIN within 3 days of starting work. Check that the name and number are correct, since mistakes can affect their future CPP benefits. You can be charged a $100 penalty if you don't make a reasonable effort to get it.</li> <li><strong>Temporary SINs starting with 9:</strong> these are common for newcomers on work or study permits. They expire with the immigration document, so check the expiry date and ask for an updated document when needed.</li> <li><strong>Form TD1 (federal):</strong> every new employee fills one out. It tells you which tax credits they are claiming, which affects how much tax you deduct.</li> <li><strong>Form TD1BC (provincial):</strong> needed if the employee claims more than the basic personal amount.</li> </ul> <p>Keep the TD1 forms on file; do not send them to the CRA. If an employee doesn't give you a TD1, deduct tax as if they claim only the basic personal amount. Employees only need a new form when their credits change, and should give it to you within 7 days of that change.</p> <p>Also put the job offer, pay rate, hours and start date in writing. It avoids disagreements later.</p>"
+  },
+  {
+   "id": "deductions",
+   "heading": "Payroll deductions: CPP, EI and income tax",
+   "html": "<p>Each payday you take three main deductions off the employee's gross pay, and you add your own employer share on top.</p> <h3>Canada Pension Plan (CPP)</h3> <p>For 2026, the employee pays 5.95% of pensionable earnings above a $3,500 yearly basic exemption, up to the year's maximum pensionable earnings (YMPE) of $74,600. The most an employee pays is $4,230.45, and <strong>you pay the same amount again</strong> as the employer.</p> <p><strong>CPP2</strong> (the second additional contribution) applies to earnings between $74,600 and $85,000 in 2026, at 4% each for employee and employer. It only matters for employees earning more than $74,600.</p> <h3>Employment Insurance (EI)</h3> <p>For 2026, the employee rate is $1.63 per $100 of insurable earnings, up to maximum insurable earnings of $68,900. <strong>As the employer, you pay 1.4 times</strong> the employee's premium.</p> <h3>Changes for 2027</h3> <table> <thead><tr><th></th><th>2026</th><th>2027</th></tr></thead> <tbody> <tr><td>Base CPP rate (each of employee and employer)</td><td>4.95%</td><td>4.75%</td></tr> <tr><td>YMPE (first CPP ceiling)</td><td>$74,600</td><td>$76,700</td></tr> <tr><td>YAMPE (CPP2 ceiling)</td><td>$85,000</td><td>$87,400</td></tr> <tr><td>EI employee rate per $100</td><td>$1.63</td><td>$1.64</td></tr> <tr><td>EI maximum insurable earnings</td><td>$68,900</td><td>$70,800</td></tr> </tbody> </table> <p>The cut to the base CPP rate, from January 1, 2027, was passed into law in 2026. Check the CRA's CPP page for the full 2027 rates and maximums, and make sure your payroll software or calculator is updated for January.</p> <h3>Income tax</h3> <p>You also deduct federal and BC income tax, based on the employee's pay and their TD1 forms. The easiest way is the CRA's free <strong>Payroll Deductions Online Calculator (PDOC)</strong>, which works out CPP, EI and federal and provincial tax for each pay. Payroll software does the same. Use the current version: BC's tax withholding changed part-way through 2026, from July 1.</p> <p><em>Example:</em> If your employee earns $2,000 in a pay period, you deduct their CPP, EI and income tax from that $2,000 and pay them the rest. You then send the CRA those deductions plus your matching CPP and your EI share (1.4 times theirs).</p>"
+  },
+  {
+   "id": "remitting",
+   "heading": "Sending deductions to the CRA (remitting)",
+   "html": "<p>The money you deduct belongs to the government. You hold it in trust and must send it, with your employer share, by the due date.</p> <ul> <li><strong>Regular remitters:</strong> due by the <strong>15th of the month after</strong> you paid the employee. Wages paid in March are due April 15.</li> <li><strong>New small employers:</strong> if your payroll account has been open less than 12 months, your monthly withholdings are under $1,000, and you have a perfect compliance record on all your payroll and GST/HST accounts, you can remit quarterly: by April 15, July 15, October 15 and January 15. Check your CRA statement of account for the schedule that applies to you.</li> <li>If a due date falls on a weekend or public holiday, payment is on time if it arrives the next business day.</li> </ul> <h3>Penalties</h3> <p>Late remittances over $500 attract a penalty based on how late they are:</p> <table> <thead><tr><th>How late</th><th>Penalty</th></tr></thead> <tbody> <tr><td>1 to 3 days</td><td>3%</td></tr> <tr><td>4 or 5 days</td><td>5%</td></tr> <tr><td>6 or 7 days</td><td>7%</td></tr> <tr><td>More than 7 days, or not remitted</td><td>10%</td></tr> </tbody> </table> <p>Repeated late payments in the same year that are knowing or grossly negligent can face 20%. Separately, if you fail to deduct CPP, EI or tax at all, the CRA can charge 10% of what you should have deducted. Interest, compounded daily, is added too.</p> <div class=\"callout\"><strong>Tip:</strong> remit when you run payroll rather than waiting for the deadline. A missed quarterly payment can also cost you quarterly remitting status.</div>"
+  },
+  {
+   "id": "bc-rules",
+   "heading": "BC employment standards basics",
+   "html": "<p>BC's Employment Standards Act sets minimum rules for most employees. The key ones for a new employer:</p> <ul> <li><strong>Minimum wage:</strong> the general minimum wage is $18.25 an hour since June 1, 2026. It goes up each year in line with BC inflation.</li> <li><strong>Paydays:</strong> pay employees at least twice a month, and within 8 days after the end of each pay period. A pay period can be no longer than 16 days.</li> <li><strong>Vacation pay:</strong> after 5 calendar days of employment, employees earn vacation pay of at least 4% of their total wages, rising to 6% after 5 consecutive years. They also earn 2 weeks of vacation after 12 months, and 3 weeks after 5 years. Vacation pay is due at least 7 days before the vacation, or on each pay cheque if you both agree in writing.</li> <li><strong>Statutory holidays:</strong> BC has 11: New Year's Day, Family Day, Good Friday, Victoria Day, Canada Day, B.C. Day, Labour Day, National Day for Truth and Reconciliation, Thanksgiving, Remembrance Day and Christmas Day. An employee qualifies for stat holiday pay (an average day's pay) after being employed for 30 calendar days and working or earning wages on 15 of the 30 days before the holiday.</li> </ul> <p>There are other rules on overtime, breaks, leaves and ending employment. If something is unclear, check the BC Employment Standards Branch.</p>"
+  },
+  {
+   "id": "benefits",
+   "heading": "Taxable benefits in brief",
+   "html": "<p>Pay isn't only wages. If you give an employee something of personal value, it may be a <strong>taxable benefit</strong> that you must add to their income on payroll and on their T4.</p> <ul> <li>Common examples: personal use of a company car, free or cheap housing, and allowances or reimbursements for personal expenses.</li> <li><strong>Cash benefits</strong> (paid by cheque or direct deposit) are subject to CPP, EI and income tax.</li> <li><strong>Non-cash benefits</strong> are generally subject to CPP and income tax, but not EI.</li> <li>Reasonable reimbursements of business travel costs are generally not taxable. A cell phone you own and provide for work is not a taxable benefit, but paying for the employee's own phone is.</li> </ul> <p>The CRA's Guide T4130 covers the details for each type of benefit.</p>"
+  },
+  {
+   "id": "year-end",
+   "heading": "Year-end slips and when someone leaves",
+   "html": "<h3>T4 slips</h3> <p>After each calendar year, prepare a <strong>T4 slip</strong> for each employee showing their pay and deductions, and a <strong>T4 Summary</strong> of the totals. File them with the CRA and give each employee their copy. The deadline is the last day of February. For 2026 pay, that is February 28, 2027, which is a Sunday, so filing by Monday, March 1, 2027 is on time. If you have more than 5 slips, you must file electronically.</p> <h3>Record of Employment (ROE)</h3> <p>When an employee stops working for you or has an <strong>interruption of earnings</strong> (generally 7 days in a row with no work and no pay, such as a layoff or quitting), you must issue a <strong>Record of Employment</strong> to Service Canada. They use it to decide EI benefits. Issue one even if the employee doesn't plan to apply for EI.</p> <ul> <li>Electronic ROE (through ROE Web or payroll software): for weekly, every-two-weeks or twice-a-month pay, within 5 calendar days after the end of the pay period in which the interruption happened.</li> <li>Paper ROE: within 5 calendar days of the interruption, or of when you learn about it.</li> </ul>"
+  },
+  {
+   "id": "mistakes-checklist",
+   "heading": "Records, common mistakes and a checklist",
+   "html": "<h3>Records to keep</h3> <p>Keep payroll records (hours, pay, deductions, TD1 forms, remittances, T4s and ROEs) for at least 6 years after the year they relate to, at your business or home in Canada. BC's Employment Standards Act also requires payroll records for each employee.</p> <h3>Common mistakes to avoid</h3> <ul> <li>Treating a worker as a contractor when the facts point to employment.</li> <li>Forgetting the employer share of CPP and EI when budgeting for a new hire.</li> <li>Paying remittances late, even by a day or two.</li> <li>Using an out-of-date calculator or tables after rates change on January 1.</li> <li>Paying only once a month, which breaks BC's twice-a-month rule.</li> <li>Forgetting vacation pay or stat holiday pay.</li> <li>Not registering with WorkSafeBC once you hire.</li> </ul> <h3>Checklist for your first hire</h3> <ol> <li>Confirm the worker is an employee, not a contractor.</li> <li>Open a CRA payroll (RP) account and register with WorkSafeBC.</li> <li>Collect the SIN, TD1 and (if needed) TD1BC.</li> <li>Choose payroll software or use PDOC, and set at least twice-monthly paydays.</li> <li>Pay at least BC minimum wage, plus vacation and stat holiday pay.</li> <li>Remit deductions plus your share by the 15th of the next month (or quarterly, if eligible).</li> <li>Issue T4s by the end of February and an ROE when employment ends.</li> </ol> <p>If you'd rather not handle payroll yourself, a tax professional can help set it up correctly from the first pay.</p>"
+  }
+ ],
+ "cta_heading": "Want help setting up payroll?",
+ "cta_text": "Calcitax Advisors can help you register your payroll account, set up deductions and paydays correctly, handle remittances, and prepare T4 slips and Records of Employment.",
+ "sources": [
+  {
+   "title": "Employee or Self-employed? RC4110 (Canada Revenue Agency)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/rc4110/employee-self-employed.html"
+  },
+  {
+   "title": "Determine if you need to register for a payroll account (Canada Revenue Agency)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/open-manage-payroll-account/determine-need-register.html"
+  },
+  {
+   "title": "Register as a resident with a Canadian business (Canada Revenue Agency)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/registering-your-business/business-registration-online-overview.html"
+  },
+  {
+   "title": "Get the social insurance number (SIN) from the individual (Canada Revenue Agency)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/set-up-new-employee/social-insurance-number.html"
+  },
+  {
+   "title": "Get the completed TD1 forms from the individual (Canada Revenue Agency)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/set-up-new-employee/filing-form-td1.html"
+  },
+  {
+   "title": "CPP contribution rates, maximums and exemptions (Canada Revenue Agency)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/canada-pension-plan-cpp/cpp-contribution-rates-maximums-exemptions.html"
+  },
+  {
+   "title": "Canada Pension Plan (CPP) and the CPP enhancement (Canada Revenue Agency)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/canada-pension-plan-cpp/cpp-enhancement.html"
+  },
+  {
+   "title": "Contributions to the Canada Pension Plan (Government of Canada)",
+   "url": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/contributions.html"
+  },
+  {
+   "title": "What's new – Savings and pension plan administration (Canada Revenue Agency)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/whats-new.html"
+  },
+  {
+   "title": "Canada Pension Plan – Amendments not in force (Justice Laws Website)",
+   "url": "https://www.laws-lois.justice.gc.ca/eng/acts/C-8/nifnev.html"
+  },
+  {
+   "title": "Spring Economic Update 2026, Chapter 2 (Finance Canada)",
+   "url": "https://budget.canada.ca/update-miseajour/2026/report-rapport/chap2-en.html"
+  },
+  {
+   "title": "33rd Actuarial Report supplementing the Revised 32nd Actuarial Report on the CPP (Office of the Chief Actuary)",
+   "url": "https://www.osfi-bsif.gc.ca/en/oca/actuarial-reports/33rd-actuarial-report-supplementing-revised-32nd-actuarial-report-canada-pension-plan"
+  },
+  {
+   "title": "Summary of the 2027 Actuarial Report on the Employment Insurance Premium Rate (Employment and Social Development Canada)",
+   "url": "https://www.canada.ca/en/employment-social-development/programs/ei/ei-list/reports/premium/rates2027.html"
+  },
+  {
+   "title": "EI premium rates and maximums (Canada Revenue Agency)",
+   "url": "https://cra-arc.gc.ca/tx/bsnss/tpcs/pyrll/clcltng/ei/cnt-chrt-pf-eng.html"
+  },
+  {
+   "title": "Payroll Deductions Online Calculator (Canada Revenue Agency)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/e-services/e-services-businesses/payroll-deductions-online-calculator.html"
+  },
+  {
+   "title": "Types of remitters (Canada Revenue Agency)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/remitting-source-deductions/how-when-remit-more-information.html"
+  },
+  {
+   "title": "When to remit (pay) (Canada Revenue Agency)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/remitting-source-deductions/how-when-remit-due-dates.html"
+  },
+  {
+   "title": "T4001 Employers' Guide – Payroll Deductions and Remittances (Canada Revenue Agency)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4001/employers-guide-payroll-deductions-remittances.html"
+  },
+  {
+   "title": "T4130 Employers' Guide – Taxable Benefits and Allowances (Canada Revenue Agency)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4130/employers-guide-taxable-benefits-allowances.html"
+  },
+  {
+   "title": "2026 Tax deadlines for Canadian businesses and self-employed individuals (Government of Canada)",
+   "url": "https://www.canada.ca/en/services/taxes/resources-for-small-and-medium-businesses/2026-tax-deadlines-canadian-businesses-self-employed-individuals.html"
+  },
+  {
+   "title": "How to complete the Record of Employment (ROE) form (Employment and Social Development Canada)",
+   "url": "https://www.canada.ca/en/employment-social-development/programs/ei/ei-list/reports/roe-guide.html"
+  },
+  {
+   "title": "Where to keep your records, for how long and how to request the permission to destroy them early (Canada Revenue Agency)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/keeping-records/where-keep-your-records-long-request-permission-destroy-them-early.html"
+  },
+  {
+   "title": "Minimum wage (Government of British Columbia)",
+   "url": "https://www2.gov.bc.ca/gov/content/employment-business/employment-standards-advice/employment-standards/wages/minimum-wage"
+  },
+  {
+   "title": "Paydays – Act Part 3, Section 17 (Government of British Columbia)",
+   "url": "https://www2.gov.bc.ca/gov/content/employment-business/employment-standards-advice/employment-standards/forms-resources/igm/esa-part-3-section-17"
+  },
+  {
+   "title": "Vacation Pay – Act Part 7, Section 58 (Government of British Columbia)",
+   "url": "https://www2.gov.bc.ca/gov/content/employment-business/employment-standards-advice/employment-standards/forms-resources/igm/esa-part-7-section-58"
+  },
+  {
+   "title": "Statutory holidays (Government of British Columbia)",
+   "url": "https://www2.gov.bc.ca/gov/content/employment-business/employment-standards-advice/employment-standards/statutory-holidays"
+  },
+  {
+   "title": "Qualify for statutory holiday pay (Government of British Columbia)",
+   "url": "https://www2.gov.bc.ca/gov/content/employment-business/employment-standards-advice/employment-standards/statutory-holidays/qualify-for-statutory-holiday-pay"
+  },
+  {
+   "title": "Employer health tax overview (Government of British Columbia)",
+   "url": "https://www2.gov.bc.ca/gov/content/taxes/employer-health-tax/employer-health-tax-overview"
+  },
+  {
+   "title": "B.C. Provincial budget tax changes (Government of British Columbia)",
+   "url": "https://www2.gov.bc.ca/gov/content/taxes/tax-updates/budget-changes"
+  },
+  {
+   "title": "Who needs coverage: businesses that hire and pay workers (WorkSafeBC)",
+   "url": "https://worksafebc.com/en/insurance/need-coverage/who-needs-coverage/hire-pay-workers"
+  }
+ ],
+ "updated": "2026-11-02",
+ "published": "2026-11-02"
+}

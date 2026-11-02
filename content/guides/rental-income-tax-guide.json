@@ -1,0 +1,111 @@
+{
+ "slug": "rental-income-tax-guide",
+ "title": "Renting out a suite, condo or room: how rental income is taxed",
+ "seo_title": "Rental Income Tax Guide for Metro Vancouver Landlords",
+ "description": "Renting a basement suite, laneway home, condo or room in B.C.? What to report, what you can deduct, CCA and your principal residence, explained simply.",
+ "topic": "Personal tax",
+ "audience": "individuals",
+ "lead": "Renting a basement suite, laneway home, condo or spare room is common across Metro Vancouver. Here's how the rent is taxed, which expenses you can deduct, and how to protect the tax-free status of your home.",
+ "figures_for": "",
+ "key_points": [
+  "Report rent and expenses on Form T776 with your return; co-owners each report their own share.",
+  "Repairs are deducted right away, but improvements are capital costs claimed over time through capital cost allowance (CCA).",
+  "If you live in the home, deduct only the rented share of whole-house costs, based on floor area or rooms.",
+  "Claiming CCA on part of your own home can make part of your gain taxable when you sell.",
+  "Renting to family below market rent means you can't claim a rental loss.",
+  "Non-compliant short-term rentals lose their expense deductions, and long-term residential rent is generally GST-exempt."
+ ],
+ "sections": [
+  {
+   "id": "rental-or-business",
+   "heading": "Is it rental income or business income?",
+   "html": "<p>Most landlords earn <strong>rental income</strong>, which the CRA treats as income from property. The key question is how many services you provide.</p>\n<ul>\n<li><strong>Rental income:</strong> you provide the space plus basic services such as heat, light, parking and laundry. This is the usual case for a basement suite, laneway home, condo or rented room.</li>\n<li><strong>Possibly business income:</strong> you also provide extra services such as cleaning, security or meals. The more services you add, the more likely it's a business, reported on Form T2125 instead.</li>\n</ul>\n<p>This guide covers ordinary rental income.</p>"
+  },
+  {
+   "id": "reporting",
+   "heading": "How to report rental income",
+   "html": "<p>You report rental income and expenses on <strong>Form T776, Statement of Real Estate Rentals</strong>, filed with your personal return. The CRA's guide T4036 explains each line.</p>\n<ul>\n<li><strong>Calendar year.</strong> Report rent for January 1 to December 31.</li>\n<li><strong>Accrual method.</strong> Generally, report rent in the year it's earned and expenses in the year they're incurred, even if paid later. You may use the cash method only if the result would be almost the same.</li>\n<li><strong>Co-owners each report their share.</strong> If you and your spouse own the house 50/50, each of you reports half the rent and half the expenses. Owning a property together as an investment isn't a partnership.</li>\n<li><strong>Reasonable expectation of profit.</strong> If there's no reasonable expectation of making a profit, you can't claim the expenses.</li>\n</ul>\n<h3>Renting to family below market rent</h3>\n<p>Many families rent a suite to a parent, adult child or sibling for less than market rent. The CRA treats this as cost-sharing, not a business of renting, so you <strong>can't claim a rental loss</strong>. If you charge the same rent you'd charge a stranger and expect a profit, normal rules apply. Small amounts a relative chips in for groceries or upkeep aren't rental income.</p>"
+  },
+  {
+   "id": "expenses",
+   "heading": "What you can deduct: current vs capital expenses",
+   "html": "<p>Rental expenses fall into two groups, and the difference matters.</p>\n<ul>\n<li><strong>Current expenses</strong> keep the property running or restore it to how it was. You deduct them in full in the year.</li>\n<li><strong>Capital expenses</strong> give a lasting benefit or improve the property beyond its original condition. You can't deduct them all at once. Instead, you claim capital cost allowance over several years (see below).</li>\n</ul>\n<table>\n<thead><tr><th>Current (deduct now)</th><th>Capital (claim CCA over time)</th></tr></thead>\n<tbody>\n<tr><td>Repainting the outside of the house</td><td>Putting vinyl siding on a wooden house</td></tr>\n<tr><td>Repairing worn wooden steps</td><td>Replacing wooden steps with concrete ones</td></tr>\n<tr><td>Fixing the roof back to its original state</td><td>Buying a new fridge for the suite</td></tr>\n</tbody>\n</table>\n<h3>Common deductible current expenses</h3>\n<ul>\n<li>Mortgage <strong>interest</strong> on money borrowed to buy or improve the rental (not the principal)</li>\n<li>Property taxes and insurance (a premium covering three years is deducted one year at a time)</li>\n<li>Repairs and maintenance</li>\n<li>Utilities you pay for the tenant</li>\n<li>Advertising, legal and accounting fees, and property management fees</li>\n</ul>\n<h3>What you can't deduct</h3>\n<ul>\n<li>Repayments of mortgage principal</li>\n<li>The cost of land (it's never depreciated)</li>\n<li>The value of your own time and labour</li>\n<li>Land transfer (property transfer) tax, which is added to the property's cost instead</li>\n<li>Interest on money borrowed for personal use, even if the loan is secured by the rental</li>\n</ul>"
+  },
+  {
+   "id": "own-home",
+   "heading": "Renting part of the home you live in",
+   "html": "<p>If you live upstairs and rent the basement, or rent a room, you can deduct:</p>\n<ul>\n<li><strong>100%</strong> of costs that apply only to the rented part (for example, advertising the suite or repairing its bathroom), and</li>\n<li><strong>a reasonable share</strong> of costs for the whole house, such as property taxes, insurance, mortgage interest and shared utilities.</li>\n</ul>\n<p>The CRA accepts splitting whole-house costs by <strong>floor area</strong> or by <strong>number of rooms</strong>.</p>\n<p><strong>Example:</strong> your house has 2,400 square feet and the basement suite is 800, so one-third of the house is rented. If property tax is $4,500 and home insurance is $1,800 for the year, you can deduct $1,500 and $600 for the suite.</p>\n<p>For a single room rented to a lodger, use the share of rooms rented, plus a fair share of rooms you both use, like the kitchen.</p>"
+  },
+  {
+   "id": "cca",
+   "heading": "Capital cost allowance (CCA) in plain language",
+   "html": "<p><strong>Capital cost allowance (CCA)</strong> is the tax version of depreciation. It lets you deduct the cost of the building and items like appliances a little at a time, because they wear out over many years.</p>\n<ul>\n<li><strong>Classes and rates.</strong> Assets are grouped into classes, each with a yearly rate. Rental buildings are commonly in <strong>class 1 (4%)</strong>. Other assets, such as appliances, go in their own classes with different rates.</li>\n<li><strong>Declining balance.</strong> The rate applies to what's left in the class each year, so the claim shrinks over time.</li>\n<li><strong>Building only.</strong> Land can't be depreciated, so split the purchase price between land and building.</li>\n<li><strong>Separate class.</strong> Each rental property that cost <strong>$50,000 or more</strong> goes in its own class.</li>\n<li><strong>First-year rules.</strong> Normally the half-year rule lets you claim only half the usual CCA in the year you buy. For many properties bought after November 20, 2018, an accelerated incentive replaces this with a larger first-year claim, and further changes have been proposed for property bought after 2024. Check the rules for your purchase year.</li>\n<li><strong>Optional.</strong> You can claim any amount from zero up to the maximum.</li>\n<li><strong>No losses.</strong> CCA can't create or increase a rental loss.</li>\n</ul>\n<h3>When you sell: recapture and terminal loss</h3>\n<p>CCA isn't free money. If you sell the building for more than its remaining undepreciated balance, the CCA you claimed is generally <strong>added back to your income</strong> (called <em>recapture</em>). If you sell for less and no property is left in the class, you may deduct the difference as a <em>terminal loss</em>.</p>"
+  },
+  {
+   "id": "principal-residence",
+   "heading": "Why claiming CCA on your home can cost you later",
+   "html": "<p>For most Metro Vancouver homeowners, the biggest tax break is the <strong>principal residence exemption</strong>, which can make the gain on selling your home tax-free. Renting part or all of your home can affect it.</p>\n<h3>Renting part of your home</h3>\n<p>The CRA usually treats the whole home as still your principal residence if <strong>all three</strong> are true: the rental use is small compared with your own use, you made <strong>no structural changes</strong> to rent it, and you <strong>claim no CCA</strong> on it. Renting a room in your house is a typical example.</p>\n<p>If you claim CCA on the rented part, or convert part of the house into a self-contained suite, the CRA may treat that part as sold and bought back at market value when the rental started (a <em>change in use</em>). Part of your gain on a later sale could then be taxable.</p>\n<div class=\"callout\"><p><strong>Tip:</strong> claiming CCA on part of your own home saves a little tax now but can cost far more when you sell. Many homeowners choose not to claim it. Talk it through before you do.</p></div>\n<h3>Turning your whole home into a rental</h3>\n<p>If you move out and rent your home, you're normally treated as selling it at market value on that date. You can file a <strong>subsection 45(2) election</strong> (a signed letter with your return for that year) so no sale is treated as happening then. You can then keep designating the home as your principal residence for up to <strong>four years</strong> while it's rented, if you remain a Canadian resident. But you <strong>can't claim CCA</strong> during that time; doing so cancels the election.</p>\n<h3>Moving back into a former rental</h3>\n<p>If a rental becomes your home, a <strong>subsection 45(3) election</strong> can postpone the deemed sale until you actually sell. It isn't available if CCA was claimed on the property after 1984. Since March 19, 2019, both elections can also apply when only part of a property changes use.</p>"
+  },
+  {
+   "id": "short-term-gst-bc",
+   "heading": "Short-term rentals, GST and B.C. housing taxes",
+   "html": "<h3>Short-term rentals</h3>\n<p>B.C.'s short-term rental rules limit hosts, in communities where the rule applies, to renting their own principal residence plus one secondary suite or accessory unit on the same property. Since May 1, 2025, hosts must register with the provincial registry and show the registration number on their listings.</p>\n<p>The federal tax rules add a cost to breaking these rules. For income tax, a short-term rental is one rented or offered for less than 90 consecutive days. If the province or city doesn't allow your short-term rental, or you lack a required licence or registration, it's <strong>non-compliant</strong> and the CRA <strong>denies the expenses</strong> for the non-compliant days.</p>\n<h3>GST/HST</h3>\n<p>Long-term residential rent, where a tenant lives in the unit for a month or more, is generally <strong>exempt from GST/HST</strong>. You don't charge GST on it. Short stays of less than a month can be taxable if you're a GST/HST registrant.</p>\n<h3>B.C. speculation and vacancy tax</h3>\n<p>Owners of residential property in the taxable areas of B.C. who get a declaration letter must declare every year before March 31, even if they're exempt. Living in the home as your principal residence, or renting it out for at least six months of the year, are the main exemptions.</p>\n<h3>Federal Underused Housing Tax</h3>\n<p>This mainly affected owners who aren't Canadian citizens or permanent residents. No return or tax is required for 2025 and later years, but returns and tax for 2022 to 2024 still apply.</p>"
+  },
+  {
+   "id": "non-resident",
+   "heading": "If you move away and keep renting",
+   "html": "<p>Many families keep a Metro Vancouver condo or house as a rental after moving abroad. Once you're a non-resident:</p>\n<ul>\n<li>Your tenant or property manager must withhold <strong>25% of the gross rent</strong> and send it to the CRA by the 15th of the following month.</li>\n<li>You and your Canadian agent can file <strong>Form NR6</strong> so the 25% is withheld on net rent (after expenses) instead. File it by January 1 each year, or before the first rent payment is due.</li>\n<li>You can file a <strong>section 216 return</strong> (Form T1159) to pay tax on net rental income, which can lower your tax or bring a refund. It's generally due within two years after the year-end, or by June 30 of the next year if you filed an NR6.</li>\n</ul>"
+  },
+  {
+   "id": "records-mistakes",
+   "heading": "Records to keep and common mistakes",
+   "html": "<h3>Records to keep</h3>\n<ul>\n<li>Leases, rent ledger and bank deposits</li>\n<li>Receipts and invoices for every expense</li>\n<li>Purchase documents showing the split between land and building</li>\n<li>Your floor-area or room calculation, if you live in the home</li>\n<li>Your CCA history, year by year</li>\n</ul>\n<p>Keep them for <strong>six years</strong> from the end of the tax year. Don't send them with your return, but have them ready if the CRA asks.</p>\n<h3>Common mistakes to avoid</h3>\n<ul>\n<li><strong>Not reporting rent</strong> from a suite or room because it's paid in cash or by a relative.</li>\n<li><strong>Deducting capital costs</strong> such as a new kitchen or appliances as repairs.</li>\n<li><strong>Deducting mortgage principal</strong>, or claiming 100% of whole-house costs when you live there too.</li>\n<li><strong>Claiming a loss</strong> on a below-market rental to family.</li>\n<li><strong>Claiming CCA on your own home</strong> without weighing the effect on the principal residence exemption.</li>\n<li><strong>Splitting income wrongly</strong> between co-owners instead of by ownership share.</li>\n<li><strong>Running a non-compliant short-term rental</strong>, which costs you your expense deductions for those days.</li>\n<li><strong>Forgetting the 25% withholding</strong> after moving abroad.</li>\n</ul>"
+  }
+ ],
+ "cta_heading": "Want help with your rental income?",
+ "cta_text": "We prepare T776 rental statements, work out the right expense split and CCA for your situation, and help you weigh the effect on your principal residence exemption before you claim.",
+ "sources": [
+  {
+   "title": "Rental Income, Guide T4036 (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4036/rental-income.html"
+  },
+  {
+   "title": "Rental income or business income (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/rental-income/you-have-rental-income-business-income.html"
+  },
+  {
+   "title": "How to complete the capital cost allowance charts (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/rental-income/capital-cost-allowance-rental-property/complete-capital-cost-allowance-charts.html"
+  },
+  {
+   "title": "Principal residence and other real estate (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/personal-income/line-12700-capital-gains/principal-residence-other-real-estate.html"
+  },
+  {
+   "title": "Income Tax Folio S1-F3-C2, Principal Residence (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/technical-information/income-tax/income-tax-folios-index/series-1-individuals/folio-3-family-unit-issues/income-tax-folio-s1-f3-c2-principal-residence.html"
+  },
+  {
+   "title": "GST/HST Memorandum 19.2.2, Residential Real Property: Rentals (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/19-2-2/residential-real-property-rentals.html"
+  },
+  {
+   "title": "Questions and Answers on the Underused Housing Tax (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/uhtn15/questions-answers-underused-housing-tax.html"
+  },
+  {
+   "title": "Rental income and non-resident tax: filing and reporting requirements (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/information-been-moved/rental-income-non-resident-tax/filing-reporting-requirements.html"
+  },
+  {
+   "title": "B.C.'s short-term rental legislation (Province of British Columbia)",
+   "url": "https://www2.gov.bc.ca/gov/content/housing-tenancy/short-term-rentals/short-term-rental-legislation"
+  },
+  {
+   "title": "Frequently asked questions about the speculation and vacancy tax (Province of British Columbia)",
+   "url": "https://www2.gov.bc.ca/gov/content/taxes/speculation-vacancy-tax/faq-speculation-and-vacancy-tax"
+  }
+ ],
+ "updated": "2026-11-02",
+ "published": "2026-11-02"
+}

@@ -1,0 +1,138 @@
+{
+ "slug": "gst-hst-pst-small-business-bc",
+ "title": "GST, HST and PST for small businesses in BC: a plain-language guide",
+ "seo_title": "GST/HST and BC PST for Small Businesses (2026 Guide)",
+ "description": "When a BC business must register for GST and PST, what to charge, input tax credits, the Quick Method, filing deadlines and common mistakes, in plain language.",
+ "topic": "GST/HST & PST",
+ "audience": "business",
+ "lead": "Most BC businesses deal with two sales taxes: the federal GST and BC's own PST. Here's when you need to register for each, what to charge, how to get back the tax you pay, and how to stay on top of your returns.",
+ "figures_for": "2026",
+ "key_points": [
+  "You must register for GST once your taxable sales go over $30,000 in one calendar quarter or over four quarters in a row; taxi and rideshare drivers must register from day one.",
+  "BC has 5% GST plus a separate 7% PST; sales shipped to Ontario or the Atlantic provinces get HST at that province's rate.",
+  "Zero-rated sales (like basic groceries) let you claim input tax credits; exempt sales (like long-term residential rent) do not.",
+  "The Quick Method can simplify GST for businesses with up to $400,000 in sales; BC service businesses remit 3.6% of GST-included sales.",
+  "BC PST has no input tax credits: your business pays PST on taxable items it uses, and must self-assess when a seller doesn't charge it.",
+  "BC paused its planned PST expansion to accounting and other professional services in September 2026; no new date has been set."
+ ],
+ "sections": [
+  {
+   "id": "basics",
+   "heading": "How sales tax works in BC",
+   "html": "<p>If you run a business in British Columbia, you may deal with two separate sales taxes:</p> <ul> <li><strong>GST (goods and services tax)</strong>: a 5% federal tax, run by the Canada Revenue Agency (CRA).</li> <li><strong>PST (provincial sales tax)</strong>: BC's own sales tax, run by the BC government. The general rate is 7%.</li> </ul> <p>Some other provinces have combined the federal and provincial taxes into one <strong>HST (harmonized sales tax)</strong>. BC does not have HST, but you may need to charge it if you sell to customers in those provinces.</p> <table> <thead><tr><th>Where</th><th>Federal sales tax</th><th>Provincial sales tax</th></tr></thead> <tbody> <tr><td>British Columbia</td><td>GST 5%</td><td>PST 7% (separate)</td></tr> <tr><td>Alberta, Yukon, Northwest Territories, Nunavut</td><td>GST 5%</td><td>None</td></tr> <tr><td>Ontario</td><td>HST 13% (combined)</td><td>Included in HST</td></tr> <tr><td>Nova Scotia</td><td>HST 14% (combined, since April 1, 2025)</td><td>Included in HST</td></tr> <tr><td>New Brunswick, Newfoundland and Labrador, Prince Edward Island</td><td>HST 15% (combined)</td><td>Included in HST</td></tr> </tbody> </table> <p>The key idea: you collect GST from customers and pass it on to the government. It is not your money, so keep it separate from your operating cash.</p>"
+  },
+  {
+   "id": "register",
+   "heading": "Do you need to register for GST?",
+   "html": "<p>Most businesses must register for GST once they stop being a <strong>small supplier</strong>. You are a small supplier if your worldwide taxable sales are <strong>$30,000 or less</strong>. Sales of financial services, capital property and goodwill on selling a business are left out of this total.</p> <h3>Two ways to cross the $30,000 line</h3> <ul> <li><strong>In a single calendar quarter.</strong> If your sales go over $30,000 within one quarter (for example, July to September), you stop being a small supplier with the sale that pushes you over. You must charge GST on that sale and register right away.</li> <li><strong>Over four calendar quarters in a row.</strong> If your total for the last four quarters goes over $30,000 (but no single quarter did), you stop being a small supplier at the end of the month after that quarter. You must register and start charging GST by your first sale after that date.</li> </ul> <p><em>Example:</em> Priya runs a home bakery. Her sales were $6,000, $7,000 and $9,000 in three quarters, then $9,500 in the next quarter. Her four-quarter total is $31,500, so she is no longer a small supplier at the end of the following month and must begin charging GST from her next sale after that.</p> <p>After the date you are required to register, you have 29 days to apply. You can register online with the CRA's Business Registration Online service, or by mailing Form RC1. You will get a business number (BN) with a GST/HST account attached.</p> <div class=\"callout\"><strong>Taxi and rideshare drivers must register from day one.</strong> If you drive a taxi or work for a ride-sharing app as a self-employed driver, the small supplier rule does not apply to you. You must register for GST from the day you start giving rides, even if you earn less than $30,000.</div> <h3>Registering voluntarily</h3> <p>If you are under $30,000, you can still choose to register. Your registration can usually start on the day you ask for it, or up to 30 days earlier.</p> <ul> <li><strong>Pros:</strong> you can claim back the GST you pay on business costs (see input tax credits below), and business customers who are registered can claim back the GST you charge them, so it costs them nothing extra.</li> <li><strong>Cons:</strong> you must charge GST to every customer, which can make you more expensive for consumers, and you must file returns on time, even when you have nothing to report.</li> </ul> <p>Voluntary registration often suits businesses that sell mainly to other businesses or have large start-up costs.</p>"
+  },
+  {
+   "id": "charging",
+   "heading": "Charging GST: other provinces, zero-rated and exempt sales",
+   "html": "<h3>Selling to customers in other provinces</h3> <p>The rate you charge depends on where the sale is considered to happen, known as the <strong>place of supply</strong>. The full rules are detailed, but the basics are:</p> <ul> <li><strong>Goods:</strong> charge the rate of the province where the goods are delivered. If you ship a product from Surrey to a customer in Ontario, you charge 13% HST, not 5% GST.</li> <li><strong>Services:</strong> in most cases, charge the rate of the province where your customer's home or business address is, if you get that address as part of doing business. If you design a website for a Halifax company, you would generally charge Nova Scotia's 14% HST.</li> <li><strong>Real property:</strong> charge the rate of the province where the property is located.</li> </ul> <p>Your GST registration also covers HST; no separate account is needed.</p> <h3>Zero-rated vs exempt: not the same thing</h3> <p>Some sales have no GST, but for two very different reasons:</p> <table> <thead><tr><th></th><th>Zero-rated</th><th>Exempt</th></tr></thead> <tbody> <tr><td>GST charged?</td><td>Taxed at 0%, so no</td><td>No, outside the GST system</td></tr> <tr><td>Can you claim input tax credits?</td><td>Yes</td><td>Generally no</td></tr> <tr><td>Common examples</td><td>Basic groceries (milk, bread, vegetables), prescription drugs, some medical devices like hearing aids, feminine hygiene products, most exports</td><td>Long-term residential rent (one month or more), resale of used homes, most medical and dental services, child care for children 14 and under, music lessons, most financial services such as loans and bank accounts, insurance</td></tr> </tbody> </table> <p>So a grocer selling zero-rated food can still recover GST on its costs, but a landlord renting apartments long-term cannot. A business making only exempt sales cannot register at all.</p>"
+  },
+  {
+   "id": "itc",
+   "heading": "Input tax credits: getting back the GST you pay",
+   "html": "<p>An <strong>input tax credit (ITC)</strong> is how a registered business recovers the GST or HST it pays on business purchases. On each return, you subtract your ITCs from the GST you collected and pay only the difference.</p> <p><em>Example:</em> In a quarter you charge $2,000 in GST to customers and pay $600 in GST on supplies, software and equipment. You send the CRA $1,400.</p> <h3>You can claim an ITC when</h3> <ul> <li>you were registered when the GST was paid or became payable,</li> <li>the purchase is for your commercial (taxable) business activities, and the cost is reasonable,</li> <li>you have proper paperwork, and</li> <li>you claim within the time limit. For most small businesses this is about four years.</li> </ul> <h3>What your receipts must show</h3> <table> <thead><tr><th>Purchase amount</th><th>What the invoice or receipt needs</th></tr></thead> <tbody> <tr><td>Under $100</td><td>Supplier's name, date, total amount</td></tr> <tr><td>$100 to $499.99</td><td>All of the above, plus the GST/HST amount (or a note that it is included) and the supplier's GST/HST number</td></tr> <tr><td>$500 or more</td><td>All of the above, plus your name, a short description of what you bought, and the payment terms</td></tr> </tbody> </table> <p>Some purchases are restricted or not eligible: personal items, recreational club memberships, and anything used to make exempt sales. Only part of the GST on meals and entertainment can be claimed.</p>"
+  },
+  {
+   "id": "filing",
+   "heading": "Filing and paying your GST/HST return",
+   "html": "<p>When you register, the CRA assigns you a <strong>reporting period</strong>: monthly, quarterly or annual, based on your sales. You can ask to file more often if that suits you, for example to get refunds faster.</p> <ul> <li><strong>Monthly and quarterly filers:</strong> the return and payment are due one month after the period ends. A quarter ending September 30 is due October 31.</li> <li><strong>Annual filers:</strong> generally due three months after your fiscal year-end. A corporation with a December 31 year-end files and pays by March 31.</li> <li><strong>Sole proprietors with a December 31 year-end:</strong> if you are an individual with business income, your payment is due April 30 and your return is due June 15. For the 2026 year, that means paying by April 30, 2027 and filing by June 15, 2027.</li> </ul> <p>Also keep in mind:</p> <ul> <li>You must file a return for every period, even if you had no sales. This is called a nil return.</li> <li>All GST/HST registrants (other than charities and certain financial institutions) must file electronically. Paper filers can be charged a penalty.</li> <li>If a due date falls on a weekend or public holiday, you have until the next business day.</li> </ul> <h3>Instalments for annual filers</h3> <p>If you file annually and your net tax for the previous year was $3,000 or more, you may need to pay quarterly instalments during the year. Each instalment is due within one month after the end of each fiscal quarter.</p>"
+  },
+  {
+   "id": "quick-method",
+   "heading": "The Quick Method: a simpler option for some",
+   "html": "<p>The <strong>Quick Method</strong> is an optional way to work out how much GST to send the CRA. You still charge customers the full 5% GST (or HST where it applies). But instead of tracking GST on every expense, you pay a set percentage of your GST-included sales and keep the difference.</p> <h3>Who can use it</h3> <ul> <li>Your annual worldwide taxable sales, including GST/HST, are $400,000 or less.</li> <li>You have been in business for at least the past 365 days, or you are newly registered and expect to stay under the limit.</li> <li>You are not in an excluded line of work. Accountants, bookkeepers, lawyers, tax preparers, financial consultants and some others cannot use it.</li> </ul> <h3>Rates for a business based in BC</h3> <p>For sales where 5% GST applies, a BC business remits:</p> <ul> <li><strong>3.6%</strong> of GST-included sales if you mainly provide services, or</li> <li><strong>1.8%</strong> if you mainly buy goods to resell (your cost of goods must be at least 40% of your taxable sales).</li> </ul> <p>You also get a credit of 1% on the first $30,000 of eligible sales each year.</p> <p><em>Example:</em> A Surrey house-cleaning business has $50,000 in sales plus $2,500 GST, for $52,500. Under the Quick Method it remits 3.6% of $52,500, which is $1,890, minus the 1% credit on $30,000 ($300), for a total of $1,590.</p> <p>The trade-off: you cannot claim ITCs on everyday expenses or inventory, only on capital property such as computers and vehicles, so it tends to suit businesses with low expenses. To use it, you elect through your CRA business account or Form GST74. Annual filers must elect by the first day of the second fiscal quarter.</p>"
+  },
+  {
+   "id": "pst",
+   "heading": "BC PST: who registers, what's taxable and how it works",
+   "html": "<p>PST is completely separate from GST. You register with the BC government, not the CRA, and you file separate PST returns.</p> <h3>Who must register</h3> <p>A business located in BC generally must register to collect PST if it:</p> <ul> <li>sells or leases taxable goods in BC,</li> <li>provides related services to taxable goods, such as repairs, installation or alterations,</li> <li>provides software, telecommunication services or legal services in BC, or</li> <li>sells accommodation in BC (with some exceptions).</li> </ul> <p><strong>Small seller exemption:</strong> you may not need to register if you are located in BC, have no established business premises and do not regularly sell from a commercial location (including a home-based shop), and you had and expect $10,000 or less in gross revenue from eligible taxable sales in the past and next 12 months. Small sellers do not charge PST, but they pay PST on items they buy to resell.</p> <h3>What PST applies to</h3> <p>PST applies to most goods bought or leased in BC, plus software, related services, telecommunication, legal services and short-term accommodation. Many food items and personal services such as hairstyling are exempt.</p> <div class=\"callout\"><strong>Recent changes.</strong> From October 1, 2026, PST applies to basic cable TV, residential landline and toll-free phone services, and to clothing and footwear services (basic laundry and dry cleaning stay exempt). BC had also planned to extend PST to accounting, bookkeeping, architectural, engineering, security and non-residential real estate services on that date, but in September 2026 the province paused that expansion and has not set a new date. If you registered only for those services, BC says to cancel your PST account.</div> <h3>Returns and payments</h3> <p>When you register, BC tells you your reporting period. PST is due by the last day of the month after each period ends. For example, PST for a period ending June 30 is due July 31. Registered collectors who file and pay on time can earn a small commission.</p> <h3>When your business buys things</h3> <p>Unlike GST, there are no PST input tax credits. If your business buys taxable items for its own use, such as computers, furniture, vehicles or software, it pays PST and cannot get it back. Goods you buy to resell are exempt from PST, but if you later take items out of inventory for your own use, PST applies. If a supplier does not charge PST on a taxable item (for example, an online seller outside BC), you must self-assess it: report it on your next PST return, or, if you are not registered, file a casual remittance return by the end of the following month.</p>"
+  },
+  {
+   "id": "mistakes-checklist",
+   "heading": "Common mistakes, records and a checklist",
+   "html": "<h3>Common mistakes to avoid</h3> <ul> <li>Not watching the $30,000 total and missing the date you had to register and start charging GST.</li> <li>Charging 5% GST on goods shipped to an HST province.</li> <li>Spending the GST and PST you collected and coming up short at filing time.</li> <li>Claiming ITCs without proper receipts or on personal purchases.</li> <li>Skipping nil returns or filing on paper.</li> <li>Forgetting to self-assess PST on taxable software or equipment bought from outside BC.</li> </ul> <h3>Checklist</h3> <ol> <li>Track your taxable sales every quarter and add up the last four quarters.</li> <li>Register for GST within 29 days of crossing $30,000 (or from day one if you drive taxi or rideshare).</li> <li>Check whether you must register for BC PST, or whether the small seller exemption applies.</li> <li>Keep every receipt and invoice that supports an ITC.</li> <li>Decide whether the Quick Method would save you time or money.</li> <li>Put your GST and PST due dates in your calendar and file electronically.</li> <li>Keep GST/HST records (sales invoices, receipts supporting ITCs, copies of returns) for 6 years from the end of the year they relate to, and PST records for 5 years, at your business or home in Canada.</li> </ol> <p>Sales tax rules have many exceptions, so if you are unsure about a product or customer, a tax professional can help.</p>"
+  }
+ ],
+ "cta_heading": "Want help with GST and PST for your business?",
+ "cta_text": "Calcitax Advisors can help you decide when and how to register, set up your invoices and bookkeeping for GST and PST, and prepare and file your returns on time.",
+ "sources": [
+  {
+   "title": "When to register for and start charging the GST/HST (Canada Revenue Agency)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/when-register-charge"
+  },
+  {
+   "title": "GST/HST calculator (and rates) (Canada Revenue Agency)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/charge-collect-which-rate/calculator.html"
+  },
+  {
+   "title": "GST/HST rates and place-of-supply rules (Canada Revenue Agency)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/charge-collect-place-supply.html"
+  },
+  {
+   "title": "Type of supply (Canada Revenue Agency)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/charge-collect-type-supply.html"
+  },
+  {
+   "title": "Input tax credits (Canada Revenue Agency)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/gst-account/input-tax-credits.html"
+  },
+  {
+   "title": "Reporting requirements and deadlines – File your GST/HST return (Canada Revenue Agency)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/file-gst-hst-return/reporting-requirements-deadlines.html"
+  },
+  {
+   "title": "Find out if you need to pay GST/HST by instalments (Canada Revenue Agency)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/pay-instalment/need-to-pay-by-instalments.html"
+  },
+  {
+   "title": "2026 Tax deadlines for Canadian businesses and self-employed individuals (Government of Canada)",
+   "url": "https://www.canada.ca/en/services/taxes/resources-for-small-and-medium-businesses/2026-tax-deadlines-canadian-businesses-self-employed-individuals.html"
+  },
+  {
+   "title": "RC4058 Quick Method of Accounting for GST/HST (Canada Revenue Agency)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/rc4058/quick-method-accounting-gst-hst.html"
+  },
+  {
+   "title": "Register as a resident with a Canadian business (Canada Revenue Agency)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/registering-your-business/business-registration-online-overview.html"
+  },
+  {
+   "title": "GST/HST records to keep (Canada Revenue Agency)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/calculate-prepare-report/gst-hst-records-keep.html"
+  },
+  {
+   "title": "Where to keep your records, for how long and how to request the permission to destroy them early (Canada Revenue Agency)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/keeping-records/where-keep-your-records-long-request-permission-destroy-them-early.html"
+  },
+  {
+   "title": "PST Bulletin PST 001: Registering to Collect PST (Government of British Columbia)",
+   "url": "https://www2.gov.bc.ca/assets/gov/taxes/sales-taxes/publications/pst-001-registering-to-collect-pst.pdf"
+  },
+  {
+   "title": "Small Business Guide to PST (Government of British Columbia)",
+   "url": "https://www2.gov.bc.ca/gov/content/taxes/sales-taxes/pst/publications/small-business-guide"
+  },
+  {
+   "title": "B.C. Provincial budget tax changes (Government of British Columbia)",
+   "url": "https://www2.gov.bc.ca/gov/content/taxes/tax-updates/budget-changes"
+  },
+  {
+   "title": "Notice 2026-001: Notice to providers of professional services (Government of British Columbia)",
+   "url": "https://www2.gov.bc.ca/gov/content/taxes/sales-taxes/pst/publications/notice-professional-services"
+  },
+  {
+   "title": "PST on accounting services (Government of British Columbia)",
+   "url": "https://www2.gov.bc.ca/gov/content/taxes/sales-taxes/pst/publications/accounting-services"
+  },
+  {
+   "title": "BC pauses PST expansion on professional services (KPMG Canada)",
+   "url": "https://kpmg.com/ca/en/insights/2026/09/bc-pauses-pst-expansion-on-professional-services.html"
+  }
+ ],
+ "updated": "2026-11-02",
+ "published": "2026-11-02"
+}

@@ -1,0 +1,187 @@
+{
+ "slug": "often-missed-tax-credits",
+ "title": "Tax credits and deductions BC families often miss",
+ "seo_title": "Often-Missed Tax Credits for BC Families (2025 Tax Year)",
+ "description": "Medical expenses, disability and caregiver credits, tuition, child care, donations, B.C. renter's credit and more, plus how to fix a past return.",
+ "topic": "Personal tax",
+ "audience": "individuals",
+ "lead": "Every year, families leave money on the table by missing claims they're entitled to. Here are the credits and deductions we most often find missing on B.C. returns, how they work, and how to fix a past return if you missed one.",
+ "figures_for": "2025 tax year",
+ "key_points": [
+  "A deduction lowers your income; a credit lowers your tax directly, and refundable credits are paid even if you owe nothing.",
+  "Medical expenses count once they pass 3% of net income or $2,834 (2025), whichever is less, and one spouse can claim for the family.",
+  "The disability tax credit unlocks other help, including the child disability benefit and the RDSP.",
+  "Pool both spouses' donations on one return: gifts above $200 earn a much higher credit rate.",
+  "B.C. renters may get up to $400 a year through the renter's tax credit on Form BC479.",
+  "You can ask the CRA to fix a past return, but refunds aren't issued for requests made more than 10 years after the tax year."
+ ],
+ "sections": [
+  {
+   "id": "credit-vs-deduction",
+   "heading": "Credits and deductions: what's the difference?",
+   "html": "<ul>\n<li><strong>A deduction</strong> lowers your <em>income</em> before tax is worked out. Its value depends on your tax rate: the higher your income, the more a deduction saves. Child care, moving expenses and union dues are deductions.</li>\n<li><strong>A non-refundable tax credit</strong> lowers the <em>tax</em> you owe. Most federal credits are worth the lowest federal tax rate times the claim: <strong>14.5% for 2025</strong> and <strong>14% for 2026</strong>. So a $1,000 credit amount saves $145 of federal tax on a 2025 return. If you owe no tax, a non-refundable credit gives you nothing back, although some can be transferred or carried forward.</li>\n<li><strong>A refundable credit</strong> is paid to you even if you owe no tax. The Canada workers benefit and the B.C. renter's tax credit work this way.</li>\n</ul>\n<p>B.C. has its own version of many credits, so one claim often saves both federal and provincial tax. Figures below are for the <strong>2025 tax year</strong> (the return filed in spring 2026) unless we say otherwise.</p>"
+  },
+  {
+   "id": "medical",
+   "heading": "Medical expenses: the claim families miss most",
+   "html": "<p>Many people assume their medical bills are too small to matter. Often the threshold is lower than they think.</p>\n<h3>How the threshold works</h3>\n<p>You claim the part of your eligible expenses that is above the <strong>lower</strong> of:</p>\n<ul>\n<li><strong>3% of your net income</strong>, or</li>\n<li><strong>$2,834</strong> (for 2025).</li>\n</ul>\n<p><strong>Example:</strong> your net income is $40,000, so 3% is $1,200. If your family paid $3,000 in eligible expenses, you can claim $1,800. At 14.5%, that's about $261 off your federal tax, plus a B.C. credit on top.</p>\n<h3>Rules that work in your favour</h3>\n<ul>\n<li><strong>Any 12-month period.</strong> You don't have to use the calendar year. For a 2025 return you can pick any 12 months ending in 2025, as long as those expenses weren't claimed for 2024. Choose the window with the most expenses.</li>\n<li><strong>One spouse claims for the family.</strong> You can group expenses for yourself, your spouse or common-law partner, and your children under 18. The spouse with the <strong>lower net income</strong> often gets the bigger claim.</li>\n<li><strong>Other relatives.</strong> You can also claim for adult children, grandchildren, parents, grandparents and some other relatives who depended on you for support. Each one is worked out separately, using 3% of <em>their</em> net income.</li>\n</ul>\n<h3>Common eligible expenses</h3>\n<ul>\n<li>Dental work by a dentist or other practitioner (not purely cosmetic work)</li>\n<li>Prescription drugs recorded by a pharmacist (not over-the-counter medicines or vitamins)</li>\n<li>Prescription glasses and contact lenses</li>\n<li>Premiums you paid for a private health or dental plan</li>\n<li>Travel to get care not available near home: transit or car costs if you went at least 40 km each way, and meals, parking and lodging too if you went at least 80 km</li>\n</ul>\n<p>Low-income workers with high medical costs may also get the refundable <strong>medical expense supplement</strong>.</p>"
+  },
+  {
+   "id": "disability-caregivers",
+   "heading": "Disability tax credit and caregiver amounts",
+   "html": "<h3>Disability tax credit (DTC)</h3>\n<p>The DTC is for people with a severe and prolonged impairment, one that has lasted or is expected to last at least 12 months and markedly restricts daily activities. Many people who would qualify never apply. It covers impairments in mental functions as well as physical ones, and type 1 diabetes is treated as meeting the life-sustaining therapy test.</p>\n<ul>\n<li><strong>How to apply:</strong> you fill in Part A of Form T2201 (online in your CRA account, by phone or on paper), and a medical practitioner, such as a doctor, nurse practitioner, psychologist, optometrist or occupational therapist, completes Part B.</li>\n<li><strong>Amount for 2025:</strong> $10,138 for an adult, plus a supplement of up to $5,914 for a person under 18.</li>\n<li><strong>Transfer:</strong> if the person doesn't need the full credit, a spouse, parent or other supporting relative may be able to claim the unused part.</li>\n<li><strong>Back years:</strong> on the form you can ask the CRA to adjust earlier returns. Once you're approved, the CRA reworks the years that apply automatically.</li>\n</ul>\n<div class=\"callout\"><p><strong>Why the DTC matters beyond the credit:</strong> approval opens the door to the child disability benefit (up to $284.25 a month per child, paid with the Canada child benefit), the registered disability savings plan (RDSP), the Canada disability benefit for ages 18 to 64, the disability supplement of the Canada workers benefit, and the home accessibility and home buyers' claims below.</p></div>\n<h3>Canada caregiver credit</h3>\n<p>If you support a spouse or relative who depends on you because of a physical or mental infirmity, you may be able to claim the Canada caregiver amount. For 2025:</p>\n<ul>\n<li><strong>Up to $8,601</strong> for each adult relative (such as a parent, adult child or sibling) with an infirmity who depends on you, if their net income is under $28,798.</li>\n<li><strong>$2,687</strong> added to the amount for a spouse, an eligible dependant or a child under 18 who has an infirmity.</li>\n</ul>\n<p>Keep a signed statement from a medical practitioner in case the CRA asks (not needed if the person is approved for the DTC).</p>"
+  },
+  {
+   "id": "work-family",
+   "heading": "Child care, moving and work costs",
+   "html": "<h3>Child care expenses (deduction)</h3>\n<p>You can deduct amounts paid so that you could work, run a business or go to school, for a child under 16 (or older, with an infirmity). Daycare centres, day camps and caregivers generally count. Leisure fees, such as tennis lessons or Scouts registration, don't.</p>\n<ul>\n<li><strong>Who claims:</strong> usually the spouse with the <strong>lower net income</strong>, even if that's zero. The higher-income spouse can claim only in specific cases, for example if the other spouse was in school, in hospital or unable to care for children because of an infirmity.</li>\n<li>The caregiver can't be the child's parent or a relative under 18.</li>\n</ul>\n<h3>Moving expenses (deduction)</h3>\n<p>If you moved for a new job, to run a business or to study full-time at a post-secondary school, and your new home is <strong>at least 40 km closer</strong> (by the shortest public route) to the new work or school, you may deduct costs such as movers, travel, up to 15 days of temporary meals and lodging, lease-cancellation costs, and real estate commissions and legal fees on selling your old home.</p>\n<ul>\n<li>You deduct them against employment or self-employment income earned at the new location (students: against taxable scholarships and similar awards).</li>\n<li>Any amount you can't use carries forward to next year. Use Form T1-M.</li>\n</ul>\n<h3>Union and professional dues (deduction)</h3>\n<p>Union dues are usually in box 44 of your T4. Also deductible: dues you must pay to keep a professional status recognized by B.C. law, such as a licensing body, and required professional liability insurance. If you paid dues directly, don't forget the receipt. Initiation fees don't qualify.</p>"
+  },
+  {
+   "id": "students",
+   "heading": "Students and recent graduates",
+   "html": "<h3>Tuition credit: use it, transfer it or keep it</h3>\n<p>Eligible tuition shown on your T2202 slip gives you a credit. Students often earn too little to use it, but it isn't lost:</p>\n<ul>\n<li>After using what you need to bring your own tax to zero, you can transfer up to <strong>$5,000</strong> of the current year's federal tuition amount to a spouse, a parent or a grandparent (yours or your spouse's).</li>\n<li>Whatever is left carries forward to future years, when you're working and paying tax.</li>\n</ul>\n<div class=\"callout\"><p><strong>Keep filing.</strong> The CRA says that if you skip filing a return in a year you're carrying tuition forward, that amount isn't carried forward. File every year, even with little or no income, and include Schedule 11.</p></div>\n<h3>Interest on student loans</h3>\n<p>Interest you paid on a government student loan (Canada student loan or a provincial loan such as B.C.'s) gives you a credit. Bank loans, lines of credit, loans from abroad, and student loans combined with other debt don't count.</p>\n<ul>\n<li>You can claim interest paid in the year or in any of the previous five years that you haven't already claimed.</li>\n<li>Only the student who owes the loan can claim it, even if a parent made the payments.</li>\n</ul>"
+  },
+  {
+   "id": "homes-donations",
+   "heading": "Homes, renovations and donations",
+   "html": "<h3>Home buyers' amount</h3>\n<p>If you bought your first home, you can claim <strong>up to $10,000</strong> (worth up to $1,450 in federal tax for 2025). Generally you're a first-time buyer if neither you nor your spouse or partner lived in a home either of you owned in the year of purchase or the four years before. Spouses can split the claim, but the total can't go over $10,000 for the home. A person who qualifies for the DTC may be able to claim without being a first-time buyer.</p>\n<h3>Home accessibility expenses</h3>\n<p>Eligible renovations to the home of someone who is <strong>65 or older</strong> at the end of the year, or who qualifies for the DTC, can be claimed up to <strong>$20,000 a year</strong>. The person can claim it, and so can a spouse or a supporting relative in many cases. Materials and work by contractors count; your own labour doesn't. Routine repairs, appliances and work done mainly to raise the home's value don't count. An expense that is also a medical expense can be claimed as both.</p>\n<h3>Donations</h3>\n<p>Gifts to registered charities and other qualified donees earn a credit at two levels:</p>\n<table>\n<thead><tr><th>Part of your total gifts</th><th>Federal credit rate</th></tr></thead>\n<tbody>\n<tr><td>First $200</td><td>Lowest tax rate (14.5% for 2025, 14% for 2026)</td></tr>\n<tr><td>Above $200</td><td>29%, or 33% on gifts that match your taxable income above the top bracket ($253,414 for 2025)</td></tr>\n</tbody>\n</table>\n<p>Because the rate jumps after $200, it usually pays for <strong>one spouse to claim both spouses' donations</strong>, which the CRA allows. You can also <strong>carry donations forward for up to five years</strong> and claim them in a year when your total is bigger. Claims are generally capped at 75% of net income.</p>\n"
+  },
+  {
+   "id": "workers-renters-seniors",
+   "heading": "Working families, renters and seniors",
+   "html": "<h3>Canada workers benefit (CWB)</h3>\n<p>The CWB is a refundable credit for people with low working income. For 2025 the basic amount is up to <strong>$1,633 for a single person</strong> and <strong>$2,813 for a family</strong>, reduced once adjusted net income passes $26,855 (single) or $30,639 (family). People approved for the DTC may get a disability supplement of up to $843. You generally must be 19 or older (or live with a spouse or child) and a Canadian resident all year. Part of the CWB is paid in advance in July, October and January.</p>\n<h3>B.C. renter's tax credit</h3>\n<p>B.C. renters can get <strong>up to $400 a year</strong>, paid as a refundable credit through your return on Form BC479. You need to have rented an eligible home in B.C. for at least six months of the year and be 19 or older (or a parent, or living with a spouse) on December 31. The credit shrinks once adjusted family income passes <strong>$64,764 for 2025</strong> and is gone at $84,764 (for 2026: $66,189 and $86,189). Only one spouse can claim it, but roommates who aren't a couple can each claim their own.</p>\n<h3>Pension amount and pension splitting</h3>\n<ul>\n<li><strong>Pension income amount:</strong> up to <strong>$2,000</strong> of eligible pension income gives a credit. Pension from a workplace plan counts at any age; RRIF and annuity income generally counts from 65. CPP and OAS don't count.</li>\n<li><strong>Pension splitting:</strong> you can move up to <strong>50%</strong> of eligible pension income to your spouse's or partner's return. This can lower the couple's total tax. Both of you must sign and file Form T1032 with your returns by the filing deadline.</li>\n</ul>"
+  },
+  {
+   "id": "fix-past-returns",
+   "heading": "Missed something? How to fix a past return",
+   "html": "<p>Missed a claim in an earlier year? After you get the notice of assessment for that year, you can ask the CRA to change it:</p>\n<ul>\n<li><strong>Change my return</strong> in your CRA account online. The CRA's current target is about two weeks.</li>\n<li><strong>ReFILE</strong> through certified tax software or your tax preparer, if the original return was filed electronically.</li>\n<li><strong>Form T1-ADJ</strong> by mail, with supporting documents. This takes much longer (the CRA's target is about 20 weeks), and very old years can only be changed this way.</li>\n</ul>\n<div class=\"callout\"><p><strong>Time limit:</strong> the CRA can't issue a refund for a change you ask for more than <strong>10 calendar years</strong> after the end of the tax year. A request made in 2026 can usually still reach back to 2016. Don't wait.</p></div>\n<p>A few things can't be added through a change request, such as making or changing certain elections, so some fixes need a different form. One example worth checking: the digital news subscription credit ended after 2024, but if you paid for a qualifying subscription between 2020 and 2024 and never claimed it, you can still claim up to $500 for each of those years.</p>\n"
+  },
+  {
+   "id": "checklist",
+   "heading": "Checklist before you file",
+   "html": "<ul>\n<li>Added up the whole family's medical and dental receipts, and picked the best 12-month period and the right spouse to claim them.</li>\n<li>Considered whether anyone in the family might qualify for the disability tax credit, and whether you support a relative with an infirmity.</li>\n<li>Claimed child care on the lower-income spouse's return, with receipts.</li>\n<li>Checked moving expenses if you moved 40 km or more closer to a new job or school.</li>\n<li>Students: claimed tuition and decided whether to transfer up to $5,000 or carry it forward; claimed government student loan interest.</li>\n<li>Claimed the home buyers' amount or home accessibility expenses if they apply.</li>\n<li>Pooled both spouses' donations on one return, or carried them forward.</li>\n<li>Checked the Canada workers benefit and the B.C. renter's tax credit (Form BC479).</li>\n<li>Seniors: claimed the pension amount and looked at pension splitting with Form T1032.</li>\n<li>Checked past returns for missed claims (10-year limit).</li>\n</ul>"
+  }
+ ],
+ "cta_heading": "Think you've missed a claim?",
+ "cta_text": "We can review your family's returns, spot credits and deductions that were missed, and request changes for past years where it makes sense. We also help with disability tax credit applications and supporting paperwork.",
+ "sources": [
+  {
+   "title": "Medical Expenses 2025, RC4065 (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/rc4065/medical-expenses.html"
+  },
+  {
+   "title": "Lines 33099 and 33199: Eligible medical expenses (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/lines-33099-33199-eligible-medical-expenses-you-claim-on-your-tax-return.html"
+  },
+  {
+   "title": "Disability-Related Information 2025, RC4064 (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/rc4064/disability-related-information.html"
+  },
+  {
+   "title": "Canada caregiver credit (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/canada-caregiver-amount.html"
+  },
+  {
+   "title": "Line 30450: Canada caregiver amount for other infirm dependants (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-30450-caregiver-infirm-dependant.html"
+  },
+  {
+   "title": "Line 21400: Child care expenses (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-21400-child-care-expenses.html"
+  },
+  {
+   "title": "Child care expenses: who can claim the deduction (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-21400-child-care-expenses/who-claim-deduction.html"
+  },
+  {
+   "title": "Child care expenses: who is eligible (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-21400-child-care-expenses/who-eligible.html"
+  },
+  {
+   "title": "Child care expenses: expenses you can claim (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-21400-child-care-expenses/expenses-claim.html"
+  },
+  {
+   "title": "Line 21900: Moving expenses (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-21900-moving-expenses.html"
+  },
+  {
+   "title": "Can you claim moving expenses? (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-21900-moving-expenses/you-claim-moving-expenses-12.html"
+  },
+  {
+   "title": "Line 21200: Annual union, professional, or like dues (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-21200-annual-union-professional-like-dues.html"
+  },
+  {
+   "title": "Tuition: transferring and carrying forward amounts (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-32300-your-tuition-education-textbook-amounts/transferring-carrying-forward-amounts.html"
+  },
+  {
+   "title": "Line 31900: Interest paid on your student loans (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-31900-interest-paid-on-your-student-loans.html"
+  },
+  {
+   "title": "Line 31270: Home buyers' amount (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-31270-home-buyers-amount.html"
+  },
+  {
+   "title": "Line 31285: Home accessibility expenses (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-31285-home-accessibility-expenses.html"
+  },
+  {
+   "title": "Gifts and Income Tax 2025, P113 (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/p113/p113-gifts-income-tax.html"
+  },
+  {
+   "title": "Donations and gifts: how to claim (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-34900-donations-gifts/how-claim.html"
+  },
+  {
+   "title": "Income Tax Act, section 118.1 (Justice Laws)",
+   "url": "https://laws-lois.justice.gc.ca/eng/acts/i-3.3/section-118.1.html"
+  },
+  {
+   "title": "Report on the impact of reducing the lowest personal income tax rate on non-refundable tax credits (Finance Canada)",
+   "url": "https://www.canada.ca/en/department-finance/services/publications/report-impact-reducing-lowest-marginal-personal-income-tax-rate-non-refundable-tax-credits.html"
+  },
+  {
+   "title": "Tax rates and income brackets for 2025 (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/last-year.html"
+  },
+  {
+   "title": "Personal income tax: What's new for 2025 (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/whats-new.html"
+  },
+  {
+   "title": "Canada workers benefit: how much you can get (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/how-much-you-can-get.html"
+  },
+  {
+   "title": "Canada workers benefit: who is eligible (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/who-is-eligible.html"
+  },
+  {
+   "title": "Pension income splitting (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/pension-income-splitting.html"
+  },
+  {
+   "title": "Line 31400: Pension income amount (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-31400-pension-income-amount.html"
+  },
+  {
+   "title": "Line 31350: Digital news subscription expenses (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-31350-digital-news-subscription-expenses.html"
+  },
+  {
+   "title": "Changing a tax return (Government of Canada)",
+   "url": "https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax/after-you-file/change-return.html"
+  },
+  {
+   "title": "B.C. renter's tax credit (Province of British Columbia)",
+   "url": "https://www2.gov.bc.ca/gov/content/taxes/income-taxes/personal/credits/renters-tax-credit"
+  }
+ ],
+ "updated": "2026-11-02",
+ "published": "2026-11-02"
+}
