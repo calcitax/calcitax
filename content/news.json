@@ -80,6 +80,48 @@
     ]
   },
   {
+    "slug": "year-end-tax-checklist-december-31-november-2026",
+    "title": "Year-end tax checklist: what to do before December 31, 2026",
+    "description": "Some tax moves only count for 2026 if they happen by December 31. Here's a plain checklist for donations, FHSAs, TFSAs, investment losses and RRSPs.",
+    "date": "2026-11-02",
+    "category": "Deadlines",
+    "body_html": "<p>With two months left in the year, now is a good time to check a few tax moves that only count for 2026 if you make them by <strong>December 31, 2026</strong>. Here is a short, plain checklist for individuals and families in Metro Vancouver.</p>\n\n<h2>Why December 31 matters</h2>\n<p>Several savings and tax-credit rules work on the calendar year, so a step taken on January 2 can land on next year's return instead. The federal government has also scheduled its 2026 budget for <strong>November 5, 2026</strong>. Budgets can announce new tax measures, so check back after budget day; we'll explain anything that affects this checklist.</p>\n\n<h2>What it means for you</h2>\n<h3>Charitable donations</h3>\n<p>Gifts to a registered charity made by December 31 can be claimed on your 2026 return. A few points worth knowing:</p>\n<ul>\n<li>You can claim donations from the previous five years that you haven't claimed yet.</li>\n<li>Spouses and common-law partners can combine their donations on one return.</li>\n<li>You need an official receipt from a registered charity or other qualified donee. Keep receipts for six years.</li>\n</ul>\n<p>Our <a href=\"/guides/often-missed-tax-credits.html\">guide to often-missed tax credits</a> covers this and other credits people forget.</p>\n\n<h3>First home savings account (FHSA)</h3>\n<p>An FHSA lets first-time buyers save for a home with a tax deduction for contributions. Unlike an RRSP, the FHSA has <strong>no 60-day window</strong> after year end: contributions must be made between January 1 and December 31 to count for that year.</p>\n<ul>\n<li>Your contribution room starts in the year you open your first FHSA, at <strong>$8,000</strong> a year, up to a lifetime total of <strong>$40,000</strong>.</li>\n<li>Unused room can carry forward, but only up to $8,000. So opening an account before December 31 starts your room this year, even if you don't put money in yet.</li>\n<li>You don't have to deduct a contribution in the year you make it. You can save the deduction for a later year when your income is higher.</li>\n</ul>\n\n<h3>Tax-free savings account (TFSA)</h3>\n<p>If you plan to take money out of a TFSA soon, timing matters. Amounts you withdraw are added back to your contribution room only on <strong>January 1 of the next year</strong>.</p>\n<ul>\n<li>Withdrawing in December rather than January means you get that room back a full year sooner.</li>\n<li>Don't put withdrawn money back in the same year unless you are sure you have room. Over-contributions are taxed at 1% a month while the excess stays in the account.</li>\n</ul>\n\n<h3>Selling investments at a loss</h3>\n<p>Some investors sell shares or funds that have dropped in value before year end, to use the loss against capital gains. Watch the <strong>superficial loss</strong> rule: if you, your spouse or partner, or a corporation either of you controls buys the same investment within 30 days before or after the sale, and still holds it 30 days after, the loss can't be claimed (it is usually added to the cost of the shares bought back instead).</p>\n<p>A net capital loss can be carried back three years using Form T1A, or forward with no time limit. Our new <a href=\"/guides/capital-gains-selling-home-property-investments.html\">capital gains guide</a> explains how gains and losses are taxed.</p>\n\n<h3>RRSP</h3>\n<p>The RRSP dollar limit is <strong>$33,810 for 2026</strong> and <strong>$35,390 for 2027</strong>, according to the CRA. Your own limit depends on your income and past contributions, so it may be lower. Unlike the FHSA, contributions made in the first 60 days of 2027 can still be deducted on your 2026 return, so the RRSP isn't a December 31 deadline for most people.</p>\n\n<h2>What to do now</h2>\n<ul>\n<li>Make planned donations by December 31 and keep the receipts.</li>\n<li>If you're a first-time buyer, consider opening an FHSA before year end.</li>\n<li>Time any TFSA withdrawals for December if you'll want to re-contribute early next year.</li>\n<li>Before selling investments at a loss, check what you, your spouse and your company bought in the 30 days around the sale.</li>\n<li>Watch for the federal budget on November 5, 2026, in case new measures change your plans.</li>\n</ul>\n<p>Everyone's situation is different, so check the numbers for your own case before acting.</p>",
+    "sources": [
+      {
+        "title": "Did you donate to a charity? You may be able to claim a charitable donation tax credit (CRA)",
+        "url": "https://www.canada.ca/en/revenue-agency/news/newsroom/tax-tips/tax-filing-season-media-kit/tfsmk-did-you-donate-charity.html"
+      },
+      {
+        "title": "Tax deductions for FHSA contributions (CRA)",
+        "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/first-home-savings-account/tax-deductions-fhsa-contributions.html"
+      },
+      {
+        "title": "Participating in your FHSAs (CRA)",
+        "url": "https://www.canada.ca/participating-fhsa"
+      },
+      {
+        "title": "Withdrawing from a TFSA (CRA)",
+        "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/withdraw.html"
+      },
+      {
+        "title": "Capital losses and deductions (CRA)",
+        "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/personal-income/line-12700-capital-gains/capital-losses-deductions.html"
+      },
+      {
+        "title": "MP, DB, RRSP, DPSP, ALDA, TFSA limits, YMPE and the YAMPE (CRA)",
+        "url": "https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html"
+      },
+      {
+        "title": "2026 Canadian Federal Budget (KPMG)",
+        "url": "https://kpmg.com/ca/en/insights/2026/11/canadian-federal-budget.html"
+      },
+      {
+        "title": "Anticipating Canada's 2026 Federal Budget (Scotiabank Economics)",
+        "url": "https://www.scotiabank.com/ca/en/about/economics/economics-publications/post.other-publications.fiscal-policy.fiscal-pulse.federal.federal-budget-analysis-.preview-cdn-federal-budget--october-29--2026-.html"
+      }
+    ]
+  },
+  {
     "slug": "cpp-ei-2027-limits-rate-cut-november-2026",
     "title": "2027 CPP and EI numbers: lower base CPP rate, higher earnings ceilings",
     "description": "CPP's base rate drops to 4.75% each for workers and employers on January 1, 2027, while the CPP and EI earnings ceilings rise. Here's what changes.",

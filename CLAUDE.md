@@ -90,7 +90,6 @@ today's sources and update it.
 likely to search for (benefit payments, CPP/OAS, TFSA/RRSP limits and deadlines usually draw the most).
 
 **Guide backlog** (ordered by estimated search demand, highest first):
-- Capital gains: selling a home, rental property or investments (principal residence exemption)
 - Canada child benefit and B.C. family benefits explained
 - Retirement income: OAS, CPP, RRIFs and pension splitting
 - RESPs and education grants for your children
