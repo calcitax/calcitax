@@ -76,24 +76,32 @@ only where a comparison really helps, and a closing "Checklist" or "Common mista
 says which year. Simple made-up examples are fine if they use round numbers and are clearly illustrations.
 Link to related guides with relative links (`/guides/<slug>.html`) where helpful.
 
-**Choosing a guide topic.** Check `content/guides/` first and never duplicate a guide. Take the first
-topic from the backlog below that isn't covered yet (or a better one suggested by current news),
-then remove it from the backlog in the same commit. If the backlog is empty, refresh the guide with the
-oldest `updated` date instead: re-check every figure against today's sources and update it.
+**Choosing a guide topic.** Check `content/guides/` first and never duplicate a guide. Pick the backlog
+topic people are most likely searching for right now: the backlog below is ordered by estimated
+Google search demand in Canada, but move a topic up when it is seasonal (for example T4A/T5018 slips in
+January-February, tax filing and benefits topics in February-April, RRSP and year-end planning in
+November-February). If a keyword-research connector (such as Semrush, Ahrefs or Ubersuggest) is
+available in the run, use its Canadian search volumes to confirm the order. A topic suggested by current
+news can also jump the queue. Remove the chosen topic from the backlog in the same commit. If the backlog
+is empty, refresh the guide with the oldest `updated` date instead: re-check every figure against
+today's sources and update it.
 
-**Guide backlog** (most useful first):
+**News tie-breaker.** When two news topics are equally solid and new, choose the one more people are
+likely to search for (benefit payments, CPP/OAS, TFSA/RRSP limits and deadlines usually draw the most).
+
+**Guide backlog** (ordered by estimated search demand, highest first):
 - Capital gains: selling a home, rental property or investments (principal residence exemption)
 - Canada child benefit and B.C. family benefits explained
+- Retirement income: OAS, CPP, RRIFs and pension splitting
 - RESPs and education grants for your children
+- International students and work-permit holders: taxes and benefits
+- Gig and ride-share drivers: income, GST and expenses
 - Income from India (or abroad) while living in Canada: foreign income, foreign tax credits, T1135
 - Paying yourself from your corporation: salary, dividends and shareholder loans
-- Bookkeeping and record-keeping basics for small businesses
-- Gig and ride-share drivers: income, GST and expenses
-- International students and work-permit holders: taxes and benefits
-- Retirement income: OAS, CPP, RRIFs and pension splitting
 - Tax instalments for individuals: who pays and when
-- When a family member dies: final return and estate basics
-- Separation and divorce: tax and benefit changes
 - Dealing with CRA letters, reviews and audits
-- B.C. business licences, registrations and the transparency register for private companies
 - Hiring contractors: T4A, T5018 and contractor vs employee
+- Separation and divorce: tax and benefit changes
+- When a family member dies: final return and estate basics
+- Bookkeeping and record-keeping basics for small businesses
+- B.C. business licences, registrations and the transparency register for private companies
