@@ -68,3 +68,32 @@ Evergreen guides live in `content/guides/<slug>.json` (format in the docstring o
 After adding or editing one, run `python3 tools/build_guides.py` and then
 `python3 tools/publish_article.py --rebuild` (so News search includes it). The same accuracy and
 originality rules as news apply; set `updated` to the date the content was re-checked.
+
+**Guide shape.** 1,300-2,200 words in 5-9 sections, written for a Grade 8 reading level, with every
+term explained the first time it appears. Include 4-6 `key_points`, 1-3 `<div class="callout">` tips or warnings, a table
+only where a comparison really helps, and a closing "Checklist" or "Common mistakes" section.
+`audience` is `individuals` or `business`. Year-specific figures must name the year, and `figures_for`
+says which year. Simple made-up examples are fine if they use round numbers and are clearly illustrations.
+Link to related guides with relative links (`/guides/<slug>.html`) where helpful.
+
+**Choosing a guide topic.** Check `content/guides/` first and never duplicate a guide. Take the first
+topic from the backlog below that isn't covered yet (or a better one suggested by current news),
+then remove it from the backlog in the same commit. If the backlog is empty, refresh the guide with the
+oldest `updated` date instead: re-check every figure against today's sources and update it.
+
+**Guide backlog** (most useful first):
+- Capital gains: selling a home, rental property or investments (principal residence exemption)
+- Canada child benefit and B.C. family benefits explained
+- RESPs and education grants for your children
+- Income from India (or abroad) while living in Canada: foreign income, foreign tax credits, T1135
+- Paying yourself from your corporation: salary, dividends and shareholder loans
+- Bookkeeping and record-keeping basics for small businesses
+- Gig and ride-share drivers: income, GST and expenses
+- International students and work-permit holders: taxes and benefits
+- Retirement income: OAS, CPP, RRIFs and pension splitting
+- Tax instalments for individuals: who pays and when
+- When a family member dies: final return and estate basics
+- Separation and divorce: tax and benefit changes
+- Dealing with CRA letters, reviews and audits
+- B.C. business licences, registrations and the transparency register for private companies
+- Hiring contractors: T4A, T5018 and contractor vs employee
