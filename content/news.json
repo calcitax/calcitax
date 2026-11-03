@@ -1,5 +1,43 @@
 [
   {
+    "slug": "december-15-tax-instalment-deadline-november-2026",
+    "title": "Paying tax by instalments? Your last 2026 payment is due December 15",
+    "description": "The final 2026 income tax instalment is due Tuesday, December 15. Here's who has to pay, how to check your amount and how to avoid CRA interest.",
+    "date": "2026-11-03",
+    "category": "Deadlines",
+    "body_html": "<p>If you are self-employed, earn rental income or have a pension or investment income with little tax taken off, the Canada Revenue Agency (CRA) may expect you to pay your 2026 tax in instalments. The fourth and final instalment for 2026 is due on <strong>Tuesday, December 15, 2026</strong>, and the CRA currently charges 7% interest, compounded daily, on amounts that are paid late or short.</p><h2>What is a tax instalment?</h2><p>An instalment is a partial payment of the current year's income tax, made during the year instead of in one lump sum at tax time. Employees rarely need it, because tax comes off every paycheque.</p><p>For most individuals, 2026 instalments are due on March 15, June 15, September 15 and December 15. If your main income comes from farming or fishing, you have a single due date of December 31 instead, and the CRA sends that reminder in November.</p><h2>Who has to pay</h2><p>For 2026, you have to pay by instalments if <strong>both</strong> of these are true:</p><ul><li>your <em>net tax owing</em> for 2026 (roughly, the tax left to pay when you file, after tax already withheld) is more than $3,000 ($1,800 if you live in Quebec on December 31), and</li><li>your net tax owing was also more than that amount in either 2025 or 2024.</li></ul><p>The CRA sends instalment reminders to people it expects will need to pay. The February reminder covers the March and June payments, and the August reminder covers September and December.</p><p>A reminder is not a bill. If you are confident your 2026 net tax owing will be $3,000 or less, the CRA says you don't have to pay 2026 instalments, even if you received a reminder. The catch is that if your estimate turns out to be wrong, you may owe interest.</p><h2>Three ways to work out your amount</h2><p>The CRA offers three options:</p><ul><li><strong>No-calculation option:</strong> pay the amounts printed on your CRA reminders. These are based on your most recent assessed return. The CRA says this suits people whose income, deductions and credits stay about the same each year.</li><li><strong>Prior-year option:</strong> base your payments on your 2025 return, using the CRA's 2026 instalment calculation chart. This can work well if 2026 looks like 2025 but 2024 was quite different.</li><li><strong>Current-year option:</strong> estimate your actual 2026 tax, CPP contributions and any voluntary EI premiums, and pay based on that. This helps if your income dropped this year, but if your estimate is too low you can be charged interest.</li></ul><p>If you choose the prior-year or current-year option and pay the full amounts by each due date, the CRA will not charge instalment interest or a penalty, unless your estimated amounts were too low.</p><h2>What happens if you pay late or too little</h2><p>Instalment interest is charged at the CRA's prescribed rate and compounded daily. For October 1 to December 31, 2026, that rate is 7%. You are only charged if the interest for the year is more than $25.</p><p>A separate penalty applies only if your instalment interest for 2026 is more than $1,000. In that case, the penalty is half of the amount by which your interest exceeds the greater of $1,000 or 25% of the interest you would have owed if you had made no instalments at all.</p><p>There is some good news if you missed or underpaid an earlier 2026 instalment. The CRA says paying your next instalment early, or paying more than required, earns credit interest that can offset the interest on the late or short payment for the same year. This credit can't be refunded or carried to another year.</p><h2>What to do now</h2><ul><li><strong>Check your August reminder</strong> in your CRA account to see the amount the CRA suggests for December.</li><li><strong>Compare it with your 2026 reality.</strong> If your self-employment, rental or investment income changed a lot this year, a quick estimate of your 2026 tax may show you can pay less, or that you should pay more.</li><li><strong>Pay early enough.</strong> The CRA counts the date your payment is received, not the date you sent it. It suggests allowing 3 business days for online payments to show up, and 10 business days for cheques or money orders, before checking that a payment was processed.</li><li><strong>Use the right account.</strong> When paying in person or by mail, use your instalment remittance voucher (form INNS3) so the money goes to your instalment account, not to an older tax debt.</li><li><strong>Keep proof of payment</strong> until it shows in your CRA account or on the instalment summary the CRA sends in February.</li><li><strong>Think ahead to 2027.</strong> If you receive OAS or CPP, you can ask Service Canada to withhold tax from those payments (forms ISP3520OAS and ISP3520CPP), which can reduce or remove the need for instalments.</li></ul><h2>What it means for small-business owners</h2><p>If you run a business as a sole proprietor, your business profit is part of your personal return, so these personal instalment rules apply to you. Your instalments also cover CPP contributions on self-employment income. Corporations follow separate instalment rules.</p><p>For more on reducing your tax bill as a self-employed person or landlord, see our guides to <a href=\"/guides/self-employed-expenses-deductions.html\">self-employed expenses and deductions</a> and <a href=\"/guides/rental-income-tax-guide.html\">rental income tax</a>. Our <a href=\"/news/year-end-tax-checklist-december-31-november-2026.html\">year-end tax checklist</a> covers other steps to take before December 31.</p>",
+    "sources": [
+      {
+        "title": "CRA: Required tax instalments for individuals",
+        "url": "https://www.canada.ca/en/revenue-agency/services/payments-cra/individual-payments/income-tax-instalments.html"
+      },
+      {
+        "title": "CRA: Who has to pay instalments",
+        "url": "https://www.canada.ca/en/revenue-agency/services/payments/payments-cra/individual-payments/income-tax-instalments/who-pays-instalments.html"
+      },
+      {
+        "title": "CRA: Instalment payment due dates",
+        "url": "https://www.canada.ca/en/revenue-agency/services/payments/payments-cra/individual-payments/income-tax-instalments/due-dates.html"
+      },
+      {
+        "title": "CRA: Options to calculate your instalments",
+        "url": "https://www.canada.ca/en/revenue-agency/services/payments/payments-cra/individual-payments/income-tax-instalments/options-calculate.html"
+      },
+      {
+        "title": "CRA: How to pay instalments",
+        "url": "https://www.canada.ca/en/revenue-agency/services/payments/payments-cra/individual-payments/income-tax-instalments/how-pay.html"
+      },
+      {
+        "title": "CRA: Instalment interest and penalty charges",
+        "url": "https://www.canada.ca/en/revenue-agency/services/payments/payments-cra/individual-payments/income-tax-instalments/interest-penalty-charges.html"
+      },
+      {
+        "title": "CRA: Prescribed interest rates, fourth quarter 2026",
+        "url": "https://www.canada.ca/en/revenue-agency/services/tax/prescribed-interest-rates/2026-q4.html"
+      }
+    ]
+  },
+  {
     "slug": "moving-from-canada-to-india-tax-filing-november-2026",
     "title": "Moved from Canada to India this year? Your Canadian tax to-do list",
     "description": "Leaving Canada for India in 2026? Here's what to file with the CRA: your final return, departure tax forms, and what happens to your accounts and benefits.",
