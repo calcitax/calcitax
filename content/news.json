@@ -1,5 +1,43 @@
 [
   {
+    "slug": "turning-71-rrsp-to-rrif-deadline-december-31-november-2026",
+    "title": "Turning 71 in 2026? Your RRSP must be wound up by December 31",
+    "description": "If you turn 71 this year, December 31, 2026 is your last day to contribute to your RRSP and to choose a RRIF, an annuity or cash.",
+    "date": "2026-11-04",
+    "category": "Deadlines",
+    "body_html": "<p>If you turn 71 at any point in 2026, you have until <strong>December 31, 2026</strong> to make your last RRSP contribution and to decide what happens to the savings in your registered retirement savings plan (RRSP). With about eight weeks left, now is a good time to call your bank or advisor so the paperwork isn't rushed into the holidays.</p><h2>What happened</h2><p>Nothing new has changed here. This is a fixed deadline set by the Canada Revenue Agency (CRA) rules: <strong>December 31 of the year you turn 71</strong> is the last day you can contribute to your own RRSP. By the same date, you must pick one of three options for the money already in the plan. People born in 1955 reach 71 this year, so this deadline applies to them.</p><p>The federal budget is scheduled for <strong>November 5, 2026</strong>. If it announces anything that changes these rules, we'll cover it in a follow-up article.</p><h2>Your three options</h2><p>The CRA lists three choices for your RRSPs in the year you turn 71:</p><ul><li><strong>Transfer to a RRIF.</strong> A registered retirement income fund (RRIF) is the usual choice. Your investments can stay invested, and the transfer itself is not taxed. You pay tax only on the money you take out each year, and you report it on your return for that year.</li><li><strong>Buy an annuity.</strong> An annuity is a contract, usually with an insurance company, that pays you a set income, often for life. No tax is withheld when your RRSP money is used to buy one.</li><li><strong>Take it as cash.</strong> The whole amount becomes taxable income in the year you withdraw it. Your financial institution withholds some tax (between 10% and 30% outside Quebec, depending on the amount), but the CRA notes this may not cover all the tax you owe. For most people with sizable savings, this is the costliest choice.</li></ul><p>You can also mix these, for example moving most of your savings to a RRIF and using part to buy an annuity. Ask your financial institution to do the move as a direct transfer so no tax is taken off.</p><h2>How RRIF withdrawals work</h2><p>Once your money is in a RRIF, you must take out at least a <strong>minimum amount</strong> each year. Here is how it works, based on the CRA's rules:</p><ul><li>There is <strong>no minimum in the year you open the RRIF</strong>. If you convert in 2026, your first required withdrawal is in 2027.</li><li>The minimum is the RRIF's value at the start of the year multiplied by a factor set by your age on January 1. The factor is 5.28% at age 71, 5.40% at 72 and 5.53% at 73, rising each year after that.</li><li>You can take more than the minimum, but not less.</li><li>You can choose to base the minimum on your spouse's or common-law partner's age instead. If your partner is younger, this lowers the minimum. You must make this choice before you receive your first RRIF payment, and you can't change it later.</li></ul><p><em>Illustration only:</em> if you are 71 on January 1, 2027 and your RRIF is worth $200,000 on that date, your minimum for 2027 is $200,000 × 5.28% = $10,560.</p><h2>What it means for you</h2><ul><li><strong>Make any last contribution by December 31.</strong> The usual 60-day window in the new year does not help you after the year you turn 71, because you can't contribute to your own RRSP after that year ends.</li><li><strong>Have a younger spouse?</strong> You can still contribute to a <strong>spousal RRSP</strong> until the end of the year your spouse or common-law partner turns 71, if you have RRSP room. You get the deduction; the money belongs to their plan.</li><li><strong>Still repaying the Home Buyers' Plan?</strong> You can't make repayments after the year you turn 71. You can repay the rest this year; otherwise, the unpaid balance is spread over your remaining repayment years and added to your income each year.</li><li><strong>Tax credits and splitting.</strong> RRIF income received at 65 or older can qualify for the pension income amount, and it can be split with your spouse on your tax return. Our new <a href=\"/guides/retirement-income-oas-cpp-rrif-pension-splitting.html\">guide to retirement income</a> explains how this works with OAS and CPP, including the OAS clawback.</li></ul><h2>What to do now</h2><ol><li>Check your birth year. If you were born in 1955, this deadline is yours. Also check any spousal RRSP or group RRSP at work.</li><li>Call each institution where you hold an RRSP and ask how they handle the conversion and by what date they need your instructions.</li><li>Decide whether to base RRIF payments on your own age or a younger partner's age before the first payment.</li><li>Ask how often payments can be made and whether to have tax withheld. Tax is withheld on amounts above the minimum, but you may want more taken off so you don't owe a lump sum at tax time.</li><li>Make any final RRSP or spousal RRSP contribution, or Home Buyers' Plan repayment, before December 31, 2026.</li></ol><p>A RRIF and an annuity each have trade-offs, and the right mix depends on your other income, your health and your family. If you're unsure, it's worth getting advice before your institution's cut-off date.</p>",
+    "sources": [
+      {
+        "title": "CRA: RRSP options when you turn 71",
+        "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/rrsp-options-when-you-turn-71.html"
+      },
+      {
+        "title": "CRA: Options for your RRSPs",
+        "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/rrsp-options-when-you-turn-71/options-your-rrsps.html"
+      },
+      {
+        "title": "CRA: Receiving income from a RRIF",
+        "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/registered-retirement-income-fund-rrif/receiving-income-a-rrif.html"
+      },
+      {
+        "title": "CRA: IC78-18 Registered retirement income funds",
+        "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/ic78-18/registered-retirement-income-funds.html"
+      },
+      {
+        "title": "CRA: Tax rates on RRSP withdrawals",
+        "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/making-withdrawals/tax-rates-on-withdrawals.html"
+      },
+      {
+        "title": "CRA: The HBP participant reaches the age of 71",
+        "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/rrsp-options-when-you-turn-71/participant-reaches-71.html"
+      },
+      {
+        "title": "CRA: Guide T4040, RRSPs and other registered plans for retirement",
+        "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4040/rrsps-other-registered-plans-retirement.html"
+      }
+    ]
+  },
+  {
     "slug": "december-15-tax-instalment-deadline-november-2026",
     "title": "Paying tax by instalments? Your last 2026 payment is due December 15",
     "description": "The final 2026 income tax instalment is due Tuesday, December 15. Here's who has to pay, how to check your amount and how to avoid CRA interest.",
