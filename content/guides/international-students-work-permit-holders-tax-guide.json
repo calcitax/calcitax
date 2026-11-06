@@ -1,0 +1,137 @@
+{
+ "slug": "international-students-work-permit-holders-tax-guide",
+ "title": "International students and work-permit holders: taxes and benefits in Canada",
+ "seo_title": "International Students & Work-Permit Holders: Canadian Tax Guide (2026)",
+ "description": "How tax residency works on a study or work permit, your SIN, work limits, scholarships, the tuition credit, benefits you can get, B.C. MSP and filing.",
+ "topic": "Newcomers",
+ "audience": "individuals",
+ "updated": "2026-11-06",
+ "published": "2026-11-06",
+ "lead": "Studying or working in Canada on a temporary permit? You may owe tax here, and you may also be able to get benefits. This guide covers what is different for international students and temporary workers in B.C., from your SIN and work hours to tuition slips and filing your return.",
+ "figures_for": "2026",
+ "key_points": [
+  "Your tax residency depends on your ties to Canada, such as a home here, not on your permit type.",
+  "Eligible students can work up to 24 hours a week off campus during classes, and without a weekly limit in scheduled breaks.",
+  "Full-time students usually pay no tax on scholarships, and unused tuition amounts can be carried forward to a year you owe tax.",
+  "Tax residents 19 and older can get the Canada Groceries and Essentials Benefit by applying with Form RC151 and filing each year.",
+  "Temporary residents can get the Canada child benefit after 18 months in Canada, with a valid permit in the 19th month.",
+  "File your 2026 return by April 30, 2027, even with little or no income."
+ ],
+ "sections": [
+  {
+   "id": "residency",
+   "heading": "Are you a Canadian resident for tax?",
+   "html": "<p>Your study permit or work permit decides whether you can study or work here. It does not decide how Canada taxes you. For tax, what counts is your <strong>residency status</strong>, which the Canada Revenue Agency (CRA) works out from your <strong>residential ties</strong>: the links between your daily life and Canada.</p> <ul> <li><strong>Significant ties</strong> are a home in Canada, a spouse or common-law partner in Canada, or dependants (such as children) in Canada.</li> <li><strong>Secondary ties</strong> include a car or furniture here, a Canadian bank account or credit card, a B.C. driver's licence, memberships in local clubs or religious groups, and provincial health coverage.</li> </ul> <p>Many international students and most work-permit holders who rent a place and live here year-round become <strong>residents</strong> for tax. A resident reports <strong>world income</strong> (income from every country) from the day they settled here. The CRA notes that a student who goes home for long stretches, or lives abroad when not in classes, may not have set up significant ties.</p> <h3>The four possible results</h3> <ul> <li><strong>Resident:</strong> you have significant ties, even if you lived here only part of the year.</li> <li><strong>Non-resident:</strong> no significant ties and fewer than 183 days in Canada in the year. You are taxed only on certain Canadian income, such as pay for work done here.</li> <li><strong>Deemed resident:</strong> no significant ties, but 183 days or more in Canada in a calendar year (and not treated as a resident of your home country under a tax treaty). You report world income for the whole year and pay a federal <strong>surtax</strong> (an extra federal tax) instead of B.C. tax. You can't claim B.C. credits.</li> <li><strong>Deemed non-resident:</strong> you have ties here, but a <strong>tax treaty</strong> (an agreement between two countries that decides which one taxes you) says you are a resident of the other country. Non-resident rules then apply.</li> </ul> <p>Not sure which applies? You can send the CRA <strong>Form NR74</strong>, <em>Determination of Residency Status (entering Canada)</em>, for its opinion. The opinion isn't binding, so the CRA can look at your situation again later. If you are a resident, our <a href=\"/guides/newcomers-tax-guide.html\">first-year guide for newcomers</a> explains your first return, your entry date and property you brought with you.</p>"
+  },
+  {
+   "id": "sin-and-work",
+   "heading": "Your SIN, work limits and payroll deductions",
+   "html": "<h3>Your Social Insurance Number</h3> <p>You need a <strong>Social Insurance Number (SIN)</strong>, a nine-digit number from Service Canada, to work and to file a tax return. A SIN given to a temporary resident always starts with <strong>9</strong> and <strong>expires on the same date as your permit</strong>. When you get a new permit with a later date, update your SIN record. If your SIN expires while you are waiting for IRCC to decide on your permit extension, you can keep working until the decision.</p> <h3>How much students can work off campus</h3> <p>Immigration, Refugees and Citizenship Canada (IRCC) sets the work rules, not the CRA. As of its page updated April 15, 2026:</p> <ul> <li>Eligible full-time students can work up to <strong>24 hours a week</strong> off campus during an academic session, counting all jobs together. This applies even if your permit still says 20 hours, as long as you meet the other conditions.</li> <li>During a <strong>scheduled break</strong> set by your school (such as summer, winter break or reading week), there is no weekly limit. If your program has no scheduled breaks, the 24-hour limit applies all year.</li> <li>Your study permit must show work conditions, and you can't work off campus while on an authorized leave from studies.</li> </ul> <div class=\"callout\"><strong>Check IRCC's rules before you take extra shifts.</strong> Working more than you're allowed is an immigration problem, not a tax one, and it can affect your permit. Paying tax on the income doesn't make the work allowed.</div> <h3>What comes off your pay cheque</h3> <p>When you start a job, you fill in a <strong>TD1</strong> form so your employer knows how much income tax to hold back. Your employer also deducts <strong>Canada Pension Plan (CPP)</strong> contributions (from age 18) and <strong>Employment Insurance (EI)</strong> premiums, and adds its own matching share. Being on a temporary permit doesn't exempt you from these. By the end of February, your employer must give you a <strong>T4 slip</strong> showing your pay and deductions for the year. If too much tax was held back, you get it back when you file. Running your own business, or hiring help, works differently: see our <a href=\"/guides/hiring-first-employee-payroll-bc.html\">payroll guide for B.C. employers</a>.</p>"
+  },
+  {
+   "id": "student-items",
+   "heading": "Scholarships, tuition and money from home",
+   "html": "<h3>Scholarships and bursaries</h3> <p>Scholarships and bursaries from your school are reported on a <strong>T4A slip</strong> (box 105). If you are a <strong>full-time</strong> student in a qualifying post-secondary program, they are usually <strong>not taxable at all</strong>. For part-time students, the tax-free part is limited to tuition and required program materials, plus a <strong>$500</strong> basic exemption. Research grants and postdoctoral fellowships follow different rules.</p> <h3>The tuition tax credit and your T2202</h3> <p>Your college or university gives you a <strong>T2202</strong>, the <em>Tuition and Enrolment Certificate</em>, usually through your student account. It shows the eligible tuition you paid in the calendar year. Fees paid to each school must be more than <strong>$100</strong>. You claim the amount on <strong>Schedule 11</strong> of your return.</p> <p>The tuition amount is a <strong>non-refundable credit</strong>: it lowers tax you owe, but it doesn't pay you cash if you owe nothing. Many international students earn little while studying, so they don't need the credit right away. In that case you can:</p> <ul> <li><strong>Carry it forward</strong> to a later year when you owe tax, such as your first year of full-time work. You must use it in the first year you owe tax.</li> <li><strong>Transfer</strong> up to <strong>$5,000</strong> of the current year's federal amount (less what you used yourself) to a spouse or common-law partner, parent or grandparent. This only helps if that person files a Canadian return and owes Canadian tax, so it rarely helps parents who live abroad. Once an amount is carried forward, it can't be transferred later.</li> </ul> <div class=\"callout\"><strong>File every year, even with no income.</strong> The CRA says that if you are carrying tuition forward and skip filing a return for a year, the amount won't carry forward and you lose it. Each return also keeps your benefits flowing.</div> <p><strong>Illustration (made-up numbers):</strong> Mei pays $20,000 of tuition in 2026 and earns $8,000 from a part-time job. She owes no tax, so her tuition amount is carried forward. In 2028 she starts a full-time job and uses the carried-forward amount to cut her tax that year.</p> <h3>Moving costs</h3> <p>If your T2202 has an amount in <strong>box C</strong> (full-time attendance), you may be able to deduct moving costs. For a move to attend school, the deduction only reduces the taxable part of scholarships, bursaries and research grants. Your new home must be at least <strong>40 kilometres</strong> closer to the school or new job.</p> <h3>Money your family sends you</h3> <p>Most gifts and inheritances aren't taxed in Canada, so money your parents send for fees and rent isn't income. But interest or other income you earn on that money is taxable once you are a resident. If you have bank deposits or investments abroad, see our <a href=\"/guides/newcomers-tax-guide.html\">newcomers guide</a> for foreign income and the T1135 form.</p>"
+  },
+  {
+   "id": "benefits",
+   "heading": "Benefits you may be able to get",
+   "html": "<p>Benefits are paid by the CRA based on your tax return. Being a temporary resident doesn't rule you out, but each benefit has its own rules.</p> <table> <thead><tr><th>Benefit</th><th>Can students and temporary workers get it?</th><th>How</th></tr></thead> <tbody> <tr><td>Canada Groceries and Essentials Benefit (formerly the GST/HST credit)</td><td>Yes, if you are a tax resident, 19 or older, and your income is low or modest</td><td>Form RC151 in your first year, then file a return every year</td></tr> <tr><td>Canada child benefit (CCB)</td><td>Yes, for children under 18, once you have lived in Canada for 18 months and hold a valid permit in the 19th month</td><td>Forms RC66 and RC66SCH</td></tr> <tr><td>B.C. family benefit</td><td>Yes, if your child is registered for the CCB</td><td>Automatic, paid with the CCB</td></tr> <tr><td>Canada carbon rebate</td><td>No. It is closed, and it was never paid in B.C.</td><td>Not applicable</td></tr> <tr><td>B.C. climate action tax credit</td><td>No. B.C. cancelled it, with the final payment in April 2025</td><td>Not applicable</td></tr> </tbody> </table> <h3>Canada Groceries and Essentials Benefit (CGEB)</h3> <p>The CGEB is a tax-free payment made four times a year to people with low and modest incomes. It replaced the GST/HST credit. You must be a resident for tax at the end of the month before, and at the start of the month of, each payment. For the current period, payments are scheduled for <strong>July 5, 2026</strong>, <strong>October 5, 2026</strong>, <strong>January 5, 2027</strong> and <strong>April 5, 2027</strong>, based on your 2025 return. In the year you become a resident, apply with <strong>Form RC151</strong>. After that, filing your return each year is how you keep getting it. Budget 2026, tabled on November 5, 2026, proposes a one-time extra CGEB payment in early 2027; see <a href=\"/news/federal-budget-2026-what-it-means-for-you-november-2026.html\">our Budget 2026 article</a>.</p> <h3>Canada child benefit and the B.C. family benefit</h3> <p>The <strong>Canada child benefit (CCB)</strong> is a tax-free monthly payment for children under 18. If you or your spouse is a temporary resident, you qualify only after living in Canada for the <strong>previous 18 months</strong>, and you must hold a valid permit in the <strong>19th month</strong>. A permit marked \"does not confer status\" doesn't count. Once your child is registered for the CCB, the <strong>B.C. family benefit</strong> is added to the same monthly payment. Our <a href=\"/guides/canada-child-benefit-bc-family-benefits-guide.html\">CCB and B.C. family benefits guide</a> has the details.</p> <p>If you are not a resident of Canada for tax, you can't get the CGEB.</p>"
+  },
+  {
+   "id": "health-fee",
+   "heading": "B.C. health coverage for students",
+   "html": "<p>B.C.'s <strong>Medical Services Plan (MSP)</strong> is the provincial health insurance that pays for doctor visits and hospital care. It isn't a tax, but it is a monthly cost that many students don't plan for.</p> <ul> <li>If your study permit is valid for <strong>six months or longer</strong> and you are in B.C. for at least six months of the year, enrolling in MSP is <strong>mandatory</strong>.</li> <li>Each international student pays a health fee of <strong>$75 a month</strong>, whatever their income.</li> <li>Coverage starts after a waiting period: the rest of the month you arrive plus two more months. Keep private health insurance until then.</li> <li>A spouse without their own study permit doesn't pay the student fee. A family member with their own study permit of six months or more pays it too.</li> </ul> <p>Apply as soon as you arrive. Work-permit holders should check their own MSP eligibility, as the student fee rules apply to study permit holders.</p>"
+  },
+  {
+   "id": "filing",
+   "heading": "Filing your return",
+   "html": "<p>Your 2026 return is due on <strong>April 30, 2027</strong>, and any balance owing is due the same day. If you or your spouse or common-law partner are self-employed, you have until <strong>June 15, 2027</strong> to file, but tax owing is still due April 30, 2027.</p> <p>File even if you earned little or nothing. A return is how you:</p> <ul> <li>get back extra tax your employer held back;</li> <li>keep CGEB payments and child benefits coming;</li> <li>record your tuition amount so it can be carried forward.</li> </ul> <p>Gather your T4 slips, T4A slips, your T2202, and records of any income from outside Canada. The CRA aims to send your <strong>notice of assessment</strong> (its summary of your return) about two weeks after you file online, or about eight weeks for paper. Save a copy, as you may be asked for it later. Our guide to <a href=\"/guides/often-missed-tax-credits.html\">often-missed tax credits</a> lists other amounts worth checking.</p> <h3>When you finish your studies or leave</h3> <p>Moving from a study permit to a work permit doesn't change your tax status by itself: your ties to Canada do. If you leave Canada for good, you may stop being a resident on your departure date. You'll file a final return and tell the CRA, so benefits stop on time. Our <a href=\"/guides/leaving-canada-tax-guide.html\">guide to leaving Canada</a> covers the steps.</p>"
+  },
+  {
+   "id": "common-mistakes",
+   "heading": "Common mistakes to avoid",
+   "html": "<ol> <li><strong>Assuming a temporary permit means you're not a tax resident.</strong> Your ties decide it, not your permit.</li> <li><strong>Not filing because your income was low.</strong> You can miss benefits and refunds, and the CRA warns you can lose tuition carried forward.</li> <li><strong>Forgetting the T2202.</strong> Download it from your school's student portal every year.</li> <li><strong>Expecting your parents abroad to use your tuition transfer.</strong> It only helps someone who owes Canadian tax.</li> <li><strong>Letting your SIN lapse.</strong> Update your SIN record whenever you get a new permit.</li> <li><strong>Working past your permitted hours.</strong> Check IRCC's current rules, especially between breaks and classes.</li> <li><strong>Applying for child benefits too early, or not at all.</strong> Note the date you'll pass 18 months in Canada and apply then.</li> <li><strong>Leaving out income from abroad.</strong> Once you are a resident, interest, rent or other income earned outside Canada belongs on your return.</li> </ol>"
+  }
+ ],
+ "cta_heading": "Studying or working in Canada on a permit?",
+ "cta_text": "We help international students and temporary workers confirm their residency status, apply for benefits, claim tuition and scholarship amounts correctly and file on time each year.",
+ "sources": [
+  {
+   "title": "Taxes for international students studying in Canada (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/individuals-leaving-entering-canada-non-residents/international-students-studying-canada.html"
+  },
+  {
+   "title": "Working in Canada temporarily, RC643 (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/rc643/working-canada-temporarily.html"
+  },
+  {
+   "title": "Deemed residents of Canada (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/individuals-leaving-entering-canada-non-residents/deemed-residents.html"
+  },
+  {
+   "title": "SIN for temporary residents in Canada (Service Canada)",
+   "url": "https://www.canada.ca/en/employment-social-development/services/sin/temporary-residents.html"
+  },
+  {
+   "title": "Work off campus as an international student (IRCC)",
+   "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/work-off-campus.html"
+  },
+  {
+   "title": "Starting to work (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/educational-programs/starting-work.html"
+  },
+  {
+   "title": "Line 13010: Taxable scholarships, fellowships, bursaries and artists' project grants (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/personal-income/line-13000-other-income/line-13010-scholarships-fellowships-bursaries-artists-project-grants-awards.html"
+  },
+  {
+   "title": "Line 32300: Your federal tuition amount (CRA)",
+   "url": "https://www.canada.ca/line-32300"
+  },
+  {
+   "title": "Eligible tuition fees (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-32300-your-tuition-education-textbook-amounts/eligible-tuition-fees.html"
+  },
+  {
+   "title": "Transferring and carrying forward tuition amounts (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-32300-your-tuition-education-textbook-amounts/transferring-carrying-forward-amounts.html"
+  },
+  {
+   "title": "P105, Students and income tax (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/p105/p105-students-income-tax.html"
+  },
+  {
+   "title": "Amounts that are not reported or taxed (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/personal-income/amounts-that-taxed.html"
+  },
+  {
+   "title": "Canada Groceries and Essentials Benefit, RC4210 (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/rc4210/canada-groceries-essentials-benefit.html"
+  },
+  {
+   "title": "Canada child benefit: who can apply (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/who-apply.html"
+  },
+  {
+   "title": "B.C. family benefit (Government of British Columbia)",
+   "url": "https://www2.gov.bc.ca/gov/content/family-social-supports/affordability/family-benefit"
+  },
+  {
+   "title": "Closed: Canada Carbon Rebate for individuals (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-carbon-rebate.html"
+  },
+  {
+   "title": "B.C. ends consumer carbon tax and climate action tax credit (BC Gov News, March 31, 2025)",
+   "url": "https://news.gov.bc.ca/releases/2025FIN0014-000280"
+  },
+  {
+   "title": "Health fee for international students (Government of British Columbia)",
+   "url": "https://www2.gov.bc.ca/gov/content/health/accessing-health-care/health-fee-international-students"
+  },
+  {
+   "title": "2027 tax deadlines for businesses and self-employed individuals (Government of Canada)",
+   "url": "https://www.canada.ca/en/services/taxes/resources-for-small-and-medium-businesses/2026-tax-deadlines-canadian-businesses-self-employed-individuals.html"
+  }
+ ]
+}
