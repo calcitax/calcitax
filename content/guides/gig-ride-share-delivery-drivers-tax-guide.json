@@ -1,0 +1,162 @@
+{
+  "slug": "gig-ride-share-delivery-drivers-tax-guide",
+  "title": "Ride-share and delivery drivers in B.C.: income, GST and expenses",
+  "seo_title": "Uber, Lyft and Delivery Driver Taxes in B.C.: GST, Expenses, CPP (2026)",
+  "description": "Tax basics for Uber, Lyft, DoorDash and other app drivers in B.C.: reporting income, GST rules for ride-share vs delivery, vehicle costs and CPP.",
+  "topic": "Small business",
+  "audience": "business",
+  "updated": "2026-11-07",
+  "published": "2026-11-07",
+  "lead": "Driving for Uber, Lyft, DoorDash, Instacart or another app makes you a small business owner in the CRA's eyes. This guide explains how to report your earnings, when you must charge GST (ride-share and delivery have different rules), what you can deduct, and what B.C.'s rules for app-based workers mean for you.",
+  "figures_for": "2026",
+  "key_points": [
+    "Most app drivers are self-employed: report all fares, tips and bonuses on Form T2125, and deduct platform fees as an expense.",
+    "Ride-share drivers must register for GST from their first fare; delivery-only drivers usually register once sales pass $30,000.",
+    "Since the 2024 tax year, apps report what they paid you to the CRA, and must send you a copy by January 31.",
+    "Deduct the business share of your vehicle costs, backed by a logbook of business kilometres.",
+    "For 2026, you pay both halves of CPP: 11.9% up to $8,460.90, plus up to $832 of CPP2.",
+    "File your 2026 return by June 15, 2027, but pay any balance by April 30, 2027."
+  ],
+  "sections": [
+    {
+      "id": "self-employed",
+      "heading": "You're running a small business",
+      "html": "<p>If you drive for Uber or Lyft, or deliver for DoorDash, Uber Eats, Skip, Instacart or Amazon Flex, the CRA (Canada Revenue Agency) generally sees you as <strong>self-employed</strong>. That means you run your own small business. No one takes tax off your pay, so you are responsible for reporting your income, paying your own tax and CPP, and, in many cases, charging GST.</p> <p>The CRA says you are usually self-employed if you own your vehicle, or lease it for a flat fee or a share of your fares. If you aren't sure about your status, you can ask the CRA for a ruling with Form CPT1.</p> <p>You may have heard that B.C. now treats app-based drivers as \"employees.\" That change is for the province's <em>Employment Standards Act</em>, the law on minimum pay and other work rules. It gives you some protections (see below), but it doesn't turn your app income into a regular job with a T4 slip and tax taken off.</p> <p>You report your driving business on <strong>Form T2125</strong>, the Statement of Business or Professional Activities. It goes with your personal tax return. For ride-share, the CRA says to use industry code <strong>485310</strong> (taxi service). If you run your driving through a corporation, the rules are different; see our guide on <a href=\"/guides/sole-proprietor-vs-incorporation-bc.html\">sole proprietor vs incorporation in B.C.</a></p>"
+    },
+    {
+      "id": "income",
+      "heading": "Reporting your income: fares, tips and bonuses",
+      "html": "<p>The CRA's rule is simple: report <strong>all</strong> your income, <strong>including tips</strong>. In practice, that means:</p> <ul> <li>the <strong>full fare or delivery fee</strong> before the platform takes its cut,</li> <li>tips, whether paid in the app or in cash,</li> <li>bonuses, incentives, promotions and any distance pay the app gives you.</li> </ul> <p>The fees and commissions the platform keeps are not lost. The CRA says they can be claimed as a <strong>business expense</strong>. So start with your gross earnings, then deduct the fees. Don't just report the amount that landed in your bank account.</p> <h3>Platforms now report to the CRA</h3> <p>Under the <strong>Reporting Rules for Digital Platform Operators</strong>, apps must collect information about the people who earn money through them and report it to the CRA once a year. The CRA's guidance lists \"transportation and delivery\" work as a type of personal service covered by these rules. The rules started with the <strong>2024</strong> calendar year, and the first reports were due January 31, 2025.</p> <p>What this means for you:</p> <ul> <li>The CRA gets your name, address, tax number, what the app paid you and the fees it kept.</li> <li>The platform must give you a copy of the information by <strong>January 31</strong> each year. Check it against your own records.</li> <li>If the app asks for your tax identification number, give it. The CRA can charge a <strong>$500</strong> penalty each time you fail to provide it.</li> <li>If you missed reporting app income in past years, you can fix it by changing your returns or through the CRA's Voluntary Disclosures Program.</li> </ul>"
+    },
+    {
+      "id": "gst-rules",
+      "heading": "GST/HST: ride-share and delivery follow different rules",
+      "html": "<p>GST is the 5% federal Goods and Services Tax. In B.C., there's no HST (the combined federal and provincial sales tax used in some other provinces), so the rate on B.C. rides is 5%. The big question is whether you must <strong>register</strong>, which means getting a GST account with the CRA and charging GST to customers.</p> <p>Most small businesses don't have to register until they become larger than a <strong>small supplier</strong>: total taxable sales of $30,000 or less over four calendar quarters in a row. Ride-share drivers are the big exception. Since July 1, 2017, the CRA counts ride-share as a <strong>taxi business</strong>, and taxi businesses must register no matter how little they earn.</p> <table> <thead><tr><th></th><th>Ride-share (Uber, Lyft)</th><th>Delivery (food, groceries, parcels)</th></tr></thead> <tbody> <tr><td>When you must register</td><td>From your first fare, at any income level</td><td>Once taxable sales go over $30,000 over four calendar quarters</td></tr> <tr><td>Can you register earlier by choice?</td><td>Not optional; you must register</td><td>Yes, to claim back GST on your costs</td></tr> <tr><td>GST on what you earn</td><td>Charge 5% GST on all B.C. fares</td><td>Only once registered</td></tr> </tbody> </table> <p><strong>Doing both?</strong> If your ride-share and delivery sales together are $30,000 or less, your GST registration can cover only the ride-share part. Once the total goes over $30,000, you must charge GST on all your taxable sales. The CRA gives an example of a ride-share driver who also earns $10,000 delivering for Uber Eats: with combined sales under $30,000, GST applies to the rides but not the food deliveries.</p> <div class=\"callout\"><strong>Warning for new ride-share drivers:</strong> your GST registration should start on the day you charged your first fare, and the CRA asks you to apply within 30 days. If you've been driving longer than that without a GST number, you'll need to backdate your registration.</div> <h3>Who actually collects the GST on fares?</h3> <p>The rider pays GST as part of the fare. Ride-share companies can handle some of the GST work for you, but only if you have authorized them to. The CRA is clear that the responsibility stays with you either way: you must make sure GST is collected and sent in on all your fares. Check your app's tax settings and statements so you know what the platform has done on your behalf. For more on registering and filing, see our <a href=\"/guides/gst-hst-pst-small-business-bc.html\">GST/HST and PST guide for B.C. small businesses</a>.</p>"
+    },
+    {
+      "id": "gst-returns",
+      "heading": "GST returns, input tax credits and the quick method",
+      "html": "<h3>Filing your GST return</h3> <p>Once registered, you file GST returns to report the GST you collected. The CRA usually gives drivers an <strong>annual</strong> reporting period, but you can choose monthly or quarterly. For an individual with a December 31 year-end, the 2026 annual GST return is due <strong>June 15, 2027</strong>, and any GST you owe must be paid by <strong>April 30, 2027</strong>.</p> <h3>Input tax credits</h3> <p>An <strong>input tax credit (ITC)</strong> lets you get back the GST you paid on things you buy for your business. Examples include fuel, repairs, car washes, and the lease or purchase of your vehicle. If you also use the car personally, claim only the business share. You can't claim ITCs on car insurance or loan interest, because no GST is charged on them.</p> <h3>The quick method</h3> <p>The <strong>quick method</strong> is a simpler way to work out the GST you owe. Instead of adding up every ITC, you pay a fixed percentage of your sales, GST included. For a service business in B.C., that rate is <strong>3.6%</strong>, and you can take off 1% of the first $30,000 of those sales each year. You can use it if your yearly sales, including GST, are $400,000 or less. You still claim ITCs on big purchases such as a vehicle. You sign up using Form GST74 or online, and you must stay with it for at least a year.</p> <p><em>Illustration only:</em> say you collect $21,000 in B.C. fares in a year, including $1,000 of GST. Under the quick method, you'd send 3.6% × $21,000 = $756, minus 1% × $21,000 = $210, for a total of <strong>$546</strong>. Under the regular method, you'd send $1,000 minus your ITCs. Note that the GST you keep under the quick method counts as income on your tax return.</p> <h3>What about B.C. PST?</h3> <p>B.C.'s 7% Provincial Sales Tax (PST) applies only to certain goods and services. Rides and deliveries aren't on the province's list of taxable services, so drivers don't normally charge PST. You will still pay PST on many things you buy, such as car repairs and maintenance.</p>"
+    },
+    {
+      "id": "vehicle",
+      "heading": "Vehicle costs and your logbook",
+      "html": "<p>Your vehicle is your biggest business cost. You can deduct the <strong>business share</strong> of costs like fuel, insurance, repairs and maintenance, licence and registration, loan interest, lease payments and capital cost allowance (CCA, the tax version of depreciation). Parking for business trips is deductible in full. Our <a href=\"/guides/self-employed-expenses-deductions.html\">self-employed expenses guide</a> explains vehicle rules, 2026 limits and CCA in detail.</p> <p>Your business share is your business kilometres divided by your total kilometres for the year. <em>Illustration only:</em> if you drive 30,000 km and 24,000 km are for the apps, your business share is 80%. With $10,000 of vehicle costs, you could claim $8,000.</p> <h3>Keep a logbook</h3> <p>To prove your business kilometres, keep a logbook. For each business trip, the CRA wants the date, destination, purpose and kilometres. Also record your odometer reading at the start and end of the year.</p> <p>After one full year of logbook records (your <strong>base year</strong>), the CRA lets you keep a <strong>simplified logbook</strong>: a three-month sample in later years. You can use it as long as your business use stays within 10% of the base year. If your driving pattern changes a lot, start a new full-year log.</p> <p>Other costs drivers often forget: the business share of your phone and data plan, phone mounts and chargers, insulated delivery bags, and the platform fees mentioned above.</p>"
+    },
+    {
+      "id": "cpp-tax",
+      "heading": "CPP, instalments and deadlines",
+      "html": "<h3>CPP: you pay both halves</h3> <p>Employees and their employers each pay half of the Canada Pension Plan (CPP) contribution. As a self-employed driver, you pay <strong>both halves</strong> when you file your tax return. For 2026:</p> <ul> <li>The base rate is 5.95% for each half, so <strong>11.9%</strong> in total on net earnings between $3,500 and $74,600. The most you'll pay is <strong>$8,460.90</strong>.</li> <li>A second layer, called CPP2, is 4% for each half, so <strong>8%</strong> on earnings between $74,600 and $85,000. The most you'll pay is <strong>$832</strong>.</li> </ul> <p><em>Illustration only:</em> with $40,000 of net driving income in 2026, your CPP would be ($40,000 − $3,500) × 11.9% = <strong>$4,343.50</strong>, on top of your income tax.</p> <h3>Instalments</h3> <p>Because no tax is taken off your app earnings, you may end up owing a large amount each spring. If your net tax owing is more than <strong>$3,000</strong> in 2026, and was also more than $3,000 in 2024 or 2025, the CRA expects you to pay <strong>instalments</strong>, which are tax payments made during the year. In 2027, instalments are due March 15, June 15, September 15 and December 15.</p> <h3>Filing deadlines for the 2026 tax year</h3> <ul> <li>File your income tax return by <strong>June 15, 2027</strong>.</li> <li>Pay any balance owing by <strong>April 30, 2027</strong>. Interest starts after that, even though you have until June to file.</li> </ul> <div class=\"callout\"><strong>Tip:</strong> move a set share of every weekly payout into a separate savings account for income tax, CPP and GST. Then the spring bill won't come as a shock.</div>"
+    },
+    {
+      "id": "bc-rules",
+      "heading": "B.C. rules for app-based drivers",
+      "html": "<p>Since <strong>September 3, 2024</strong>, B.C. has had minimum standards for app-based ride-hail and delivery workers. They don't change how you're taxed, but they affect what you're paid and how you're protected.</p> <ul> <li><strong>Minimum pay:</strong> as of June 1, 2026, at least <strong>$21.89 an hour</strong> for \"engaged time,\" which runs from when you accept an order or ride until you complete it or it's cancelled. Waiting time between jobs doesn't count, and tips don't count toward the minimum.</li> <li><strong>Vehicle allowance:</strong> on top of that, at least <strong>45 cents a km</strong> for ride-hail and <strong>35 cents a km</strong> for delivery.</li> <li><strong>Tips:</strong> you keep 100% of your tips.</li> <li><strong>Pay statements</strong> every pay period, which are useful for your tax records.</li> <li><strong>WorkSafeBC coverage:</strong> if you're hurt while working, you can claim workers' compensation benefits. The platform company registers you and pays the premiums. (If you also hire helpers of your own, see our <a href=\"/guides/worksafebc-registration-premiums-guide.html\">WorkSafeBC guide</a>.)</li> </ul> <p>The province reviewed these standards with workers and platforms from January to March 2026, so some details may change. Keep in mind that everything the app pays you, including the per-km allowance, is part of your business income. You then deduct your actual vehicle costs as explained above.</p>"
+    },
+    {
+      "id": "checklist",
+      "heading": "Common mistakes and a year-end checklist",
+      "html": "<h3>Common mistakes</h3> <ul> <li>Reporting only the deposits in your bank account instead of gross earnings and fees.</li> <li>Leaving out tips, cash tips or bonuses.</li> <li>Starting ride-share without a GST number, or registering late.</li> <li>Assuming delivery drivers must register for GST from day one, or forgetting to register once delivery and other sales pass $30,000.</li> <li>No logbook, so you can't prove your business kilometres.</li> <li>Claiming 100% of a car or phone you also use personally.</li> <li>Forgetting about CPP, which can be thousands of dollars.</li> <li>Filing on June 15 but paying after April 30, and being charged interest.</li> </ul> <h3>Checklist before you file</h3> <ul> <li>Annual tax summaries from every app you used, plus the platform reporting copy you get by January 31.</li> <li>Your own record of income, tips and fees, by month.</li> <li>Logbook and odometer readings for January 1 and December 31.</li> <li>Receipts for fuel, repairs, insurance, phone and other costs, with GST shown separately if you're registered.</li> <li>Your GST return, if you're registered, and any instalments you paid.</li> <li>Keep all records for <strong>six years</strong> from the end of the tax year they relate to. Clear digital copies are fine.</li> </ul>"
+    }
+  ],
+  "cta_heading": "Driving for an app and not sure where you stand?",
+  "cta_text": "We help ride-share and delivery drivers in Surrey and across Metro Vancouver register for GST, file GST returns, prepare T2125 statements and set up simple records for next year.",
+  "sources": [
+    {
+      "title": "GST/HST and Commercial Ride-sharing Services, Info Sheet GI-196 (Canada Revenue Agency)",
+      "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/gi-196/gst-hst-commercial-ride-sharing-services.html"
+    },
+    {
+      "title": "GST/HST information for taxi operators and commercial ride-sharing drivers (Canada Revenue Agency)",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/charge-collect-specific-situations/taxi-ride-sharing-drivers.html"
+    },
+    {
+      "title": "Register as a rideshare driver or taxi operator (Canada Revenue Agency)",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/business-registration/business-number-program-account/register-rideshare-taxi.html"
+    },
+    {
+      "title": "Ride sharing (Canada Revenue Agency)",
+      "url": "https://www.canada.ca/en/revenue-agency/programs/about-canada-revenue-agency-cra/compliance/ride-sharing.html"
+    },
+    {
+      "title": "Sharing economy: Taxes and the platform economy (Canada Revenue Agency)",
+      "url": "https://www.canada.ca/en/revenue-agency/programs/about-canada-revenue-agency-cra/compliance/platform-economy/sharing-economy.html"
+    },
+    {
+      "title": "Gig economy: Taxes and the platform economy (Canada Revenue Agency)",
+      "url": "https://www.canada.ca/en/revenue-agency/programs/about-canada-revenue-agency-cra/compliance/platform-economy/gig-economy.html"
+    },
+    {
+      "title": "Tax obligations for commercial ridesharing and delivery services (Canada Revenue Agency)",
+      "url": "https://www.canada.ca/en/revenue-agency/news/newsroom/tax-tips/tax-tips-2024/revised-tax-obligations-for-commercial-ridesharing-and-delivery-services.html"
+    },
+    {
+      "title": "Reporting Rules for Digital Platforms (Canada Revenue Agency)",
+      "url": "https://www.canada.ca/en/revenue-agency/programs/about-canada-revenue-agency-cra/compliance/reporting-rules-digital-platforms.html"
+    },
+    {
+      "title": "Operating a digital platform? Reporting Rules for Digital Platform Operators (Canada Revenue Agency)",
+      "url": "https://www.canada.ca/en/revenue-agency/news/newsroom/tax-tips/tax-tips-2024/operating-digital-platform.html"
+    },
+    {
+      "title": "Using an app or website to earn income? Reporting Rules for Digital Platform Operators (Canada Revenue Agency)",
+      "url": "https://www.canada.ca/en/revenue-agency/news/newsroom/tax-tips/tax-tips-2024/using-app-website-earn-income.html"
+    },
+    {
+      "title": "Completing a Part XX information return (Canada Revenue Agency)",
+      "url": "https://www.canada.ca/en/revenue-agency/programs/about-canada-revenue-agency-cra/compliance/reporting-rules-digital-platforms/completing-part-xx-information-return.html"
+    },
+    {
+      "title": "Quick Method of Accounting for GST/HST, RC4058 (Canada Revenue Agency)",
+      "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/rc4058/quick-method-accounting-gst-hst.html"
+    },
+    {
+      "title": "Motor vehicle expenses (Canada Revenue Agency)",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/small-businesses-self-employed-income/business-income-tax-reporting/business-expenses/motor-vehicle-expenses.html"
+    },
+    {
+      "title": "Motor vehicle records (Canada Revenue Agency)",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/sole-proprietorships-partnerships/business-expenses/motor-vehicle-expenses/motor-vehicle-records.html"
+    },
+    {
+      "title": "CPP contribution rates, maximums and exemptions (Canada Revenue Agency)",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/canada-pension-plan-cpp/cpp-contribution-rates-maximums-exemptions.html"
+    },
+    {
+      "title": "Second additional CPP (CPP2) contribution rates and maximums (Canada Revenue Agency)",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/calculating-deductions/making-deductions/second-additional-cpp-contribution-rates-maximums.html"
+    },
+    {
+      "title": "Who has to pay instalments (Canada Revenue Agency)",
+      "url": "https://www.canada.ca/en/revenue-agency/services/payments/payments-cra/individual-payments/income-tax-instalments/who-pays-instalments.html"
+    },
+    {
+      "title": "2027 tax deadlines for Canadian businesses and self-employed individuals (Government of Canada)",
+      "url": "https://www.canada.ca/en/services/taxes/resources-for-small-and-medium-businesses/2026-tax-deadlines-canadian-businesses-self-employed-individuals.html"
+    },
+    {
+      "title": "Where to keep your records and for how long (Canada Revenue Agency)",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/keeping-records/where-keep-your-records-long-request-permission-destroy-them-early.html"
+    },
+    {
+      "title": "Small business guide to PST (Province of British Columbia)",
+      "url": "https://www2.gov.bc.ca/gov/content/taxes/sales-taxes/pst/publications/small-business-guide"
+    },
+    {
+      "title": "Gig workers (Province of British Columbia)",
+      "url": "https://www2.gov.bc.ca/gov/content/employment-business/employment-standards-advice/gig-worker-engagement"
+    },
+    {
+      "title": "Minimum wage (Province of British Columbia)",
+      "url": "https://www2.gov.bc.ca/gov/content/employment-business/employment-standards-advice/employment-standards/wages/minimum-wage"
+    },
+    {
+      "title": "Overview of Minimum Standards and Protections for App-based Workers (Province of British Columbia)",
+      "url": "https://engage.gov.bc.ca/app/uploads/sites/121/2026/07/Overview-of-Minimum-Standards-and-Protections-for-App-based-Workers.pdf"
+    },
+    {
+      "title": "App-based ride-hail and delivery services workers to be covered by WorkSafeBC as of September 3 (WorkSafeBC)",
+      "url": "https://www.worksafebc.com/en/about-us/news-events/announcements/2024/June/app-based-ride-hail-and-delivery-drivers-to-be-covered-by-worksafebc"
+    }
+  ]
+}

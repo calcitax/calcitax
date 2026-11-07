@@ -1,5 +1,31 @@
 [
   {
+    "slug": "canada-jobs-report-unemployment-6-7-percent-november-2026",
+    "title": "Canada's unemployment rate rises to 6.7% in October: what it means for you",
+    "description": "Canada's jobless rate rose to 6.7% in October as hiring stalled, while B.C. added 12,000 jobs. What it means for workers, borrowers and small businesses.",
+    "date": "2026-11-07",
+    "category": "Economy",
+    "body_html": "<p>Statistics Canada reported on November 6, 2026 that Canada's unemployment rate rose to <strong>6.7%</strong> in October, up from 6.5% in September. The number of jobs barely moved, but British Columbia bucked the trend and added about 12,000 jobs.</p><h2>What happened</h2><p>Each month, Statistics Canada's Labour Force Survey measures how many people are working and how many are looking for work. Here are the October highlights:</p><ul><li><strong>Jobs:</strong> employment slipped by 4,700, which is essentially no change. That follows losses of 68,000 jobs in September and 42,000 in August.</li><li><strong>Unemployment rate:</strong> up 0.2 percentage points to 6.7%, the second increase in a row. It is still a little lower than a year ago and below the April 2026 peak of 6.9%.</li><li><strong>Employment rate</strong> (the share of adults who have a job): down to 60.5%, its third monthly decline in a row.</li><li><strong>Wages:</strong> average hourly pay was $37.89, up 2.2% from a year earlier.</li><li><strong>Young people:</strong> unemployment for ages 15 to 24 jumped to 13.7%.</li><li><strong>Longer job searches:</strong> 23.7% of unemployed people had been looking for 27 weeks or more, up from 21.5% a year earlier.</li></ul><p>The private sector lost 53,000 jobs, while public-sector jobs rose by 50,000. Wholesale and retail trade shed 29,000 positions, and construction and education added jobs.</p><h2>What it means in B.C.</h2><p>B.C. was one of the brighter spots. Employment rose by 12,000 (0.4%) after a drop of 20,000 in September, and the province's unemployment rate was 6.3%, little changed from the month before and below the national rate. Statistics Canada's monthly release doesn't break out figures for Metro Vancouver.</p><h2>What it means for you</h2><p>The picture is a softening job market rather than a sharp downturn: layoffs were still low (0.7% of workers), but people who lose a job are taking longer to find a new one.</p><ul><li><strong>If you lose your job,</strong> apply for Employment Insurance (EI) right away. EI regular benefits generally pay 55% of your average insurable weekly earnings, up to a maximum of <strong>$729 a week</strong> in 2026. EI benefits are taxable, so keep the slip you receive for your tax return.</li><li><strong>If you get severance pay,</strong> the CRA treats it as a <em>retiring allowance</em>. Your employer deducts income tax on a lump sum (no CPP or EI). Ask before you sign whether part of it can go straight into your RRSP: depending on your years of service and your unused RRSP room, a direct transfer can reduce the tax taken off now.</li><li><strong>If you have a variable-rate mortgage or line of credit,</strong> remember the Bank of Canada raised its rate to 2.5% on October 28, 2026. A weaker job market is one of the things the Bank weighs, so this report adds to the uncertainty about its next move. See our article on <a href=\"/news/bank-of-canada-raises-rate-october-2026.html\">the October rate increase</a>.</li></ul><h2>What it means for small businesses</h2><p>A slower job market can make hiring a little easier, but it can also mean customers spend more carefully, especially in retail, where jobs fell most in October. If you plan to hire for the busy holiday season, our guide to <a href=\"/guides/hiring-first-employee-payroll-bc.html\">hiring your first employee in B.C.</a> covers payroll accounts, deductions and WorkSafeBC. If you need to let someone go, issue their Record of Employment promptly so they can apply for EI.</p><h2>What to do now</h2><ul><li>Build or top up an emergency fund if your job or income feels less secure.</li><li>If you were laid off this year, set money aside for tax on EI or severance, since the tax withheld may not cover your full bill.</li><li>Borrowers: check what your payment would be if rates rise again before your renewal.</li><li>Watch for the next two data points: the Bank of Canada's rate decision on December 9, 2026, and the November jobs report on December 4, 2026.</li></ul>",
+    "sources": [
+      {
+        "title": "Statistics Canada: Labour Force Survey, October 2026 (The Daily, November 6, 2026)",
+        "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/261106/dq261106a-eng.htm"
+      },
+      {
+        "title": "Bank of Canada raises the policy rate by 25 basis points to 2½% (October 28, 2026)",
+        "url": "https://www.bankofcanada.ca/?p=256268"
+      },
+      {
+        "title": "Service Canada: EI regular benefits, how much you could receive",
+        "url": "https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/benefit-amount.html"
+      },
+      {
+        "title": "Canada Revenue Agency: Retiring allowance",
+        "url": "https://www.canada.ca/en/revenue-agency/news/cra-multimedia-library/businesses-video-gallery/retiring-allowance.html"
+      }
+    ]
+  },
+  {
     "slug": "federal-budget-2026-what-it-means-for-you-november-2026",
     "title": "Federal Budget 2026: grocery benefit top-up, refundable caregiver credit and more",
     "description": "Budget 2026 keeps tax rates the same but proposes a one-time grocery benefit boost, a refundable caregiver credit and an 'RRSP for life'.",
