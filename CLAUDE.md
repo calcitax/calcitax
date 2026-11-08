@@ -90,7 +90,6 @@ today's sources and update it.
 likely to search for (benefit payments, CPP/OAS, TFSA/RRSP limits and deadlines usually draw the most).
 
 **Guide backlog** (ordered by estimated search demand, highest first):
-- Income from India (or abroad) while living in Canada: foreign income, foreign tax credits, T1135
 - Paying yourself from your corporation: salary, dividends and shareholder loans
 - Tax instalments for individuals: who pays and when
 - Dealing with CRA letters, reviews and audits
