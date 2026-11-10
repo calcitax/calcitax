@@ -1,0 +1,106 @@
+{
+  "slug": "tax-instalments-individuals-guide",
+  "title": "Tax instalments for individuals: who pays, when and how much",
+  "seo_title": "CRA Tax Instalments for Individuals: Who Pays and When (2026)",
+  "description": "Plain-language guide to CRA tax instalments: the $3,000 rule, the four due dates, the three ways to work out payments, and how to avoid interest.",
+  "topic": "Personal tax",
+  "audience": "individuals",
+  "updated": "2026-11-10",
+  "published": "2026-11-10",
+  "lead": "If you earn money with no tax taken off, such as self-employment, rental or investment income, the Canada Revenue Agency (CRA) may ask you to pay part of your tax during the year instead of all of it in the spring. These advance payments are called instalments. This guide explains who has to pay them, the four due dates, how to work out the amounts, and how to avoid interest charges.",
+  "figures_for": "2026",
+  "key_points": [
+    "You must pay 2026 instalments if your net tax owing is more than $3,000 for 2026 and was also more than $3,000 in 2025 or 2024.",
+    "Instalments are due March 15, June 15, September 15 and December 15 (farmers and fishers pay once, on December 31).",
+    "The CRA sends reminders in February and August, but they are not a bill: you can choose another calculation option if your income changed.",
+    "Late or short payments are charged interest at the CRA's prescribed rate, 7% compounded daily for October to December 2026.",
+    "Having more tax withheld from a pension, CPP, OAS or a job can reduce or remove the need for instalments.",
+    "Budget 2026 proposes raising the threshold to $7,500 from 2028, but this is not law yet."
+  ],
+  "sections": [
+    {
+      "id": "what-are-instalments",
+      "heading": "What tax instalments are and why they exist",
+      "html": "<p>When you have a job, your employer takes income tax off every paycheque and sends it to the CRA. This is called <strong>tax withheld at source</strong>. By the time you file your return, most of your tax is already paid.</p><p>Some income has little or no tax taken off. The CRA lists these common examples:</p><ul><li>self-employment income, such as a small business, consulting or gig work</li><li>rental income</li><li>investment income, such as interest, dividends and capital gains</li><li>certain pension payments</li><li>income from more than one job, where each employer withholds too little</li></ul><p>If you have this kind of income, you could owe a large bill in the spring. <strong>Instalments</strong> are payments you make during the year to cover that tax as you go, a bit like having tax withheld from a paycheque. They are not an extra tax. Every dollar you pay counts toward your final tax bill, and you claim it on your return.</p><p>Instalments for one year are paid during that same year. For example, 2026 instalments are paid in 2026 toward the tax on your 2026 income.</p>"
+    },
+    {
+      "id": "who-has-to-pay",
+      "heading": "Who has to pay: the $3,000 rule",
+      "html": "<p>Whether you must pay depends on your <strong>net tax owing</strong>. In simple terms, this is your total federal and provincial income tax for the year, minus the tax that was already withheld at source. It is roughly the balance you would owe when you file if you made no instalments.</p><p>If you live anywhere in Canada except Quebec, you must pay instalments for 2026 when <strong>both</strong> of these are true:</p><ul><li>your net tax owing for 2026 will be more than <strong>$3,000</strong>, and</li><li>your net tax owing was more than $3,000 in <strong>either 2025 or 2024</strong>.</li></ul><p>For Quebec residents the threshold is $1,800. The province you live in on December 31 is the one that counts.</p><p>Here is how the two-part test works, using simple made-up numbers for someone in B.C.:</p><table><thead><tr><th>Person</th><th>2024</th><th>2025</th><th>Expected 2026</th><th>Instalments for 2026?</th></tr></thead><tbody><tr><td>Amrit</td><td>$2,000</td><td>$4,000</td><td>$5,000</td><td>Yes: over $3,000 in 2026 and in 2025</td></tr><tr><td>Lisa</td><td>$1,000</td><td>$2,500</td><td>$6,000</td><td>No: 2024 and 2025 were both $3,000 or less</td></tr><tr><td>Tom</td><td>$5,000</td><td>$5,000</td><td>$2,000</td><td>No: 2026 will be $3,000 or less</td></tr></tbody></table><p>Notice Lisa: even with a big jump in 2026, she does not have to pay instalments this year. She will still owe the full $6,000 when she files. If her income stays high, she will likely have to start instalments in 2027.</p><p>If your main source of income is farming or fishing, different rules apply, and you may also have to pay instalments.</p>"
+    },
+    {
+      "id": "due-dates",
+      "heading": "The four due dates",
+      "html": "<p>Instalments for individuals are due on:</p><ul><li><strong>March 15</strong></li><li><strong>June 15</strong></li><li><strong>September 15</strong></li><li><strong>December 15</strong></li></ul><p>If a due date falls on a weekend or a public holiday the CRA recognizes, your payment counts as on time if the CRA receives it on the next business day.</p><p>A few people have different rules:</p><ul><li><strong>Farmers and fishers</strong> whose main income is from self-employment in farming or fishing have one instalment due date each year: <strong>December 31</strong>. The CRA sends them a reminder in November.</li><li>When someone dies, instalments due on or after the date of death do not have to be paid.</li></ul><div class=\"callout\"><p><strong>Tip:</strong> Put the four dates in your phone calendar with a reminder a week ahead. Online payments can take a few business days to show up, so don't leave it to the last day.</p></div>"
+    },
+    {
+      "id": "how-much",
+      "heading": "How much to pay: the three options",
+      "html": "<p>The CRA lets you choose one of three ways to work out your instalments. You can pick the one that gives the lowest payments, as long as you pay on time.</p><table><thead><tr><th>Option</th><th>How it works</th><th>Best when</th></tr></thead><tbody><tr><td>No-calculation</td><td>The CRA works out the amounts from your latest assessed return and prints them on your reminder. You just pay those amounts.</td><td>Your income, deductions and credits stay about the same each year.</td></tr><tr><td>Prior-year</td><td>You base the year's total on last year's (2025) return, using the CRA's calculation chart.</td><td>2026 looks like 2025, but 2024 was quite different.</td></tr><tr><td>Current-year</td><td>You estimate your 2026 net tax owing, plus any CPP contributions and voluntary EI premiums, using the same chart.</td><td>2026 will be quite different from both 2025 and 2024, for example if your income dropped.</td></tr></tbody></table><p>With the prior-year or current-year option, the CRA says it won't charge instalment interest or a penalty if you pay the full amounts by the due dates, unless your figures turn out to be too low. The current-year option carries the most risk: if you underestimate, you can be charged interest on the shortfall.</p><h3>Instalment reminders</h3><p>The CRA sends an <strong>instalment reminder</strong> (form INNS1) to people it expects will need to pay. The February reminder covers the March and June payments, and the August reminder covers September and December. You can also see them in your CRA account.</p><p>A reminder is a suggestion, not a bill. If you received a 2026 reminder but your 2026 net tax owing will be $3,000 or less, you don't have to pay 2026 instalments.</p><p><strong>Example (made-up numbers):</strong> Priya earns consulting income and rent from a basement suite. Her net tax owing was about $6,000 in both 2024 and 2025, and she expects about the same in 2026. The no-calculation option is simplest for her: she pays the amounts on her reminders and doesn't need to do any maths.</p>"
+    },
+    {
+      "id": "paying-and-tracking",
+      "heading": "Paying and keeping track",
+      "html": "<p>You can pay online, using one of the payment options listed on the CRA's website. If you pay in person or by mail, use your <strong>instalment remittance voucher</strong> (form INNS3), which comes with your reminder, so the money goes to the right account. You can also download a voucher from your CRA account. People who pay by pre-authorized debit don't receive a voucher.</p><p>The CRA doesn't send a receipt right away, so:</p><ul><li>keep your own proof of payment, such as your bank confirmation</li><li>check your CRA account under \"Accounts and payments\" after about 3 business days for online payments, or 10 business days for cheques and money orders</li></ul><p>In February, the CRA sends an <strong>instalment payment summary</strong> (form INNS2) listing what you paid for the year. When you file, you claim your total instalments on <strong>line 47600</strong> of your return. If a payment is missing from the summary, add it yourself. If the summary shows a wrong amount, call the CRA at 1-800-959-8281.</p><div class=\"callout\"><p><strong>Watch out:</strong> Don't send an instalment as a payment toward last year's balance by mistake. If a payment lands in the wrong place, you can ask the CRA to move it through \"Transfer payment(s)\" in your CRA account, or by phone.</p></div>"
+    },
+    {
+      "id": "interest-and-penalties",
+      "heading": "Interest and penalties if you pay late or too little",
+      "html": "<p>If you were required to pay instalments, received a reminder showing an amount to pay, and then paid late, paid too little or didn't pay, the CRA charges <strong>instalment interest</strong>. It is calculated at the CRA's <strong>prescribed interest rate</strong>, which can change every three months and is compounded daily. For October 1 to December 31, 2026, the rate on overdue taxes is <strong>7%</strong>.</p><p>The CRA compares the interest on the payments you should have made with the interest on the payments you actually made. You are charged the difference only if it is more than <strong>$25</strong>.</p><h3>The instalment penalty</h3><p>A separate penalty applies only if your instalment interest for the year is more than <strong>$1,000</strong>. The CRA takes the higher of $1,000 or 25% of the interest you would have owed if you had paid no instalments at all. It subtracts that from your actual instalment interest and charges half of what is left.</p><p><strong>Example (made-up numbers):</strong> Your actual instalment interest is $3,000. If you had paid nothing, it would have been $8,000. 25% of $8,000 is $2,000, which is higher than $1,000. So: $3,000 minus $2,000 = $1,000, divided by 2 = a <strong>$500</strong> penalty.</p><h3>Catching up</h3><p>If you missed a payment, you can reduce the interest by paying your next instalment early or paying more than required. This earns <strong>instalment credit interest</strong>, which can offset interest charged on late payments for the same year. It isn't refunded to you and can't be used for other years, but it can cut or wipe out the charge.</p>"
+    },
+    {
+      "id": "reduce-or-avoid",
+      "heading": "Ways to reduce or avoid instalments",
+      "html": "<p>The simplest way to stop paying instalments is to have more tax withheld from income that allows it, so your net tax owing drops to $3,000 or less:</p><ul><li><strong>Old Age Security (OAS):</strong> form ISP3520OAS, sent to Service Canada</li><li><strong>Canada Pension Plan (CPP):</strong> form ISP3520CPP, sent to Service Canada</li><li><strong>Employment Insurance or a workplace pension:</strong> form TD1, sent to your employer or pension administrator, asking for extra tax to be deducted</li></ul><p>Tax can't be withheld from self-employment, investment or rental income, or from capital gains. If that is your main income, instalments are usually the way to go.</p><p><strong>Example (made-up numbers):</strong> A retiree's net tax owing has been $3,500 a year. In January she asks her pension administrator to withhold an extra $250 a month. Her expected net tax owing falls to $500, so she no longer needs to pay instalments and can ignore her reminders. Our <a href=\"/guides/retirement-income-oas-cpp-rrif-pension-splitting.html\">retirement income guide</a> covers OAS, CPP and pension income in more detail.</p><div class=\"callout\"><p><strong>Proposed change:</strong> Budget 2026 (November 5, 2026) proposes raising the instalment threshold from $3,000 to $7,500 outside Quebec (and from $1,800 to $4,500 in Quebec), indexed to inflation, for tax years starting on or after January 1, 2028. People whose main income is from a business could make one payment by December 31 instead of four. These are proposals only and are not law yet. For 2026 and 2027, the $3,000 rule still applies. See <a href=\"/news/budget-2026-single-may-15-tax-deadline-november-2026.html\">our news article on the proposed May 15 deadline</a> for related changes.</p></div>"
+    },
+    {
+      "id": "common-mistakes",
+      "heading": "Common mistakes and a quick checklist",
+      "html": "<h3>Common mistakes</h3><ul><li><strong>Ignoring reminders</strong> because you plan to pay \"when I file.\" Interest builds up from each missed due date.</li><li><strong>Thinking a reminder is a bill.</strong> If your income fell, you may be able to pay less or nothing, using the current-year option.</li><li><strong>Underestimating</strong> with the current-year option. If your figures are too low, you can be charged interest on the shortfall.</li><li><strong>Forgetting CPP.</strong> If you're self-employed, the CPP contributions you owe on that income are part of the instalment calculation.</li><li><strong>Not claiming payments</strong> on line 47600, or not checking the INNS2 summary against your own records.</li></ul><h3>Checklist</h3><ul><li>Check your net tax owing for the last two years on your notices of assessment.</li><li>Estimate this year's net tax owing. Is it over $3,000?</li><li>Look for reminders in your CRA account in February and August.</li><li>Choose the calculation option that suits you.</li><li>Pay by March 15, June 15, September 15 and December 15, and keep proof.</li><li>If your income changes mid-year, revisit the amount.</li><li>Claim all instalments on line 47600 when you file.</li></ul><p>Self-employed? Our <a href=\"/guides/self-employed-expenses-deductions.html\">guide to self-employed expenses</a> can help lower the tax you owe in the first place. Landlords can see our <a href=\"/guides/rental-income-tax-guide.html\">rental income guide</a>.</p>"
+    }
+  ],
+  "cta_heading": "Not sure if you need to pay instalments?",
+  "cta_text": "We can look at your last two notices of assessment, estimate this year's tax and tell you which option keeps your payments lowest. Start your T1 form and we'll be in touch.",
+  "sources": [
+    {
+      "title": "CRA: Required tax instalments for individuals",
+      "url": "https://www.canada.ca/en/revenue-agency/services/payments-cra/individual-payments/income-tax-instalments.html"
+    },
+    {
+      "title": "CRA: Who has to pay instalments",
+      "url": "https://www.canada.ca/en/revenue-agency/services/payments/payments-cra/individual-payments/income-tax-instalments/who-pays-instalments.html"
+    },
+    {
+      "title": "CRA: Options to calculate instalments",
+      "url": "https://www.canada.ca/en/revenue-agency/services/payments/payments-cra/individual-payments/income-tax-instalments/options-calculate.html"
+    },
+    {
+      "title": "CRA: Instalment payment due dates",
+      "url": "https://www.canada.ca/en/revenue-agency/services/payments/payments-cra/individual-payments/income-tax-instalments/due-dates.html"
+    },
+    {
+      "title": "CRA: How to pay instalments",
+      "url": "https://www.canada.ca/en/revenue-agency/services/payments/payments-cra/individual-payments/income-tax-instalments/how-pay.html"
+    },
+    {
+      "title": "CRA: Claim instalment amounts on your tax return",
+      "url": "https://www.canada.ca/en/revenue-agency/services/payments/payments-cra/individual-payments/income-tax-instalments/claim-amounts-tax-return.html"
+    },
+    {
+      "title": "CRA: Instalment interest and penalty charges",
+      "url": "https://www.canada.ca/en/revenue-agency/services/payments/payments-cra/individual-payments/income-tax-instalments/interest-penalty-charges.html"
+    },
+    {
+      "title": "CRA: Prescribed interest rates, fourth quarter 2026",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/prescribed-interest-rates/2026-q4.html"
+    },
+    {
+      "title": "Income Tax Act, section 156.1 (net tax owing and instalment threshold)",
+      "url": "https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-156.1.html"
+    },
+    {
+      "title": "Budget 2026: Tax measures, supplementary information",
+      "url": "https://budget.canada.ca/2026/report-rapport/tm-mf-en.html"
+    }
+  ]
+}

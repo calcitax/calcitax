@@ -1,5 +1,39 @@
 [
   {
+    "slug": "budget-2026-single-may-15-tax-deadline-november-2026",
+    "title": "Budget 2026 proposes one May 15 tax deadline for everyone, starting with 2027 returns",
+    "description": "Ottawa wants all individuals, including the self-employed, to file and pay by May 15, starting with 2027 returns. Nothing changes for your 2026 return.",
+    "date": "2026-11-10",
+    "category": "Personal tax",
+    "body_html": "<p>The federal budget tabled on November 5, 2026 proposes a single May 15 deadline for both filing your personal tax return and paying any balance owing, including for self-employed people. It would start with the 2027 tax year, so the first returns affected would be filed in spring 2028. It is a proposal for now, and nothing changes for the 2026 return you will file next spring.</p><p>We covered the budget's headline measures in <a href=\"/news/federal-budget-2026-what-it-means-for-you-november-2026.html\">our budget overview</a>. Since then, the filing-deadline change has drawn a lot of questions, so here is a closer look, along with two related changes to the filing rules.</p><h2>What happened</h2><p>Right now, Canada has two personal tax deadlines that often confuse people:</p><ul><li>Most individuals must file their return and pay any balance owing by <strong>April 30</strong>.</li><li>Self-employed people, and their spouses or common-law partners, have until <strong>June 15</strong> to file, but any tax they owe is still due April 30. Many miss that detail and end up paying interest.</li></ul><p>Budget 2026 proposes to replace both dates with <strong>May 15</strong> as the single filing and payment due date for all individuals, including the self-employed and their spouses or partners. The budget's tax-measures document says this applies to the 2027 and later tax years.</p><p>The government's reasoning is that an extra two weeks gives people, and the Canada Revenue Agency (CRA), more time to receive and process tax slips such as T4s, T5s and T3s. That should mean fewer reassessments, when the CRA changes your return after the fact because a slip was missing. Finance Canada estimates Canadians would avoid about $230 million in interest and penalties over five years.</p><h2>What it means for you</h2><ul><li><strong>Your 2026 return (filed in 2027):</strong> no change. The usual rules apply: file and pay by April 30, or file by June 15 if you or your spouse are self-employed, with payment still due April 30.</li><li><strong>Your 2027 return (filed in 2028):</strong> if the measure becomes law, you would have until May 15 to file and pay.</li><li><strong>If you usually get a refund:</strong> a later deadline is only a deadline. You can still file as soon as the CRA opens online filing each year.</li><li><strong>If you are self-employed:</strong> you would lose about a month of filing time (May 15 instead of June 15) but gain about two weeks to pay. One date for both makes it harder to get caught by the payment deadline.</li></ul><h2>Two related changes in the same budget</h2><p>The budget also proposes other changes that make filing simpler. Like the deadline, these are <strong>proposed</strong> and need Parliament to pass them.</p><ul><li><strong>Higher threshold for reporting foreign property.</strong> Form T1135 reports investments and property held outside Canada, such as a bank account or fixed deposit in India. The filing threshold would rise from $100,000 to $200,000 of total cost, and the simpler reporting option would apply below $500,000 (up from $250,000). This would apply to tax years ending after 2026. Our <a href=\"/guides/foreign-income-india-foreign-tax-credit-t1135.html\">guide to foreign income and the T1135</a> explains the current rules.</li><li><strong>Fewer people paying instalments, from 2028.</strong> Instalments are quarterly tax prepayments for people who don't have enough tax withheld at source. The threshold to have to pay them would rise from $3,000 to $7,500 of net tax owing (outside Quebec), indexed to inflation, for tax years beginning on or after January 1, 2028. People whose main income is from a business could choose one payment by December 31 instead of four. Our new <a href=\"/guides/tax-instalments-individuals-guide.html\">guide to tax instalments</a> explains today's rules.</li></ul><h2>What it means for small businesses</h2><p>The proposed May 15 date applies to personal (T1) returns, so it covers sole proprietors and partners who report business income on their own return. The budget documents we read describe no change to corporate tax deadlines or to the deadlines for issuing T4, T4A or T5 slips, so plan to issue slips on the usual schedule.</p><h2>What to do now</h2><ul><li>Plan your 2026 return around the current dates. Self-employed? Set aside money to pay by April 30, even though you can file later.</li><li>If you owe instalments for 2026, the last one is due December 15. See our <a href=\"/news/december-15-tax-instalment-deadline-november-2026.html\">December 15 instalment reminder</a>.</li><li>If you hold property outside Canada, keep filing the T1135 under the current $100,000 rule until the change becomes law.</li><li>Watch for the budget legislation. We will report when these measures pass.</li></ul>",
+    "sources": [
+      {
+        "title": "Budget 2026, Chapter 6: A more efficient government (Finance Canada)",
+        "url": "https://budget.canada.ca/2026/report-rapport/chap6-en.html"
+      },
+      {
+        "title": "Budget 2026, Tax measures: Supplementary information (Finance Canada)",
+        "url": "https://budget.canada.ca/2026/report-rapport/tm-mf-en.html"
+      },
+      {
+        "title": "Important dates for individuals (CRA)",
+        "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/important-dates-individuals.html"
+      },
+      {
+        "title": "Required tax instalments for individuals: Who has to pay (CRA)",
+        "url": "https://www.canada.ca/en/revenue-agency/services/payments/payments-cra/individual-payments/income-tax-instalments/who-pays-instalments.html"
+      },
+      {
+        "title": "Canada's 2026 budget sets aside $142 billion for tax changes including May 15 deadline (The Hub)",
+        "url": "https://thehub.ca/2026/11/06/canadas-2026-budget-sets-aside-142-billion-for-tax-changes-including-may-15-deadline/"
+      },
+      {
+        "title": "Practical tax-filing changes on tap (Advisor.ca)",
+        "url": "https://www.advisor.ca/economy/budget-2026/practical-tax-filing-changes-on-tap/"
+      }
+    ]
+  },
+  {
     "slug": "rdsp-grants-bonds-december-31-deadline-november-2026",
     "title": "RDSP grants and bonds: contribute by December 31 to get 2026's government money",
     "description": "Families with an RDSP can get up to $3,500 in grants and $1,000 in bonds for 2026, but only for contributions made by December 31.",
