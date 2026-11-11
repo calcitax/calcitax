@@ -1,0 +1,139 @@
+{
+ "slug": "cra-letters-reviews-audits-guide",
+ "title": "Dealing with CRA letters, reviews and audits",
+ "seo_title": "CRA Letters, Reviews and Audits: What to Do Next",
+ "description": "Got a letter from the CRA? How to spot scams, what each type of review or audit means, how to respond on time, and how to disagree.",
+ "topic": "CRA updates",
+ "audience": "individuals",
+ "updated": "2026-11-11",
+ "published": "2026-11-11",
+ "lead": "A letter from the Canada Revenue Agency can be stressful, but most are routine requests for a receipt or a slip. This guide explains how to tell a real CRA letter from a scam, what the different reviews and audits mean, how to reply on time, and what to do if you disagree with the result.",
+ "figures_for": "2026",
+ "key_points": [
+  "The CRA never demands payment by gift card, e-Transfer or cryptocurrency: check any contact in My Account first.",
+  "Being selected for a review is not an audit and does not mean you did something wrong.",
+  "Reply by the date in the letter, quote the reference number, and upload documents with Submit documents.",
+  "Individuals can usually object up to the later of 90 days after the notice or one year after the filing due date.",
+  "Taxpayer relief requests for the 2016 tax year must be made by December 31, 2026.",
+  "You can authorize an accountant to deal with the CRA for you, but you stay responsible for your taxes."
+ ],
+ "sections": [
+  {
+   "id": "is-it-really-the-cra",
+   "heading": "First, make sure it's really the CRA",
+   "html": "<p>Scammers love to pretend they work for the Canada Revenue Agency (CRA), the federal agency that runs the tax system. So before you do anything else, check that the letter, call or message is real.</p>\n<p>The CRA says it will <strong>never</strong>:</p>\n<ul>\n<li>demand quick payment by Interac e-Transfer, gift card, prepaid credit card or cryptocurrency (digital currency such as Bitcoin)</li>\n<li>send refunds or payments by e-Transfer or text message</li>\n<li>threaten to arrest you, send you to jail or have you deported</li>\n<li>use aggressive or threatening language</li>\n<li>ask for personal or financial details in an email or voicemail</li>\n<li>set up a meeting in a public place to collect money</li>\n</ul>\n<p>The CRA does not use text or chat apps like WhatsApp to talk to you. It only texts you a sign-in code if you chose that option. Its emails never include a link asking for personal or banking details.</p>\n<p><strong>How to check.</strong> Sign in to your CRA online account (often called My Account) by typing canada.ca into your browser yourself, not by clicking a link. Your online account shows the mail, notices and messages the CRA has sent you. If someone calls, get their name and office, hang up, and call the CRA back using the number on the official canada.ca contact page.</p>\n<div class=\"callout\"><p><strong>Warning:</strong> Never give out your Social Insurance Number, bank details or passwords until you're sure you're dealing with the CRA. If you think you've been targeted, report it to the Canadian Anti-Fraud Centre at antifraudcentre.ca, and tell your bank and police if you lost money.</p></div>"
+  },
+  {
+   "id": "types-of-cra-letters",
+   "heading": "The most common CRA letters and what they mean",
+   "html": "<p>Most CRA letters are routine. Getting one does not mean you did something wrong. Canada's tax system is based on <em>self-assessment</em>: you work out your own tax, and the CRA checks a share of returns to keep the system fair.</p>\n<ul>\n<li><strong>Notice of assessment (NOA):</strong> the summary the CRA sends after it processes your return. It shows your refund or balance owing, plus useful numbers such as your RRSP contribution limit.</li>\n<li><strong>Notice of reassessment (NOR):</strong> an updated summary sent only if the CRA changes a return it already assessed. It explains what changed.</li>\n<li><strong>Review letter:</strong> a request to send receipts or other proof for something you claimed. The CRA says being picked for a review is <em>not</em> an audit.</li>\n</ul>\n<p>Here are the main review programs for personal tax returns:</p>\n<table>\n<thead><tr><th>Review</th><th>When it happens</th><th>What it's about</th></tr></thead>\n<tbody>\n<tr><td>Pre-assessment review</td><td>Before your NOA is issued</td><td>Proof for credits or deductions you claimed</td></tr>\n<tr><td>Processing review</td><td>After your NOA</td><td>Same idea as above, but after the return is assessed</td></tr>\n<tr><td>Matching program</td><td>After your NOA</td><td>Comparing your return with slips and data from employers, banks and others</td></tr>\n<tr><td>Request verification</td><td>Before a reassessment</td><td>Checking that a change you asked for is allowed and supported</td></tr>\n<tr><td>Special assessment</td><td>Before or after your NOA</td><td>A deeper look at returns tied to patterns of non-compliance (not following the rules)</td></tr>\n</tbody>\n</table>\n<p>A common example: you forgot to report a T5 slip for bank interest. The bank already sent that slip to the CRA, so the matching program spots the gap and the CRA may reassess your return to add the income.</p>"
+  },
+  {
+   "id": "audits",
+   "heading": "Audits: when the CRA looks more closely",
+   "html": "<p>An <strong>audit</strong> is a closer examination of your books and records to make sure you paid the right tax and got only the credits and refunds you're entitled to. The CRA picks files mainly through risk assessment, which means looking for returns more likely to contain errors, or comparing your file with similar ones.</p>\n<p>An auditor will contact you by mail, phone or both to set a date, time and place. The audit may happen at your home or business, at your accountant's office, or at a CRA office. Auditors can look at your business and personal records and may borrow documents. If they do, they must give you a detailed receipt. Auditors don't accept records by email; they use the CRA's secure online services instead.</p>\n<p><strong>For businesses</strong>, the CRA also runs <em>trust account examinations</em>. These check payroll deductions you withheld from employees and GST/HST you collected from customers, because that money is held \"in trust\" for the government. Late or missed remittances (payments to the CRA), or late or missing T4 slips or GST/HST returns, are among the reasons the CRA may pick an account. The CRA says the whole process usually takes about 60 days, and you typically get up to 15 days to get your records ready. See our guides on <a href=\"/guides/hiring-first-employee-payroll-bc.html\">payroll</a> and <a href=\"/guides/gst-hst-pst-small-business-bc.html\">GST/HST</a>.</p>"
+  },
+  {
+   "id": "how-to-respond",
+   "heading": "How to respond to a review or audit letter",
+   "html": "<ol>\n<li><strong>Read the whole letter.</strong> Note what the CRA is asking for and the reply date. The deadline is set in each letter, so there is no single standard time limit.</li>\n<li><strong>Find the reference number.</strong> It's in the upper right corner of review letters. Include it with everything you send.</li>\n<li><strong>Gather exactly what's asked for:</strong> receipts, slips, bank statements or a written explanation. If you can't find a receipt, explain why in writing and send whatever other proof you have.</li>\n<li><strong>Send it online if you can.</strong> In My Account, use <em>Submit documents</em>, enter the tax year and reference number, and upload your scans (up to 10 files and 150 MB per session, in formats such as PDF or JPG). You keep your originals. Save the confirmation number. You can also mail your reply to the address in the letter.</li>\n<li><strong>Need more time?</strong> Call the phone number at the bottom of the letter before the deadline and ask.</li>\n</ol>\n<div class=\"callout\"><p><strong>Tip:</strong> Don't ignore a CRA letter. In a payroll or GST/HST examination, for example, if records don't arrive by the deadline the CRA may adjust your account using only the information it already has. A short phone call to ask for more time is far better than silence.</p></div>\n<p>Keep good records from the start. The CRA's audit guide says to keep your books and records for at least six years, and electronic records must stay in a readable electronic format. Our guide on <a href=\"/guides/self-employed-expenses-deductions.html\">self-employed expenses</a> explains what to keep.</p>"
+  },
+  {
+   "id": "what-happens-next",
+   "heading": "What happens after a review or audit",
+   "html": "<p>After a review, the CRA either accepts your claim or changes it and sends a notice of reassessment. If your claim was reduced and you later find new information, you can send it and the CRA will look again.</p>\n<p>An audit ends in one of a few ways:</p>\n<ul>\n<li><strong>No change:</strong> you get a letter saying the audit is closed.</li>\n<li><strong>Changes proposed:</strong> you get a <em>proposal letter</em> explaining what the auditor wants to change and why. You have 30 days to agree or disagree. If you disagree, send the auditor more documents. If you still can't agree, you can contact the auditor's team leader, whose details are on the letters.</li>\n<li><strong>Final letter and reassessment:</strong> showing a balance owing, a refund, or no change.</li>\n</ul>\n<p>If you'll owe more, interest is usually added. The auditor can give you an estimate before the reassessment arrives, so you can pay early and limit interest.</p>"
+  },
+  {
+   "id": "if-you-disagree",
+   "heading": "If you disagree: objections and service complaints",
+   "html": "<p>If you think a notice of assessment or reassessment is wrong, start with the easy route. If something was simply missed or entered wrongly, you can ask the CRA to change your return. If the facts are complete and you still disagree, you can file a <strong>notice of objection</strong>. This is a formal request for the CRA's Appeals branch to take a fresh look.</p>\n<p><strong>Objection deadlines (income tax):</strong></p>\n<ul>\n<li><strong>Individuals and graduated rate estates</strong> (a type of estate of a person who has died): the later of one year after the filing due date for that return, or 90 days after the date on the notice.</li>\n<li><strong>Corporations:</strong> 90 days after the date on the notice.</li>\n<li><strong>Disputes about TFSA or RRSP contributions:</strong> 90 days after the date on the notice.</li>\n</ul>\n<p>File online in My Account or My Business Account using <em>Register my formal dispute</em>, or use Form T400A or a signed letter by mail. Explain what you disagree with and why, and include your supporting documents. If you missed the deadline for a good reason, you can ask for an extension of time, up to one year after the deadline.</p>\n<p>In most cases you don't have to pay disputed income tax while your objection is being reviewed. But interest keeps building on the amount, so paying some or all of it can save money if you lose. Payroll deductions you were supposed to withhold and send in are an exception: those must be paid on time.</p>\n<p>Some things can't be objected to, such as an auditor's proposal letter or a statement of account. Respond to those directly instead.</p>\n<p><strong>Unhappy with the service?</strong> The <em>Taxpayer Bill of Rights</em> lists 16 rights, including the right to be treated \"professionally, courteously, and fairly\" and the right to a formal review and appeal. If you had a problem with delays, rude treatment or wrong information, first talk to the employee or their supervisor. If that doesn't fix it, submit service feedback online or on Form RC193. The CRA aims to reply within 30 business days. After that, you can ask the Office of the Taxpayers' Ombudsperson to look into it. Service feedback is for <em>how</em> you were treated; use an objection to dispute the tax itself.</p>"
+  },
+  {
+   "id": "relief-and-second-chances",
+   "heading": "Penalties, interest and second chances",
+   "html": "<p><strong>Taxpayer relief</strong> lets the CRA cancel or waive (forgive) penalties and interest when you couldn't meet your tax obligations because of events beyond your control. Examples include a serious illness or accident, a death in the immediate family, a flood or fire, or mistakes and delays caused by the CRA itself. Relief may also be possible if you truly can't pay. You can apply online through My Account or My Business Account, or use Form RC4288. Include a clear timeline of what happened and proof, such as a doctor's note. Expect a wait: the CRA lists an average processing time of about 16 months.</p>\n<p>There is a 10-year limit. A request made in 2026 can cover tax years that ended in 2016 or later, and interest that built up in 2016 or later.</p>\n<div class=\"callout\"><p><strong>Deadline:</strong> If you want relief for the 2016 tax year, you must make your request by <strong>December 31, 2026</strong>. On January 1, 2027, 2016 falls outside the 10-year window.</p></div>\n<p><strong>Voluntary Disclosures Program (VDP).</strong> If you know you made a mistake or left something off a past return, and the CRA hasn't started an audit or investigation on it yet, you may be able to come forward through the VDP and get some relief. Your application must be complete, the information must be at least one year (or one reporting period) past its due date, and you must include an estimate of the tax owing or ask for a payment plan.</p>"
+  },
+  {
+   "id": "authorize-a-representative",
+   "heading": "Getting help: letting your accountant talk to the CRA",
+   "html": "<p>You have the right to choose someone to represent you with the CRA, but you are still legally responsible for your taxes. To let an accountant deal with the CRA for you, you need to <strong>authorize</strong> them:</p>\n<ul>\n<li><strong>Fastest:</strong> in My Account, go to <em>Profile</em> and add an authorized representative. Businesses do the same in My Business Account.</li>\n<li><strong>Representative request:</strong> your accountant sends a request through the CRA's Represent a Client service, and you confirm it in your online account.</li>\n<li><strong>By mail:</strong> Form AUT-01, which must reach the CRA within six months of the date you sign it. This gives phone and mail access only, not online access.</li>\n</ul>\n<p>To upload documents for you, your representative needs a \"Level 2\" authorization. Note that for special assessment reviews, the CRA may write to you directly even if you have a representative, so pass any letter on right away. If you're new to Canada, our <a href=\"/guides/newcomers-tax-guide.html\">newcomers' guide</a> explains how to set up a CRA account.</p>"
+  },
+  {
+   "id": "checklist",
+   "heading": "Checklist: when a CRA letter arrives",
+   "html": "<ul>\n<li>Check it's real: look in My Account or call the CRA using the number on canada.ca, never one from a text or email.</li>\n<li>Find the reply date and the reference number.</li>\n<li>Make a list of exactly what's being asked for.</li>\n<li>Gather receipts, slips and statements; write a short explanation for anything missing.</li>\n<li>Upload with <em>Submit documents</em> and save the confirmation number.</li>\n<li>Call before the deadline if you need more time.</li>\n<li>Read your notice of reassessment carefully when it arrives.</li>\n<li>If you disagree, note the objection deadline the day the notice arrives.</li>\n<li>Ask about taxpayer relief if illness, disaster or CRA errors caused penalties or interest.</li>\n<li>Keep your records for at least six years, and keep your address up to date with the CRA.</li>\n</ul>"
+  }
+ ],
+ "cta_heading": "Got a letter from the CRA?",
+ "cta_text": "We can read it with you, gather the right documents, reply on your behalf as your authorized representative, and help with objections or relief requests. Start your T1 form and we'll be in touch.",
+ "sources": [
+  {
+   "title": "Review of your tax return by the CRA (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/review-your-tax-return-cra.html"
+  },
+  {
+   "title": "Types of review (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/review-your-tax-return-cra/types-reviews.html"
+  },
+  {
+   "title": "Responding to us (CRA review programs)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/review-your-tax-return-cra/responding-us.html"
+  },
+  {
+   "title": "Submitting documents online for review programs (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/review-your-tax-return-cra/submitting-documents-electronically.html"
+  },
+  {
+   "title": "Notices of assessment (NOA or NOR) (Government of Canada)",
+   "url": "https://www.canada.ca/en/services/taxes/income-tax/personal-income-tax/after-you-file/noa-nor.html"
+  },
+  {
+   "title": "Recognize a scam (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/corporate/scams-fraud/recognize-scam.html"
+  },
+  {
+   "title": "How to verify the CRA has contacted you (CRA tax tip)",
+   "url": "https://www.canada.ca/en/revenue-agency/news/newsroom/tax-tips/tax-tips-2022/how-to-verify-the-cra-has-contacted-you.html"
+  },
+  {
+   "title": "RC4188, What you should know about audits (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/rc4188/what-you-should-know-about-audits.html"
+  },
+  {
+   "title": "Trust accounts examinations: payroll and GST/HST account reviews (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-compliance-enforcement/trust-accounts-examinations.html"
+  },
+  {
+   "title": "File an objection: income tax (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/about-canada-revenue-agency-cra/complaints-disputes/file-objection-cppei-appeal-minister/income-tax.html"
+  },
+  {
+   "title": "Taxpayer Bill of Rights (CRA)",
+   "url": "https://www.canada.ca/taxpayer-rights"
+  },
+  {
+   "title": "Send feedback about CRA service (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/make-a-service-complaint.html"
+  },
+  {
+   "title": "Cancel or waive penalties and interest (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/about-canada-revenue-agency-cra/complaints-disputes/cancel-waive-penalties-interest.html"
+  },
+  {
+   "title": "Limitation period and deadline for requesting relief (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/about-canada-revenue-agency-cra/complaints-disputes/limitation-period-on-exercising-discretion-deadline-requesting-relief.html"
+  },
+  {
+   "title": "IC07-1R1 Taxpayer relief provisions: cancellation or waiver of penalties and interest (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/16-3/cancellation-waiver-penalties-interest.html"
+  },
+  {
+   "title": "Voluntary Disclosures Program: who is eligible (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/programs/about-canada-revenue-agency-cra/compliance/voluntary-disclosures-program/eligible-vdp.html"
+  },
+  {
+   "title": "Authorize a representative: how to give authorization (CRA)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/representative-authorization/how.html"
+  }
+ ]
+}

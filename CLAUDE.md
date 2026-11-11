@@ -90,7 +90,6 @@ today's sources and update it.
 likely to search for (benefit payments, CPP/OAS, TFSA/RRSP limits and deadlines usually draw the most).
 
 **Guide backlog** (ordered by estimated search demand, highest first):
-- Dealing with CRA letters, reviews and audits
 - Hiring contractors: T4A, T5018 and contractor vs employee
 - Separation and divorce: tax and benefit changes
 - When a family member dies: final return and estate basics
