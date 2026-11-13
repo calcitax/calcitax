@@ -1,5 +1,35 @@
 [
   {
+    "slug": "cra-prescribed-interest-rate-stays-3-percent-early-2027-november-2026",
+    "title": "CRA's prescribed interest rate stays at 3% for early 2027: what it means for you",
+    "description": "The federal prescribed rate will stay at 3% from January 1 to March 31, 2027. Here's what that means for family loans, company loans and CRA interest.",
+    "date": "2026-11-13",
+    "category": "CRA updates",
+    "body_html": "<p>The federal government has confirmed that the prescribed interest rate used for tax purposes will stay at <strong>3%</strong> for the quarter starting January 1, 2027. That matters if you lend money to family members, borrow from your own corporation, or owe the CRA money.</p><h2>What happened</h2><p>The Department of Finance Canada publishes the rate the CRA uses for loans and interest calculations. Its page now says the rate for the quarter beginning <strong>January 1, 2027</strong> is 3%, the same as for the current quarter (October 1 to December 31, 2026).</p><p>The prescribed rate is reset every three months. It is based on the average yield on three-month Government of Canada Treasury bills in the first month of the previous quarter, rounded up to the next whole percentage point. The Treasury bill yields Finance Canada lists for October 2026 were just under 2.5%, which rounds up to 3%.</p><p>This comes after the Bank of Canada raised its key rate to 2.5% on October 28, 2026 (see <a href=\"/news/bank-of-canada-signals-more-rate-hikes-possible-november-2026.html\">our article on the Bank's latest signals</a>). Short-term yields have not risen enough to push the prescribed rate up yet.</p><h2>What it means for you</h2><h3>Family loans for income splitting</h3><p>Normally, if you give or lend money to your spouse or common-law partner and they invest it, the investment income is taxed back to you. These are called the <em>attribution rules</em>. The <em>Income Tax Act</em> makes an exception for a proper loan, as long as:</p><ul><li>the loan charges interest at least equal to the prescribed rate in effect when the loan was made (or a commercial rate, if lower), and</li><li>the interest for each year is actually paid no later than 30 days after that year ends.</li></ul><p>Because the rate is locked in when the loan is made, a loan set up while the rate is 3% keeps that rate for as long as it is outstanding. With the rate unchanged until at least March 31, 2027, there is no year-end rush, but the rate can rise later if Treasury bill yields climb.</p><p>If you already have a family loan, the interest for 2026 must be paid by <strong>January 30, 2027</strong>. Missing that date, even once, means the attribution rules apply for that year and every later year of the loan.</p><h3>Interest the CRA charges and pays</h3><p>For October 1 to December 31, 2026, the CRA charges <strong>7%</strong> on overdue personal and corporate taxes, CPP contributions and EI premiums, compounded daily. It pays 5% on refunds owed to individuals and 3% on refunds owed to corporations. The CRA's method adds four percentage points to the prescribed rate for overdue amounts, so an unchanged base rate points to the same charges in early 2027, but the CRA has not yet posted its full table for that quarter. Our <a href=\"/guides/tax-instalments-individuals-guide.html\">tax instalments guide</a> explains how instalment interest works.</p><h2>What it means for small businesses</h2><p>If your corporation lends money to an employee or a shareholder at little or no interest, the person may have a <em>taxable benefit</em>: extra income they must pay tax on. The CRA works it out quarter by quarter, using the prescribed rate for each quarter (3% for both late 2026 and early 2027), minus any interest the borrower actually paid during the year or within 30 days after it ends.</p><ul><li>For employees, the benefit goes on the T4 slip (code 36 in box 14), and income tax and CPP are withheld on it, but not EI.</li><li>For shareholders, the benefit goes on a T4A slip (code 117).</li><li>Under a CRA administrative policy, small, short employee loans are not taxed: $10,000 or less in total in a calendar year, for 60 days or less, and not received because the person is a shareholder.</li></ul><p>Shareholder loans also have other rules that can make the whole loan taxable if it isn't repaid in time. Our guide to <a href=\"/guides/paying-yourself-corporation-salary-dividends-shareholder-loans.html\">paying yourself from a corporation</a> covers them.</p><h2>What to do now</h2><ul><li>If you have a family or spousal loan, diarize January 30, 2027 to pay the 2026 interest, and keep proof such as a bank transfer record.</li><li>If you are thinking about a new prescribed-rate loan, put it in writing and set it up properly; the rate in effect on the day it is made is the one that counts.</li><li>Business owners: list any loans to employees or shareholders so the 2026 benefit can be calculated and shown on T4 or T4A slips.</li><li>If you owe the CRA, paying sooner limits daily compounding interest.</li></ul><p>Prescribed-rate loans and shareholder loans have strict rules, so check your own situation before acting.</p>",
+    "sources": [
+      {
+        "title": "Finance Canada: Canada Revenue Agency rates (rate for the quarter beginning January 1, 2027)",
+        "url": "https://www.canada.ca/en/department-finance/services/lending-rates/revenue-canada-rates.html"
+      },
+      {
+        "title": "CRA: Prescribed interest rates, fourth calendar quarter 2026",
+        "url": "https://www.canada.ca/en/revenue-agency/services/tax/prescribed-interest-rates/2026-q4.html"
+      },
+      {
+        "title": "CRA: Understanding interest (corporation payments)",
+        "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-payments/understanding-interest.html"
+      },
+      {
+        "title": "CRA: Loans and employee debt (interest-free and low-interest loans)",
+        "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/benefits-allowances/financial/loans-interest-free-low-interest.html"
+      },
+      {
+        "title": "Income Tax Act, section 74.5 (Justice Laws)",
+        "url": "https://laws-lois.justice.gc.ca/eng/acts/I-3.3/section-74.5.html"
+      }
+    ]
+  },
+  {
     "slug": "us-tariff-relief-extended-to-june-2028-november-2026",
     "title": "Ottawa extends relief from counter-tariffs on U.S. goods to June 2028, with some cuts",
     "description": "Finance Canada extended tariff relief on many U.S. imports to June 30, 2028, widened it for some uses and is ending it for trailers, aluminum and paperboard.",

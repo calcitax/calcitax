@@ -90,7 +90,6 @@ today's sources and update it.
 likely to search for (benefit payments, CPP/OAS, TFSA/RRSP limits and deadlines usually draw the most).
 
 **Guide backlog** (ordered by estimated search demand, highest first):
-- Separation and divorce: tax and benefit changes
 - When a family member dies: final return and estate basics
 - Bookkeeping and record-keeping basics for small businesses
 - B.C. business licences, registrations and the transparency register for private companies
