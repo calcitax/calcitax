@@ -130,7 +130,7 @@ HEAD = """<!doctype html>
   <div class="wrap header-row">
     <a class="brand" href="/" aria-label="Calcitax Advisors home">
       <span class="brand-mark" aria-hidden="true">C</span>
-      <span class="brand-text"><span class="brand-name">Calcitax <span>Advisors</span></span><span class="brand-tag"><b>Calc</b> + <b>i</b> + <b>Tax</b> · Calculate Income Tax</span></span>
+      <span class="brand-text"><span class="brand-name">Calcitax <span>Advisors</span></span><span class="brand-tag"><b>Calc</b> + <b>i</b> + <b>Tax</b> · We calculate all your taxes</span></span>
     </a>
     <nav class="nav" aria-label="Main">
       <a href="/">Home</a>
