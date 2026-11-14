@@ -94,6 +94,9 @@ p { margin: 0; }
 .hero h1 { font-size: clamp(42px, 7vw, 64px); font-weight: 800; line-height: 1.05; letter-spacing: -0.02em; margin-bottom: 20px; }
 .hero h1 span { color: var(--accent); }
 .hero .lead { font-size: 19px; margin-bottom: 32px; }
+.name-meaning { display: inline-block; background: var(--bg); border: 1px solid var(--line); border-left: 4px solid var(--accent); border-radius: 10px; padding: 10px 16px; margin: -4px 0 22px; font-size: 16px; color: var(--ink-2); max-width: 680px; }
+.name-meaning b { color: var(--accent); font-weight: 700; }
+.name-meaning strong { color: var(--ink); }
 .page-hero { background: var(--bg-tint); padding: 64px 0 56px; }
 .page-hero h1 { font-size: clamp(34px, 5vw, 48px); font-weight: 800; margin-bottom: 14px; }
 
