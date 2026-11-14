@@ -1,0 +1,167 @@
+{
+ "slug": "final-return-estate-basics-when-someone-dies",
+ "title": "When a family member dies: the final tax return and estate basics in B.C.",
+ "seo_title": "Final Tax Return and Estate Basics When Someone Dies in BC (2026)",
+ "description": "Lost a family member? Learn what to tell the CRA, when the final return is due, how RRSPs and property are taxed, and how probate works in B.C.",
+ "topic": "Personal tax",
+ "audience": "individuals",
+ "updated": "2026-11-14",
+ "published": "2026-11-14",
+ "lead": "Losing someone close is hard enough without tax forms. Still, someone has to tell the government, stop benefit payments, file a last tax return and settle the estate. This guide walks through the main steps in plain language, with the rules that apply in British Columbia, so you know what to expect and what to ask about.",
+ "figures_for": "2026",
+ "key_points": [
+  "Tell the CRA and Service Canada about the death quickly, and return any benefit payments made after it.",
+  "If the person died between January 1 and October 31, the final return is due April 30 of the next year; later in the year, it is due six months after the death.",
+  "The person is treated as selling their investments and property at death, and RRSPs and RRIFs are usually fully taxed, unless they pass to a spouse or partner.",
+  "Optional returns, such as one for \"rights or things\", can lower the total tax.",
+  "B.C. probate fees are $6 per $1,000 of estate value between $25,000 and $50,000, and $14 per $1,000 above $50,000.",
+  "Get a CRA clearance certificate before handing out the estate, or the legal representative may have to pay any tax still owing."
+ ],
+ "sections": [
+  {
+   "id": "first-steps",
+   "heading": "First steps: who looks after the paperwork",
+   "html": "<p>When someone dies, everything they owned and owed becomes their <strong>estate</strong>. One person is in charge of wrapping it up. The CRA calls this person the <strong>legal representative</strong>.</p> <ul> <li><strong>Executor:</strong> the person named in the will to carry out its instructions. Usually the executor is the legal representative.</li> <li><strong>Administrator:</strong> if there is no will, or the named executor can't or won't act, a person can ask the B.C. Supreme Court to appoint them. The court issues a <strong>grant of administration</strong>.</li> <li><strong>CRA-only representative:</strong> if no one has been named or appointed, a spouse or close relative can ask to be registered for CRA matters only, using <strong>Form RC552</strong>.</li> </ul> <p>The executor lists assets and debts, pays valid debts, files tax returns and hands out what is left.</p> <h3>In British Columbia</h3> <ul> <li><strong>Registering the death:</strong> the funeral director registers the death and issues a death certificate. More copies are available from Vital Statistics or Service BC.</li> <li><strong>Finding the will:</strong> B.C.'s <strong>wills registry</strong> records where a will is kept, not the will itself. A search costs $20 (plus $5 for each other name the person used), and the results are needed to apply for probate.</li> </ul> <h3>Telling the CRA</h3> <p>Tell the CRA about the death as soon as you can: call 1-800-959-8281 or mail <strong>Form RC4111</strong>. Then send a copy of the death certificate and the will (or grant of probate) so the CRA records you as the legal representative. If the person got CPP or Old Age Security (OAS), also call Service Canada at 1-800-277-9914.</p>"
+  },
+  {
+   "id": "benefits",
+   "heading": "Benefits that stop, and benefits you may be able to get",
+   "html": "<h3>Payments that stop</h3> <ul> <li><strong>Canada Groceries and Essentials Benefit</strong> (formerly the GST/HST credit): it ends at death, so return any payment that arrives afterwards. A surviving spouse or partner can ask for the remaining payments.</li> <li><strong>Canada child benefit (CCB):</strong> if the parent receiving it dies, the CRA usually moves the child to the surviving spouse's account. A grandparent or guardian who takes over must apply.</li> <li><strong>Canada workers benefit, CPP and OAS:</strong> these must also be cancelled or moved.</li> </ul> <h3>The CPP death benefit</h3> <p>The <strong>CPP death benefit</strong> is a one-time payment from the Canada Pension Plan. The basic amount is $2,500. For deaths on or after January 1, 2025, a top-up of another $2,500 may be paid, for a maximum of $5,000. The top-up applies only if the person never received a CPP pension and left no spouse or partner who qualifies for a survivor's pension.</p> <ul> <li>The person must have paid into the CPP for at least one-third of the years they could have (and at least three years), or for 10 years.</li> <li>The executor should apply within 60 days of the death. If they don't, the person who paid for the funeral, the spouse or partner, or the next of kin can apply, in that order.</li> <li>It is <strong>not</strong> reported on the person's final return. Whoever receives it, the estate or a family member, reports it.</li> </ul> <p>Ask Service Canada whether a spouse or children qualify for other benefits. Our <a href=\"/guides/retirement-income-oas-cpp-rrif-pension-splitting.html\">retirement income guide</a> explains CPP and OAS.</p> <p>If an employer pays a <strong>death benefit</strong> to thank the person for their years of work, up to $10,000 in total can be received tax-free.</p>"
+  },
+  {
+   "id": "final-return",
+   "heading": "The final return: what it is and when it's due",
+   "html": "<p>A <strong>final return</strong> is the person's last regular income tax return (T1). It covers January 1 of the year they died up to the date of death. One must be filed for every person who dies.</p> <table> <thead><tr><th>Date of death</th><th>File and pay by</th></tr></thead> <tbody> <tr><td>January 1 to October 31</td><td>April 30 of the next year</td></tr> <tr><td>November 1 to December 31</td><td>Six months after the date of death</td></tr> <tr><td>Self-employed (the person, or their spouse or partner, ran a business), death January 1 to December 15</td><td>File by June 15 of the next year, but pay by April 30</td></tr> <tr><td>Self-employed, death December 16 to December 31</td><td>File and pay six months after the date of death</td></tr> </tbody> </table> <p><em>Illustration:</em> Ravi dies on June 10, 2026. His final return is due April 30, 2027. If he had died on November 20, 2026, it would be due May 20, 2027.</p> <h3>Returns for earlier years</h3> <p>Check that every earlier year was filed. If the person died early in the year, before the due date of last year's return, and hadn't filed it yet, that return is due six months after the date of death. Returns that were already late keep their original due dates.</p> <p>If tax is owing and a return is late, the CRA charges a penalty of 5% of the balance plus 1% for each full month late, up to 12 months, plus interest.</p> <h3>Credits and deductions</h3> <ul> <li>Donations made in the year of death can be claimed up to 100% of net income, with any extra carried back a year.</li> <li>Funeral costs, probate fees and estate administration costs can't be deducted.</li> </ul>"
+  },
+  {
+   "id": "optional-returns",
+   "heading": "Optional returns that can lower the tax bill",
+   "html": "<p>On top of the final return, the legal representative may choose to file up to three <strong>optional returns</strong>. They are not required. They can lower the total tax, because some personal credits, like the basic personal amount, can be claimed in full on each one.</p> <ul> <li><strong>Return for rights or things:</strong> \"rights or things\" are amounts the person had earned, or was owed, but had not yet been paid when they died. Examples: a last paycheque for a pay period that ended before death, vacation pay, and dividends declared but not yet paid. It is due one year after the death, or 90 days after the notice of assessment for the final return, whichever is later.</li> <li><strong>Return for a partner or proprietor:</strong> for someone who owned a business, or was a partner in one, with a year-end other than December 31.</li> <li><strong>Return for income from a graduated rate estate:</strong> for someone who was receiving income from another person's estate.</li> </ul> <p>The last two follow the same due dates as the final return.</p> <div class=\"callout\"><strong>Tip:</strong> optional returns are easy to miss. Ask whether any apply before you file the final return.</div>"
+  },
+  {
+   "id": "deemed-disposition",
+   "heading": "Property, investments and the family home",
+   "html": "<p>The tax rules treat a person as if they sold all their <strong>capital property</strong> (things like shares, mutual funds, a cottage or a rental property) just before they died, for its fair market value. This is called a <strong>deemed disposition</strong>. Nothing is actually sold, but any increase in value since they bought it, called a <strong>capital gain</strong>, goes on the final return. Only part of a capital gain is taxed. See our <a href=\"/guides/capital-gains-selling-home-property-investments.html\">capital gains guide</a>.</p> <p><em>Illustration:</em> Mira bought shares years ago for $50,000. They were worth $150,000 on the day she died. Her final return shows a $100,000 capital gain, even though the shares were simply left to her son.</p> <h3>Leaving property to a spouse</h3> <p>If property goes to a surviving spouse or common-law partner who lives in Canada, or to a qualifying trust for them, it can usually <strong>roll over</strong>. That means it moves at the person's original cost, with no gain on the final return. The surviving partner pays tax only when they later sell. The property must pass to them within 36 months of the death. The legal representative can choose not to use the rollover, property by property.</p> <h3>The family home</h3> <p>The <strong>principal residence exemption</strong> can remove part or all of the gain on the person's home. Even if no tax is owing, the sale must be reported on the final return, with the home designated on Schedule 3 and Form T1255. This is not needed if the home goes to the spouse or partner.</p> <h3>Rental and business property</h3> <p>For a rental or business building, the deemed sale can also mean paying back some of the depreciation claimed in earlier years (called <strong>recapture</strong>). See our <a href=\"/guides/rental-income-tax-guide.html\">rental income guide</a>.</p>"
+  },
+  {
+   "id": "rrsp-rrif-tfsa",
+   "heading": "RRSPs, RRIFs and TFSAs",
+   "html": "<h3>RRSPs and RRIFs</h3> <p>Normally, the full value of a <strong>registered retirement savings plan (RRSP)</strong> or <strong>registered retirement income fund (RRIF)</strong> on the date of death counts as income on the final return. The bank issues a slip (T4RSP or T4RIF) in the person's name. This can create a large tax bill.</p> <ul> <li><strong>Spouse or partner:</strong> if the plan goes to a surviving spouse or common-law partner and is moved straight into their own RRSP or RRIF by the end of the year after the death, the tax is put off until they withdraw it.</li> <li><strong>Dependent child or grandchild:</strong> if a child or grandchild was financially dependent because of a disability, the money may roll into their registered disability savings plan (RDSP).</li> </ul> <p><em>Illustration:</em> Tom leaves his $200,000 RRSP to his adult daughter, who is not dependent on him. The full $200,000 is added to Tom's income on his final return.</p> <h3>TFSAs</h3> <p>A <strong>tax-free savings account (TFSA)</strong> stays tax-free up to the date of death, so its value is not reported on the final return. What happens next depends on who was named:</p> <ul> <li><strong>Successor holder:</strong> a spouse or common-law partner named as successor holder simply takes over the account. It stays tax-free, and their own contribution room is not affected.</li> <li><strong>Other beneficiaries:</strong> any income the account earns after the death is taxable to them.</li> <li><strong>No one named:</strong> the TFSA goes into the estate and is shared under the will.</li> </ul>"
+  },
+  {
+   "id": "probate-bc",
+   "heading": "Probate and probate fees in B.C.",
+   "html": "<p><strong>Probate</strong> is a court process that confirms the will is real, was made freely, and is the person's last will. The court issues a <strong>grant of probate</strong>, which the executor shows to banks and others. You apply at any B.C. Supreme Court registry. You don't need a lawyer, but there is a lot of paperwork.</p> <p>Not every estate needs probate. It is usually needed when a bank or other institution won't release assets without it. If there is no will, B.C.'s <strong>Wills, Estates and Succession Act</strong> decides who inherits.</p> <h3>B.C. probate fees</h3> <p>Under B.C.'s <strong>Probate Fee Act</strong>, the fee is based on the gross value of the estate (before debts are paid). For someone who lived in B.C., this includes their B.C. land and belongings and their bank accounts and investments wherever they are held.</p> <ul> <li>First $25,000: no fee</li> <li>$25,000 to $50,000: $6 for every $1,000 (or part of $1,000)</li> <li>Over $50,000: $14 for every $1,000 (or part of $1,000)</li> </ul> <p><em>Illustration:</em> for an estate worth $500,000, the fee is $150 on the part between $25,000 and $50,000, plus $6,300 on the $450,000 above $50,000, for a total of $6,450. Court filing fees are extra.</p> <p>Assets that go straight to a named beneficiary may not pass through the estate. A B.C. lawyer or notary can tell you which assets count.</p>"
+  },
+  {
+   "id": "estate-return-clearance",
+   "heading": "The estate's own return and the clearance certificate",
+   "html": "<h3>The T3 return</h3> <p>After the death, the estate may keep earning money, such as interest, dividends or rent. That income goes on a <strong>T3 return</strong>, which is the tax return for a trust or estate. The estate files one each year until everything has been handed out.</p> <ul> <li>An estate can be a <strong>graduated rate estate</strong> for up to 36 months after the death. This status lets it pay tax at the same rising rates as a person and gives it more flexible donation rules.</li> <li>For a graduated rate estate, the legal representative can pick a first year-end up to one year after the death.</li> <li>Each T3 return is due 90 days after the estate's year-end. A late T3 return has a penalty of at least $100, up to $2,500, even if no tax is owed.</li> </ul> <h3>The clearance certificate</h3> <p>A <strong>clearance certificate</strong> is a letter from the CRA confirming that the estate has paid all its taxes, interest and penalties. You ask for one on <strong>Form TX19</strong>, after all returns are filed, the notices of assessment have arrived, and any balance is paid.</p> <ul> <li>The CRA says it can take up to 120 days once it has all the documents, and longer if there is an audit.</li> </ul> <div class=\"callout\"><strong>Warning:</strong> if the legal representative hands out the estate before getting a clearance certificate, and tax is later found to be owing, they can be personally responsible for it, up to the value of what they gave out. For this reason, some executors hold back part of the estate until the certificate arrives.</div>"
+  },
+  {
+   "id": "checklist",
+   "heading": "Checklist and common mistakes",
+   "html": "<h3>Checklist</h3> <ol> <li>Get several copies of the death certificate.</li> <li>Find the will and do a B.C. wills search.</li> <li>Tell the CRA and Service Canada about the death, and register as the legal representative.</li> <li>Return any benefit payments made after the death, and apply for the CPP death benefit.</li> <li>Gather slips and check that earlier years were filed.</li> <li>List all assets with their value on the date of death, and note who was named on each RRSP, RRIF and TFSA.</li> <li>Decide whether probate is needed.</li> <li>File the final return, and any optional returns, by the due dates.</li> <li>File T3 returns for income the estate earns after the death.</li> <li>Ask for a clearance certificate before handing out the estate.</li> </ol> <h3>Common mistakes</h3> <ul> <li>Spending benefit payments that arrived after the death.</li> <li>Reporting the CPP death benefit on the final return.</li> <li>Forgetting the deemed sale of investments or a rental property.</li> <li>Missing optional returns that could lower the tax.</li> <li>Deducting funeral or probate costs.</li> <li>Handing out the estate before the clearance certificate arrives.</li> </ul>"
+  }
+ ],
+ "cta_heading": "Need help with a final return or an estate?",
+ "cta_text": "Calcitax Advisors can prepare the final return and any optional returns, file T3 returns for the estate, and help you ask for a clearance certificate, so you can focus on your family.",
+ "sources": [
+  {
+   "title": "Represent someone who died (Canada Revenue Agency)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/life-events/doing-taxes-someone-died/represent-deceased.html"
+  },
+  {
+   "title": "Brochure: Doing taxes for someone who died (Canada Revenue Agency)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/life-events/doing-taxes-someone-died/taxes-brochure.html"
+  },
+  {
+   "title": "Notify the CRA of the date of death (Canada Revenue Agency)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/life-events/doing-taxes-someone-died/notify-death-date.html"
+  },
+  {
+   "title": "Filing and payment due dates: returns for someone who died (Canada Revenue Agency)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/life-events/doing-taxes-someone-died/prepare-returns/filing-deadlines.html"
+  },
+  {
+   "title": "What returns you need to file (Canada Revenue Agency)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/life-events/what-when-someone-died/final-return.html"
+  },
+  {
+   "title": "Claim deductions and tax credits: returns for someone who died (Canada Revenue Agency)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/life-events/doing-taxes-someone-died/prepare-returns/credits-deductions.html"
+  },
+  {
+   "title": "Donations and gifts: returns for someone who died (Canada Revenue Agency)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/life-events/doing-taxes-someone-died/prepare-returns/credits-deductions/donations-gifts.html"
+  },
+  {
+   "title": "Taxable capital gains on property, investments, and belongings (Canada Revenue Agency)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/life-events/what-when-someone-died/deemed-disposition-property.html"
+  },
+  {
+   "title": "RRSP: returns for someone who died (Canada Revenue Agency)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/life-events/doing-taxes-someone-died/prepare-returns/report-income/rrsp.html"
+  },
+  {
+   "title": "RRIF: returns for someone who died (Canada Revenue Agency)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/life-events/doing-taxes-someone-died/prepare-returns/report-income/rrif.html"
+  },
+  {
+   "title": "TFSA: returns for someone who died (Canada Revenue Agency)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/life-events/doing-taxes-someone-died/prepare-returns/report-income/tfsa.html"
+  },
+  {
+   "title": "What happens when a TFSA holder dies (Canada Revenue Agency)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/death-of-holder/what-happens.html"
+  },
+  {
+   "title": "If you are a successor holder of a TFSA (Canada Revenue Agency)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/death-of-holder/successor-holder.html"
+  },
+  {
+   "title": "Death benefits: returns for someone who died (Canada Revenue Agency)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/life-events/doing-taxes-someone-died/prepare-returns/report-income/death-benefits.html"
+  },
+  {
+   "title": "Keep your benefit information up to date (Canada Revenue Agency)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/keep-your-information-date.html"
+  },
+  {
+   "title": "Apply for a clearance certificate (Canada Revenue Agency)",
+   "url": "https://www.canada.ca/clearance-certificate"
+  },
+  {
+   "title": "CPP death benefit (Service Canada)",
+   "url": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/cpp-death-benefit.html"
+  },
+  {
+   "title": "Who to notify and eligibility for benefits after a death (Government of Canada)",
+   "url": "https://www.canada.ca/en/services/benefits/notify-government-death/checklist.html"
+  },
+  {
+   "title": "After a death: deal with wills and estates (Government of British Columbia)",
+   "url": "https://www2.gov.bc.ca/gov/content/life-events/death/after-death/wills-estates"
+  },
+  {
+   "title": "Wills registry (Government of British Columbia)",
+   "url": "https://www2.gov.bc.ca/gov/content/life-events/death/wills-registry"
+  },
+  {
+   "title": "Death registration (Government of British Columbia)",
+   "url": "https://www2.gov.bc.ca/gov/content/life-events/death/death-registration"
+  },
+  {
+   "title": "Wills and estates (Government of British Columbia)",
+   "url": "https://www2.gov.bc.ca/gov/content/life-events/death/wills-estates"
+  },
+  {
+   "title": "Probate Fee Act, SBC 1999, c. 4 (BC Laws)",
+   "url": "https://free.bcpublications.ca/civix/document/id/complete/statreg/99004_01"
+  },
+  {
+   "title": "Probating the Will (Clicklaw Wikibooks, Courthouse Libraries BC)",
+   "url": "https://wiki.clicklaw.bc.ca/index.php/Probating_the_Will"
+  }
+ ]
+}
