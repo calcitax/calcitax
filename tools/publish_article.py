@@ -489,6 +489,8 @@ def rebuild(articles):
                 for a in articles]
     sitemap.write_text(replace_block(sitemap.read_text(), "<!-- NEWS:START -->", "<!-- NEWS:END -->",
                                      "\n" + "\n".join(entries) + "\n  ", sitemap))
+    import build_service_links
+    build_service_links.main()
 
 
 def load():

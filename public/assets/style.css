@@ -160,7 +160,7 @@ p { margin: 0; }
 /* Service detail */
 .service { padding: 40px 0; border-top: 1px solid var(--line); scroll-margin-top: 90px; }
 .service:first-child { border-top: none; padding-top: 0; }
-.service-grid { display: flex; flex-wrap: wrap; gap: 32px; }
+.service-grid { display: flex; flex-wrap: wrap; gap: 32px; align-items: flex-start; }
 .service-grid > div { min-width: 0; }
 .service-grid > div:first-child { flex: 999 1 440px; }
 .service-grid > div:last-child { flex: 1 1 300px; }
@@ -432,3 +432,12 @@ td:first-child { font-weight: 600; white-space: nowrap; }
 .btn-gold:hover { background: #F0B93A; color: var(--navy); }
 .write-us-line { margin: 16px 0 0; font-size: 15px; color: var(--ink-2); }
 .write-us-line a { color: var(--gold); font-weight: 700; }
+
+/* Services page: auto-generated "Helpful reading" lists */
+.svc-reading { margin-top: 22px; border-left: 3px solid var(--gold-bright); padding: 4px 0 4px 16px; }
+.svc-reading h3 { font-size: 15px; font-weight: 700; letter-spacing: 0.02em; color: var(--gold); text-transform: uppercase; margin-bottom: 8px; }
+.svc-reading ul { list-style: none; margin: 0; padding: 0; }
+.svc-reading li { font-size: 15px; margin: 0 0 7px; line-height: 1.45; }
+.svc-reading a { color: var(--accent); font-weight: 500; }
+.read-tag { display: inline-block; font-size: 11px; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; color: var(--accent-dark); background: var(--accent-soft); border-radius: 999px; padding: 1px 8px; margin-left: 4px; vertical-align: 1px; }
+.read-tag.news { color: #7A4B00; background: #FDF1D8; }

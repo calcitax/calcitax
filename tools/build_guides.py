@@ -242,6 +242,8 @@ def main():
     home.write_text(replace_block(home.read_text(), "<!-- GUIDES:START -->", "<!-- GUIDES:END -->",
                                   "\n" + "\n".join(index_card(m) for m in newest) + "\n      ", home))
     print(f"OK: built {len(built)} guide(s); index lists {len(metas)}.")
+    import build_service_links
+    build_service_links.main()
 
 
 if __name__ == "__main__":

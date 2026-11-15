@@ -77,6 +77,14 @@ Payroll, GST/HST, Newcomers, Accounting, Rebates & incentives.
 **Slug.** Lowercase words joined by hyphens, describing the topic, ending with month and year,
 for example `bank-of-canada-raises-rate-october-2026`.
 
+## Services page reading lists
+
+Each service on `public/services.html` has an auto-generated "Helpful reading" list (guides first, then
+the newest matching news from the last 180 days). `tools/build_service_links.py` refreshes it and runs
+automatically at the end of `build_guides.py` and `publish_article.py`. Never hand-edit the lists
+between the `<!-- READING:... -->` markers; to link a new kind of article to a service, add a keyword
+or category to `SERVICES` in that script.
+
 ## Guides
 
 Evergreen guides live in `content/guides/<slug>.json` (format in the docstring of `tools/build_guides.py`).
