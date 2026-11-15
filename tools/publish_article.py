@@ -13,8 +13,10 @@ The article JSON looks like:
   "date": "2026-10-31",                                   # YYYY-MM-DD (Pacific)
   "category": "Economy",                                  # Personal tax | Business tax | Economy | CRA updates | Deadlines | ...
   "body_html": "<p>...</p><h2>...</h2>...",                # article body: p, h2, h3, ul, ol, li, strong, em, a, table
-  "sources": [{"title": "Bank of Canada press release", "url": "https://..."}]
-}
+  "sources": [{"title": "Bank of Canada press release", "url": "https://..."}],
+  "expires": "2026-12-15"                                 # optional: date after which the article is out of date
+}                                                         # (deadline passed, offer ended); it then drops off
+                                                          # the Services page reading lists
 
 The script:
   * validates the article,
@@ -78,6 +80,11 @@ def validate(a):
         dt.date.fromisoformat(a["date"])
     except ValueError:
         fail("date must be YYYY-MM-DD")
+    if a.get("expires"):
+        try:
+            dt.date.fromisoformat(a["expires"])
+        except ValueError:
+            fail("expires must be YYYY-MM-DD")
     if len(a["title"]) > 120:
         fail("title too long (max 120 chars)")
     if len(a["description"]) > 200:

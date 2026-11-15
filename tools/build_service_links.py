@@ -9,7 +9,9 @@ stay current whenever a guide or news article is added. You normally never run i
 
 How links are chosen: each service in SERVICES below has keywords (matched against a guide's or
 article's slug, title and topic, lower-case) and news categories. Matching guides are listed first,
-then the newest matching news articles from the last NEWS_MAX_AGE_DAYS days.
+then the newest matching news articles from the last NEWS_MAX_AGE_DAYS days. News with an
+"expires" date in the past is skipped, and "Deadlines" news without one drops off after
+DEADLINE_MAX_AGE_DAYS days.
 To link a new kind of content to a service, add a keyword or category here, not in the HTML.
 The list on the page sits between <!-- READING:<id>:START --> and <!-- READING:<id>:END --> markers.
 """
@@ -24,14 +26,15 @@ PUBLIC = ROOT / "public"
 SERVICES_PAGE = PUBLIC / "services.html"
 NEWS = ROOT / "content" / "news.json"
 
-MAX_GUIDES = 5
-MAX_NEWS = 4
+MAX_GUIDES = 3
+MAX_NEWS = 3
 NEWS_MAX_AGE_DAYS = 180
+DEADLINE_MAX_AGE_DAYS = 45  # "Deadlines" articles without an "expires" date drop off after this
 
 # id on services.html -> (heading, keywords, news categories)
 SERVICES = {
     "personal": ("Helpful reading for personal tax (T1)",
-                 ["rrsp", "tfsa", "fhsa", "credit", "child-benefit", "family-benefit", "resp", "rdsp",
+                 ["rrsp", "tfsa", "fhsa", "often-missed", "child-benefit", "family-benefit", "resp", "rdsp",
                   "retirement", "oas", "rrif", "instalment", "capital-gains", "separation", "divorce",
                   "pre-filled", "tax-deadline", "what-it-means-for-you", "benefit-payment",
                   "year-end-tax-checklist", "foreign-income", "heat-pump", "rebate"],
@@ -101,8 +104,14 @@ def news_items():
         return []
     cutoff = dt.date.today() - dt.timedelta(days=NEWS_MAX_AGE_DAYS)
     items = []
+    today = dt.date.today()
     for a in json.loads(NEWS.read_text(encoding="utf-8")):
         if dt.date.fromisoformat(a["date"]) < cutoff:
+            continue
+        if a.get("expires") and dt.date.fromisoformat(a["expires"]) < today:
+            continue  # its deadline or offer has passed
+        if (not a.get("expires") and a["category"] == "Deadlines"
+                and dt.date.fromisoformat(a["date"]) < today - dt.timedelta(days=DEADLINE_MAX_AGE_DAYS)):
             continue
         items.append({"href": f"/news/{a['slug']}.html", "title": a["title"], "date": a["date"],
                       "category": a["category"], "hay": f"{a['slug']} {a['title']}".lower()})

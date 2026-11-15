@@ -71,6 +71,10 @@ rejects articles without one and labels official links on the page.
 - short paragraphs and bullet lists; dates written like "March 2, 2027".
 Do not add a disclaimer or contact box in the body: the template adds both.
 
+**Expiry date.** If an article is tied to a deadline, an offer window or a period that ends (for example
+"apply by November 30", "payment dates for November and December"), add `"expires": "YYYY-MM-DD"` with the
+last day it is useful. Expired articles stay published but drop off the Services page reading lists.
+
 **Categories.** Use one of: Personal tax, Business tax, CRA updates, Economy, Deadlines,
 Payroll, GST/HST, Newcomers, Accounting, Rebates & incentives.
 
@@ -83,7 +87,12 @@ Each service on `public/services.html` has an auto-generated "Helpful reading" l
 the newest matching news from the last 180 days). `tools/build_service_links.py` refreshes it and runs
 automatically at the end of `build_guides.py` and `publish_article.py`. Never hand-edit the lists
 between the `<!-- READING:... -->` markers; to link a new kind of article to a service, add a keyword
-or category to `SERVICES` in that script.
+or category to `SERVICES` in that script. Each list shows at most 3 guides and 3 news articles.
+
+**Check the lists.** On the first run of each month, read the reading lists on the Services page. If a
+link is only loosely related to its service, or an out-of-date article is still listed, fix it the same
+day: adjust the keywords in `SERVICES`, or add or correct the article's `expires` date in
+`content/news.json` and run `--rebuild`. Mention the fix in the commit message.
 
 ## Guides
 
