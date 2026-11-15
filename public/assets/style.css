@@ -407,3 +407,17 @@ td:first-child { font-weight: 600; white-space: nowrap; }
 .team-photo { display: block; width: 120px; height: 120px; border-radius: 50%; object-fit: cover; border: 3px solid var(--accent-soft); margin-bottom: 14px; background: var(--bg-tint); }
 
 .brand-tag b.gold, .name-meaning b.gold { color: var(--gold); }
+
+/* Gold accent system: green = trust and main actions, gold = highlights */
+.site-header { border-top: 3px solid var(--gold-bright); }
+.eyebrow { color: var(--gold); }
+.dark .eyebrow { color: var(--gold-bright); }
+.steps li::before, .step-no { background: var(--gold-bright); color: var(--navy); }
+.date-chip b { color: var(--gold); }
+.stat b { color: var(--gold-bright); }
+.footer-tag { color: var(--gold-bright); }
+.cta-band { border-top: 4px solid var(--gold-bright); }
+.cta-band .btn-light { background: var(--gold-bright); color: var(--navy); }
+.cta-band .btn-light:hover { background: #F0B93A; color: var(--navy); }
+.guide-body .callout { border-left-color: var(--gold-bright); }
+.card:hover .icon { stroke: var(--gold); }
