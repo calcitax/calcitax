@@ -145,6 +145,7 @@ def guide_page(g):
         <a class="btn btn-primary" href="/contact.html">Book a free consultation</a>
         <a class="btn btn-secondary" href="{form_href}">{form_label}</a>
       </div>
+      <p class="write-us-line">Want to know something specific about any tax? <a href="mailto:info@calcitax.com?subject=Tax%20question">Write to us</a> and we'll get back to you.</p>
     </aside>
 
     <div class="article-sources">
