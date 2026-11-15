@@ -30,6 +30,21 @@ Plain, friendly Canadian English. Explain jargon. No hype, no clickbait.
    (for example US tariffs, global rates, IFRS or accounting-standard changes for businesses).
 3. If nothing new and solid happened, write a timely, evergreen piece tied to the calendar
    (an upcoming deadline, year-end planning, an often-missed credit). Never pad or invent news.
+
+**Rebates, grants and incentives (create awareness).** Government money people can claim is a core
+topic, not filler. Treat a new or changed federal, B.C. or utility incentive (for example heat pump and
+home-energy rebates, CleanBC/BC Hydro/FortisBC programs, benefit top-ups, small-business grants, hiring
+credits) as priority-1 news. Also cover incentives that are **upcoming** (announced, portal not yet open)
+and ones **closing soon** (a deadline in the next 30 days). Always state: who qualifies, how much,
+key dates (start, retroactive date, deadline), how to apply, what records to keep, whether it stacks
+with other programs (only if a source says so), and any tax effect (for example a rebate on rental
+property reduces its capital cost). Use the category "Rebates & incentives". When an incentive article
+is more than 60 days old and the program has changed, publish an update that links the earlier one.
+
+**Questions from clients and visitors.** Questions people send to Calcitax are a strong signal of what
+others are searching for. If a recent question (passed on by Varun or Priyanka) isn't already covered,
+it moves to the top of the topic list for news (if it's about something current) or the guide backlog
+(if it's evergreen). Never name or identify the person who asked.
 Check `content/news.json` first and don't repeat a topic covered in the last 14 days unless
 there is a genuinely new development (then say what changed and link the earlier article).
 
@@ -57,7 +72,7 @@ rejects articles without one and labels official links on the page.
 Do not add a disclaimer or contact box in the body: the template adds both.
 
 **Categories.** Use one of: Personal tax, Business tax, CRA updates, Economy, Deadlines,
-Payroll, GST/HST, Newcomers, Accounting.
+Payroll, GST/HST, Newcomers, Accounting, Rebates & incentives.
 
 **Slug.** Lowercase words joined by hyphens, describing the topic, ending with month and year,
 for example `bank-of-canada-raises-rate-october-2026`.
