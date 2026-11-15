@@ -441,3 +441,11 @@ td:first-child { font-weight: 600; white-space: nowrap; }
 .svc-reading a { color: var(--accent); font-weight: 500; }
 .read-tag { display: inline-block; font-size: 11px; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; color: var(--accent-dark); background: var(--accent-soft); border-radius: 999px; padding: 1px 8px; margin-left: 4px; vertical-align: 1px; }
 .read-tag.news { color: #7A4B00; background: #FDF1D8; }
+
+/* News archive */
+.archived-tag { display: inline-block; margin-left: 6px; font-size: 11px; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; color: #6B7280; background: #EEF0F3; border-radius: 999px; padding: 1px 8px; }
+.archived-note { background: #FFF8E8; border: 1px solid #F1DFB5; border-left: 4px solid var(--gold-bright); border-radius: 10px; padding: 14px 18px; margin-bottom: 28px; font-size: 16px; color: var(--ink); }
+.archived-note p { margin: 0; }
+.archive-month { font-size: 22px; margin: 36px 0 16px; }
+.archive-month:first-child { margin-top: 0; }
+.archive-link { margin-top: 28px; }

@@ -7,6 +7,8 @@
   var cards = Array.prototype.slice.call(list.querySelectorAll('.news-card'));
   var guideBox = document.getElementById('guide-results');
   var guides = guideBox ? Array.prototype.slice.call(guideBox.querySelectorAll('.news-card')) : [];
+  var archBox = document.getElementById('archive-results');
+  var archived = archBox ? Array.prototype.slice.call(archBox.querySelectorAll('.news-card')) : [];
   var chips = Array.prototype.slice.call(document.querySelectorAll('.chip'));
   var count = document.getElementById('news-count');
   var empty = document.getElementById('news-empty');
@@ -17,7 +19,7 @@
   }
   // Text available before search.json loads: what is on the card itself.
   var cardText = {};
-  cards.concat(guides).forEach(function (c) { cardText[c.dataset.slug] = norm(c.textContent); });
+  cards.concat(guides, archived).forEach(function (c) { cardText[c.dataset.slug] = norm(c.textContent); });
 
   function loadIndex() {
     if (index || loading) return loading;
@@ -53,10 +55,21 @@
       if (ok) guideShown++;
     });
     if (guideBox) guideBox.hidden = guideShown === 0;
-    empty.hidden = shown + guideShown !== 0;
+    // Archived articles also appear only when someone types a search.
+    var archShown = 0;
+    archived.forEach(function (c) {
+      var hay = (index && index[c.dataset.slug]) || cardText[c.dataset.slug] || '';
+      var ok = words.length > 0 && (!cat || c.dataset.category === cat) &&
+               words.every(function (w) { return hay.indexOf(w) !== -1; });
+      c.hidden = !ok;
+      if (ok) archShown++;
+    });
+    if (archBox) archBox.hidden = archShown === 0;
+    empty.hidden = shown + guideShown + archShown !== 0;
     if (words.length || cat) {
       count.textContent = shown + (shown === 1 ? ' article' : ' articles') +
         (guideShown ? ' and ' + guideShown + (guideShown === 1 ? ' guide' : ' guides') : '') +
+        (archShown ? ' (plus ' + archShown + ' archived)' : '') +
         (cat ? ' in ' + cat : '') + (words.length ? ' matching “' + input.value.trim() + '”' : '');
     } else {
       count.textContent = '';

@@ -77,6 +77,23 @@ SERVICES = {
 }
 
 
+ARCHIVE_AFTER_DAYS = 365  # any news older than this moves to the archive
+
+
+def is_archived(a, today=None):
+    """True when a news article is out of date: its "expires" date has passed, it is a "Deadlines"
+    article without one that is over DEADLINE_MAX_AGE_DAYS old, or it is over ARCHIVE_AFTER_DAYS old.
+    Archived articles stay online but move to /news/archive.html and get an "archived" note."""
+    today = today or dt.date.today()
+    published = dt.date.fromisoformat(a["date"])
+    if a.get("expires"):
+        if dt.date.fromisoformat(a["expires"]) < today:
+            return True
+    elif a.get("category") == "Deadlines" and published < today - dt.timedelta(days=DEADLINE_MAX_AGE_DAYS):
+        return True
+    return published < today - dt.timedelta(days=ARCHIVE_AFTER_DAYS)
+
+
 def esc(s):
     return html.escape(str(s), quote=True)
 
@@ -108,10 +125,7 @@ def news_items():
     for a in json.loads(NEWS.read_text(encoding="utf-8")):
         if dt.date.fromisoformat(a["date"]) < cutoff:
             continue
-        if a.get("expires") and dt.date.fromisoformat(a["expires"]) < today:
-            continue  # its deadline or offer has passed
-        if (not a.get("expires") and a["category"] == "Deadlines"
-                and dt.date.fromisoformat(a["date"]) < today - dt.timedelta(days=DEADLINE_MAX_AGE_DAYS)):
+        if is_archived(a, today):
             continue
         items.append({"href": f"/news/{a['slug']}.html", "title": a["title"], "date": a["date"],
                       "category": a["category"], "hay": f"{a['slug']} {a['title']}".lower()})

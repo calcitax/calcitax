@@ -73,7 +73,13 @@ Do not add a disclaimer or contact box in the body: the template adds both.
 
 **Expiry date.** If an article is tied to a deadline, an offer window or a period that ends (for example
 "apply by November 30", "payment dates for November and December"), add `"expires": "YYYY-MM-DD"` with the
-last day it is useful. Expired articles stay published but drop off the Services page reading lists.
+last day it is useful.
+
+**Archive.** Out-of-date articles move automatically to `/news/archive.html` on the next rebuild: an
+article whose `expires` date has passed, a "Deadlines" article with no `expires` that is over 45 days
+old, or any article over a year old. They stay online (Google links keep working) with an "Archived
+article" note at the top, leave the News list, home page, related articles and Services reading lists,
+and still show up in News search. The rule is `is_archived()` in `tools/build_service_links.py`.
 
 **Categories.** Use one of: Personal tax, Business tax, CRA updates, Economy, Deadlines,
 Payroll, GST/HST, Newcomers, Accounting, Rebates & incentives.

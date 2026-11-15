@@ -34,6 +34,9 @@ import sys
 from email.utils import format_datetime
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from build_service_links import is_archived  # noqa: E402
+
 ROOT = Path(__file__).resolve().parent.parent
 PUBLIC = ROOT / "public"
 REGISTRY = ROOT / "content" / "news.json"
@@ -242,19 +245,33 @@ def guide_card(g):
 
 def related_articles(a, articles, n=3):
     """Same-category articles first (newest first), then the latest articles to fill the row."""
-    others = [r for r in articles if r["slug"] != a["slug"]]
+    others = [r for r in articles if r["slug"] != a["slug"] and not is_archived(r)]
     same = [r for r in others if r["category"] == a["category"]]
     rest = [r for r in others if r["category"] != a["category"]]
     return (same + rest)[:n]
 
 
-def card(a, heading="h2"):
+def card(a, heading="h2", archived=False):
+    tag = ' <span class="archived-tag">Archived</span>' if archived else ""
     return f"""      <a class="card news-card" href="/news/{a['slug']}.html" data-slug="{esc(a['slug'])}" data-category="{esc(a['category'])}">
-        <p class="news-meta"><span>{esc(a['category'])}</span> · <time datetime="{a['date']}">{nice_date(a['date'])}</time></p>
+        <p class="news-meta"><span>{esc(a['category'])}</span> · <time datetime="{a['date']}">{nice_date(a['date'])}</time>{tag}</p>
         <{heading}>{esc(a['title'])}</{heading}>
         <p>{esc(a['description'])}</p>
         <span class="more">Read more →</span>
       </a>"""
+
+
+def archived_note(a):
+    if not is_archived(a):
+        return ""
+    why = (f"its key date ({nice_date(a['expires'])}) has passed" if a.get("expires")
+           else "it was written for a deadline or period that has passed" if a["category"] == "Deadlines"
+           else "it is more than a year old")
+    return f"""      <div class="archived-note" role="note">
+        <p><strong>Archived article.</strong> This was published on {nice_date(a['date'])} and {why}, so some
+        details may be out of date. See our <a href="/news/">latest news</a> or <a href="/contact.html">ask us</a> about your situation.</p>
+      </div>
+"""
 
 
 def article_page(a, related):
@@ -302,7 +319,7 @@ def article_page(a, related):
 
   <div class="section article-section">
     <div class="wrap narrow">
-      <div class="prose article-body">
+{archived_note(a)}      <div class="prose article-body">
 {a['body_html']}
       </div>
 
@@ -329,7 +346,7 @@ def article_page(a, related):
 """ + FOOT.format(year=a["date"][:4]))
 
 
-def news_index(articles, guides=()):
+def news_index(articles, guides=(), archived=()):
     cards = "\n".join(card(a) for a in articles) or '      <p class="lead">Articles are coming soon.</p>'
     present = {a["category"] for a in articles}
     cats = [c for c in CATEGORY_ORDER if c in present] + sorted(present - set(CATEGORY_ORDER))
@@ -359,6 +376,17 @@ def news_index(articles, guides=()):
       </div>
     </div>
 """)
+    archive_block = ""
+    if archived:
+        archive_block = ("""    <div class="guide-results" id="archive-results" hidden>
+      <h2 class="guide-results-h">From the archive</h2>
+      <div class="grid-3 news-grid">
+""" + "\n".join(card(a, "h3", archived=True) for a in archived) + """
+      </div>
+    </div>
+""")
+    archive_link = (f'    <p class="notice archive-link">Looking for older articles? <a href="/news/archive.html">Browse the news archive ({len(archived)}) →</a></p>\n'
+                    if archived else "")
     return (HEAD.format(title="Accounting, Tax &amp; Finance News | Calcitax Advisors",
                         description="Plain-language news on Canadian tax, CRA updates, interest rates and the economy, and what it means for individuals and small businesses in Metro Vancouver.",
                         url=f"{SITE}/news/", og_type="website", og_title="News | Calcitax Advisors", extra_head="")
@@ -378,16 +406,49 @@ def news_index(articles, guides=()):
 {finder}    <div class="grid-3 news-grid" id="news-list">
 {cards}
     </div>
-{guide_block}
+{guide_block}{archive_block}
     <div class="news-empty" id="news-empty" hidden>
       <p><b>No articles match your search.</b> Try a shorter word, pick another topic, or <a href="/contact.html">ask us your question directly</a>.</p>
     </div>
-    <p class="notice">Want new articles as soon as they're published? <a href="/news/subscribe.html">See how to follow our news</a>.</p>
+{archive_link}    <p class="notice">Want new articles as soon as they're published? <a href="/news/subscribe.html">See how to follow our news</a>.</p>
   </div>
 </section>
 
 </main>
 <script src="/assets/news-search.js" defer></script>
+""" + FOOT.format(year=dt.date.today().year))
+
+
+def archive_page(archived):
+    groups = {}
+    for a in archived:
+        groups.setdefault(dt.date.fromisoformat(a["date"]).strftime("%B %Y"), []).append(a)
+    body = "\n".join(
+        f'    <h2 class="h2 archive-month">{esc(month)}</h2>\n    <div class="grid-3 news-grid">\n'
+        + "\n".join(card(a, "h3", archived=True) for a in items) + "\n    </div>"
+        for month, items in groups.items()) or '    <p class="lead">Nothing in the archive yet.</p>'
+    return (HEAD.format(title="News Archive | Calcitax Advisors",
+                        description="Older Calcitax Advisors articles whose deadlines or offers have passed, kept for reference.",
+                        url=f"{SITE}/news/archive.html", og_type="website", og_title="News archive | Calcitax Advisors",
+                        extra_head="")
+            + f"""
+<main id="main">
+
+<section class="page-hero">
+  <div class="wrap">
+    <p class="eyebrow"><a href="/news/">News</a> · Archive</p>
+    <h1>News archive</h1>
+    <p class="lead">Older articles whose deadlines, offers or time periods have passed. We keep them for reference, but some details may be out of date. For what applies now, see our <a href="/news/">latest news</a> and <a href="/guides/">guides</a>.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+{body}
+  </div>
+</section>
+
+</main>
 """ + FOOT.format(year=dt.date.today().year))
 
 
@@ -480,18 +541,22 @@ def rebuild(articles):
     for i, a in enumerate(articles):
         (news_dir / f"{a['slug']}.html").write_text(article_page(a, related_articles(a, articles)))
     guides = load_guides()
-    (news_dir / "index.html").write_text(news_index(articles, guides))
+    current = [a for a in articles if not is_archived(a)]
+    archived = [a for a in articles if is_archived(a)]
+    (news_dir / "index.html").write_text(news_index(current, guides, archived))
+    (news_dir / "archive.html").write_text(archive_page(archived))
     (news_dir / "search.json").write_text(search_index(articles, guides) + "\n")
     (news_dir / "feed.xml").write_text(rss(articles))
     (news_dir / "subscribe.html").write_text(subscribe_page())
 
     home = PUBLIC / "index.html"
-    latest = "\n".join(card(a, "h3") for a in articles[:3]) or '      <p class="lead">Articles are coming soon.</p>'
+    latest = "\n".join(card(a, "h3") for a in current[:3]) or '      <p class="lead">Articles are coming soon.</p>'
     home.write_text(replace_block(home.read_text(), "<!-- NEWS:START -->", "<!-- NEWS:END -->",
                                   "\n" + latest + "\n      ", home))
 
     sitemap = PUBLIC / "sitemap.xml"
     entries = [f"  <url><loc>{SITE}/news/</loc><lastmod>{articles[0]['date'] if articles else dt.date.today()}</lastmod></url>"]
+    entries.append(f"  <url><loc>{SITE}/news/archive.html</loc><lastmod>{dt.date.today()}</lastmod></url>")
     entries += [f"  <url><loc>{SITE}/news/{a['slug']}.html</loc><lastmod>{a.get('updated', a['date'])}</lastmod></url>"
                 for a in articles]
     sitemap.write_text(replace_block(sitemap.read_text(), "<!-- NEWS:START -->", "<!-- NEWS:END -->",
