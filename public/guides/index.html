@@ -49,95 +49,116 @@
   </div>
 </section>
 
-<section class="section" aria-labelledby="for-individuals">
+<section class="section guide-finder-wrap">
+  <div class="wrap">
+    <div class="news-finder" role="search">
+      <label class="sr-only" for="guide-q">Search guides</label>
+      <div class="search-box">
+        <svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="M20 20l-4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <input id="guide-q" type="search" placeholder="Search guides, e.g. rental, RRSP, payroll, India" autocomplete="off">
+      </div>
+      <div class="chips" aria-label="Filter guides">
+        <button type="button" class="chip" data-aud="" aria-pressed="true">All guides</button>
+        <button type="button" class="chip" data-aud="individuals" aria-pressed="false">For individuals and families</button>
+        <button type="button" class="chip" data-aud="business" aria-pressed="false">For small businesses</button>
+      </div>
+      <p class="news-count muted" id="guide-count" role="status" aria-live="polite"></p>
+    </div>
+    <div class="news-empty" id="guide-empty" hidden>
+      <p><b>No guides match your search.</b> Try a shorter word, search our <a href="/news/">news</a>, or <a href="mailto:info@calcitax.com?subject=Tax%20question">write to us</a> with your question.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section guide-group" data-aud="individuals" aria-labelledby="for-individuals">
   <div class="wrap">
     <h2 class="h2" id="for-individuals">For individuals and families</h2>
     <div class="grid-3 news-grid">
-      <a class="card news-card" href="/guides/rrsp-tfsa-fhsa.html">
+      <a class="card news-card" href="/guides/rrsp-tfsa-fhsa.html" data-slug="guide-rrsp-tfsa-fhsa" data-aud="individuals">
         <p class="news-meta"><span>Savings &amp; tax</span> · <time datetime="2026-10-31">Updated October 31, 2026</time></p>
         <h3>RRSP vs TFSA vs FHSA: which account is right for you?</h3>
         <p>A plain-language comparison of the RRSP, TFSA and FHSA for 2026: who can open each, contribution limits, tax treatment, pros and cons, and which to use first.</p>
         <span class="more">Read the guide →</span>
       </a>
-      <a class="card news-card" href="/guides/capital-gains-selling-home-property-investments.html">
+      <a class="card news-card" href="/guides/capital-gains-selling-home-property-investments.html" data-slug="guide-capital-gains-selling-home-property-investments" data-aud="individuals">
         <p class="news-meta"><span>Personal tax</span> · <time datetime="2026-11-02">Updated November 2, 2026</time></p>
         <h3>Capital gains in Canada: selling your home, a rental property or investments</h3>
         <p>How capital gains are taxed in Canada in 2026: the 50% inclusion rate, the principal residence exemption, rentals, flipping rules and capital losses.</p>
         <span class="more">Read the guide →</span>
       </a>
-      <a class="card news-card" href="/guides/leaving-canada-tax-guide.html">
+      <a class="card news-card" href="/guides/leaving-canada-tax-guide.html" data-slug="guide-leaving-canada-tax-guide" data-aud="individuals">
         <p class="news-meta"><span>Personal tax</span> · <time datetime="2026-11-02">Updated November 2, 2026</time></p>
         <h3>Leaving Canada? What happens to your taxes</h3>
         <p>Becoming a non-resident, your final return, departure tax, T1161 and T1244, withholding on Canadian income, and what happens to your RRSP, TFSA and FHSA.</p>
         <span class="more">Read the guide →</span>
       </a>
-      <a class="card news-card" href="/guides/newcomers-tax-guide.html">
+      <a class="card news-card" href="/guides/newcomers-tax-guide.html" data-slug="guide-newcomers-tax-guide" data-aud="individuals">
         <p class="news-meta"><span>Newcomers</span> · <time datetime="2026-11-02">Updated November 2, 2026</time></p>
         <h3>New to Canada? Your first-year tax guide</h3>
         <p>When tax residency starts, benefits to apply for, your first return, property you bring, T1135, and TFSA and RRSP room for newcomers to Canada.</p>
         <span class="more">Read the guide →</span>
       </a>
-      <a class="card news-card" href="/guides/rental-income-tax-guide.html">
+      <a class="card news-card" href="/guides/rental-income-tax-guide.html" data-slug="guide-rental-income-tax-guide" data-aud="individuals">
         <p class="news-meta"><span>Personal tax</span> · <time datetime="2026-11-02">Updated November 2, 2026</time></p>
         <h3>Renting out a suite, condo or room: how rental income is taxed</h3>
         <p>Renting a basement suite, laneway home, condo or room in B.C.? What to report, what you can deduct, CCA and your principal residence, explained simply.</p>
         <span class="more">Read the guide →</span>
       </a>
-      <a class="card news-card" href="/guides/often-missed-tax-credits.html">
+      <a class="card news-card" href="/guides/often-missed-tax-credits.html" data-slug="guide-often-missed-tax-credits" data-aud="individuals">
         <p class="news-meta"><span>Personal tax</span> · <time datetime="2026-11-02">Updated November 2, 2026</time></p>
         <h3>Tax credits and deductions BC families often miss</h3>
         <p>Medical expenses, disability and caregiver credits, tuition, child care, donations, B.C. renter&#x27;s credit and more, plus how to fix a past return.</p>
         <span class="more">Read the guide →</span>
       </a>
-      <a class="card news-card" href="/guides/canada-child-benefit-bc-family-benefits-guide.html">
+      <a class="card news-card" href="/guides/canada-child-benefit-bc-family-benefits-guide.html" data-slug="guide-canada-child-benefit-bc-family-benefits-guide" data-aud="individuals">
         <p class="news-meta"><span>Benefits</span> · <time datetime="2026-11-03">Updated November 3, 2026</time></p>
         <h3>Canada child benefit and B.C. family benefit explained</h3>
         <p>Who qualifies for the Canada child benefit and B.C. family benefit, how to apply, July 2026 to June 2027 amounts, payment dates and how to keep payments coming.</p>
         <span class="more">Read the guide →</span>
       </a>
-      <a class="card news-card" href="/guides/retirement-income-oas-cpp-rrif-pension-splitting.html">
+      <a class="card news-card" href="/guides/retirement-income-oas-cpp-rrif-pension-splitting.html" data-slug="guide-retirement-income-oas-cpp-rrif-pension-splitting" data-aud="individuals">
         <p class="news-meta"><span>Retirement</span> · <time datetime="2026-11-04">Updated November 4, 2026</time></p>
         <h3>Retirement income in Canada: OAS, CPP, RRIFs and pension splitting</h3>
         <p>How OAS, GIS, CPP and RRIFs work in 2026, the OAS clawback, RRIF minimum withdrawals and how couples save tax by splitting pension income.</p>
         <span class="more">Read the guide →</span>
       </a>
-      <a class="card news-card" href="/guides/resp-education-savings-grants-guide.html">
+      <a class="card news-card" href="/guides/resp-education-savings-grants-guide.html" data-slug="guide-resp-education-savings-grants-guide" data-aud="individuals">
         <p class="news-meta"><span>Family finances</span> · <time datetime="2026-11-05">Updated November 5, 2026</time></p>
         <h3>RESPs and education grants for your children</h3>
         <p>How an RESP works, how to get the Canada Education Savings Grant, Canada Learning Bond and B.C.&#x27;s $1,200 grant, and what happens when the money comes out.</p>
         <span class="more">Read the guide →</span>
       </a>
-      <a class="card news-card" href="/guides/international-students-work-permit-holders-tax-guide.html">
+      <a class="card news-card" href="/guides/international-students-work-permit-holders-tax-guide.html" data-slug="guide-international-students-work-permit-holders-tax-guide" data-aud="individuals">
         <p class="news-meta"><span>Newcomers</span> · <time datetime="2026-11-06">Updated November 6, 2026</time></p>
         <h3>International students and work-permit holders: taxes and benefits in Canada</h3>
         <p>How tax residency works on a study or work permit, your SIN, work limits, scholarships, the tuition credit, benefits you can get, B.C. MSP and filing.</p>
         <span class="more">Read the guide →</span>
       </a>
-      <a class="card news-card" href="/guides/foreign-income-india-foreign-tax-credit-t1135.html">
+      <a class="card news-card" href="/guides/foreign-income-india-foreign-tax-credit-t1135.html" data-slug="guide-foreign-income-india-foreign-tax-credit-t1135" data-aud="individuals">
         <p class="news-meta"><span>Personal tax</span> · <time datetime="2026-11-08">Updated November 8, 2026</time></p>
         <h3>Income from India or abroad while living in Canada</h3>
         <p>How Canada taxes rent, interest, gains and pensions from India or abroad, claiming credit for Indian tax, and when you must file Form T1135.</p>
         <span class="more">Read the guide →</span>
       </a>
-      <a class="card news-card" href="/guides/tax-instalments-individuals-guide.html">
+      <a class="card news-card" href="/guides/tax-instalments-individuals-guide.html" data-slug="guide-tax-instalments-individuals-guide" data-aud="individuals">
         <p class="news-meta"><span>Personal tax</span> · <time datetime="2026-11-10">Updated November 10, 2026</time></p>
         <h3>Tax instalments for individuals: who pays, when and how much</h3>
         <p>Plain-language guide to CRA tax instalments: the $3,000 rule, the four due dates, the three ways to work out payments, and how to avoid interest.</p>
         <span class="more">Read the guide →</span>
       </a>
-      <a class="card news-card" href="/guides/cra-letters-reviews-audits-guide.html">
+      <a class="card news-card" href="/guides/cra-letters-reviews-audits-guide.html" data-slug="guide-cra-letters-reviews-audits-guide" data-aud="individuals">
         <p class="news-meta"><span>CRA updates</span> · <time datetime="2026-11-11">Updated November 11, 2026</time></p>
         <h3>Dealing with CRA letters, reviews and audits</h3>
         <p>Got a letter from the CRA? How to spot scams, what each type of review or audit means, how to respond on time, and how to disagree.</p>
         <span class="more">Read the guide →</span>
       </a>
-      <a class="card news-card" href="/guides/separation-divorce-tax-benefits-guide.html">
+      <a class="card news-card" href="/guides/separation-divorce-tax-benefits-guide.html" data-slug="guide-separation-divorce-tax-benefits-guide" data-aud="individuals">
         <p class="news-meta"><span>Personal tax</span> · <time datetime="2026-11-13">Updated November 13, 2026</time></p>
         <h3>Separation and divorce in BC: how your taxes and benefits change</h3>
         <p>Separating or divorcing in BC? Learn the CRA&#x27;s 90-day rule, how your benefits change, how child and spousal support are taxed, and how to split property.</p>
         <span class="more">Read the guide →</span>
       </a>
-      <a class="card news-card" href="/guides/final-return-estate-basics-when-someone-dies.html">
+      <a class="card news-card" href="/guides/final-return-estate-basics-when-someone-dies.html" data-slug="guide-final-return-estate-basics-when-someone-dies" data-aud="individuals">
         <p class="news-meta"><span>Personal tax</span> · <time datetime="2026-11-14">Updated November 14, 2026</time></p>
         <h3>When a family member dies: the final tax return and estate basics in B.C.</h3>
         <p>Lost a family member? Learn what to tell the CRA, when the final return is due, how RRSPs and property are taxed, and how probate works in B.C.</p>
@@ -146,53 +167,53 @@
     </div>
   </div>
 </section>
-<section class="section tint" aria-labelledby="for-business">
+<section class="section guide-group tint" data-aud="business" aria-labelledby="for-business">
   <div class="wrap">
     <h2 class="h2" id="for-business">For small businesses</h2>
     <div class="grid-3 news-grid">
-      <a class="card news-card" href="/guides/gst-hst-pst-small-business-bc.html">
+      <a class="card news-card" href="/guides/gst-hst-pst-small-business-bc.html" data-slug="guide-gst-hst-pst-small-business-bc" data-aud="business">
         <p class="news-meta"><span>GST/HST &amp; PST</span> · <time datetime="2026-11-02">Updated November 2, 2026</time></p>
         <h3>GST, HST and PST for small businesses in BC: a plain-language guide</h3>
         <p>When a BC business must register for GST and PST, what to charge, input tax credits, the Quick Method, filing deadlines and common mistakes, in plain language.</p>
         <span class="more">Read the guide →</span>
       </a>
-      <a class="card news-card" href="/guides/hiring-first-employee-payroll-bc.html">
+      <a class="card news-card" href="/guides/hiring-first-employee-payroll-bc.html" data-slug="guide-hiring-first-employee-payroll-bc" data-aud="business">
         <p class="news-meta"><span>Payroll</span> · <time datetime="2026-11-02">Updated November 2, 2026</time></p>
         <h3>Hiring your first employee in BC: payroll made simple</h3>
         <p>Set up payroll for your first BC employee: CRA payroll account, CPP and EI for 2026 and 2027, remittance deadlines, T4s, ROEs, WorkSafeBC and BC pay rules.</p>
         <span class="more">Read the guide →</span>
       </a>
-      <a class="card news-card" href="/guides/self-employed-expenses-deductions.html">
+      <a class="card news-card" href="/guides/self-employed-expenses-deductions.html" data-slug="guide-self-employed-expenses-deductions" data-aud="business">
         <p class="news-meta"><span>Small business</span> · <time datetime="2026-11-02">Updated November 2, 2026</time></p>
         <h3>Self-employed? What you can deduct on Form T2125</h3>
         <p>What freelancers, contractors and ride-share drivers can deduct on Form T2125: home office, vehicle, meals, phone, CCA, plus CPP and deadlines.</p>
         <span class="more">Read the guide →</span>
       </a>
-      <a class="card news-card" href="/guides/sole-proprietor-vs-incorporation-bc.html">
+      <a class="card news-card" href="/guides/sole-proprietor-vs-incorporation-bc.html" data-slug="guide-sole-proprietor-vs-incorporation-bc" data-aud="business">
         <p class="news-meta"><span>Small business</span> · <time datetime="2026-11-02">Updated November 2, 2026</time></p>
         <h3>Sole proprietor or corporation? Choosing a structure in BC</h3>
         <p>Should your BC business stay a sole proprietorship or incorporate? Costs, tax rates, paying yourself, liability and signs it&#x27;s time to switch.</p>
         <span class="more">Read the guide →</span>
       </a>
-      <a class="card news-card" href="/guides/worksafebc-registration-premiums-guide.html">
+      <a class="card news-card" href="/guides/worksafebc-registration-premiums-guide.html" data-slug="guide-worksafebc-registration-premiums-guide" data-aud="business">
         <p class="news-meta"><span>Payroll</span> · <time datetime="2026-11-02">Updated November 2, 2026</time></p>
         <h3>WorkSafeBC for small businesses: registering, reporting and paying</h3>
         <p>Who must register with WorkSafeBC, coverage for owners, how premiums work, payroll reporting due dates, clearance letters and penalties, explained simply.</p>
         <span class="more">Read the guide →</span>
       </a>
-      <a class="card news-card" href="/guides/gig-ride-share-delivery-drivers-tax-guide.html">
+      <a class="card news-card" href="/guides/gig-ride-share-delivery-drivers-tax-guide.html" data-slug="guide-gig-ride-share-delivery-drivers-tax-guide" data-aud="business">
         <p class="news-meta"><span>Small business</span> · <time datetime="2026-11-07">Updated November 7, 2026</time></p>
         <h3>Ride-share and delivery drivers in B.C.: income, GST and expenses</h3>
         <p>Tax basics for Uber, Lyft, DoorDash and other app drivers in B.C.: reporting income, GST rules for ride-share vs delivery, vehicle costs and CPP.</p>
         <span class="more">Read the guide →</span>
       </a>
-      <a class="card news-card" href="/guides/paying-yourself-corporation-salary-dividends-shareholder-loans.html">
+      <a class="card news-card" href="/guides/paying-yourself-corporation-salary-dividends-shareholder-loans.html" data-slug="guide-paying-yourself-corporation-salary-dividends-shareholder-loans" data-aud="business">
         <p class="news-meta"><span>Small business</span> · <time datetime="2026-11-09">Updated November 9, 2026</time></p>
         <h3>Paying yourself from your corporation: salary, dividends and shareholder loans</h3>
         <p>How BC owner-managers can pay themselves: salary vs dividends, CPP and RRSP room, T4 and T5 slips, and the one-year rule for shareholder loans.</p>
         <span class="more">Read the guide →</span>
       </a>
-      <a class="card news-card" href="/guides/hiring-contractors-t4a-t5018-guide.html">
+      <a class="card news-card" href="/guides/hiring-contractors-t4a-t5018-guide.html" data-slug="guide-hiring-contractors-t4a-t5018-guide" data-aud="business">
         <p class="news-meta"><span>Business tax</span> · <time datetime="2026-11-12">Updated November 12, 2026</time></p>
         <h3>Hiring contractors in BC: T4A, T5018 and contractor vs employee</h3>
         <p>Paying contractors in BC? Check employee vs contractor status, T4A and T5018 slip rules and 2026 deadlines, GST/HST and WorkSafeBC clearance letters.</p>
@@ -203,6 +224,7 @@
 </section>
 
 </main>
+<script src="/assets/guides-search.js" defer></script>
 
 <footer class="site-footer">
   <div class="wrap">

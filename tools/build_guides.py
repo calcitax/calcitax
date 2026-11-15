@@ -180,7 +180,8 @@ def read_guide_meta(path):
 
 def index_card(m):
     upd = f' · <time datetime="{m["updated"]}">Updated {nice_date(m["updated"])}</time>' if m["updated"] else ""
-    return f"""      <a class="card news-card" href="{m['href']}">
+    stem = Path(m["href"]).stem
+    return f"""      <a class="card news-card" href="{m['href']}" data-slug="guide-{esc(stem)}" data-aud="{esc(m['audience'])}">
         <p class="news-meta"><span>{esc(m['topic'])}</span>{upd}</p>
         <h3>{esc(m['title'])}</h3>
         <p>{m['description']}</p>
@@ -193,7 +194,7 @@ def guides_index(metas):
         items = [m for m in metas if m["audience"] == aud]
         if not items:
             return ""
-        return (f'<section class="section{" tint" if aud == "business" else ""}" aria-labelledby="{hid}">\n  <div class="wrap">\n'
+        return (f'<section class="section guide-group{" tint" if aud == "business" else ""}" data-aud="{aud}" aria-labelledby="{hid}">\n  <div class="wrap">\n'
                 f'    <h2 class="h2" id="{hid}">{heading}</h2>\n    <div class="grid-3 news-grid">\n'
                 + "\n".join(index_card(m) for m in items) + "\n    </div>\n  </div>\n</section>\n")
     return (guides_head(title="Guides: Tax &amp; Savings Explained | Calcitax Advisors",
@@ -210,9 +211,31 @@ def guides_index(metas):
   </div>
 </section>
 
+<section class="section guide-finder-wrap">
+  <div class="wrap">
+    <div class="news-finder" role="search">
+      <label class="sr-only" for="guide-q">Search guides</label>
+      <div class="search-box">
+        <svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="M20 20l-4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <input id="guide-q" type="search" placeholder="Search guides, e.g. rental, RRSP, payroll, India" autocomplete="off">
+      </div>
+      <div class="chips" aria-label="Filter guides">
+        <button type="button" class="chip" data-aud="" aria-pressed="true">All guides</button>
+        <button type="button" class="chip" data-aud="individuals" aria-pressed="false">For individuals and families</button>
+        <button type="button" class="chip" data-aud="business" aria-pressed="false">For small businesses</button>
+      </div>
+      <p class="news-count muted" id="guide-count" role="status" aria-live="polite"></p>
+    </div>
+    <div class="news-empty" id="guide-empty" hidden>
+      <p><b>No guides match your search.</b> Try a shorter word, search our <a href="/news/">news</a>, or <a href="mailto:info@calcitax.com?subject=Tax%20question">write to us</a> with your question.</p>
+    </div>
+  </div>
+</section>
+
 """ + group("individuals", "For individuals and families", "for-individuals")
             + group("business", "For small businesses", "for-business") + """
 </main>
+<script src="/assets/guides-search.js" defer></script>
 """ + FOOT.format(year=max((m["updated"] for m in metas if m["updated"]), default="2026")[:4]))
 
 
