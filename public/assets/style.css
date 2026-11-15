@@ -449,3 +449,11 @@ td:first-child { font-weight: 600; white-space: nowrap; }
 .archive-month { font-size: 22px; margin: 36px 0 16px; }
 .archive-month:first-child { margin-top: 0; }
 .archive-link { margin-top: 28px; }
+
+.svc-more { margin-top: 6px; }
+.svc-more summary { cursor: pointer; display: inline-flex; align-items: center; gap: 6px; font-size: 14px; font-weight: 700; color: var(--navy); background: #FDF1D8; border: 1px solid #F1DFB5; border-radius: 999px; padding: 5px 14px; list-style: none; }
+.svc-more summary::-webkit-details-marker { display: none; }
+.svc-more summary::after { content: "▾"; color: var(--gold); }
+.svc-more[open] summary::after { content: "▴"; }
+.svc-more summary:hover { background: #FBE7BC; }
+.svc-more ul { margin-top: 10px; }

@@ -93,7 +93,8 @@ Each service on `public/services.html` has an auto-generated "Helpful reading" l
 the newest matching news from the last 180 days). `tools/build_service_links.py` refreshes it and runs
 automatically at the end of `build_guides.py` and `publish_article.py`. Never hand-edit the lists
 between the `<!-- READING:... -->` markers; to link a new kind of article to a service, add a keyword
-or category to `SERVICES` in that script. Each list shows at most 3 guides and 3 news articles.
+or category to `SERVICES` in that script. Each list shows 3 guides and the 3 newest news articles up front; the rest sit under a "More reading"
+toggle. The best-matching guide stays first and the other guides rotate weekly; news is always newest-first.
 
 **Check the lists.** On the first run of each month, read the reading lists on the Services page. If a
 link is only loosely related to its service, or an out-of-date article is still listed, fix it the same

@@ -7,7 +7,8 @@ Usage:
 Runs automatically at the end of tools/build_guides.py and tools/publish_article.py, so the lists
 stay current whenever a guide or news article is added. You normally never run it by hand.
 
-How links are chosen: each service in SERVICES below has keywords (matched against a guide's or
+How links are chosen (front: 3 guides + 3 newest news; the rest sit under a "More reading" toggle;
+guides after the first rotate weekly): each service in SERVICES below has keywords (matched against a guide's or
 article's slug, title and topic, lower-case) and news categories. Matching guides are listed first,
 then the newest matching news articles from the last NEWS_MAX_AGE_DAYS days. News with an
 "expires" date in the past is skipped, and "Deadlines" news without one drops off after
@@ -26,8 +27,9 @@ PUBLIC = ROOT / "public"
 SERVICES_PAGE = PUBLIC / "services.html"
 NEWS = ROOT / "content" / "news.json"
 
-MAX_GUIDES = 3
-MAX_NEWS = 3
+MAX_GUIDES = 3          # shown up front
+MAX_NEWS = 3            # shown up front
+MORE_NEWS = 6           # extra news under "More" (guides: all remaining matches)
 NEWS_MAX_AGE_DAYS = 180
 DEADLINE_MAX_AGE_DAYS = 45  # "Deadlines" articles without an "expires" date drop off after this
 
@@ -137,16 +139,35 @@ def matches(item, keywords, categories):
     return item.get("category") in categories or any(k in item["hay"] for k in keywords)
 
 
+def rotate_guides(ranked):
+    """Best match stays first; the other matching guides take turns in the remaining front slots,
+    moving one place each ISO week, so returning visitors see different guides."""
+    if len(ranked) <= MAX_GUIDES:
+        return ranked
+    rest = ranked[1:]
+    shift = dt.date.today().isocalendar()[1] % len(rest)
+    return [ranked[0]] + rest[shift:] + rest[:shift]
+
+
+def li(item, kind):
+    cls = "read-tag news" if kind == "News" else "read-tag"
+    return f'              <li><a href="{item["href"]}">{esc(item["title"])}</a> <span class="{cls}">{kind}</span></li>'
+
+
 def block(heading, guides, news):
     if not guides and not news:
         return "\n"
-    lis = [f'            <li><a href="{g["href"]}">{esc(g["title"])}</a> <span class="read-tag">Guide</span></li>'
-           for g in guides]
-    lis += [f'            <li><a href="{n["href"]}">{esc(n["title"])}</a> <span class="read-tag news">News</span></li>'
-            for n in news]
-    return ("\n          <div class=\"svc-reading\">\n"
-            f"            <h3>{esc(heading)}</h3>\n"
-            "            <ul>\n" + "\n".join("  " + li for li in lis) + "\n            </ul>\n          </div>\n          ")
+    front = [li(g, "Guide") for g in guides[:MAX_GUIDES]] + [li(n, "News") for n in news[:MAX_NEWS]]
+    more = [li(g, "Guide") for g in guides[MAX_GUIDES:]] + [li(n, "News") for n in news[MAX_NEWS:]]
+    out = ("\n          <div class=\"svc-reading\">\n"
+           f"            <h3>{esc(heading)}</h3>\n"
+           "            <ul>\n" + "\n".join(front) + "\n            </ul>\n")
+    if more:
+        out += ("            <details class=\"svc-more\">\n"
+                f"              <summary>More reading ({len(more)})</summary>\n"
+                "              <ul>\n" + "\n".join("  " + x for x in more) + "\n              </ul>\n"
+                "            </details>\n")
+    return out + "          </div>\n          "
 
 
 def main():
@@ -159,8 +180,8 @@ def main():
         if not pat.search(page):
             continue
         rank = lambda x: min((i for i, k in enumerate(kws) if k in x["hay"]), default=len(kws))
-        g = sorted((x for x in guides if matches(x, kws, [])), key=rank)[:MAX_GUIDES]
-        n = [x for x in news if matches(x, kws, cats)][:MAX_NEWS]
+        g = rotate_guides(sorted((x for x in guides if matches(x, kws, [])), key=rank))
+        n = [x for x in news if matches(x, kws, cats)][:MAX_NEWS + MORE_NEWS]
         page = pat.sub(lambda _m: start + block(heading, g, n) + end, page)
         filled += bool(g or n)
     SERVICES_PAGE.write_text(page, encoding="utf-8")
