@@ -1,0 +1,150 @@
+{
+  "slug": "bc-business-licences-registrations-transparency-register",
+  "title": "B.C. business licences, registrations and the transparency register",
+  "seo_title": "B.C. Business Registration, Licences & Transparency Register (2026)",
+  "description": "What a new B.C. business must register: BC Registries, CRA accounts, city licences, PST, WorkSafeBC and the transparency register for private companies.",
+  "topic": "Starting a business",
+  "audience": "business",
+  "updated": "2026-11-16",
+  "published": "2026-11-16",
+  "lead": "Opening a business in B.C. means registering with more than one office: the province, the CRA and your city. Here's what each registration is for, what it costs in 2026, the order to do them in, and what private companies must record in their transparency register.",
+  "figures_for": "2026",
+  "key_points": [
+    "Sole proprietors using a name other than their own must get the name approved ($30) and register it ($40) within 56 days.",
+    "B.C. companies cost $350 to incorporate and must file a $43.39 annual report every year, or risk being dissolved.",
+    "Private B.C. companies must keep a transparency register of anyone with 25% or more of the shares or votes, or other control.",
+    "A public B.C. transparency register has been passed into law but, as of November 16, 2026, is not in force.",
+    "You need a business licence from each city you operate in; Surrey contractors may qualify for an inter-municipal licence.",
+    "GST/HST registration is required once taxable sales pass $30,000 in a quarter or over four quarters in a row."
+  ],
+  "sections": [
+    {
+      "id": "the-order",
+      "heading": "Which registrations you may need, and in what order",
+      "html": "<p>Starting a business in B.C. usually means signing up with several different offices: the province, the federal government and your city. It helps to do them in a sensible order.</p>\n<ol>\n<li><strong>Choose your structure.</strong> A sole proprietorship (one owner, not incorporated), a partnership (two or more owners, not incorporated) or a corporation (a separate legal \"person\"). Our guide on <a href=\"/guides/sole-proprietor-vs-incorporation-bc.html\">sole proprietor vs. incorporation</a> explains the trade-offs.</li>\n<li><strong>Get your name approved and register with BC Registries</strong>, the provincial office that keeps the official list of businesses and companies.</li>\n<li><strong>Get a CRA business number</strong> and any program accounts you need, such as GST/HST or payroll.</li>\n<li><strong>Get a business licence</strong> from each city where you operate.</li>\n<li><strong>Register for B.C. PST and WorkSafeBC</strong> if your business needs them.</li>\n</ol>\n<table>\n<thead><tr><th>Registration</th><th>Who needs it</th><th>Where</th></tr></thead>\n<tbody>\n<tr><td>Business name registration</td><td>Sole proprietors and partners using a name other than their own legal name</td><td>BC Registries</td></tr>\n<tr><td>Incorporation</td><td>Anyone forming a B.C. company</td><td>BC Registries</td></tr>\n<tr><td>Business number and program accounts</td><td>Corporations, and anyone needing GST/HST, payroll or other accounts</td><td>CRA</td></tr>\n<tr><td>Business licence</td><td>Businesses operating in the city (rules vary by city)</td><td>Your city hall</td></tr>\n<tr><td>PST</td><td>Most businesses that sell or lease taxable goods or certain services in B.C.</td><td>Province of B.C. (eTaxBC)</td></tr>\n<tr><td>WorkSafeBC</td><td>Businesses that hire workers</td><td>WorkSafeBC</td></tr>\n</tbody>\n</table>"
+    },
+    {
+      "id": "name-registration",
+      "heading": "Registering a sole proprietorship or partnership name",
+      "html": "<p>If you run your business under your own legal name, for example \"Jasmeet Gill\", the province says you don't need to request a name or register with BC Registries. Once you use any other name, such as \"Gill Home Renovations\", you must first get the name approved and then register it.</p>\n<h3>Step 1: Name request</h3>\n<p>A name request asks the province to check that your name is allowed and doesn't clash with an existing company. In 2026 the fee is $30, or $100 for priority service, which aims for a decision in one to two business days. An approved name is held for 56 days. If you don't register within that time, you have to apply again.</p>\n<h3>Step 2: Register the business</h3>\n<p>Registration costs $40 in 2026, online through the BC Business Registry (you'll need a BC Registry account) or in person at a Service BC office. Limited partnerships ($165) and limited liability partnerships ($275) are paper filings with higher fees.</p>\n<p>Registering a name doesn't turn your business into a company. To see how a registered sole proprietorship differs from a corporation, read our <a href=\"/guides/sole-proprietor-vs-incorporation-bc.html\">structure guide</a>.</p>"
+    },
+    {
+      "id": "incorporating",
+      "heading": "Incorporating in B.C. and keeping your company active",
+      "html": "<p>Incorporating creates a company that is legally separate from you. You file an incorporation application with BC Registries. The 2026 fee for a B.C. company is $350. You can use an approved name, or skip the name request and use the company's incorporation number as its name.</p>\n<p>When you incorporate in B.C., the CRA says you receive a business number and a corporation income tax (RC) account as part of the process.</p>\n<h3>The annual report</h3>\n<p>Every B.C. company must file an annual report within two months after each anniversary of its incorporation date. The filing fee is $43.39, plus a $1.50 BC OnLine service fee. Companies that paid by credit card when they incorporated may get reminders, but companies set up through a BC OnLine account do not, so put the date in your calendar.</p>\n<div class=\"callout\"><strong>Warning:</strong> If a company misses its annual report for two years in a row, the registrar can start dissolving it, which means removing it from the register. Restoring a dissolved company costs $350 (fee listed in 2026). If you get a notice, you can ask for a delay of dissolution at no cost before the company is dissolved.</div>"
+    },
+    {
+      "id": "transparency-register",
+      "heading": "The B.C. transparency register for private companies",
+      "html": "<p>Since October 1, 2020, most B.C. private companies must keep a <strong>transparency register</strong>: a private record of the people who really own or control the company. You keep it at the company's records office, with its other corporate records. You do not send it to the government today. Some companies, such as public companies, societies, co-operatives and companies incorporated outside B.C., are excluded.</p>\n<h3>Who is a \"significant individual\"?</h3>\n<p>The register lists every <em>significant individual</em>. That is a person who, directly or indirectly:</p>\n<ul>\n<li>holds <strong>25% or more</strong> of the company's issued shares or of its voting rights,</li>\n<li>can elect, appoint or remove a majority of the directors, or</li>\n<li>has direct and significant influence over someone who has that control, through a legally binding arrangement.</li>\n</ul>\n<p>Shares held directly, held in trust for someone, or held through another company all count and can be added together. If two people own shares jointly, each one is treated as owning the whole block.</p>\n<p>Illustration: Amrit and Dev each own 40% of a company and an unrelated investor, Lee, owns 20%. Amrit and Dev are significant individuals. Lee usually isn't, unless Lee acts together with others under an agreement or the company's rules give Lee special control. (Spouses and relatives living in the same home have their interests combined.)</p>\n<h3>What goes in the register</h3>\n<p>For each significant individual: full name, date of birth and last known address; citizenship or permanent residence; whether they are resident in Canada for tax purposes; the dates they became or stopped being a significant individual; and how they qualify. You must update it within 30 days of learning new or different information. If you can't get the details, record the reasonable steps you took.</p>\n<h3>Who can see it</h3>\n<p>Right now the public can't. Current directors and certain officials can inspect it, including police, the CRA, B.C. tax authorities and FINTRAC (Canada's financial intelligence agency).</p>\n<div class=\"callout\"><strong>Coming, but not in force yet:</strong> B.C. has passed changes that will require companies to file their register information with BC Registries and will create a public transparency register. As of November 16, 2026, those parts are not in force and no start date has been set. When they start, expect tighter deadlines and new penalties. Keep your register accurate now so the switch is easy.</div>\n<p>Federal companies (incorporated under the Canada Business Corporations Act) follow a separate federal rule. Since January 22, 2024 they have had to file information on \"individuals with significant control\", and Corporations Canada publishes some of it.</p>"
+    },
+    {
+      "id": "business-licences",
+      "heading": "City business licences in Surrey and across Metro Vancouver",
+      "html": "<p>A provincial registration is not a licence to operate. Your city controls that. The City of Surrey says you must have a valid business licence to conduct business in Surrey, and that includes home-based businesses, which must also follow the city's home-based business rules. If your business has no location in Surrey but does work there, you need a non-resident licence.</p>\n<p>Requirements vary by type of business, so check with each city before you open. For commercial space, Surrey asks you to make a zoning inquiry before you sign a lease or buy.</p>\n<h3>The Inter-Municipal Business Licence</h3>\n<p>Trades contractors and other construction-related businesses that work at many job sites can buy an Inter-Municipal Business Licence (IMBL) instead of separate licences in every city. You still need a regular licence from your home city first, and you apply through that city. Surrey takes part in two IMBL groups:</p>\n<ul>\n<li><strong>Metro West:</strong> Burnaby, Delta, New Westminster, Richmond, Surrey and Vancouver.</li>\n<li><strong>Fraser Valley:</strong> Abbotsford, Chilliwack, Delta, Hope, Kent, Langley City, Langley Township, Maple Ridge, Mission, Pitt Meadows and Surrey.</li>\n</ul>\n<p>Surrey lists the IMBL fee as $300 per licence. Fees and the length of the licence can differ by home city, so confirm with yours.</p>"
+    },
+    {
+      "id": "cra-accounts",
+      "heading": "Your CRA business number and program accounts",
+      "html": "<p>A <strong>business number (BN)</strong> is a nine-digit number the CRA uses to identify your business. Each tax account you open is a <em>program account</em> attached to it, shown as two letters and four digits after the BN (for example, 123456789 RP 0001). A business has only one BN.</p>\n<p>A sole proprietor only needs a BN once they register for a program account. A corporation always has one. The main accounts are:</p>\n<ul>\n<li><strong>RT, GST/HST:</strong> You must register once your taxable sales go over $30,000 in a single calendar quarter, or over four calendar quarters in a row. Below that you are a \"small supplier\" and registering is optional. Taxi and ride-share drivers must register from day one, whatever their sales. See our <a href=\"/guides/gst-hst-pst-small-business-bc.html\">GST/HST and PST guide</a>.</li>\n<li><strong>RP, payroll:</strong> Needed when you become an employer or other payer of employment income. See <a href=\"/guides/hiring-first-employee-payroll-bc.html\">hiring your first employee</a>.</li>\n<li><strong>RC, corporation income tax:</strong> For incorporated businesses.</li>\n<li><strong>RM, import-export:</strong> For businesses that import or export. Since October 21, 2024 this account has been run by the Canada Border Services Agency (CBSA).</li>\n<li><strong>RZ, information returns:</strong> For filing information returns such as T5018 or T5 slips.</li>\n</ul>\n<p>Illustration: a Surrey bakery sells $9,000 in each of four quarters in a row ($36,000 total). It passes $30,000 over four quarters, so it must register for GST/HST, even though no single quarter was over $30,000.</p>"
+    },
+    {
+      "id": "pst-worksafebc",
+      "heading": "B.C. PST and WorkSafeBC",
+      "html": "<h3>Provincial sales tax (PST)</h3>\n<p>PST is B.C.'s own sales tax, separate from GST. The general rate is 7%. Generally, you must register to collect PST if you are located in B.C. and sell or lease taxable goods, sell accommodation, or provide certain services such as legal, software or telecommunication services. You register online through eTaxBC.</p>\n<p>A small business may not need to register under the <strong>small seller</strong> exemption if, among other conditions, it has no established commercial premises and its eligible retail sales were $10,000 or less over the past 12 months and are expected to be $10,000 or less over the next 12 months. Some businesses must register anyway, such as restaurants, bars and pubs that sell liquor.</p>\n<div class=\"callout\"><strong>Note:</strong> The province had planned to apply PST to accounting, engineering, architectural, geoscience, non-residential real estate and security services. As of the province's September 21, 2026 update, that expansion is paused.</div>\n<h3>WorkSafeBC</h3>\n<p>If you hire one or more workers, whether full-time, part-time, casual or contract, you must register with WorkSafeBC, B.C.'s workplace injury insurer. Owners aren't automatically covered. Our <a href=\"/guides/worksafebc-registration-premiums-guide.html\">WorkSafeBC guide</a> covers premiums, reporting and coverage for owners.</p>"
+    },
+    {
+      "id": "checklist",
+      "heading": "Checklist and common mistakes",
+      "html": "<p>Use this list when you start up, and check it again each year:</p>\n<ul>\n<li>Name approved, then registered within 56 days (or company incorporated).</li>\n<li>Annual report date in your calendar if you have a company.</li>\n<li>Transparency register written up, kept in the minute book and updated within 30 days of any change.</li>\n<li>Business licence from your home city, plus any other cities you work in (or an IMBL if you qualify).</li>\n<li>CRA business number, with GST/HST, payroll and other accounts as needed.</li>\n<li>PST registration if you sell taxable goods or services and don't qualify as a small seller.</li>\n<li>WorkSafeBC registration once you hire workers.</li>\n</ul>\n<h3>Common mistakes</h3>\n<ul>\n<li><strong>Thinking \"registered\" means \"licensed\".</strong> BC Registries and your city are separate.</li>\n<li><strong>Missing GST/HST registration.</strong> The $30,000 test looks at four quarters in a row, not just your calendar year.</li>\n<li><strong>Forgetting annual reports.</strong> Two missed years can get your company dissolved.</li>\n<li><strong>Never starting the transparency register</strong>, or not updating it when shares change hands.</li>\n<li><strong>Losing paperwork.</strong> Keep approvals, licences and account numbers together. Our <a href=\"/guides/bookkeeping-record-keeping-small-business-guide.html\">record-keeping guide</a> can help.</li>\n</ul>"
+    }
+  ],
+  "cta_heading": "Want help getting registered?",
+  "cta_text": "We can help you choose a structure, register your name or company, set up your CRA, PST and WorkSafeBC accounts, prepare your transparency register and keep annual reports on schedule.",
+  "sources": [
+    {
+      "title": "Sole proprietorships and partnerships (Gov. of B.C.)",
+      "url": "https://www2.gov.bc.ca/gov/content/employment-business/business/managing-a-business/permits-licences/businesses-incorporated-companies/proprietorships-partnerships"
+    },
+    {
+      "title": "Request approval for a business name (Gov. of B.C.)",
+      "url": "https://www2.gov.bc.ca/gov/content/employment-business/business/managing-a-business/permits-licences/businesses-incorporated-companies/approval-business-name"
+    },
+    {
+      "title": "Corporate Registry forms, fees and downloads (Gov. of B.C.)",
+      "url": "https://www2.gov.bc.ca/gov/content/employment-business/business/managing-a-business/permits-licences/businesses-incorporated-companies/corporate-forms"
+    },
+    {
+      "title": "Maintaining your B.C. company, INFO 36 COM (Gov. of B.C.)",
+      "url": "https://www2.gov.bc.ca/assets/gov/employment-business-and-economic-development/business-management/permits-licences-and-registration/registries-guides/info_36_com_-_maintaining_your_bc_company.pdf"
+    },
+    {
+      "title": "Dissolution or cancellation delay, Corporate Online help (BC Registries)",
+      "url": "https://www.corporateonline.gov.bc.ca/WebHelp/overview_disde.htm"
+    },
+    {
+      "title": "Transparency register (Gov. of B.C.)",
+      "url": "https://www2.gov.bc.ca/gov/content/employment-business/business/bc-companies/transparency-register"
+    },
+    {
+      "title": "Transparency register: significant individuals (Gov. of B.C.)",
+      "url": "https://www2.gov.bc.ca/gov/content/employment-business/business/bc-companies/transparency-register/significant-individual"
+    },
+    {
+      "title": "Transparency register questions (Gov. of B.C.)",
+      "url": "https://www2.gov.bc.ca/gov/content/employment-business/business/bc-companies/transparency-register/transparency-register-questions"
+    },
+    {
+      "title": "Business Corporations Act, Part 4.1 Transparency Register (B.C. Laws)",
+      "url": "https://free.bcpublications.ca/civix/document/id/complete/statreg/02057_055"
+    },
+    {
+      "title": "Money laundering and corporate ownership transparency (Gov. of B.C.)",
+      "url": "https://www2.gov.bc.ca/gov/content/justice/anti-money-laundering/quick-glance-government-actions/corporate-ownership-transparency"
+    },
+    {
+      "title": "BC public transparency register: what to file (Equity Law Group, October 2026)",
+      "url": "https://www.equitylawgroup.ca/news/bc-public-transparency-register-what-to-file"
+    },
+    {
+      "title": "Individuals with significant control information made public (Corporations Canada)",
+      "url": "https://ised-isde.canada.ca/site/corporations-canada/en/node/393"
+    },
+    {
+      "title": "Applying for a business licence (City of Surrey)",
+      "url": "https://www.surrey.ca/business-economy/business-licensing"
+    },
+    {
+      "title": "Types of businesses and Inter-Municipal Business Licence (City of Surrey)",
+      "url": "https://surrey.ca/business-economy/business-licensing/types-of-businesses"
+    },
+    {
+      "title": "Metro West Inter-Municipal Business Licence (City of Vancouver)",
+      "url": "https://vancouver.ca/doing-business/building-trades.aspx"
+    },
+    {
+      "title": "When you need a business number or CRA program accounts (CRA)",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/registering-your-business/you-need-a-business-number-a-program-account.html"
+    },
+    {
+      "title": "Program accounts you may need (CRA)",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/business-registration/business-number-program-account/need-program-accounts.html"
+    },
+    {
+      "title": "When to register for and start charging the GST/HST (CRA)",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/when-register-charge"
+    },
+    {
+      "title": "B.C. provincial sales tax (Gov. of B.C.)",
+      "url": "https://www2.gov.bc.ca/gov/content/taxes/sales-taxes/pst"
+    },
+    {
+      "title": "Bulletin PST 001, Registering to collect PST (Gov. of B.C.)",
+      "url": "https://www2.gov.bc.ca/assets/gov/taxes/sales-taxes/publications/pst-001-registering-to-collect-pst.pdf"
+    },
+    {
+      "title": "I hire and pay workers (WorkSafeBC)",
+      "url": "https://www.worksafebc.com/en/insurance/need-coverage/who-needs-coverage/hire-pay-workers"
+    }
+  ]
+}
