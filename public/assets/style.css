@@ -459,3 +459,9 @@ td:first-child { font-weight: 600; white-space: nowrap; }
 .svc-more ul { margin-top: 10px; }
 .guide-finder-wrap { padding: 40px 0 0; }
 .guide-finder-wrap + .guide-group { padding-top: 24px; }
+
+/* Google review prompts */
+.review-link { color: var(--gold-bright) !important; font-weight: 600; }
+.review-box { margin-top: 24px; background: #FFF8E8; border: 1px solid #F1DFB5; border-left: 4px solid var(--gold-bright); border-radius: 10px; padding: 16px 18px; }
+.review-box p { margin: 0 0 12px; font-size: 15px; color: var(--ink-2); }
+.nav a.btn[aria-current="page"] { color: #FFFFFF; box-shadow: none; }

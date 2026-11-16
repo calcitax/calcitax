@@ -182,6 +182,7 @@ FOOT = """
         <ul>
           <li><a href="mailto:info@calcitax.com">info@calcitax.com</a></li>
           <li>Surrey, British Columbia</li>
+          <li><a class="review-link" href="https://g.page/r/CYJD0Fsu2UyAEAI/review" rel="noopener" target="_blank">★ Review us on Google</a></li>
         </ul>
       </div>
     </div>
