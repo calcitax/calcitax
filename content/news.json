@@ -1,5 +1,35 @@
 [
   {
+    "slug": "canada-inflation-holds-at-3-1-percent-october-cpi-november-2026",
+    "title": "Canada's inflation holds at 3.1% in October; B.C. lower at 2.5%",
+    "description": "Consumer prices rose 3.1% in the year to October, led by gasoline. B.C. came in at 2.5%. What it means for your budget, borrowing and business.",
+    "date": "2026-11-17",
+    "category": "Economy",
+    "body_html": "<p>Statistics Canada reported on November 16, 2026 that consumer prices were <strong>3.1% higher</strong> in October than a year earlier, the same pace as in September. Gasoline was the biggest driver. In British Columbia, prices rose a slower <strong>2.5%</strong>, mainly because rent increases eased.</p><h2>What happened</h2><p>The Consumer Price Index (CPI) tracks the cost of a typical basket of goods and services, from groceries and rent to gas and phone plans. The yearly change in the CPI is what most people mean by \"inflation\". Here are the October highlights:</p><ul><li><strong>All items:</strong> up 3.1% from October 2025, unchanged from September. Prices rose 0.2% from September to October.</li><li><strong>Gasoline:</strong> up 30.9% from a year earlier, after 27.8% in September. Pump prices actually fell 2.5% during October, but a year ago they had dropped sharply, so the year-over-year comparison looks bigger. Statistics Canada points to unrest in the Middle East and Ukraine for keeping prices high.</li><li><strong>Energy overall:</strong> up 21.8%. Natural gas prices also pushed inflation higher.</li><li><strong>Groceries:</strong> food bought from stores rose 2.0%, a little faster than September's 1.7%. Statistics Canada notes grocery prices are 31.9% higher than in October 2020.</li><li><strong>Shelter:</strong> up 1.4%, with slower rent growth helping to hold inflation down. Cell phone plans were also cheaper than a year ago.</li><li><strong>Without energy:</strong> prices rose 2.0%. Excluding both food and energy, the increase was 1.8%.</li></ul><p>That last point matters. Outside of fuel and heating, price increases are close to the Bank of Canada's 2% target. The problem is concentrated in energy.</p><h2>What it means in B.C.</h2><p>B.C.'s 12-month inflation rate was 2.5%, below the national 3.1%. Statistics Canada says B.C.'s slowdown in October came mainly from rent prices rising more slowly than before. That is welcome news for Metro Vancouver renters, although rents are still higher than a year ago. Monthly figures for Vancouver on its own are not in the main release.</p><h2>What it means for borrowers</h2><p>The Bank of Canada raised its key rate to 2.5% on October 28, 2026, and its meeting summary said more increases could be needed (see <a href=\"/news/bank-of-canada-signals-more-rate-hikes-possible-november-2026.html\">our earlier article</a>). Its main worry is that high energy costs spread into other prices. October's report gives both sides something: headline inflation is still above 3%, but prices outside energy are rising at about 2%.</p><p>The Bank's next rate decision is on <strong>December 9, 2026</strong>. The November inflation figures come out on December 14, after that decision.</p><ul><li><strong>Variable-rate mortgages and lines of credit</strong> follow your lender's prime rate, which moves with the Bank's rate. If another increase would strain your budget, now is a good time to review your payments.</li><li><strong>Mortgage renewals.</strong> If you renew in the next few months, ask your lender how long they will hold a quoted rate.</li></ul><h2>What it means for you</h2><ul><li><strong>Your household budget.</strong> Fuel is the item rising fastest. If you drive a lot, fuel is likely where your costs have grown most this year.</li><li><strong>Savers.</strong> With prices rising 3.1%, a savings account paying less than that is losing buying power. A TFSA or RRSP does not change the interest rate you earn, but it can shelter that interest from tax.</li><li><strong>Raises and contracts.</strong> When you discuss a raise or a rent increase, the 3.1% figure is the official number for the past 12 months. In B.C. it is 2.5%.</li></ul><h2>What it means for small businesses</h2><ul><li><strong>Fuel and delivery costs.</strong> If your business runs vehicles, fuel is likely your fastest-rising cost. Keep fuel receipts and a mileage log, because business driving costs can be claimed only with good records. Our guide to <a href=\"/guides/self-employed-expenses-deductions.html\">self-employed expenses and deductions</a> explains what you can claim.</li><li><strong>Pricing.</strong> Check what your suppliers will charge in 2027 before you set your own rates.</li><li><strong>Cash flow.</strong> If you carry a variable-rate business loan or line of credit, plan for the chance of higher interest costs after December 9.</li></ul><h2>What to do now</h2><ul><li>Look at your last three months of spending and see where higher prices are hitting hardest.</li><li>If you have variable-rate debt, work out what a further rate increase would cost you each month.</li><li>Use year-end to top up a TFSA or RRSP if you have the room, so your savings grow tax-sheltered.</li><li>Business owners: review your prices, supplier contracts and records before the year closes. Our <a href=\"/guides/bookkeeping-record-keeping-small-business-guide.html\">bookkeeping and record-keeping guide</a> can help.</li></ul>",
+    "sources": [
+      {
+        "title": "The Daily: Consumer Price Index, October 2026 (Statistics Canada)",
+        "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/261116/dq261116a-eng.htm"
+      },
+      {
+        "title": "CPI major components, October 2026, Table 1 (Statistics Canada)",
+        "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/261116/t001a-eng.htm"
+      },
+      {
+        "title": "CPI by province, October 2026, Table 2 (Statistics Canada)",
+        "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/261116/t002a-eng.htm"
+      },
+      {
+        "title": "Bank of Canada 2026 schedule of interest rate announcements",
+        "url": "https://www.bankofcanada.ca/2025/08/bank-canada-publishes-2026-schedule-policy-interest-rate-announcements-other-major-publications/"
+      },
+      {
+        "title": "Canada's inflation was steady at 3.1 per cent in October (The Canadian Press via Yahoo News)",
+        "url": "https://ca.news.yahoo.com/canada-inflation-steady-3-1-133930976.html"
+      }
+    ]
+  },
+  {
     "slug": "budget-2026-flat-rate-claims-fewer-receipts-november-2026",
     "title": "Budget 2026 proposes flat-rate claims for moving, medical and other costs: fewer receipts",
     "description": "Budget 2026 proposes optional flat amounts, such as $1,000 for a move or gluten-free food, so you can claim some credits without itemizing receipts.",
