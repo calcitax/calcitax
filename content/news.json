@@ -1,5 +1,40 @@
 [
   {
+    "slug": "rrsp-limit-2027-35390-tfsa-limit-still-to-come-november-2026",
+    "title": "RRSP limit rises to $35,390 for 2027; the 2027 TFSA limit isn't posted yet",
+    "description": "The CRA has set the 2027 RRSP dollar limit at $35,390. Here's how much room you may have, the March 1, 2027 deadline, and where the TFSA stands.",
+    "date": "2026-11-22",
+    "category": "Personal tax",
+    "expires": "2027-03-01",
+    "body_html": "<p>The Canada Revenue Agency (CRA) has confirmed that the RRSP dollar limit will rise to <strong>$35,390 for 2027</strong>, up from $33,810 for 2026. The limit for the Tax-Free Savings Account (TFSA) for 2027 has not been posted yet, so for now the only official figure is this year's $7,000.</p><h2>What happened</h2><p>On October 28, 2026, the CRA's Registered Plans Directorate, the office that oversees registered savings and pension plans, published its new limits for 2027 and 2028. Its table of limits now shows:</p><ul><li><strong>RRSP dollar limit:</strong> $32,490 for 2025, $33,810 for 2026, $35,390 for 2027 and $36,390 for 2028.</li><li><strong>TFSA dollar limit:</strong> $7,000 for 2024, 2025 and 2026. The table stops at 2026, so no 2027 figure is official yet.</li></ul><p>You may already see a 2027 TFSA number in online articles. Treat any figure as unconfirmed until it appears on canada.ca. We'll update you when it does.</p><h2>What it means for you: RRSPs</h2><p>A Registered Retirement Savings Plan (RRSP) lets you deduct what you put in from your income, so you pay less tax now. The money then grows tax-free until you take it out, when it's taxed as income.</p><p>The dollar limit is a ceiling, not the amount everyone can put in. Your new room for a year is generally the <em>lesser</em> of:</p><ul><li>18% of your <strong>earned income</strong> from the year before, or</li><li>that year's dollar limit.</li></ul><p>On top of that, any room you didn't use in earlier years carries forward. If you belong to a workplace pension plan, your room can also be reduced by a <strong>pension adjustment</strong>, an amount linked to the pension you built up at work.</p><p>Here's a simple example. To get the full $35,390 of new room for 2027, you'd need about $196,600 of earned income in 2026 ($35,390 divided by 18%). Someone who earned $60,000 in 2026 would get $10,800 of new room (18% of $60,000), plus any unused room from past years.</p><h2>The March 1, 2027 deadline</h2><p>Contributions made from <strong>February 3, 2025 to March 1, 2027</strong> can be claimed on your 2026 tax return (as long as they weren't already claimed for 2025). If you want a bigger refund or a smaller balance owing next spring, that's the date to watch.</p><p>Be careful not to overshoot. The CRA charges a tax of 1% per month on RRSP contributions that go more than $2,000 over your deduction limit. You can keep contributing to your own RRSP until December 31 of the year you turn 71. If that's you this year, see our article on <a href=\"/news/turning-71-rrsp-to-rrif-deadline-december-31-november-2026.html\">converting your RRSP by December 31</a> and our <a href=\"/guides/retirement-income-oas-cpp-rrif-pension-splitting.html\">retirement income guide</a>.</p><h2>What it means for you: TFSAs</h2><p>A TFSA works the other way around: there's no deduction when you put money in, but growth and withdrawals are tax-free. Your room for a year is the TFSA dollar limit, plus unused room from earlier years, plus anything you withdrew the year before.</p><p>Two rules catch people out:</p><ul><li><strong>Withdrawals come back later, not right away.</strong> If you take money out in 2026, that amount is added back to your room on January 1, 2027. Putting it back in before then can mean an over-contribution.</li><li><strong>Over-contributions are costly.</strong> The excess is taxed at 1% per month for as long as it stays in your account.</li></ul><p>If you've been eligible every year since TFSAs began in 2009 and have never contributed, the yearly limits on the CRA's table add up to $109,000 through 2026. If you arrived in Canada more recently, your room is likely lower; our <a href=\"/guides/newcomers-tax-guide.html\">newcomers' tax guide</a> explains TFSA and RRSP room for newcomers.</p><h2>What to do now</h2><ul><li><strong>Check your RRSP limit.</strong> It's on the \"RRSP Deduction Limit Statement\" in your latest notice of assessment, or in your CRA account online. The CRA may also mail Form T1028 if your limit changed.</li><li><strong>Keep your own TFSA running total</strong> from your bank or broker statements, and compare it with the room shown in your CRA account before adding more.</li><li><strong>Plan any TFSA withdrawal for December</strong> rather than January if you'll want to put the money back soon, so the room returns on January 1, 2027.</li><li><strong>Diarize March 1, 2027</strong> for 2026 RRSP contributions.</li><li><strong>Self-employed?</strong> Good year-end records make your return, and your RRSP room for next year, easier to work out. See our refreshed guide to <a href=\"/guides/self-employed-expenses-deductions.html\">self-employed expenses and deductions</a>.</li></ul><p>Not sure whether an RRSP, a TFSA or both make sense for you this year? That depends on your income now and what you expect in retirement, and it's a good question to raise when we prepare your return.</p>",
+    "sources": [
+      {
+        "title": "CRA: MP, DB, RRSP, DPSP, ALDA, TFSA limits, YMPE and the YAMPE",
+        "url": "https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html"
+      },
+      {
+        "title": "CRA: What's new - Savings and pension plan administration (new limits for 2027 and 2028, October 28, 2026)",
+        "url": "https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/whats-new.html"
+      },
+      {
+        "title": "CRA: How contributions affect your RRSP deduction limit",
+        "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/contributing-a-rrsp-prpp/contributions-affect-your-rrsp-prpp-deduction-limit.html"
+      },
+      {
+        "title": "CRA: Where you can find your RRSP deduction limit",
+        "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/contributing-a-rrsp-prpp/where-you-find-your-rrsp-prpp-deduction-limit.html"
+      },
+      {
+        "title": "CRA: Calculate your TFSA contribution room",
+        "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/contributing/calculate-room.html"
+      },
+      {
+        "title": "CRA: Withdrawing from a TFSA",
+        "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/withdraw.html"
+      }
+    ]
+  },
+  {
     "slug": "charitable-donations-before-december-31-tax-credit-november-2026",
     "title": "Giving to charity this year? Donate by December 31 to claim it on your 2026 return",
     "description": "Donations made by December 31 count for 2026. Here's how the federal and B.C. donation credits work, with 2026 rates and tips to get the most back.",
