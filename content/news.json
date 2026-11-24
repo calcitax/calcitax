@@ -1,5 +1,40 @@
 [
   {
+    "slug": "tax-loss-selling-december-30-2026-deadline-november-2026",
+    "title": "Tax-loss selling: sell by December 30 for a loss to count on your 2026 return",
+    "description": "With T+1 settlement, December 30, 2026 is the last day to sell most stocks and ETFs for a loss that counts in 2026. Here's how it works and the 30-day trap.",
+    "date": "2026-11-24",
+    "category": "Personal tax",
+    "expires": "2026-12-30",
+    "body_html": "<p>If you hold investments in a regular (non-registered) account that are worth less than you paid, selling some of them before year-end can lower the tax on gains you made elsewhere. For a loss to count on your 2026 return, the sale has to <strong>settle</strong> by December 31, which means the last day to place the trade for most Canadian and U.S. stocks and ETFs is <strong>Wednesday, December 30, 2026</strong>.</p>\n<h2>What happened</h2>\n<p>Nothing new in the law: this is the yearly deadline that catches people out. Since May 27, 2024, most Canadian stock, ETF and mutual fund trades settle one business day after the trade (called \"T+1\"). For tax purposes, a sale belongs to the year it settles, not the year you clicked \"sell\". So a trade on December 31 settles in January and falls into your 2027 tax year. Recent year-end notes from RBC Wealth Management and BNN Bloomberg both point to December 30, 2026 as the last trade date for 2026.</p>\n<h2>How capital losses work</h2>\n<p>When you sell an investment for less than its <strong>adjusted cost base</strong> (ACB, usually what you paid plus commissions and other buying costs), you have a capital loss. According to the CRA:</p>\n<ul>\n<li><strong>Losses offset gains, not other income.</strong> A capital loss reduces taxable capital gains. In general, it can't be used against your salary, pension or business income.</li>\n<li><strong>Unused losses carry over.</strong> If your losses are bigger than your gains this year, the leftover (a net capital loss) can be carried <strong>back three years</strong> or <strong>forward indefinitely</strong>.</li>\n<li><strong>Carrying back uses Form T1A.</strong> To apply a 2026 loss to gains you reported in 2023, 2024 or 2025, you fill in Part 5 of Form T1A with your 2026 return. You don't amend the earlier returns yourself.</li>\n<li><strong>Losses on personal things usually don't count.</strong> Selling your car or furniture at a loss doesn't create a deductible capital loss.</li>\n</ul>\n<h2>The 30-day trap: superficial losses</h2>\n<p>Many investors want to sell a fallen stock for the tax loss but keep owning it. The CRA's <strong>superficial loss</strong> rule stops that. Your loss is denied if, in the window from 30 calendar days before the sale to 30 calendar days after it, you <strong>or an affiliated person</strong> buy the same or identical property, and it is still owned 30 days after your sale.</p>\n<p>Affiliated persons include your spouse or common-law partner, and a corporation controlled by you or your partner. A denied loss isn't lost forever: the CRA says the amount is usually added to the ACB of the shares you bought back, so you get the benefit when you finally sell them. But it won't help you for 2026.</p>\n<p>Watch for these less obvious cases:</p>\n<ul>\n<li><strong>Buying back in your TFSA or RRSP.</strong> Repurchasing the same security inside a registered account within the window can still trigger the rule, according to RBC.</li>\n<li><strong>Moving a losing stock into a TFSA or RRSP \"in kind\".</strong> Transferring it rather than selling it means you give up the capital loss.</li>\n<li><strong>Canadian depositary receipts (CDRs).</strong> If a CDR represents the same shares you sold, it can count as identical property.</li>\n</ul>\n<h2>What it means for you</h2>\n<p>Tax-loss selling only matters for investments held in <strong>non-registered accounts</strong>. Gains and losses inside a TFSA, RRSP or FHSA aren't taxed or deductible, so selling there at a loss does nothing for your tax bill.</p>\n<p>A simple example, for illustration only: say you sold a rental condo or some shares this year for a $10,000 capital gain, and another stock you hold is down $4,000. Selling the losing stock by December 30 means you report a net gain of $6,000 instead of $10,000. If you have no gains this year but had some in 2023, 2024 or 2025, a carry-back could get you a refund of tax you already paid.</p>\n<p>If you own <strong>U.S.-listed shares</strong>, work out the gain or loss in Canadian dollars: convert the sale price at the exchange rate on the sale date and the cost at the rate on the purchase date. A stock that is down in U.S. dollars can still be a gain in Canadian dollars if the exchange rate has moved. If you bought the same stock at different times, your ACB is the average cost across all your non-registered accounts, not just the latest purchase.</p>\n<p>For more on how gains are taxed when you sell property or investments, see our guide to <a href=\"/guides/capital-gains-selling-home-property-investments.html\">capital gains on your home, property and investments</a>.</p>\n<h2>What to do now</h2>\n<ol>\n<li><strong>Total up your 2026 gains.</strong> Include shares, funds, crypto and any real estate sold this year.</li>\n<li><strong>List positions below their ACB.</strong> Double-check the ACB, especially for shares moved between institutions.</li>\n<li><strong>Don't let tax drive the decision alone.</strong> Sell only if you're comfortable with the investment decision too.</li>\n<li><strong>Avoid the 30-day window.</strong> Don't buy the same security back (in any account, or through your spouse or company) until at least 31 days after the sale.</li>\n<li><strong>Trade by December 30, 2026.</strong> Leave a margin for holidays and confirm the cut-off with your broker, as some products settle differently.</li>\n<li><strong>Keep your trade confirmations.</strong> You'll need dates, amounts and costs when you file in spring 2027.</li>\n</ol>",
+    "sources": [
+      {
+        "title": "Capital losses and deductions (Canada Revenue Agency)",
+        "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/personal-income/line-12700-capital-gains/capital-losses-deductions.html"
+      },
+      {
+        "title": "T4037 Capital Gains (Canada Revenue Agency)",
+        "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4037/capital-gains.html"
+      },
+      {
+        "title": "Canadian securities regulators announce move to T+1 settlement cycle (BC Securities Commission)",
+        "url": "https://www.bcsc.bc.ca/about/media-room/news-releases/2024/47-canadian-securities-regulators-announce-move-to-tplus1-settlement-cycle"
+      },
+      {
+        "title": "Trade date and settlement date, last trading date (TaxTips.ca)",
+        "url": "https://www.taxtips.ca/personaltax/investing/taxtreatment/trade-date-versus-settlement-date.htm"
+      },
+      {
+        "title": "What is tax-loss selling and how can it help reduce your tax bill? (RBC Wealth Management)",
+        "url": "https://www.rbcwealthmanagement.com/en-ca/insights/what-is-tax-loss-selling-and-how-can-it-help-reduce-your-tax-bill"
+      },
+      {
+        "title": "Tax-loss selling: when does it make sense to sell at a loss? (BNN Bloomberg, November 19, 2026)",
+        "url": "https://www.bnnbloomberg.ca/investing/opinion/2026/11/19/stan-wong-tax-loss-selling-when-does-it-make-sense-to-sell-at-a-loss/"
+      }
+    ]
+  },
+  {
     "slug": "red-seal-completion-bonus-5000-tradespeople-november-2026",
     "title": "New $5,000 Red Seal Completion Bonus: who qualifies and how to apply",
     "description": "Newly certified Red Seal tradespeople can now apply for a taxable $5,000 federal bonus per trade. Certified since April 1, 2025? Apply by May 31, 2027.",
