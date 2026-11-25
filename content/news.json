@@ -1,5 +1,40 @@
 [
   {
+    "slug": "fhsa-contribute-by-december-31-2026-deadline-november-2026",
+    "title": "FHSA deadline: contribute by December 31 to use your 2026 room",
+    "description": "First Home Savings Account contributions count for the calendar year, so 2026 room must be used by December 31, 2026. There is no 60-day grace period.",
+    "date": "2026-11-25",
+    "category": "Deadlines",
+    "expires": "2026-12-31",
+    "body_html": "<p>If you are saving for your first home with a First Home Savings Account (FHSA), December 31, 2026 is the last day to put money in for the 2026 tax year. Unlike an RRSP, there is no extra 60 days in the new year to catch up.</p><h2>What happened</h2><p>Nothing new was announced: this is a calendar deadline that catches many first-time buyers off guard. The Canada Revenue Agency (CRA) says FHSA contributions are tied to the calendar year, from January 1 to December 31. Money you add in the first 60 days of 2027 cannot be deducted on your 2026 return. That is different from RRSP contributions, which can be made up to early March and still count for the year before.</p><h2>A quick refresher on the FHSA</h2><p>An FHSA is a registered account that combines two benefits. Like an RRSP, what you put in can be deducted from your income. Like a TFSA, a qualifying withdrawal to buy your first home comes out tax-free. According to the CRA:</p><ul><li><strong>Who can open one:</strong> Canadian residents who are at least 18 (19 in provinces where that is the age of majority), are 71 or younger on December 31 of the year they open it, and are first-time home buyers. For the FHSA, that means you did not live in a home that you or your spouse or common-law partner owned, in this calendar year or the previous four calendar years.</li><li><strong>Yearly room:</strong> $8,000 in the year you open your first FHSA, and room in later years based on $8,000 a year.</li><li><strong>Lifetime limit:</strong> $40,000.</li><li><strong>Room only starts when you open the account.</strong> If you have not opened one yet, opening it before December 31 gives you $8,000 of 2026 room, even if you don't put money in this year.</li></ul><h2>What it means for you</h2><ul><li><strong>Unused room carries forward, but only up to $8,000.</strong> If you don't use all of your 2026 room, the leftover can be used in a later year, but the carry-forward amount is capped at $8,000. So the most you could add in any one year is $16,000.</li><li><strong>You don't have to deduct right away.</strong> The CRA says FHSA contributions you don't deduct can be carried forward to a later year, even after your FHSAs are closed. Some people contribute now and save the deduction for a year when they expect a higher income.</li><li><strong>Transfers from an RRSP use up room but give no deduction.</strong> Moving money from your RRSP to your FHSA counts against your FHSA room, and the CRA says it is not deductible, because you already got a deduction when it went into the RRSP.</li><li><strong>Don't overcontribute.</strong> Putting in more than your room costs 1% a month on the highest excess amount in each month, until the excess is removed or new room arrives on January 1.</li></ul><h2>Using an FHSA and the Home Buyers' Plan together</h2><p>The CRA confirms you can make a qualifying FHSA withdrawal and also take money out of your RRSP under the Home Buyers' Plan for the same home, as long as you meet the conditions for each at the time of each withdrawal. A qualifying FHSA withdrawal also has its own rules, such as a written agreement to buy or build the home before October 1 of the year after the withdrawal, and planning to live in it within one year. Our <a href=\"/guides/rrsp-tfsa-fhsa.html\">RRSP, TFSA and FHSA guide</a> explains how the accounts work side by side.</p><h2>What to do now</h2><ol><li><strong>Open the account before December 31</strong> if you qualify and haven't yet. That alone starts your $8,000 of 2026 room.</li><li><strong>Check your room.</strong> If you opened an FHSA in an earlier year, add up what you have already put in this year across all your FHSAs, because the room is shared between them.</li><li><strong>Leave time for the bank.</strong> Banks and brokers can be slow over the holidays. Contribute a few business days early so the deposit lands in 2026.</li><li><strong>Keep your records.</strong> Your financial institution will send a T4FHSA slip. You will report FHSA activity on Schedule 15 of your 2026 return, and the CRA says you must file Schedule 15 for the year you open your first FHSA even if you put nothing in.</li><li><strong>Plan the deduction.</strong> Decide whether to claim it on your 2026 return or carry it forward. If you aren't sure, we can run the numbers with you.</li></ol><p>For other moves to make before the year closes, see our <a href=\"/guides/year-end-tax-checklist-small-business-december-31.html\">year-end tax checklist</a>.</p>",
+    "sources": [
+      {
+        "title": "Tax deductions for FHSA contributions (CRA)",
+        "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/first-home-savings-account/tax-deductions-fhsa-contributions.html"
+      },
+      {
+        "title": "Participating in your FHSAs (CRA)",
+        "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/first-home-savings-account/contributing-your-fhsa.html"
+      },
+      {
+        "title": "Opening your FHSAs (CRA)",
+        "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/first-home-savings-account/opening-your-fhsas.html"
+      },
+      {
+        "title": "What happens if you contribute or transfer too much to your FHSAs (CRA)",
+        "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/first-home-savings-account/what-happens-contribute-transfer-too-much.html"
+      },
+      {
+        "title": "Withdrawals and transfers out of your FHSAs (CRA)",
+        "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/first-home-savings-account/withdrawals-transfers-out-your-fhsas.html"
+      },
+      {
+        "title": "Make the most of your first home savings account (CRA tax tip)",
+        "url": "https://www.canada.ca/en/revenue-agency/news/newsroom/tax-tips/tax-tips-2025/make-most-your-first-home-savings-account.html"
+      }
+    ]
+  },
+  {
     "slug": "tax-loss-selling-december-30-2026-deadline-november-2026",
     "title": "Tax-loss selling: sell by December 30 for a loss to count on your 2026 return",
     "description": "With T+1 settlement, December 30, 2026 is the last day to sell most stocks and ETFs for a loss that counts in 2026. Here's how it works and the 30-day trap.",
