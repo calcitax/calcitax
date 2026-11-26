@@ -1,5 +1,48 @@
 [
   {
+    "slug": "resp-grant-contribute-by-december-31-2026-november-2026",
+    "title": "RESP grant deadline: contribute by December 31 to get the 2026 government grant",
+    "description": "The Canada Education Savings Grant is based on RESP contributions made in the calendar year, so December 31, 2026 is the last day to earn 2026 grant money.",
+    "date": "2026-11-26",
+    "category": "Deadlines",
+    "expires": "2026-12-31",
+    "body_html": "<p>If you save for a child's education in a Registered Education Savings Plan (RESP), the federal government adds a grant on top of what you put in. That grant is worked out by calendar year, so contributions need to be in the plan by December 31, 2026 to earn this year's grant.</p><h2>What happened</h2><p>Nothing new was announced. This is a year-end deadline that is easy to miss during a busy December. Employment and Social Development Canada (ESDC) says the calendar year is used to work out the contributions made for the Canada Education Savings Grant (CESG). Money that lands in the RESP in January counts toward 2027, not 2026.</p><h2>How the grant works</h2><p>An RESP is a savings account for a child's education after high school. According to ESDC and the Canada Revenue Agency (CRA):</p><ul><li><strong>Basic grant:</strong> 20% of the first $2,500 you contribute for a child each year, so up to $500 a year.</li><li><strong>Catching up:</strong> unused grant room carries forward. If you missed earlier years, the child can get up to $1,000 of grant in one calendar year. That takes a $5,000 contribution.</li><li><strong>Lifetime maximum:</strong> $7,200 of CESG per child.</li><li><strong>A contribution is required.</strong> No money in, no basic grant.</li><li><strong>Age limit:</strong> the grant is available until the end of the calendar year the child turns 17.</li></ul><h3>Extra grant for lower and middle incomes</h3><p>Families with lower incomes can get an additional CESG on the first $500 contributed each year. ESDC's table for 2026 adjusted family net income shows:</p><ul><li><strong>Less than $58,523:</strong> an extra 20% ($100), for up to $600 a year in total.</li><li><strong>Between $58,523 and $117,045:</strong> an extra 10% ($50), for up to $550 a year in total.</li><li><strong>More than $117,045:</strong> no additional grant, so the maximum is the basic $500.</li></ul><h2>What it means for you</h2><ul><li><strong>Children turning 16 or 17:</strong> they can only get the grant in those years if, before the end of the year they turned 15, at least $2,000 had been contributed (and not taken out), or at least $100 a year had been contributed in any four earlier years. If your child is 15 this year, December 31, 2026 is the last chance to meet one of these tests.</li><li><strong>Children turning 17 in 2026:</strong> this is the last year to earn any CESG for them.</li><li><strong>Watch the overall limit.</strong> The CRA sets a lifetime contribution limit of $50,000 per child across all RESPs. Going over it costs each contributor a tax of 1% per month on their share of the excess while it stays in the plan.</li></ul><h2>Money you can get without contributing</h2><p>Two programs pay into an RESP even if you don't add any money yourself:</p><ul><li><strong>Canada Learning Bond (CLB):</strong> for children born on or after January 1, 2004 in low-income families. It pays $500 for the first eligible year and $100 for each later eligible year, up to $2,000. For July 1, 2026 to June 30, 2027, the income limit for a family with one to three children is $58,523 or less. A parent can request it until the day before the child turns 18; after that, the young person can apply until the day before they turn 21.</li><li><strong>BC Training and Education Savings Grant (BCTESG):</strong> a one-time $1,200 from the B.C. government for children born in 2006 or later. You apply through a participating bank or other financial institution between the child's 6th birthday and the day before they turn 9. The parent or guardian and the child must live in B.C. when applying, and no matching contribution is needed.</li></ul><p>Looking ahead, ESDC says that as of April 2028 the government will automatically open an RESP for eligible children born in 2024 or later who don't already have one by age 4, so they can receive the CLB. Parents will be able to opt out starting in 2027. This is planned, not yet in effect.</p><h2>What to do now</h2><ul><li><strong>Check your grant room.</strong> Your RESP provider or statements can show how much grant each child has received and how much room is left.</li><li><strong>Contribute early in December.</strong> Banks and brokerages need time to process deposits, so don't leave it to December 31.</li><li><strong>Catching up?</strong> Up to $5,000 this year can earn up to $1,000 of grant if the child has unused room.</li><li><strong>Ask about the CLB and BCTESG</strong> when you open or review an RESP, especially if your child is between 6 and 9.</li><li><strong>Keep records</strong> of each contribution and the grants received.</li></ul><p>For a full walkthrough of RESPs, withdrawals and what happens if the child doesn't go to school, see our <a href=\"/guides/resp-education-savings-grants-guide.html\">RESP and education savings grants guide</a>.</p>",
+    "sources": [
+      {
+        "title": "How much money benefits could add to the RESP (Canada Education Savings Grant and Canada Learning Bond) - Employment and Social Development Canada",
+        "url": "https://www.canada.ca/en/services/benefits/education/education-savings/savings-grant.html"
+      },
+      {
+        "title": "Canada Education Savings Grant (CESG) - Canada Revenue Agency",
+        "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/registered-education-savings-plans-resps/canada-education-savings-programs-cesp/canada-education-savings-grant-cesg.html"
+      },
+      {
+        "title": "RESP contributions - Canada Revenue Agency",
+        "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/registered-education-savings-plans-resps/resp-contributions.html"
+      },
+      {
+        "title": "Canada Learning Bond - Canada Revenue Agency",
+        "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/registered-education-savings-plans-resps/canada-education-savings-programs-cesp/canada-learning-bond.html"
+      },
+      {
+        "title": "Canada Learning Bond for 18 to 20 year olds - Employment and Social Development Canada",
+        "url": "https://www.canada.ca/en/services/benefits/education/education-savings/learning-bond-18-20/withdrawal.html"
+      },
+      {
+        "title": "Canada Learning Bond - Employment and Social Development Canada",
+        "url": "https://www.canada.ca/en/services/benefits/education/education-savings/canada-learning-bond"
+      },
+      {
+        "title": "BC Training and Education Savings Grant - Government of B.C.",
+        "url": "https://www2.gov.bc.ca/gov/content/education-training/k-12/support/scholarships/bc-training-and-education-savings-grant"
+      },
+      {
+        "title": "InfoCapsule 16: British Columbia Training and Education Savings Grant - Employment and Social Development Canada",
+        "url": "https://www.canada.ca/en/employment-social-development/services/student-financial-aid/education-savings/resp/resp-promoters/infocapsules/bc.html"
+      }
+    ]
+  },
+  {
     "slug": "fhsa-contribute-by-december-31-2026-deadline-november-2026",
     "title": "FHSA deadline: contribute by December 31 to use your 2026 room",
     "description": "First Home Savings Account contributions count for the calendar year, so 2026 room must be used by December 31, 2026. There is no 60-day grace period.",
